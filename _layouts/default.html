@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <!-- Include Twitter Card meta etiketlerini içeren head.html dosyasını dahil edin -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@EaPbyai">
+    <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/images/describing.jpg{% endif %}">
+    <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/images/describing.jpg{% endif %}"><meta name="twitter:url" content="{{ site.url }}">
+
    <meta name="author" content="ikideniz" />
 
 
@@ -23,7 +24,7 @@
 <script type="text/javascript" src="https://use.typekit.com/jpd0pfm.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
-</head>
+
 <body>
 <div class="site">
   <div class="title">
