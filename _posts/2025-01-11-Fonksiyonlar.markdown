@@ -11,8 +11,8 @@ category: "Fonksiyonlar"
 ================
 
 <html> 
-<p id="tarih"></p>
-    <p id="saat"></p>
+<p id="tarih"></p> <p id="saat"></p>
+   
 
     <script type="text/javascript">
         // Şu anki tarih ve saati al
