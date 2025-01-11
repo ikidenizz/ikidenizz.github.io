@@ -20,7 +20,7 @@
 
 title: ikideniz
 email: union2030@proton.me
-description: >- # this means to ignore newlines until "baseurl:"
+description: Güncel blog yazıları
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ikidenizz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
