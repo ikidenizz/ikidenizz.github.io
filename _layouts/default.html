@@ -20,8 +20,10 @@
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-<!-- ClickTale Top part -->
-<script type="text/javascript">
+<p id="tarih"></p>
+    <p id="saat"></p>
+
+    <script type="text/javascript">
         // Şu anki tarih ve saati al
         var now = new Date();
 
@@ -44,7 +46,6 @@
         document.getElementById('tarih').textContent = tarih;
         document.getElementById('saat').textContent = saat;
     </script>
-<!-- ClickTale end of Top part -->
 
 <div class="site">
   <div class="title">
@@ -80,30 +81,7 @@
 </div>-->
 <!--
 <a href="http://github.com/isunion99"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a> -->
-<script type="text/javascript">
-        // Şu anki tarih ve saati al
-        var now = new Date();
 
-        // Tarihi Türkçe formatında yazdır
-        var tarih = now.toLocaleDateString('tr-TR', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-            weekday: 'long'
-        });
-
-        // Saati Türkçe formatında yazdır
-        var saat = now.toLocaleTimeString('tr-TR', {
-            hour: '2-digit',
-            minute: '2-digit',
-            second: '2-digit'
-        });
-
-        // Tarih ve saat değerlerini HTML elementlerine yazdır
-        document.getElementById('tarih').textContent = tarih;
-        document.getElementById('saat').textContent = saat;
-    </script>
-<!-- ClickTale Bottom part -->
 <div id="ClickTaleDiv" style="display: none;"></div>
 <script type="text/javascript">
 if(document.location.protocol!='https:')
