@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="tr_TR">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title>{{ page.title }}</title>
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- Include Twitter Card meta etiketlerini içeren head.html dosyasını dahil edin -->
+    {% include head.html %}
    <meta name="author" content="ikideniz" />
    <link href="http://feeds.feedburner.com/ikideniz" rel="alternate" title="ikideniz" type="application/atom+xml" />
    <meta name="readability-verification" content="QCzSs992GxmRYRKVpPeZ6LE2tS8aYKxsSSQKV8YM"/>
@@ -19,6 +24,14 @@
 </head>
 <body>
 
+    <header>
+        <h1>{{ site.title }}</h1>
+    </header>
+
+
+    <main>
+        {{ content }}
+    </main>
 <!-- ClickTale Top part -->
 <script type="text/javascript">
 var WRInitTime=(new Date()).getTime();
@@ -48,7 +61,7 @@ var WRInitTime=(new Date()).getTime();
       <p>
         <a href="http://github.com/isunion99/">github.com/isunion99</a><br />
         <a href="http://twitter.com/EaPbyai/">twitter.com/EaPbyai</a><br />
-      </p>
+      </p><!--
     </div>
     <div class="rss">
       <a href="http://feeds.feedburner.com/ikideniz">
@@ -56,8 +69,8 @@ var WRInitTime=(new Date()).getTime();
       </a>
     </div>
   </div>
-</div>
-<!--!--
+</div>-->
+<!--
 <a href="http://github.com/isunion99"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a> -->
 
 <!-- ClickTale Bottom part -->
@@ -82,5 +95,8 @@ pageTracker._trackPageview();
 </script>
 <!-- Google Analytics end -->
 
+    <footer>
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    </footer>
 </body>
 </html>
