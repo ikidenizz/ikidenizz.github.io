@@ -7,8 +7,6 @@ date: 2025-01-11 05:04:34 +0300
 category: "Fonksiyonlar"
 ---
 
-{{ page.title }}
-================
 
 ### C Dilinde Fonksiyonlar
 
