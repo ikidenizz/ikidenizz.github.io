@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="tr-TR">
+<html lang="en">
 <head>
-    <!-- Twitter Card meta etiketleri -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@EaPbyai">
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/images/describing.jpg{% endif %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- Include Twitter Card meta etiketlerini içeren head.html dosyasını dahil edin -->
+    {% include head.html %}
 </head>
+<body>
+    <header>
+        <h1>{{ site.title }}</h1>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <p>© {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+    </footer>
+</body>
 </html>
