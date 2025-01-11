@@ -11,7 +11,7 @@ categories: Fonksiyonlar
 {{ page.title }}
 ================
 
-<p class="meta">10 Nov 2025 - San Francisco</p>
+<p class="meta">11 Oca 2025 - Türkiye</p>
 ### C Dilinde Fonksiyonlar
 
 C dilinde fonksiyonlar, belirli hesaplamaları gerçekleştiren ve genellikle parametre bilgilerine dayanarak yeni bilgiler döndüren kod modülleridir. Fonksiyonlar, programların daha düzenli ve okunabilir olmasını sağlar.
