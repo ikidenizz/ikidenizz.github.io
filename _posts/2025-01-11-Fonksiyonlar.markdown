@@ -10,7 +10,34 @@ category: "Fonksiyonlar"
 {{ page.title }}
 ================
 
-<p class="meta">11 Oca 2025 - Türkiye</p>
+<html> 
+<p id="tarih"></p>
+    <p id="saat"></p>
+
+    <script type="text/javascript">
+        // Şu anki tarih ve saati al
+        var now = new Date();
+
+        // Tarihi Türkçe formatında yazdır
+        var tarih = now.toLocaleDateString('tr-TR', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            weekday: 'long'
+        });
+
+        // Saati Türkçe formatında yazdır
+        var saat = now.toLocaleTimeString('tr-TR', {
+            hour: '2-digit',
+            minute: '2-digit',
+            second: '2-digit'
+        });
+
+        // Tarih ve saat değerlerini HTML elementlerine yazdır
+        document.getElementById('tarih').textContent = tarih;
+        document.getElementById('saat').textContent = saat;
+    </script>
+</html>
 ### C Dilinde Fonksiyonlar
 
 C dilinde fonksiyonlar, belirli hesaplamaları gerçekleştiren ve genellikle parametre bilgilerine dayanarak yeni bilgiler döndüren kod modülleridir. Fonksiyonlar, programların daha düzenli ve okunabilir olmasını sağlar.
