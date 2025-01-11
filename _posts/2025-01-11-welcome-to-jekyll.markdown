@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "C Dilinde Fonksiyonlar"
+title:  C Dilinde Fonksiyonlar
 date:   2025-01-11 05:04:34 +0300
 categories: Fonksiyonlar
 ---
