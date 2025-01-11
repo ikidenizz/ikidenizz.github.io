@@ -1,13 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "C Dilinde Fonksiyonlar"
 date:   2025-01-11 05:04:34 +0300
-categories: jekyll update
+categories: Fonksiyonlar
 ---
 
 
-Elbette, C dilindeki fonksiyonlar ve parametre geçiş yöntemleri hakkında daha anlaşılır ve açıklayıcı bir rehber hazırlayabilirim. Aşağıda, konuları adım adım açıklayan ve örneklerle destekleyen bir anlatım bulabilirsiniz.
+{{ page.title }}
+================
 
+<p class="meta">10 Nov 2025 - San Francisco</p>
 ### C Dilinde Fonksiyonlar
 
 C dilinde fonksiyonlar, belirli hesaplamaları gerçekleştiren ve genellikle parametre bilgilerine dayanarak yeni bilgiler döndüren kod modülleridir. Fonksiyonlar, programların daha düzenli ve okunabilir olmasını sağlar.
