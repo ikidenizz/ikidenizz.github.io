@@ -1,12 +1,11 @@
 ---
 layout: post
-title:  C Dilinde Fonksiyonlar
-description: C Dilinde Fonksiyonlar Kullanımı
-image: /images/describing.jpg
-date:   2025-01-11 05:04:34 +0300
-categories: Fonksiyonlar
+title: "C Dilinde Fonksiyonlar"
+description: "C Dilinde Fonksiyonlar Kullanımı"
+image: "/images/describing.jpg"
+date: 2025-01-11 05:04:34 +0300
+category: "Fonksiyonlar"
 ---
-
 
 {{ page.title }}
 ================
