@@ -23,7 +23,7 @@ email: union2030@proton.me
 description: Güncel blog yazıları
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ikidenizz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ikidenizz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: EaPbyai
 github_username:  isunion99
 
