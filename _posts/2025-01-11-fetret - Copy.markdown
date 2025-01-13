@@ -3,7 +3,7 @@ layout: post
 title: "Zaman"
 description: "Zaman Genişlemesi Nedir?"
 image: "/images/describing.jpg"
-date: 2025-01-14 05:04:34 +0300
+date: 2025-01-13 05:04:34 +0300
 category: "Nedir"
 ---
 
@@ -11,13 +11,13 @@ Zaman Genişlemesi Nedir?
 ============
 
 
-# **Zaman Genişlemesi (Time Dilation)**
+# Zaman Genişlemesi (Time Dilation)
 
 Zaman genişlemesi, Einstein'ın **İzafiyet Teorisi (Görelilik Teorisi)** ile açıklanan bir fizik fenomenidir. Bu olgu, zamanın mutlak olmadığını ve bir gözlemcinin hızına (**özel görelilik**) veya bulunduğu kütleçekim alanına (**genel görelilik**) bağlı olarak farklı şekilde “aktığını” ifade eder.
 
----
 
-## **1. Göreceli Hızdan Kaynaklanan Zaman Genişlemesi (Özel Görelilik)**
+
+## 1. Göreceli Hızdan Kaynaklanan Zaman Genişlemesi (Özel Görelilik)
 
 Bu tür zaman genişlemesi, iki gözlemci arasında meydana gelir ve birbirine göre yüksek hızlarda hareket etmeleri durumunda ortaya çıkar. **Einstein'ın Özel Görelilik Teorisi'ne** göre, bir gözlemci çok yüksek bir hızda (**ışık hızına yakın bir hızda**) hareket ediyorsa, o kişi için zaman daha yavaş akar.
 
@@ -39,7 +39,7 @@ Burada:
 ### **Örnek:**
 Bir astronot, ışık hızına yakın bir hızla bir uzay gemisiyle seyahat ederse, gemide geçen zaman (astronotun yaşlanma süresi), Dünya üzerinde kalan birine göre daha yavaş olacaktır. Bu durum **"İkizler Paradoksu"** olarak adlandırılır: Bir uzaya giden ikiz, Dünya’da kalan ikizine göre daha az yaşlanır.
 
----
+
 
 ## **2. Kütleçekimden Kaynaklanan Zaman Genişlemesi (Genel Görelilik)**
 
@@ -62,7 +62,7 @@ Burada:
 ### **Örnek:**
 Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalışır. Çünkü Dünya’nın yüzeyi, uyduların bulunduğu yörüngeye göre daha güçlü bir kütleçekim alanına sahiptir. GPS uydularındaki saatlerin doğruluğunu koruyabilmek için hem hız kaynaklı (özel görelilik) hem de kütleçekim kaynaklı (genel görelilik) zaman genişlemesi etkisi hesaplanır.
 
----
+
 
 ## **Zaman Genişlemesinin Günlük Yaşamda Önemi**
 
@@ -72,7 +72,7 @@ Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalı
 
 3. **Astronomi ve Kara Delikler**: Kara deliklerin yakınındaki zaman genişlemesi, bilimkurgu filmlerinde popüler bir konu olmuştur. Örneğin, bir kişinin kara deliğe yakın bir bölgede bulunması durumunda onun için zaman daha yavaş akar.
 
----
+
 
 ## **Özet**
 - Zaman genişlemesi, zamanın mutlak olmadığını, gözlemcinin hızı veya bulunduğu kütleçekim alanına bağlı olarak değiştiğini ifade eder.
