@@ -83,4 +83,5 @@ Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalı
 
 
 
-<script type="text/javascript" src="https://counter.websiteout.com/js/36/0/0/1"></script>
+<script data-goatcounter="https://gg123.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
