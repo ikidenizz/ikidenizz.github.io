@@ -49,7 +49,7 @@ Bu terimler, "contributions" kelimesinin kapsadığı genel anlamın daha spesif
 
 Contributions ve eşanlamlı kelimeleri bağlamına ve aralarındaki ilişkiye göre sıralayabilir misin? 
 
-GPT-4o mini:
+
 Elbette! "Contributions" ve eşanlamlı kelimeleri, bağlamlarına ve aralarındaki ilişkilere göre aşağıdaki gibi sıralayabiliriz:
 
 1. **Contributions**: Genel terim; bir projeye, etkinliğe veya amaca sağlanan her türlü katkıyı ifade eder.
@@ -70,7 +70,6 @@ Bu sıralama, her terimin "contributions" ile olan ilişkisini ve bağlamını g
 
 Contributions ve eşanlamlı kelimelerin soyuttan somuta ve zihinselden fiziksele geçişte değişimlerinin ton farklılıklarını tanımlayabilir misin?
 
-GPT-4o mini:
 Elbette! "Contributions" ve eşanlamlı kelimelerin soyuttan somuta ve zihinselden fiziksele geçişteki ton farklılıklarını aşağıda tanımlayabilirim:
 
 1. **Contributions**: Genel bir terim olarak, hem soyut hem de somut katkıları kapsar. Bu kelime, bir projenin veya amacın başarısına olan katkıları ifade ederken, hem fikirsel (soyut) hem de maddi (somut) unsurları içerebilir.
@@ -92,12 +91,11 @@ Bu sıralama, kelimelerin soyut ve somut anlamları arasındaki geçişteki ton 
 
 aralarındaki ilişkiyi bir grafikle gösterebilir misin 
 
-GPT-4o mini:
 Üzgünüm, ancak metin tabanlı bir platformda grafik oluşturma yeteneğim yok. Ancak, "Contributions" ve eşanlamlı kelimelerin soyuttan somuta ve zihinselden fiziksele geçişteki ilişkisini açıklayan bir grafik taslağı verebilirim. Bu taslağı kullanarak bir grafik oluşturabilirsiniz.
 
 ### Grafik Taslağı
 
-
+```
 Soyut Kavramlar                Somut Kavramlar
 ------------------------------------------------
 | Contributions                | Donations       |
@@ -112,7 +110,7 @@ Soyut Kavramlar                Somut Kavramlar
 | Support                      |                 |
 | (Yardım veya destek)         |                 |
 ------------------------------------------------
-
+```
 
 ### Açıklama:
 - **Soyut Kavramlar**: "Contributions", "Input", "Participation", "Support" gibi kelimeler, daha çok zihinsel ve düşünsel katkıları ifade eder.
