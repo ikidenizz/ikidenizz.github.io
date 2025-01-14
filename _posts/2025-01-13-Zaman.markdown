@@ -24,7 +24,7 @@ Bu tür zaman genişlemesi, iki gözlemci arasında meydana gelir ve birbirine g
 Bu durum matematiksel olarak şu denklemle gösterilir:
 Δt' = Δt / sqrt(1 - v^2 / c^2)
 
-![Bir açıklama metni](assets/images/Zaman.png)
+![Bir açıklama metni](/assets/images/Zaman.png)
 
 
 Burada:
