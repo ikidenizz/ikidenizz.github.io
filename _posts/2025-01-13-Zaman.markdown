@@ -31,10 +31,10 @@ Burada:
 - **Δt**: Hareketsiz gözlemcinin ölçtüğü zaman aralığıdır.
 - **Δt'**: Hareket eden gözlemcinin ölçtüğü zaman aralığıdır.
 - **v**: Hareket eden gözlemcinin hızı (bağıl hız).
-- **c**: Işık hızı (yaklaşık olarak \( 300,000 \, \text{km/s} \)).
+- **c**: Işık hızı (yaklaşık olarak 300.000 km/s).
 
 **Önemli Not:**
-- Eğer bağıl hız (\( v \)) ışık hızına (\( c \)) yaklaşırsa, zaman genişlemesi etkisi ciddi boyutlara ulaşır ve hareket eden gözlemci için zaman, hareketsiz birine göre daha yavaş akar.
+- Eğer bağıl hız (v) ışık hızına (c) yaklaşırsa, zaman genişlemesi etkisi ciddi boyutlara ulaşır ve hareket eden gözlemci için zaman, hareketsiz birine göre daha yavaş akar.
 
 ### **Örnek:**
 Bir astronot, ışık hızına yakın bir hızla bir uzay gemisiyle seyahat ederse, gemide geçen zaman (astronotun yaşlanma süresi), Dünya üzerinde kalan birine göre daha yavaş olacaktır. Bu durum **"İkizler Paradoksu"** olarak adlandırılır: Bir uzaya giden ikiz, Dünya’da kalan ikizine göre daha az yaşlanır.
@@ -47,17 +47,20 @@ Bu tür zaman genişlemesi, güçlü bir kütleçekim alanının etkisiyle ortay
 
 Bu ilişki şu denklemle açıklanır:
 
-\[
-\Delta t' = \Delta t \sqrt{1 - \frac{2GM}{rc^2}}
-\]
+Δt' =   Δt
+       ------
+       sqrt(1 - v^2 / c^2)
+
+![Bir açıklama metni](/assets/images/Görelilik.png)
+
 
 Burada:
-- **\( \Delta t \)**: Kütleçekim etkisinin zayıf olduğu bir yerde ölçülen zaman aralığıdır.
-- **\( \Delta t' \)**: Kütleçekim etkisinin güçlü olduğu bir yerde ölçülen zaman aralığıdır.
-- **\( G \)**: Evrensel kütleçekim sabiti.
-- **\( M \)**: Kütleçekim alanını oluşturan cismin kütlesi.
-- **\( r \)**: Gözlemcinin kütlenin merkezine olan mesafesi.
-- **\( c \)**: Işık hızı.
+- **Δt**: Kütleçekim etkisinin zayıf olduğu bir yerde ölçülen zaman aralığıdır.
+- **Δt**: Kütleçekim etkisinin güçlü olduğu bir yerde ölçülen zaman aralığıdır.
+- **G**: Evrensel kütleçekim sabiti.
+- **M**: Kütleçekim alanını oluşturan cismin kütlesi.
+- **r**: Gözlemcinin kütlenin merkezine olan mesafesi.
+- **c**: Işık hızı.
 
 ### **Örnek:**
 Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalışır. Çünkü Dünya’nın yüzeyi, uyduların bulunduğu yörüngeye göre daha güçlü bir kütleçekim alanına sahiptir. GPS uydularındaki saatlerin doğruluğunu koruyabilmek için hem hız kaynaklı (özel görelilik) hem de kütleçekim kaynaklı (genel görelilik) zaman genişlemesi etkisi hesaplanır.
