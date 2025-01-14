@@ -23,7 +23,6 @@ Bu tür zaman genişlemesi, iki gözlemci arasında meydana gelir ve birbirine g
 
 Bu durum matematiksel olarak şu denklemle gösterilir:
 
-Δt' = Δt / sqrt(1 - v^2 / c^2)
 
 ![Einstein'ın Özel Görelilik Teorisi](/assets/images/Zaman.png)
 
@@ -36,6 +35,7 @@ Burada:
 
 **Önemli Not:**
 - Eğer bağıl hız (v) ışık hızına (c) yaklaşırsa, zaman genişlemesi etkisi ciddi boyutlara ulaşır ve hareket eden gözlemci için zaman, hareketsiz birine göre daha yavaş akar.
+
 
 ### **Örnek:**
 Bir astronot, ışık hızına yakın bir hızla bir uzay gemisiyle seyahat ederse, gemide geçen zaman (astronotun yaşlanma süresi), Dünya üzerinde kalan birine göre daha yavaş olacaktır. Bu durum **"İkizler Paradoksu"** olarak adlandırılır: Bir uzaya giden ikiz, Dünya’da kalan ikizine göre daha az yaşlanır.
@@ -59,6 +59,7 @@ Burada:
 - **M**: Kütleçekim alanını oluşturan cismin kütlesi.
 - **r**: Gözlemcinin kütlenin merkezine olan mesafesi.
 - **c**: Işık hızı.
+
 
 ### **Örnek:**
 Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalışır. Çünkü Dünya’nın yüzeyi, uyduların bulunduğu yörüngeye göre daha güçlü bir kütleçekim alanına sahiptir. GPS uydularındaki saatlerin doğruluğunu koruyabilmek için hem hız kaynaklı (özel görelilik) hem de kütleçekim kaynaklı (genel görelilik) zaman genişlemesi etkisi hesaplanır.
