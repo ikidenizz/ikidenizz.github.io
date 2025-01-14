@@ -22,9 +22,10 @@ Zaman genişlemesi, Einstein'ın **İzafiyet Teorisi (Görelilik Teorisi)** ile 
 Bu tür zaman genişlemesi, iki gözlemci arasında meydana gelir ve birbirine göre yüksek hızlarda hareket etmeleri durumunda ortaya çıkar. **Einstein'ın Özel Görelilik Teorisi'ne** göre, bir gözlemci çok yüksek bir hızda (**ışık hızına yakın bir hızda**) hareket ediyorsa, o kişi için zaman daha yavaş akar.
 
 Bu durum matematiksel olarak şu denklemle gösterilir:
+
 Δt' = Δt / sqrt(1 - v^2 / c^2)
 
-![Bir açıklama metni](/assets/images/Zaman.png)
+![Einstein'ın Özel Görelilik Teorisi](/assets/images/Zaman.png)
 
 
 Burada:
@@ -51,7 +52,7 @@ Bu ilişki şu denklemle açıklanır:
        ------
        sqrt(1 - v^2 / c^2)
 
-![Bir açıklama metni](/assets/images/Görelilik.png)
+![ Einstein'ın Genel Görelilik Teorisi](/assets/images/Görelilik.png)
 
 
 Burada:
