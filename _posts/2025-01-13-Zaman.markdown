@@ -48,9 +48,6 @@ Bu tür zaman genişlemesi, güçlü bir kütleçekim alanının etkisiyle ortay
 
 Bu ilişki şu denklemle açıklanır:
 
-Δt' =   Δt
-       ------
-       sqrt(1 - v^2 / c^2)
 
 ![ Einstein'ın Genel Görelilik Teorisi](/assets/images/Görelilik.png)
 
