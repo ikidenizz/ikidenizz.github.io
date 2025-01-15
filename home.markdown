@@ -1,6 +1,7 @@
 ---
 layout: default
 title: ikideniz
+permalink: /home/
 ---
 
 <div id="home">
@@ -10,7 +11,6 @@ title: ikideniz
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-
-
+</div>
 
 
