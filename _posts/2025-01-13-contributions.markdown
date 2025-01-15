@@ -4,8 +4,8 @@ title: "contributions"
 description: "contributions"
 image: "/images/describing.jpg"
 date: 2025-01-13 05:04:34 +0300
-categories: language learning english
-tags: [english, translation, turkish]
+category: language
+tags: ["english", "translation", "turkish"]
 ---
 
 contributions 
