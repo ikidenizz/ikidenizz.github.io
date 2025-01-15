@@ -8,7 +8,7 @@ category: "kelime"
 tags: [english, translation, turkish]
 ---
 
-contain 2024-12-31T23.37.58
+contain 
 ========================
 
 
