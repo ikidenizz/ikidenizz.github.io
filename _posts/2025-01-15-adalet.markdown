@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Resim Paylaşımı"
+title: ""Adalet, Demokrasi, Eğitim, Laiklik""
 ---
 
 <h1>Resim Paylaşımı</h1>
