@@ -5,6 +5,7 @@ description: "contributions"
 image: "/images/describing.jpg"
 date: 2025-01-13 05:04:34 +0300
 category: "kelime"
+tags: [english, translation, turkish]
 ---
 
 contributions 2024-12-31T23.37.58
