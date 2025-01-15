@@ -1,0 +1,39 @@
+---
+layout: post
+title: "MMLU"
+description: "MMLU, bir modelin çeşitli görevlerdeki genel dil anlama yeteneğini test etmek amacıyla oluşturulmuş bir test kümesidir."
+image: "/images/describing.jpg"
+date: 2025-01-14 05:04:34 +0300
+category: "NLP"
+---
+
+MMLU
+============
+
+**MMLU** (Massive Multi-Task Language Understanding), doğal dil işleme (NLP) alanında, bir dil modelinin çok sayıda farklı görevde ne kadar başarılı olduğunu değerlendirmek için kullanılan bir benchmark'tır. MMLU, bir modelin çeşitli görevlerdeki genel dil anlama yeteneğini test etmek amacıyla oluşturulmuş bir test kümesidir.
+
+### MMLU'nun Özellikleri:
+1. **Çoklu Görev**: MMLU, modelin birden fazla görevde (yaklaşık 57 farklı görevde) performansını ölçer. Bu görevler genellikle dil anlama, metin sınıflandırma, mantık, matematiksel problem çözme, okuma anlama, yazılı dil analizi gibi çeşitli alanları kapsar.
+   
+2. **Büyük Veri Kümesi**: MMLU'nun veri kümesi büyük çaplıdır ve farklı konularda çok çeşitli metinleri içerir. Bu nedenle, modelin ne kadar genelleştirilebilir ve çok yönlü olduğunu anlamaya yardımcı olur.
+
+3. **Değerlendirme Kriteri**: MMLU, genellikle modelin başarı oranını (accuracy) ölçerek değerlendirilir. Bu, modelin doğru cevaplar verme oranını belirtir. Yüksek başarı oranları, modelin dil anlayışında daha yetenekli olduğunu gösterir.
+
+4. **Yetenek Testi**: MMLU, modelin yalnızca bir görevde değil, çeşitli türdeki görevlerdeki performansını değerlendirdiği için dil modeli sistemlerinin çok yönlü yeteneklerini test etmede faydalıdır.
+
+### MMLU Testi Örnek Görevler:
+- **Metin Sınıflandırma**: Bir metni belirli bir kategoriye yerleştirme.
+- **Mantık Soruları**: Klasik mantık problemleri veya akıl yürütme soruları.
+- **Okuma Anlama**: Verilen bir metni anlayıp doğru sorulara cevap verme.
+- **Matematiksel Problemler**: Temel veya ileri düzey matematik soruları çözme.
+- **Çoklu Seçim Soruları**: Doğru cevabı bulmak için çoklu seçenekler arasından seçim yapma.
+
+### Kullanım Alanı:
+MMLU, büyük dil modellerinin çoklu görevlerde ne kadar başarılı olduğunu test etmek için yaygın olarak kullanılır. Bu, modellerin sadece belirli bir alanda değil, çok çeşitli görevlerde genel performanslarını değerlendirmeye olanak tanır. Özellikle araştırmalarda ve karşılaştırmalarda, farklı modellerin yeteneklerini objektif bir şekilde ölçmek için kullanılır.
+
+Sonuç olarak, MMLU, bir dil modelinin "genel dil anlayışı" kabiliyetini test etmek ve değerlendirmek için geniş kapsamlı ve zorlu bir benchmark setidir.
+ 
+
+
+<script data-goatcounter="https://gg123.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
