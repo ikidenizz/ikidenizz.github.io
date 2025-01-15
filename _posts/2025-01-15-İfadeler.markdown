@@ -6,7 +6,7 @@ date: 2025-01-15 12:00:00 +0300
 lang: tr
 author: isunion99
 categories: "language"
-tags: ["english", "translation", "turkish"]
+tags: "english"
 published: true
 ---
 
