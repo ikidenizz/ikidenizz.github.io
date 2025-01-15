@@ -47,7 +47,7 @@ layout: default
         {% endif %}
       {% endfor %}
       {% assign sorted_posts = filtered_posts | sort: "date" | reverse %}
-      {% for post in sorted_posts limit:5 %} <!-- Limiti 5 olarak değiştirdik -->
+      {% for post in sorted_posts limit:3 %} <!-- Limiti 5 olarak değiştirdik -->
         <li><span>{{ post.date | date: "%d %B %Y" }}</span> &raquo; <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
