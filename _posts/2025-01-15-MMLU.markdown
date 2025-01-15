@@ -5,6 +5,7 @@ description: "MMLU, bir modelin çeşitli görevlerdeki genel dil anlama yetene�
 image: "/images/describing.jpg"
 date: 2025-01-14 05:04:34 +0300
 category: "NLP"
+tags: [MMLU, NLP, Veri]
 ---
 
 MMLU
