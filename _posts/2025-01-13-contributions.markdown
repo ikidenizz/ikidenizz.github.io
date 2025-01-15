@@ -5,7 +5,7 @@ description: "contributions bağlama göre kullanılan en yaygın eşanlamlılar
 "
 image: "/images/describing.jpg"
 date: 2025-01-13 05:04:34 +0300
-category: language
+category: "language""
 tags: ["english", "translation", "turkish"]
 ---
 

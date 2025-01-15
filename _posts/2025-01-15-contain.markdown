@@ -4,7 +4,7 @@ title: "contain fiilinin yaygın anlamları"
 description: "contain fiili, bağlama göre farklı anlamlar ifade edebilir ve bu anlamlara göre eşanlamlıları değişebilir."
 image: "/images/describing.jpg"
 date: 2025-01-15 05:04:34 +0300
-category: language
+category: "language"
 tags: ["english", "translation", "turkish"]
 ---
 
