@@ -1,9 +1,14 @@
 ---
 layout: post
-title: ""Adalet, Demokrasi, Eğitim, Laiklik""
+title: "Adalet, Demokrasi, Eğitim, Laiklik"
 ---
 
 <h1>Resim Paylaşımı</h1>
 <p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
 <a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20image!&url=https://ikidenizz.github.io/assets/images/Adalet.png" target="_blank">Share on Twitter</a>
  
+
+<!-- Resmin sayfada görünmesi için -->
+<img src="{{ site.url }}/assets/images/Adalet.png" alt="Adalet, Demokrasi, Eğitim, Laiklik" /> 
+ 
+  
