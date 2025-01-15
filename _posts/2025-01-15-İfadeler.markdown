@@ -1,3 +1,4 @@
+ 
 ---
 layout: post
 title: "İngilizce İfadeler ve Türkçe Doğru Anlamları"
@@ -7,7 +8,6 @@ tags: [english]
 lang: tr
 author: isunion99
 excerpt: "İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru Türkçe çevirilerini öğrenmek, İngilizce pratiği yaparken çok işinize yarayabilir."
-permalink: /İngilizce-yaygın-kısa-ifadeler/
 published: true
 ---
 
