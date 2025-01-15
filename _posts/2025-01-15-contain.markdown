@@ -1,11 +1,12 @@
- 
+--- 
 layout: post
 title: "contain"
 description: "contain"
 image: "/images/describing.jpg"
 date: 2025-01-15 05:04:34 +0300
 category: "kelime"
- 
+tags: [english, translation, turkish]
+---
 
 contain 2024-12-31T23.37.58
 ========================
