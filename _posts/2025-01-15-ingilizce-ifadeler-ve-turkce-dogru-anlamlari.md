@@ -5,12 +5,10 @@ description: "İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru
 date: 2025-01-15 12:00:00 +0300
 lang: tr
 author: isunion99
-categories: "language"
-tags: "english"
+categories: [language]
+tags: [english]
 published: true
 ---
-
-
 
 
 İngilizce'deki yaygın kısa ifadeler
