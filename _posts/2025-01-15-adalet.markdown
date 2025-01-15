@@ -5,5 +5,5 @@ title: "Resim Paylaşımı"
 
 <h1>Resim Paylaşımı</h1>
 <p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
-<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20image!&url=https://your-site.com/assets/images/your-image.jpg" target="_blank">Share on Twitter</a>
+<a href="https://twitter.com/intent/tweet?text=Check%20out%20this%20image!&url=https://ikidenizz.github.io/assets/images/Adalet.png" target="_blank">Share on Twitter</a>
  
