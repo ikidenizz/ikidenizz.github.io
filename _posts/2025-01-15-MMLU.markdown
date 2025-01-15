@@ -9,7 +9,7 @@ tags: [MMLU, NLP, Veri]
 ---
 
 MMLU
-============
+=====
 
 **MMLU** (Massive Multi-Task Language Understanding), doğal dil işleme (NLP) alanında, bir dil modelinin çok sayıda farklı görevde ne kadar başarılı olduğunu değerlendirmek için kullanılan bir benchmark'tır. MMLU, bir modelin çeşitli görevlerdeki genel dil anlama yeteneğini test etmek amacıyla oluşturulmuş bir test kümesidir.
 
