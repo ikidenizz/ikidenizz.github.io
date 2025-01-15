@@ -66,3 +66,15 @@ tags: [english, translation, turkish]
 
 ### **Sonuç**
 Bu ifadeleri öğrenip gündelik yaşamda kullanmak, İngilizce konuşma pratiğinizi geliştirmenize yardımcı olacaktır. Daha fazla ifade öğrenmek için blog yazılarımızı takip edin. 😊
+
+
+
+<h1>Resim Paylaşımı</h1>
+<p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
+<a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
+
+
+
+
+<script data-goatcounter="https://gg123.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
