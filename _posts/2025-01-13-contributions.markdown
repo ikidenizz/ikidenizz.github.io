@@ -1,18 +1,19 @@
 ---
 layout: post
 title: "contributions"
-description: "contributions"
+description: "contributions bağlama göre kullanılan en yaygın eşanlamlıları 
+"
 image: "/images/describing.jpg"
 date: 2025-01-13 05:04:34 +0300
 category: language
 tags: ["english", "translation", "turkish"]
 ---
 
-contributions 
-========================
+
+contributions bağlama göre kullanılan en yaygın eşanlamlıları 
+=====
 
 
-contributions bağlama göre kullanılan en yaygın eşanlamlıları
 
 "Contributions" kelimesinin bağlama göre kullanılan en yaygın eşanlamlıları şunlardır:
 
