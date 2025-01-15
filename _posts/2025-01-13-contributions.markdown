@@ -8,7 +8,7 @@ category: "kelime"
 tags: [english, translation, turkish]
 ---
 
-contributions 2024-12-31T23.37.58
+contributions 
 ========================
 
 
