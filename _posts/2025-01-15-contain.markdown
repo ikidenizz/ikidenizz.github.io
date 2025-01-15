@@ -9,52 +9,52 @@ tags: [english, translation, turkish]
 ---
 
 contain 
-========================
+====== 
 
 
 **"To contain"** fiili, bağlama göre farklı anlamlar ifade edebilir ve bu anlamlara göre eşanlamlıları değişebilir. Aşağıda, "to contain" fiilinin yaygın anlamlarına göre eşanlamlılarını listeledim:
  
-### 1. **Bir şeyin içinde bulundurmak / içermek (to hold or include)**  
-   Örnek: "This box contains old photos."  
-   - **Eşanlamlılar**:  
-     - Include  
-     - Hold  
-     - Comprise  
-     - Encompass  
-     - Consist of  
-     - Incorporate  
+### 1. **Bir şeyin içinde bulundurmak / içermek (to hold or include)** 
+  Örnek: "This box contains old photos." 
+  - **Eşanlamlılar**:
+   - Include 
+   - Hold 
+   - Comprise 
+   - Encompass 
+   - Consist of 
+   - Incorporate 
  
 
-### 2. **Sınırlamak / kontrol altında tutmak (to restrain or control)**  
-   Örnek: "The firefighters managed to contain the fire."  
-   - **Eşanlamlılar**:  
-     - Restrain  
-     - Control  
-     - Curb  
-     - Limit  
-     - Suppress  
-     - Confine  
+### 2. **Sınırlamak / kontrol altında tutmak (to restrain or control)** 
+  Örnek: "The firefighters managed to contain the fire." 
+  - **Eşanlamlılar**: 
+   - Restrain 
+   - Control 
+   - Curb 
+   - Limit 
+   - Suppress 
+   - Confine 
  
 
-### 3. **Duygularını bastırmak (to hold back emotions)**  
-   Örnek: "She struggled to contain her excitement."  
-   - **Eşanlamlılar**:  
-     - Restrain  
-     - Hold back  
-     - Suppress  
-     - Check  
-     - Keep in check  
+### 3. **Duygularını bastırmak (to hold back emotions)** 
+  Örnek: "She struggled to contain her excitement." 
+  - **Eşanlamlılar**: 
+   - Restrain 
+   - Hold back 
+   - Suppress 
+   - Check 
+   - Keep in check 
 
  
 
-### 4. **Bir alanı çevrelemek (to enclose or surround)**  
-   Örnek: "The garden is contained within these walls."  
-   - **Eşanlamlılar**:  
-     - Enclose  
-     - Surround  
-     - Encircle  
-     - Border  
-     - Fence in  
+### 4. **Bir alanı çevrelemek (to enclose or surround)** 
+  Örnek: "The garden is contained within these walls." 
+  - **Eşanlamlılar**: 
+   - Enclose 
+   - Surround 
+   - Encircle 
+   - Border 
+   - Fence in 
 
  
 
@@ -64,29 +64,29 @@ contain
 **"To contain"** kelimesinin temel anlamı, farklı bağlamlarda değişebilen türevleriyle birlikte şu şekilde kaliteli bir şekilde açıklanabilir:
  
 
-### **Temel Anlam**  
+### **Temel Anlam** 
 **"To contain"**, bir şeyin *fiziksel olarak içinde bulundurulması*, *bir sınır içinde tutulması*, ya da *bir durumun kontrol altına alınması* gibi anlamları kapsar. Bu temel anlam, genellikle bir şeyin sınırlarını belirleme veya onu belirli bir alanda sınırlama fikrine dayanır. 
  
-### **Bağlama Göre Anlamları**  
-1. **İçermek / Bulundurmak**  
-   Bir şeyin fiziksel veya soyut olarak bir başka şeyin içinde bulunması veya ona dahil olması.  
-   - *Örnek:* "This bottle contains water." (*Bu şişe su içeriyor.*)  
-   - Tetikleyici bağlam: Nesneler, içerik ve bütünlük.
+### **Bağlama Göre Anlamları** 
+1. **İçermek / Bulundurmak** 
+  Bir şeyin fiziksel veya soyut olarak bir başka şeyin içinde bulunması veya ona dahil olması. 
+  - *Örnek:* "This bottle contains water." (*Bu şişe su içeriyor.*) 
+  - Tetikleyici bağlam: Nesneler, içerik ve bütünlük.
 
-2. **Sınırlamak / Kontrol Altına Almak**  
-   Bir durumu, nesneyi veya duyguyu kontrol altında tutmak ya da yayılmasını engellemek.  
-   - *Örnek:* "Efforts were made to contain the spread of the virus." (*Virüsün yayılması kontrol altına alınmaya çalışıldı.*)  
-   - Tetikleyici bağlam: Kontrol, kısıtlama, kriz yönetimi.
+2. **Sınırlamak / Kontrol Altına Almak** 
+  Bir durumu, nesneyi veya duyguyu kontrol altında tutmak ya da yayılmasını engellemek. 
+  - *Örnek:* "Efforts were made to contain the spread of the virus." (*Virüsün yayılması kontrol altına alınmaya çalışıldı.*) 
+  - Tetikleyici bağlam: Kontrol, kısıtlama, kriz yönetimi.
 
-3. **Duyguları Bastırmak / Göstermemek**  
-   Duygusal bir tepkiyi veya ifadeyi engellemek ya da sınırlandırmak.  
-   - *Örnek:* "She tried to contain her laughter during the meeting." (*Toplantı sırasında gülmesini bastırmaya çalıştı.*)  
-   - Tetikleyici bağlam: Duygusal kontrol, sosyal normlar.
+3. **Duyguları Bastırmak / Göstermemek** 
+  Duygusal bir tepkiyi veya ifadeyi engellemek ya da sınırlandırmak. 
+  - *Örnek:* "She tried to contain her laughter during the meeting." (*Toplantı sırasında gülmesini bastırmaya çalıştı.*) 
+  - Tetikleyici bağlam: Duygusal kontrol, sosyal normlar.
 
-4. **Bir Alanı Çevrelemek veya Kapsamak**  
-   Fiziksel bir alanın sınırlarını çizmek ya da bir şeyi çevrelemek.  
-   - *Örnek:* "The garden is contained by high walls." (*Bahçe, yüksek duvarlarla çevrilidir.*)  
-   - Tetikleyici bağlam: Alan, sınır, çevreleme.
+4. **Bir Alanı Çevrelemek veya Kapsamak** 
+  Fiziksel bir alanın sınırlarını çizmek ya da bir şeyi çevrelemek. 
+  - *Örnek:* "The garden is contained by high walls." (*Bahçe, yüksek duvarlarla çevrilidir.*) 
+  - Tetikleyici bağlam: Alan, sınır, çevreleme.
  
 
 ### **Kaliteli ve Özetleyici Açıklama**
@@ -100,36 +100,36 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
 ### 1. **Contain**
 - **Temel Anlam:** Bir şeyin fiziksel veya soyut olarak sınırlar içinde tutulmasını ifade eder.
 - **Vurgu:** İçermek, çevrelemek veya yayılmayı önlemek.
-- **Bağlamlar:**  
-  - Fiziksel içerik: *"This bottle contains water."*  
-  - Yayılmayı kontrol etme: *"Efforts were made to contain the fire."*
+- **Bağlamlar:** 
+ - Fiziksel içerik: *"This bottle contains water."* 
+ - Yayılmayı kontrol etme: *"Efforts were made to contain the fire."*
 - **Öne Çıkan Özellik:** Sınırları koruma veya kontrol altında tutma.
  
 
 ### 2. **Restrain**
 - **Temel Anlam:** Bir şeyi fiziksel veya duygusal olarak durdurmak ya da dizginlemek.
 - **Vurgu:** Fiziksel veya soyut bir şeyi zapt etme.
-- **Bağlamlar:**  
-  - Fiziksel kısıtlama: *"The police restrained the suspect."*  
-  - Duygusal kontrol: *"She restrained her anger."*
+- **Bağlamlar:** 
+ - Fiziksel kısıtlama: *"The police restrained the suspect."* 
+ - Duygusal kontrol: *"She restrained her anger."*
 - **Öne Çıkan Özellik:** Güç kullanarak kontrol etme veya hareketi engelleme.
  
 
 ### 3. **Control**
 - **Temel Anlam:** Bir şeyin düzenli, istenen bir şekilde işlemesini sağlamak.
 - **Vurgu:** Yönetim ve düzenleme.
-- **Bağlamlar:**  
-  - Yönetim: *"The manager controls the budget."*  
-  - Kendi davranışlarını düzenleme: *"He tried to control his temper."*
+- **Bağlamlar:** 
+ - Yönetim: *"The manager controls the budget."* 
+ - Kendi davranışlarını düzenleme: *"He tried to control his temper."*
 - **Öne Çıkan Özellik:** Yönetme ve denetleme yeteneği.
  
 
 ### 4. **Curb**
 - **Temel Anlam:** Bir şeyi azaltmak veya sınırlamak için önlem almak.
 - **Vurgu:** Sınırlama veya azaltma.
-- **Bağlamlar:**  
-  - Sosyal düzen: *"We must curb pollution levels."*  
-  - Duygusal: *"She curbed her excitement."*
+- **Bağlamlar:** 
+ - Sosyal düzen: *"We must curb pollution levels."* 
+ - Duygusal: *"She curbed her excitement."*
 - **Öne Çıkan Özellik:** Olumsuz bir şeyi sınırlamak veya azaltmak.
 
  
@@ -137,9 +137,9 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
 ### 5. **Limit**
 - **Temel Anlam:** Bir şeyin kapsamını, miktarını veya derecesini sınırlamak.
 - **Vurgu:** Sabit bir sınır koymak.
-- **Bağlamlar:**  
-  - Fiziksel: *"The speed limit is 60 km/h."*  
-  - Soyut: *"The budget limits our options."*
+- **Bağlamlar:** 
+ - Fiziksel: *"The speed limit is 60 km/h."* 
+ - Soyut: *"The budget limits our options."*
 - **Öne Çıkan Özellik:** Belirli bir sınır tanımlamak.
 
  
@@ -147,9 +147,9 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
 ### 6. **Suppress**
 - **Temel Anlam:** Bir şeyi zorla bastırmak veya önlemek.
 - **Vurgu:** Kuvvetle engelleme veya yok etme.
-- **Bağlamlar:**  
-  - Baskıcı eylem: *"The government suppressed the rebellion."*  
-  - Duygusal kontrol: *"She suppressed her laughter."*
+- **Bağlamlar:** 
+ - Baskıcı eylem: *"The government suppressed the rebellion."* 
+ - Duygusal kontrol: *"She suppressed her laughter."*
 - **Öne Çıkan Özellik:** Aktif baskı ve engelleme.
 
  
@@ -157,24 +157,24 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
 ### 7. **Confine**
 - **Temel Anlam:** Bir şeyi belirli bir alanla sınırlamak veya hapsetmek.
 - **Vurgu:** Fiziksel veya soyut sınırlama.
-- **Bağlamlar:**  
-  - Fiziksel sınırlama: *"He was confined to his room due to illness."*  
-  - Soyut sınır: *"The discussion was confined to economic issues."*
+- **Bağlamlar:** 
+ - Fiziksel sınırlama: *"He was confined to his room due to illness."* 
+ - Soyut sınır: *"The discussion was confined to economic issues."*
 - **Öne Çıkan Özellik:** Bir alan içinde kısıtlı tutma.
 
  
 
 ### Özet Tablosu:
 
-| **Kelime**     | **Vurgu**                     | **Bağlamlar**                                    |
-|     --|          -|                -|
-| **Contain**     | Sınırlar içinde tutmak        | Fiziksel içerik, yayılmayı kontrol etme         |
-| **Restrain**    | Zapt etmek                   | Fiziksel veya duygusal kontrol                  |
-| **Control**     | Yönetim ve düzenleme          | Yönetim, davranış düzenleme                     |
-| **Curb**        | Azaltma ve sınırlama          | Olumsuz şeyleri sınırlama                       |
-| **Limit**       | Sınır koyma                  | Fiziksel veya soyut sınır                       |
-| **Suppress**    | Bastırma ve önleme           | Duygu, isyan veya bilgi bastırma               |
-| **Confine**     | Alanla sınırlama             | Fiziksel alan veya konu sınırlama              |
+| **Kelime**   | **Vurgu**           | **Bağlamlar**                  |
+|   --|     -|        -|
+| **Contain**   | Sınırlar içinde tutmak    | Fiziksel içerik, yayılmayı kontrol etme     |
+| **Restrain**  | Zapt etmek          | Fiziksel veya duygusal kontrol         |
+| **Control**   | Yönetim ve düzenleme     | Yönetim, davranış düzenleme           |
+| **Curb**    | Azaltma ve sınırlama     | Olumsuz şeyleri sınırlama            |
+| **Limit**    | Sınır koyma         | Fiziksel veya soyut sınır            |
+| **Suppress**  | Bastırma ve önleme      | Duygu, isyan veya bilgi bastırma        |
+| **Confine**   | Alanla sınırlama       | Fiziksel alan veya konu sınırlama       |
 
  
 
@@ -189,76 +189,76 @@ Elbette! **"To contain"**, **restrain**, **control**, **curb**, **limit**, **sup
 - **Tanım:** Bir şeyi sınırları içinde tutmak, yayılmasını önlemek veya bir şeyi içermek. 
 - **Bağlam:** Hem fiziksel hem de soyut şeyleri kontrol etme veya içerebilme. 
 - **Özelliği:** Diğer kelimelerin çoğunun kapsadığı durumu da içerir. En geniş ve en temel kontrol ifadesidir.
-- **Örnek:** *"They worked hard to contain the fire."*  
+- **Örnek:** *"They worked hard to contain the fire."* 
 
  
 
 ### **2. Control (Daha spesifik, düzenleyici anlamda)**
-- **Tanım:** Bir şeyi yönetmek, yönlendirmek veya düzenlemek.  
+- **Tanım:** Bir şeyi yönetmek, yönlendirmek veya düzenlemek. 
 - **Bağlam:** Daha aktif ve sürekli bir müdahaleyi ifade eder. Bir sürecin veya durumun işleyişini kontrol altında tutma. 
-- **Özelliği:** İçerik veya davranışı düzenleme odaklıdır.  
-- **Örnek:** *"He tried to control his emotions."*  
+- **Özelliği:** İçerik veya davranışı düzenleme odaklıdır. 
+- **Örnek:** *"He tried to control his emotions."* 
 
  
 
 ### **3. Restrain (Fiziksel veya duygusal engel)**
 - **Tanım:** Bir şeyin hareketini, davranışını veya ifadesini fiziksel veya duygusal olarak sınırlandırmak.
 - **Bağlam:** Genellikle güç veya irade kullanılarak yapılan bir zapt etme durumu. 
-- **Özelliği:** Daha bireysel ve güç gerektiren bir sınırlama ifade eder.  
-- **Örnek:** *"The police restrained the protestor."*  
+- **Özelliği:** Daha bireysel ve güç gerektiren bir sınırlama ifade eder. 
+- **Örnek:** *"The police restrained the protestor."* 
 
  
 
 ### **4. Curb (Olumsuzlukları azaltmak veya sınırlamak)**
-- **Tanım:** Olumsuz veya zararlı bir şeyi sınırlamak veya kontrol etmek.  
-- **Bağlam:** Genellikle sosyal, çevresel veya davranışsal kısıtlamalar için kullanılır.  
-- **Özelliği:** Sınırlama veya azaltma eylemi, ancak tam bir kontrolü değil, frenleme anlamını taşır.  
-- **Örnek:** *"We need to curb excessive spending."*  
+- **Tanım:** Olumsuz veya zararlı bir şeyi sınırlamak veya kontrol etmek. 
+- **Bağlam:** Genellikle sosyal, çevresel veya davranışsal kısıtlamalar için kullanılır. 
+- **Özelliği:** Sınırlama veya azaltma eylemi, ancak tam bir kontrolü değil, frenleme anlamını taşır. 
+- **Örnek:** *"We need to curb excessive spending."* 
 
  
 
 ### **5. Limit (Kesin bir sınır koyma)**
-- **Tanım:** Bir şeyin kapsamını, miktarını veya derecesini belirli bir noktada sınırlandırmak.  
+- **Tanım:** Bir şeyin kapsamını, miktarını veya derecesini belirli bir noktada sınırlandırmak. 
 - **Bağlam:** Kesin ve genellikle önceden tanımlanmış bir sınır belirtir. 
-- **Özelliği:** Belirgin bir sınır çizmek ve bu sınırın ötesine geçilmesine izin vermemek.  
-- **Örnek:** *"The government limited the number of attendees."*  
+- **Özelliği:** Belirgin bir sınır çizmek ve bu sınırın ötesine geçilmesine izin vermemek. 
+- **Örnek:** *"The government limited the number of attendees."* 
 
  
 
 ### **6. Suppress (Bastırmak, zorla önlemek)**
-- **Tanım:** Bir şeyin ortaya çıkmasını, yayılmasını veya ifade edilmesini zorla durdurmak.  
-- **Bağlam:** Daha güçlü ve aktif bir müdahale içerir. Genellikle duygular, isyanlar veya bilgiler için kullanılır.  
-- **Özelliği:** Durdurma ve gizleme odaklıdır.  
-- **Örnek:** *"The government suppressed the rebellion."*  
+- **Tanım:** Bir şeyin ortaya çıkmasını, yayılmasını veya ifade edilmesini zorla durdurmak. 
+- **Bağlam:** Daha güçlü ve aktif bir müdahale içerir. Genellikle duygular, isyanlar veya bilgiler için kullanılır. 
+- **Özelliği:** Durdurma ve gizleme odaklıdır. 
+- **Örnek:** *"The government suppressed the rebellion."* 
 
  
 
 ### **7. Confine (En dar anlam: Fiziksel veya soyut bir alana hapsetmek)**
-- **Tanım:** Bir şeyi belirli bir alana veya konsepte sınırlamak.  
+- **Tanım:** Bir şeyi belirli bir alana veya konsepte sınırlamak. 
 - **Bağlam:** Genellikle fiziksel bir kısıtlamayı ifade eder, ancak soyut anlamlarda da kullanılabilir. 
-- **Özelliği:** Kesin bir sınır içinde tutma, hareket alanını daraltma.  
-- **Örnek:** *"He was confined to his bed due to illness."*  
+- **Özelliği:** Kesin bir sınır içinde tutma, hareket alanını daraltma. 
+- **Örnek:** *"He was confined to his bed due to illness."* 
 
  
 
 ### **Bağlama Göre Sıralama:**
 
-1. **Contain** (En genel, kapsayıcı anlam)  
-2. **Control** (Yönetim ve düzenleme odaklı)  
-3. **Restrain** (Fiziksel ve duygusal kontrol)  
-4. **Curb** (Frenleme veya azaltma)  
-5. **Limit** (Kesin sınır koyma)  
-6. **Suppress** (Zorla bastırma)  
+1. **Contain** (En genel, kapsayıcı anlam) 
+2. **Control** (Yönetim ve düzenleme odaklı) 
+3. **Restrain** (Fiziksel ve duygusal kontrol) 
+4. **Curb** (Frenleme veya azaltma) 
+5. **Limit** (Kesin sınır koyma) 
+6. **Suppress** (Zorla bastırma) 
 7. **Confine** (En dar anlam: Hapsetme ve sınırlandırma)
 
  
 
 ### **Kelimeler Arasındaki İlişki:**
 Bu kelimelerin tümü, bir şeyi belirli bir sınır içinde tutma veya kontrol etme fikrini paylaşır, ancak:
-- **"Contain"**, en kapsayıcı ve genel terimdir.  
-- **"Control"**, düzenleme ve denetleme odaklıdır.  
-- **"Curb" ve "Limit"**, sınırlama veya azaltma düzeyindedir.  
-- **"Suppress"**, aktif baskıyı, **"Restrain"** ise zapt etmeyi ifade eder.  
+- **"Contain"**, en kapsayıcı ve genel terimdir. 
+- **"Control"**, düzenleme ve denetleme odaklıdır. 
+- **"Curb" ve "Limit"**, sınırlama veya azaltma düzeyindedir. 
+- **"Suppress"**, aktif baskıyı, **"Restrain"** ise zapt etmeyi ifade eder. 
 - **"Confine"**, en dar anlamda bir alan veya konsept içinde hapsetmeyi belirtir. 
 
 Bu sıralama ve farklılıklar, bağlama ve kullanım amacına göre hangi kelimenin uygun olduğunu anlamayı kolaylaştırır. 😊
@@ -272,76 +272,76 @@ Elbette! **"To contain"**, **restrain**, **control**, **curb**, **limit**, **sup
 - **Tanım:** Bir şeyi sınırları içinde tutmak, yayılmasını önlemek veya bir şeyi içermek. 
 - **Bağlam:** Hem fiziksel hem de soyut şeyleri kontrol etme veya içerebilme. 
 - **Özelliği:** Diğer kelimelerin çoğunun kapsadığı durumu da içerir. En geniş ve en temel kontrol ifadesidir.
-- **Örnek:** *"They worked hard to contain the fire."*  
+- **Örnek:** *"They worked hard to contain the fire."* 
 
  
 
 ### **2. Control (Daha spesifik, düzenleyici anlamda)**
-- **Tanım:** Bir şeyi yönetmek, yönlendirmek veya düzenlemek.  
+- **Tanım:** Bir şeyi yönetmek, yönlendirmek veya düzenlemek. 
 - **Bağlam:** Daha aktif ve sürekli bir müdahaleyi ifade eder. Bir sürecin veya durumun işleyişini kontrol altında tutma. 
-- **Özelliği:** İçerik veya davranışı düzenleme odaklıdır.  
-- **Örnek:** *"He tried to control his emotions."*  
+- **Özelliği:** İçerik veya davranışı düzenleme odaklıdır. 
+- **Örnek:** *"He tried to control his emotions."* 
 
  
 
 ### **3. Restrain (Fiziksel veya duygusal engel)**
 - **Tanım:** Bir şeyin hareketini, davranışını veya ifadesini fiziksel veya duygusal olarak sınırlandırmak.
 - **Bağlam:** Genellikle güç veya irade kullanılarak yapılan bir zapt etme durumu. 
-- **Özelliği:** Daha bireysel ve güç gerektiren bir sınırlama ifade eder.  
-- **Örnek:** *"The police restrained the protestor."*  
+- **Özelliği:** Daha bireysel ve güç gerektiren bir sınırlama ifade eder. 
+- **Örnek:** *"The police restrained the protestor."* 
 
  
 
 ### **4. Curb (Olumsuzlukları azaltmak veya sınırlamak)**
-- **Tanım:** Olumsuz veya zararlı bir şeyi sınırlamak veya kontrol etmek.  
-- **Bağlam:** Genellikle sosyal, çevresel veya davranışsal kısıtlamalar için kullanılır.  
-- **Özelliği:** Sınırlama veya azaltma eylemi, ancak tam bir kontrolü değil, frenleme anlamını taşır.  
-- **Örnek:** *"We need to curb excessive spending."*  
+- **Tanım:** Olumsuz veya zararlı bir şeyi sınırlamak veya kontrol etmek. 
+- **Bağlam:** Genellikle sosyal, çevresel veya davranışsal kısıtlamalar için kullanılır. 
+- **Özelliği:** Sınırlama veya azaltma eylemi, ancak tam bir kontrolü değil, frenleme anlamını taşır. 
+- **Örnek:** *"We need to curb excessive spending."* 
 
  
 
 ### **5. Limit (Kesin bir sınır koyma)**
-- **Tanım:** Bir şeyin kapsamını, miktarını veya derecesini belirli bir noktada sınırlandırmak.  
+- **Tanım:** Bir şeyin kapsamını, miktarını veya derecesini belirli bir noktada sınırlandırmak. 
 - **Bağlam:** Kesin ve genellikle önceden tanımlanmış bir sınır belirtir. 
-- **Özelliği:** Belirgin bir sınır çizmek ve bu sınırın ötesine geçilmesine izin vermemek.  
-- **Örnek:** *"The government limited the number of attendees."*  
+- **Özelliği:** Belirgin bir sınır çizmek ve bu sınırın ötesine geçilmesine izin vermemek. 
+- **Örnek:** *"The government limited the number of attendees."* 
 
  
 
 ### **6. Suppress (Bastırmak, zorla önlemek)**
-- **Tanım:** Bir şeyin ortaya çıkmasını, yayılmasını veya ifade edilmesini zorla durdurmak.  
-- **Bağlam:** Daha güçlü ve aktif bir müdahale içerir. Genellikle duygular, isyanlar veya bilgiler için kullanılır.  
-- **Özelliği:** Durdurma ve gizleme odaklıdır.  
-- **Örnek:** *"The government suppressed the rebellion."*  
+- **Tanım:** Bir şeyin ortaya çıkmasını, yayılmasını veya ifade edilmesini zorla durdurmak. 
+- **Bağlam:** Daha güçlü ve aktif bir müdahale içerir. Genellikle duygular, isyanlar veya bilgiler için kullanılır. 
+- **Özelliği:** Durdurma ve gizleme odaklıdır. 
+- **Örnek:** *"The government suppressed the rebellion."* 
 
  
 
 ### **7. Confine (En dar anlam: Fiziksel veya soyut bir alana hapsetmek)**
-- **Tanım:** Bir şeyi belirli bir alana veya konsepte sınırlamak.  
+- **Tanım:** Bir şeyi belirli bir alana veya konsepte sınırlamak. 
 - **Bağlam:** Genellikle fiziksel bir kısıtlamayı ifade eder, ancak soyut anlamlarda da kullanılabilir. 
-- **Özelliği:** Kesin bir sınır içinde tutma, hareket alanını daraltma.  
-- **Örnek:** *"He was confined to his bed due to illness."*  
+- **Özelliği:** Kesin bir sınır içinde tutma, hareket alanını daraltma. 
+- **Örnek:** *"He was confined to his bed due to illness."* 
 
  
 
 ### **Bağlama Göre Sıralama:**
 
-1. **Contain** (En genel, kapsayıcı anlam)  
-2. **Control** (Yönetim ve düzenleme odaklı)  
-3. **Restrain** (Fiziksel ve duygusal kontrol)  
-4. **Curb** (Frenleme veya azaltma)  
-5. **Limit** (Kesin sınır koyma)  
-6. **Suppress** (Zorla bastırma)  
+1. **Contain** (En genel, kapsayıcı anlam) 
+2. **Control** (Yönetim ve düzenleme odaklı) 
+3. **Restrain** (Fiziksel ve duygusal kontrol) 
+4. **Curb** (Frenleme veya azaltma) 
+5. **Limit** (Kesin sınır koyma) 
+6. **Suppress** (Zorla bastırma) 
 7. **Confine** (En dar anlam: Hapsetme ve sınırlandırma)
 
  
 
 ### **Kelimeler Arasındaki İlişki:**
 Bu kelimelerin tümü, bir şeyi belirli bir sınır içinde tutma veya kontrol etme fikrini paylaşır, ancak:
-- **"Contain"**, en kapsayıcı ve genel terimdir.  
-- **"Control"**, düzenleme ve denetleme odaklıdır.  
-- **"Curb" ve "Limit"**, sınırlama veya azaltma düzeyindedir.  
-- **"Suppress"**, aktif baskıyı, **"Restrain"** ise zapt etmeyi ifade eder.  
+- **"Contain"**, en kapsayıcı ve genel terimdir. 
+- **"Control"**, düzenleme ve denetleme odaklıdır. 
+- **"Curb" ve "Limit"**, sınırlama veya azaltma düzeyindedir. 
+- **"Suppress"**, aktif baskıyı, **"Restrain"** ise zapt etmeyi ifade eder. 
 - **"Confine"**, en dar anlamda bir alan veya konsept içinde hapsetmeyi belirtir. 
 
 Bu sıralama ve farklılıklar, bağlama ve kullanım amacına göre hangi kelimenin uygun olduğunu anlamayı kolaylaştırır. 😊
@@ -351,90 +351,90 @@ Bu sıralama ve farklılıklar, bağlama ve kullanım amacına göre hangi kelim
  
 
 ### **1. To Contain (En Soyut ve Kapsayıcı)**
-- **Soyut:** Bir düşünceyi, duyguyu veya olayı sınırlar içinde tutmak.  
-  - *Örnek:* "She tried to contain her anger."  
-- **Somut:** Fiziksel bir nesneyi veya durumu sınırlı bir alanda tutmak.  
-  - *Örnek:* "The firefighters contained the fire."  
-- **Ton Farklılığı:**  
-  - Soyutta: Daha geniş, bir durumu dengelemeye veya kontrol etmeye yönelik.  
-  - Somutta: Bir şeyin yayılmasını önlemek veya onu fiziksel olarak sınırlandırmak.
+- **Soyut:** Bir düşünceyi, duyguyu veya olayı sınırlar içinde tutmak. 
+ - *Örnek:* "She tried to contain her anger." 
+- **Somut:** Fiziksel bir nesneyi veya durumu sınırlı bir alanda tutmak. 
+ - *Örnek:* "The firefighters contained the fire." 
+- **Ton Farklılığı:** 
+ - Soyutta: Daha geniş, bir durumu dengelemeye veya kontrol etmeye yönelik. 
+ - Somutta: Bir şeyin yayılmasını önlemek veya onu fiziksel olarak sınırlandırmak.
 
  
 
 ### **2. Control (Zihinsel Odaklı Yönetim)**
-- **Soyut:** Bir fikri, durumu veya davranışı yönetmek.  
-  - *Örnek:* "He controlled his fear during the interview."  
-- **Somut:** Bir sistemi, süreci veya fiziksel bir nesneyi kontrol etmek.  
-  - *Örnek:* "The operator controls the machinery."  
-- **Ton Farklılığı:**  
-  - Soyutta: Aktif bir şekilde düzenleme ve yönetme.  
-  - Somutta: Daha mekanik ve işlevsel bir kontrol.
+- **Soyut:** Bir fikri, durumu veya davranışı yönetmek. 
+ - *Örnek:* "He controlled his fear during the interview." 
+- **Somut:** Bir sistemi, süreci veya fiziksel bir nesneyi kontrol etmek. 
+ - *Örnek:* "The operator controls the machinery." 
+- **Ton Farklılığı:** 
+ - Soyutta: Aktif bir şekilde düzenleme ve yönetme. 
+ - Somutta: Daha mekanik ve işlevsel bir kontrol.
 
  
 
 ### **3. Restrain (Fiziksel ve Duygusal Zapt Etme)**
-- **Soyut:** Bir duyguyu veya dürtüyü zapt etme.  
-  - *Örnek:* "She restrained her urge to laugh."  
-- **Somut:** Bir kişinin veya nesnenin fiziksel hareketini durdurmak.  
-  - *Örnek:* "The police restrained the suspect."  
-- **Ton Farklılığı:**  
-  - Soyutta: İçsel bir irade veya güce dayanır.  
-  - Somutta: Güç ve fiziksel müdahale vurgusu.
+- **Soyut:** Bir duyguyu veya dürtüyü zapt etme. 
+ - *Örnek:* "She restrained her urge to laugh." 
+- **Somut:** Bir kişinin veya nesnenin fiziksel hareketini durdurmak. 
+ - *Örnek:* "The police restrained the suspect." 
+- **Ton Farklılığı:** 
+ - Soyutta: İçsel bir irade veya güce dayanır. 
+ - Somutta: Güç ve fiziksel müdahale vurgusu.
 
  
 
 ### **4. Curb (Olumsuzluğu Frenleme)**
-- **Soyut:** Zararlı veya aşırı bir davranışı azaltmak.  
-  - *Örnek:* "The government curbed inflation."  
-- **Somut:** Fiziksel bir hareketi veya gelişmeyi sınırlamak.  
-  - *Örnek:* "The leash curbs the dog’s movement."  
-- **Ton Farklılığı:**  
-  - Soyutta: Daha hafif ve kısıtlayıcı bir müdahale.  
-  - Somutta: Frenleme veya kısıtlama amacıyla yapılan aktif bir hareket.
+- **Soyut:** Zararlı veya aşırı bir davranışı azaltmak. 
+ - *Örnek:* "The government curbed inflation." 
+- **Somut:** Fiziksel bir hareketi veya gelişmeyi sınırlamak. 
+ - *Örnek:* "The leash curbs the dog’s movement." 
+- **Ton Farklılığı:** 
+ - Soyutta: Daha hafif ve kısıtlayıcı bir müdahale. 
+ - Somutta: Frenleme veya kısıtlama amacıyla yapılan aktif bir hareket.
 
  
 
 ### **5. Limit (Kesin Sınır Belirleme)**
-- **Soyut:** Bir düşünceyi veya durumu belli bir kapsamda tutma.  
-  - *Örnek:* "His knowledge of the subject is limited."  
-- **Somut:** Fiziksel bir sınır koyma.  
-  - *Örnek:* "The speed limit on this road is 50 km/h."  
-- **Ton Farklılığı:**  
-  - Soyutta: Daha soyut, ancak belirgin sınırlarla tanımlı.  
-  - Somutta: Ölçülebilir ve kesin sınırlar.
+- **Soyut:** Bir düşünceyi veya durumu belli bir kapsamda tutma. 
+ - *Örnek:* "His knowledge of the subject is limited." 
+- **Somut:** Fiziksel bir sınır koyma. 
+ - *Örnek:* "The speed limit on this road is 50 km/h." 
+- **Ton Farklılığı:** 
+ - Soyutta: Daha soyut, ancak belirgin sınırlarla tanımlı. 
+ - Somutta: Ölçülebilir ve kesin sınırlar.
 
  
 
 ### **6. Suppress (Baskılama ve Bastırma)**
-- **Soyut:** Bir duyguyu, düşünceyi veya bilginin yayılmasını zorla engellemek.  
-  - *Örnek:* "She suppressed her feelings of doubt."  
-- **Somut:** Fiziksel bir hareketi veya olayın etkisini baskı altına almak.  
-  - *Örnek:* "The government suppressed the rebellion."  
-- **Ton Farklılığı:**  
-  - Soyutta: Güçlü bir duygusal veya entelektüel engelleme.  
-  - Somutta: Fiziksel baskı veya zorlayıcı bir durdurma.
+- **Soyut:** Bir duyguyu, düşünceyi veya bilginin yayılmasını zorla engellemek. 
+ - *Örnek:* "She suppressed her feelings of doubt." 
+- **Somut:** Fiziksel bir hareketi veya olayın etkisini baskı altına almak. 
+ - *Örnek:* "The government suppressed the rebellion." 
+- **Ton Farklılığı:** 
+ - Soyutta: Güçlü bir duygusal veya entelektüel engelleme. 
+ - Somutta: Fiziksel baskı veya zorlayıcı bir durdurma.
 
  
 
 ### **7. Confine (En Somut ve Fiziksel)**
-- **Soyut:** Bir fikri, tartışmayı veya durumu dar bir alanda tutma.  
-  - *Örnek:* "The discussion was confined to budget issues."  
-- **Somut:** Fiziksel olarak bir nesneyi veya kişiyi bir alan içinde hapsetmek.  
-  - *Örnek:* "The patient was confined to his bed."  
-- **Ton Farklılığı:**  
-  - Soyutta: Daha sınırlandırıcı ve daraltıcı bir etki.  
-  - Somutta: Fiziksel hapsetme veya hareket kısıtlaması.
+- **Soyut:** Bir fikri, tartışmayı veya durumu dar bir alanda tutma. 
+ - *Örnek:* "The discussion was confined to budget issues." 
+- **Somut:** Fiziksel olarak bir nesneyi veya kişiyi bir alan içinde hapsetmek. 
+ - *Örnek:* "The patient was confined to his bed." 
+- **Ton Farklılığı:** 
+ - Soyutta: Daha sınırlandırıcı ve daraltıcı bir etki. 
+ - Somutta: Fiziksel hapsetme veya hareket kısıtlaması.
 
  
 
 ### **Soyuttan Somuta ve Zihinselden Fiziksele Geçişte Sıralama ve Ton:**
 
-1. **Contain**: En kapsayıcı; bir durumu veya fiziksel bir nesneyi sınırlar.  
-2. **Control**: Daha aktif yönetim; hem zihinsel hem de fiziksel düzenleme.  
-3. **Restrain**: Fiziksel güce veya iradeye dayalı sınırlama.  
-4. **Curb**: Frenleme veya azaltma; somutta daha hafif müdahale.  
-5. **Limit**: Kesin sınırlar çizme; soyutta veya somutta net sınırlar.  
-6. **Suppress**: Zorlayıcı baskı; hem soyut hem de fiziksel bastırma.  
+1. **Contain**: En kapsayıcı; bir durumu veya fiziksel bir nesneyi sınırlar. 
+2. **Control**: Daha aktif yönetim; hem zihinsel hem de fiziksel düzenleme. 
+3. **Restrain**: Fiziksel güce veya iradeye dayalı sınırlama. 
+4. **Curb**: Frenleme veya azaltma; somutta daha hafif müdahale. 
+5. **Limit**: Kesin sınırlar çizme; soyutta veya somutta net sınırlar. 
+6. **Suppress**: Zorlayıcı baskı; hem soyut hem de fiziksel bastırma. 
 7. **Confine**: En somut; fiziksel alanla sınırlı hapsetme.
 
  
@@ -448,87 +448,87 @@ Bu sıralama, kelimelerin kontrol veya sınırlama yoğunluğu ve bağlama göre
  
 
 ### 1. **To contain + "a situation"**
-   - **Kullanım:** Durumları, olayları, krizleri kontrol altında tutmak veya sınırlamak.  
-   - **Örnek:** *"Efforts were made to contain the situation."*  
-     (Durumu kontrol altında tutmak için çaba harcandı.)
+  - **Kullanım:** Durumları, olayları, krizleri kontrol altında tutmak veya sınırlamak. 
+  - **Örnek:** *"Efforts were made to contain the situation."* 
+   (Durumu kontrol altında tutmak için çaba harcandı.)
 
  
 
 ### 2. **To contain + "a fire"**
-   - **Kullanım:** Yangın gibi tehlikeli bir durumu kontrol altına almak.  
-   - **Örnek:** *"Firefighters worked for hours to contain the fire."*  
-     (İtfaiyeciler, yangını kontrol altına almak için saatlerce çalıştı.)
+  - **Kullanım:** Yangın gibi tehlikeli bir durumu kontrol altına almak. 
+  - **Örnek:** *"Firefighters worked for hours to contain the fire."* 
+   (İtfaiyeciler, yangını kontrol altına almak için saatlerce çalıştı.)
 
  
 
 ### 3. **To contain + "an outbreak"**
-   - **Kullanım:** Salgın veya kriz durumlarını sınırlamak veya yayılmasını önlemek.  
-   - **Örnek:** *"Health authorities are working to contain the outbreak of the virus."*  
-     (Sağlık yetkilileri, virüsün salgınını kontrol altına almak için çalışıyor.)
+  - **Kullanım:** Salgın veya kriz durumlarını sınırlamak veya yayılmasını önlemek. 
+  - **Örnek:** *"Health authorities are working to contain the outbreak of the virus."* 
+   (Sağlık yetkilileri, virüsün salgınını kontrol altına almak için çalışıyor.)
 
  
 
 ### 4. **To contain + "the spread"**
-   - **Kullanım:** Bir şeyin yayılmasını veya büyümesini sınırlamak.  
-   - **Örnek:** *"The government imposed measures to contain the spread of misinformation."*  
-     (Hükümet, yanlış bilgilendirme yayılmasını sınırlamak için önlemler aldı.)
+  - **Kullanım:** Bir şeyin yayılmasını veya büyümesini sınırlamak. 
+  - **Örnek:** *"The government imposed measures to contain the spread of misinformation."* 
+   (Hükümet, yanlış bilgilendirme yayılmasını sınırlamak için önlemler aldı.)
 
  
 
 ### 5. **To contain + "a feeling"**
-   - **Kullanım:** Duyguları bastırmak veya kontrol altında tutmak.  
-   - **Örnek:** *"He struggled to contain his excitement."*  
-     (Heyecanını kontrol altında tutmakta zorlandı.)
+  - **Kullanım:** Duyguları bastırmak veya kontrol altında tutmak. 
+  - **Örnek:** *"He struggled to contain his excitement."* 
+   (Heyecanını kontrol altında tutmakta zorlandı.)
 
  
 
 ### 6. **To contain + "a reaction"**
-   - **Kullanım:** Duygusal bir tepkiyi engellemek veya sınırlamak.  
-   - **Örnek:** *"She could hardly contain her laughter during the meeting."*  
-     (Toplantı sırasında kahkahasını zor tutuyordu.)
+  - **Kullanım:** Duygusal bir tepkiyi engellemek veya sınırlamak. 
+  - **Örnek:** *"She could hardly contain her laughter during the meeting."* 
+   (Toplantı sırasında kahkahasını zor tutuyordu.)
 
  
 
 ### 7. **To contain + "the damage"**
-   - **Kullanım:** Zararın büyümesini veya etkisini sınırlamak.  
-   - **Örnek:** *"The company took swift action to contain the damage caused by the data breach."*  
-     (Şirket, veri ihlali nedeniyle oluşan zararı sınırlamak için hızlı bir şekilde harekete geçti.)
+  - **Kullanım:** Zararın büyümesini veya etkisini sınırlamak. 
+  - **Örnek:** *"The company took swift action to contain the damage caused by the data breach."* 
+   (Şirket, veri ihlali nedeniyle oluşan zararı sınırlamak için hızlı bir şekilde harekete geçti.)
 
  
 
 ### 8. **To contain + "a conflict"**
-   - **Kullanım:** Çatışmayı veya anlaşmazlıkları kontrol altına almak.  
-   - **Örnek:** *"Diplomats are working to contain the conflict in the region."*  
-     (Diplomatlar, bölgedeki çatışmayı kontrol altına almak için çalışıyor.)
+  - **Kullanım:** Çatışmayı veya anlaşmazlıkları kontrol altına almak. 
+  - **Örnek:** *"Diplomats are working to contain the conflict in the region."* 
+   (Diplomatlar, bölgedeki çatışmayı kontrol altına almak için çalışıyor.)
 
  
 
 ### 9. **To contain + "the pressure"**
-   - **Kullanım:** Yoğun bir baskıyı veya stres durumunu engellemek veya sınırlamak.  
-   - **Örnek:** *"He managed to contain the pressure and made a calm decision."*  
-     (Baskıyı kontrol altında tutmayı başardı ve sakin bir karar verdi.)
+  - **Kullanım:** Yoğun bir baskıyı veya stres durumunu engellemek veya sınırlamak. 
+  - **Örnek:** *"He managed to contain the pressure and made a calm decision."* 
+   (Baskıyı kontrol altında tutmayı başardı ve sakin bir karar verdi.)
 
  
 
 ### 10. **To contain + "a risk"**
-   - **Kullanım:** Riskleri sınırlamak veya engellemek.  
-   - **Örnek:** *"The project manager took steps to contain the risk of delays."*  
-     (Proje yöneticisi, gecikme riskini sınırlamak için adımlar attı.)
+  - **Kullanım:** Riskleri sınırlamak veya engellemek. 
+  - **Örnek:** *"The project manager took steps to contain the risk of delays."* 
+   (Proje yöneticisi, gecikme riskini sınırlamak için adımlar attı.)
 
  
 
 ### 11. **To contain + "a disease"**
-   - **Kullanım:** Hastalığı yayılmadan önce sınırlamak veya kontrol altına almak.  
-   - **Örnek:** *"The medical team worked around the clock to contain the disease."*  
-     (Tıbbi ekip, hastalığı kontrol altına almak için günlerce çalıştı.)
+  - **Kullanım:** Hastalığı yayılmadan önce sınırlamak veya kontrol altına almak. 
+  - **Örnek:** *"The medical team worked around the clock to contain the disease."* 
+   (Tıbbi ekip, hastalığı kontrol altına almak için günlerce çalıştı.)
 
  
 
 ### 12. **To contain + "a substance"**
-   - **Kullanım:** Bir maddeyi, özellikle tehlikeli veya zararlı olanları, belirli bir alanda tutmak.  
-   - **Örnek:** *"The container is designed to contain hazardous chemicals."*  
-     (Konteyner, tehlikeli kimyasalları içermek için tasarlanmıştır.)
-
+  - **Kullanım:** Bir maddeyi, özellikle tehlikeli veya zararlı olanları, belirli bir alanda tutmak. 
+  - **Örnek:** *"The container is designed to contain hazardous chemicals."*
+   (Konteyner, tehlikeli kimyasalları içermek için tasarlanmıştır.)
+ 
  
 
 Bu fiiller **"to contain"** kelimesinin farklı anlamlarını ve kullanım bağlamlarını zenginleştirir. Kelime çoğunlukla bir şeyin yayılmasını durdurma veya bir durumu sınırlama fikriyle ilişkilidir, ancak bağlama göre bu anlamlar değişebilir.
@@ -537,6 +537,6 @@ Bu fiiller **"to contain"** kelimesinin farklı anlamlarını ve kullanım bağl
 
 
 <script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+    async src="//gc.zgo.at/count.js"></script>
 
  
