@@ -6,25 +6,9 @@ layout: default
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span> <p id="tarih"></p></span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 </div>
 
 
-<script type="text/javascript">
-      // Şu anki tarih ve saati al
-      var now = new Date();
-
-      // Tarihi Türkçe formatında yazdır
-      var tarih = now.toLocaleDateString('tr-TR', {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric',
-        weekday: 'long'
-      });
-
-
-      // Tarih ve saat değerlerini HTML elementlerine yazdır
-      document.getElementById('tarih').textContent = tarih;
-    </script>
