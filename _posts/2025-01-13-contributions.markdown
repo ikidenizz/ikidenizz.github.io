@@ -26,8 +26,7 @@ Bu eşanlamlılar, "contributions" kelimesinin kullanıldığı bağlama göre d
 
 
 Contributions ve eşanlamlılarının farklılıklarını tanımlayabilir misin?
-
-GPT-4o mini:
+ 
 Elbette! "Contributions" ve eşanlamlılarının farklılıklarını aşağıda tanımlayabilirim:
 
 1. **Contributions**: Genel bir terimdir ve bir projeye, etkinliğe veya amaca sağlanan her türlü katkıyı ifade eder. Maddi, manevi, fikirsel veya fiziksel katkıları kapsar.
