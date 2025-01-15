@@ -7,9 +7,12 @@ categories: language learning english
 tags: [english, translation, turkish]
 ---
 
+İngilizce'deki yaygın kısa ifadeler
+====== 
+
 İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru Türkçe çevirilerini öğrenmek, İngilizce pratiği yaparken çok işinize yarayabilir. İşte bazı ifadeler ve dikkatli düzenlenmiş karşılıkları:
 
----
+
 
 ### **İngilizce - Türkçe İfadeler**
 
@@ -62,7 +65,7 @@ tags: [english, translation, turkish]
     Sakinleşmeyi veya kıpırdamamayı ifade eder.  
     - Örnek: "Panik yapma, Stay still!"
 
----
+
 
 ### **Sonuç**
 Bu ifadeleri günlük hayattaki İngilizce diyaloglarınızda kullanabilirsiniz. Düzgün ve doğru ifadelerle iletişim kurmak her zaman önemlidir. Daha fazla ifade için blogumuzu takipte kalın!
