@@ -1,16 +1,15 @@
- 
+
 ---
 layout: post
 title: "İngilizce İfadeler ve Türkçe Doğru Anlamları"
 date: 2025-01-15 07:44:14 +0000
-categories: [language]
-tags: [english]
+categories: language
+tags: english
 lang: tr
 author: isunion99
 excerpt: "İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru Türkçe çevirilerini öğrenmek, İngilizce pratiği yaparken çok işinize yarayabilir."
 published: true
 ---
-
 
 
 
