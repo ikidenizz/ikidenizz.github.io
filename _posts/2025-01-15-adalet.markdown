@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Adalet, Demokrasi, Eğitim, Laiklik"
+description: "Bu yazıda adalet, demokrasi, eğitim ve laiklik konularını ele alıyoruz."
+image: /assets/images/Adalet.png
 ---
 
 <h1>Resim Paylaşımı</h1>
