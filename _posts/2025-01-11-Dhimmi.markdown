@@ -35,7 +35,6 @@ When discussing these topics, it's more constructive to try to understand histor
 
  
 <h1>Share on Twitter</h1>
-<p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
 <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
 
 
