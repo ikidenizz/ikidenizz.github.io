@@ -3,7 +3,7 @@ layout: post
 title: "zimmî"
 description: "zimmî Statüsü ve Jim Crow Yasaları: Bir Karşılaştırma"
 image: "/images/describing.jpg"
-date: 2025-01-14 05:04:34 +0300
+date: 2025-01-16 05:04:34 +0300
 category: "İslam Tarihi"
 tags: [zimmî, Crow]
 ---
@@ -35,6 +35,11 @@ Günümüzde insan hakları evrensel değerler olarak kabul edilmektedir. Dini v
 
 Bu konuları tartışırken, tarihsel olayları bugünün değerleriyle yargılamak yerine, o dönemin şartları içinde anlamaya çalışmak ve buradan dersler çıkarmak daha yapıcı bir yaklaşım olacaktır. Aynı zamanda, geçmişteki yanlış uygulamaları tekrarlamamak için tarihi doğru anlamak ve yorumlamak önemlidir.
 
+
+
+<h1>Resim Paylaşımı</h1>
+<p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
+<a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
 
 
 <script data-goatcounter="https://gg123.goatcounter.com/count"
