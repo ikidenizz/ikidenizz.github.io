@@ -4,7 +4,7 @@ title: "zimmî"
 description: "zimmî Statüsü ve Jim Crow Yasaları: Bir Karşılaştırma"
 image: "/images/describing.jpg"
 date: 2025-01-16 05:04:34 +0300
-category: "İslam Tarihi"
+category: "İslam"
 tags: [zimmî, Crow]
 ---
 
