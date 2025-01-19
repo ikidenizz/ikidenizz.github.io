@@ -44,7 +44,7 @@ Burada, **a gift** doğrudan nesne (**direct object**), **my sister** (**indirec
 - Dolaylı nesne, fiilden sonra ve doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir
 
 
-"I gave my sister a gift."
+**I gave my sister a gift.**
 
 Bu cümlede, **my sister** dolaylı nesne, **a gift** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden hemen sonra gelir.
 
