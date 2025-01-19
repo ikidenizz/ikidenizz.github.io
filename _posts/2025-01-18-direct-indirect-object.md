@@ -26,7 +26,7 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 
 **Indirect object** (dolaylı nesne) ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
 
-- Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, genellikle "to" veya "for"veya **of** gibi bir edatla birlikte kullanılır. 
+- Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, genellikle **to** veya **for** veya **of** gibi bir edatla birlikte kullanılır. 
 
 
 **I gave the book to my friend.**
