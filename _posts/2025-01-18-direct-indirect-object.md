@@ -30,9 +30,9 @@ Cümlede bahsedilen kurala göre, dolaylı nesne (indirect object) doğrudan nes
 
 **Örnekler**:
 
-I gave the book to my friend. (I gave the book. The book is the direct object. My friend is the indirect object, preceded by **to**.)
+I gave the book to my friend. (I gave the book. The book is the direct object.)
 
-I bought a gift for my sister. (I bought a gift. The gift is the direct object. My sister is the indirect object, preceded by **for**.)
+I bought a gift for my sister. (I bought a gift. The gift is the direct object.)
 
 Bu kural, İngilizce dilinde nesnelerin sırasını ve dolaylı nesnenin belirtilmesini açıklamaktadır.
 
