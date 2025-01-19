@@ -50,7 +50,7 @@ Bir diğer örnek:
 **I bought a gift for my sister.**
 
 
-Burada, **a gift** doğrudan nesne, **my sister** dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
+Burada, **a gift** doğrudan nesne (**direct object**), **my sister** (**indirect object**) dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
 
 Bu yapı, fiilin eyleminden kimlerin yararlandığını veya kimlerin alıcı olduğunu belirtmeye yardımcı olur, böylece cümlenin anlamını daha net hale getirir.
 
