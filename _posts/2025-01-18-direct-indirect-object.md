@@ -31,7 +31,7 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 
 **I gave the book to my friend.**
 
-Burada, **my friend** dolaylı nesne, **the book** ise doğrudan nesnedir. 
+Burada, **my friend** dolaylı nesne (**direct object**), **the book** ise (**direct object**) doğrudan nesnedir. 
 
 
 
