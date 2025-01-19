@@ -10,16 +10,8 @@ tags: [english]
 published: true
 ---
 
-
-DOLAYLI NESNE
+ **indirect object** (dolaylı nesne) ve **direct object** (doğrudan nesne)
 ====== 
-
-
-Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifade eden kelime veya kelime gruplarıdır. Dolaylı nesnelerin yerleşimini anlamak, cümle yapısını kavramak ve iletişimde netlik sağlamak açısından önemlidir.
-
-
-
-### **indirect object** (dolaylı nesne) ve **direct object** (doğrudan nesne)
 
 
 **Direct object** (doğrudan nesne), bir eylemin doğrudan etkilediği nesneyi ifade eder. 
