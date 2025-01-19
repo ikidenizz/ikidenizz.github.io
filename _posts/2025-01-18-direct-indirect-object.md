@@ -38,8 +38,6 @@ I bought a gift for my sister. (I bought a gift. The gift is the direct object.)
 Bu kural, İngilizce dilinde nesnelerin sırasını ve dolaylı nesnenin belirtilmesini açıklamaktadır.
 
 
-Dolaylı nesne doğrudan nesneden sonra geldiğinde, dolaylı nesne **to**, **for,** veya **of** edatlarıyla öne çıkarılır. Bu yapı, doğrudan nesne ile dolaylı nesne arasındaki ilişkiyi netleştirir ve eylemin alıcısını veya yararlanıcısını vurgular.
-
 
 Örneğin, cümlede:
 
