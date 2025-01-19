@@ -43,7 +43,7 @@ Bu kural, İngilizce dilinde nesnelerin sırasını ve dolaylı nesnenin belirti
 
 **I gave the book to my friend.**
 
-Burada, **my friend** dolaylı nesne, **the book** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden sonra gelir ve doğrudan nesneden önce yer alır, edat kullanılmaz.
+Burada, **my friend** dolaylı nesne, **the book** ise doğrudan nesnedir. 
 
 Bir diğer örnek: 
 
