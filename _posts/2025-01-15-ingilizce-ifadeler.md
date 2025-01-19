@@ -78,7 +78,7 @@ Bu ifadeleri günlük hayattaki İngilizce diyaloglarınızda kullanabilirsiniz.
 
 <h1>Resim Paylaşımı</h1>
 <p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
-<a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
+<a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
 
 
 
