@@ -19,14 +19,14 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 
 **Doğrudan Nesneden Önceki Konum**: Dolaylı nesne, fiilden sonra ve doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir. Örneğin:
 
-"Ben kız kardeşime bir hediye verdim."
+**"Ben kız kardeşime bir hediye verdim."**
 
 Bu cümlede, "kız kardeşim" dolaylı nesne, "bir hediye" ise doğrudan nesnedir. Dolaylı nesne, "**verdım**" fiilinden hemen sonra gelir.
 
 
 **Doğrudan Nesneden Sonra ve Edat ile:** Dolaylı nesne, doğrudan nesneden sonra geldiğinde, genellikle "**to**" veya "**for**" gibi bir edatla birlikte kullanılır. Örneğin:
 
-"Ben kız kardeşime bir hediye verdim."
+**"Ben kız kardeşime bir hediye verdim."**
 
 Burada **"bir hediye"** doğrudan nesne, **"kız kardeşim"** dolaylı nesnedir ve **"to"** edatıyla belirtilmiştir.
 Dolaylı nesnelerin yerleşimini anlamak, cümle yapısını kavramak ve iletişimde netlik sağlamak açısından önemlidir.
