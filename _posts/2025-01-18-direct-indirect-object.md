@@ -24,7 +24,9 @@ Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) son
 
 Cümlede bahsedilen gramer terimi, **indirect object** (dolaylı nesne) ve **direct object** (doğrudan nesne) arasındaki ilişkiyi açıklamaktadır.
 
-**Direct object** (doğrudan nesne), bir eylemin doğrudan etkilediği nesneyi ifade eder. **Indirect object** (dolaylı nesne) ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
+**Direct object** (doğrudan nesne), bir eylemin doğrudan etkilediği nesneyi ifade eder. 
+
+**Indirect object** (dolaylı nesne) ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
 
 Cümlede bahsedilen kurala göre, dolaylı nesne (indirect object) doğrudan nesnenin (direct object) ardından gelirse, dolaylı nesne **to**, **for** veya **of** ile öne çıkarılır.
 
