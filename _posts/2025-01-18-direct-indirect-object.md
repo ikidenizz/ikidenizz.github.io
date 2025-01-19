@@ -46,7 +46,9 @@ Dolaylı nesne doğrudan nesneden sonra geldiğinde, dolaylı nesne **to**, **fo
 
 Burada, **my friend** dolaylı nesne, **the book** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden sonra gelir ve doğrudan nesneden önce yer alır, edat kullanılmaz.
 
-Bir diğer örnek: **I bought a gift for my sister.**
+Bir diğer örnek: 
+
+**I bought a gift for my sister.**
 
 
 Burada, **a gift** doğrudan nesne, **my sister** dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
