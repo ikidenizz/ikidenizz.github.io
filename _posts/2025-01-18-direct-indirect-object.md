@@ -20,7 +20,7 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 Dolaylı nesnelerin yerleşimini anlamak, cümle yapısını kavramak ve iletişimde netlik sağlamak açısından önemlidir.
 
 
-Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, dolaylı nesne **to**, **"for,** veya **of** edatlarıyla öne çıkarılır. 
+Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, dolaylı nesne **to**, **for,** veya **of** edatlarıyla öne çıkarılır. 
 
 Cümlede bahsedilen gramer terimi, **indirect object** (dolaylı nesne) ve **direct object** (doğrudan nesne) arasındaki ilişkiyi açıklamaktadır.
 
@@ -30,9 +30,9 @@ Cümlede bahsedilen kurala göre, dolaylı nesne (indirect object) doğrudan nes
 
 **Örnekler**:
 
-I gave the book to my friend. (I gave the book. The book is the direct object. My friend is the indirect object, preceded by "**to**".)
+I gave the book to my friend. (I gave the book. The book is the direct object. My friend is the indirect object, preceded by **to**.)
 
-I bought a gift for my sister. (I bought a gift. The gift is the direct object. My sister is the indirect object, preceded by "**for**".)
+I bought a gift for my sister. (I bought a gift. The gift is the direct object. My sister is the indirect object, preceded by **for**.)
 
 Bu kural, İngilizce dilinde nesnelerin sırasını ve dolaylı nesnenin belirtilmesini açıklamaktadır.
 
