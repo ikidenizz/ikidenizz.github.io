@@ -38,7 +38,7 @@ Burada **"bir hediye"** doğrudan nesne, **"kız kardeşim"** dolaylı nesnedir.
 Dolaylı nesnelerin yerleşimini anlamak, cümle yapısını kavramak ve iletişimde netlik sağlamak açısından önemlidir.
 
 
-Dolaylı nesne doğrudan nesneden sonra geldiğinde, dolaylı nesne "**to**," **"for,"** veya "**of**" edatlarıyla öne çıkarılır. Bu yapı, doğrudan nesne ile dolaylı nesne arasındaki ilişkiyi netleştirir ve eylemin alıcısını veya yararlanıcısını vurgular.
+Dolaylı nesne doğrudan nesneden sonra geldiğinde, dolaylı nesne "**to**," **"for,"** veya "**of**" edatlarıyla öne çıkarılır.  
 
 Cümlede bahsedilen gramer terimi, **"indirect object"** (dolaylı nesne) ve **"direct object"** (doğrudan nesne) arasındaki ilişkiyi açıklamaktadır.
 
