@@ -41,7 +41,7 @@ Burada, **a gift** doğrudan nesne, **my sister** dolaylı nesnedir ve **for** e
 Bu cümlede, **my sister** dolaylı nesne, **a gift** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden hemen sonra gelir.
 
 
-Bu yapı, fiilin eyleminden kimlerin yararlandığını veya kimlerin alıcı olduğunu belirtmeye yardımcı olur, böylece cümlenin anlamını daha net hale getirir.
+Dolaylı nesnelerin yerleşimini anlamak, cümle yapısını kavramak ve iletişimde netlik sağlamak açısından önemlidir.
 
 <h1>Share on Twitter</h1>
 <a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
