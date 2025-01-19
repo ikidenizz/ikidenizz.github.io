@@ -14,9 +14,9 @@ published: true
 ====== 
 
 
-**Direct object** (doğrudan nesne), bir eylemin doğrudan etkilediği nesneyi ifade eder. 
+Doğrudan nesne, bir eylemin doğrudan etkilediği nesneyi ifade eder. 
 
-**Indirect object** (dolaylı nesne) ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
+Dolaylı nesne ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
 
 - Dolaylı nesne, doğrudan nesneden sonra geldiğinde, genellikle **to** veya **for** veya **of** gibi bir edatla birlikte kullanılır. 
 
