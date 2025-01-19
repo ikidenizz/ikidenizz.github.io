@@ -41,7 +41,7 @@ Burada, **my friend** dolaylı nesne (**direct object**), **the book** ise (**di
 Burada, **a gift** doğrudan nesne (**direct object**), **my sister** (**indirect object**) dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
 
 
-- Dolaylı nesne, fiilden sonra ve doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir
+- Dolaylı nesne (**indirect object**), fiilden sonra ve (**direct object**) doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir
 
 
 **I gave my sister a gift.**
