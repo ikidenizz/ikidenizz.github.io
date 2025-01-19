@@ -26,27 +26,27 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 
 **Indirect object** (dolaylı nesne) ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
 
-- Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, genellikle **to** veya **for** veya **of** gibi bir edatla birlikte kullanılır. 
+- Dolaylı nesne, doğrudan nesneden sonra geldiğinde, genellikle **to** veya **for** veya **of** gibi bir edatla birlikte kullanılır. 
 
 
 **I gave the book to my friend.**
 
-Burada, **my friend** dolaylı nesne (**direct object**), **the book** ise (**direct object**) doğrudan nesnedir. 
+Burada, **my friend** dolaylı nesne, **the book** ise doğrudan nesnedir. 
 
 
 
 **I bought a gift for my sister.**
 
 
-Burada, **a gift** doğrudan nesne (**direct object**), **my sister** (**indirect object**) dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
+Burada, **a gift** doğrudan nesne, **my sister** dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
 
 
-- Dolaylı nesne (**indirect object**), fiilden sonra ve (**direct object**) doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir
+- Dolaylı nesne, fiilden sonra ve doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir
 
 
 **I gave my sister a gift.**
 
-Bu cümlede, **my sister** dolaylı nesne (**indirect object**), **a gift** ise doğrudan nesnedir. Dolaylı nesne (**direct object**), **gave** fiilinden hemen sonra gelir.
+Bu cümlede, **my sister** dolaylı nesne, **a gift** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden hemen sonra gelir.
 
 
 Bu yapı, fiilin eyleminden kimlerin yararlandığını veya kimlerin alıcı olduğunu belirtmeye yardımcı olur, böylece cümlenin anlamını daha net hale getirir.
