@@ -29,13 +29,11 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 - Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, genellikle "to" veya "for"veya **of** gibi bir edatla birlikte kullanılır. 
 
 
-**Örnekler**:
-
 **I gave the book to my friend.**
 
 Burada, **my friend** dolaylı nesne, **the book** ise doğrudan nesnedir. 
 
-Bir diğer örnek: 
+
 
 **I bought a gift for my sister.**
 
