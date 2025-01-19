@@ -46,7 +46,7 @@ Burada, **a gift** doğrudan nesne (**direct object**), **my sister** (**indirec
 
 **I gave my sister a gift.**
 
-Bu cümlede, **my sister** dolaylı nesne, **a gift** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden hemen sonra gelir.
+Bu cümlede, **my sister** dolaylı nesne (**indirect object**), **a gift** ise doğrudan nesnedir. Dolaylı nesne (**direct object**), **gave** fiilinden hemen sonra gelir.
 
 
 Bu yapı, fiilin eyleminden kimlerin yararlandığını veya kimlerin alıcı olduğunu belirtmeye yardımcı olur, böylece cümlenin anlamını daha net hale getirir.
