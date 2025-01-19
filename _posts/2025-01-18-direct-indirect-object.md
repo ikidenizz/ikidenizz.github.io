@@ -67,7 +67,7 @@ Burada, "**my friend**" dolaylı nesne, "**the book**" ise doğrudan nesnedir. D
 Bir diğer örnek: **"I bought a gift for my sister."**
 
 
-Burada, **"a gift"** doğrudan nesne, **"my sister"** dolaylı nesnedir ve "for" edatı ile belirtilmiştir.
+Burada, **"a gift"** doğrudan nesne, **"my sister"** dolaylı nesnedir ve **"for"** edatı ile belirtilmiştir.
 
 Bu yapı, fiilin eyleminden kimlerin yararlandığını veya kimlerin alıcı olduğunu belirtmeye yardımcı olur, böylece cümlenin anlamını daha net hale getirir.
 
