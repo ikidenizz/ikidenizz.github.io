@@ -20,7 +20,7 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 Dolaylı nesnelerin yerleşimini anlamak, cümle yapısını kavramak ve iletişimde netlik sağlamak açısından önemlidir.
 
 
-Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, dolaylı nesne **to**, **for,** veya **of** edatlarıyla öne çıkarılır. 
+Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, dolaylı nesne **to**, **for**, veya **of** edatlarıyla öne çıkarılır. 
 
 Cümlede bahsedilen gramer terimi, **indirect object** (dolaylı nesne) ve **direct object** (doğrudan nesne) arasındaki ilişkiyi açıklamaktadır.
 
