@@ -22,24 +22,14 @@ Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifad
 ### **indirect object** (dolaylı nesne) ve **direct object** (doğrudan nesne)
 
 
-- **Direct object** (doğrudan nesne), bir eylemin doğrudan etkilediği nesneyi ifade eder. 
+**Direct object** (doğrudan nesne), bir eylemin doğrudan etkilediği nesneyi ifade eder. 
 
-- **Indirect object** (dolaylı nesne) ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
+**Indirect object** (dolaylı nesne) ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
 
+- Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, genellikle "to" veya "for"veya **of** gibi bir edatla birlikte kullanılır. 
 
-Dolaylı nesne (**indirect object**), doğrudan nesneden (**direct object**) sonra geldiğinde, dolaylı nesne **to**, **for**, veya **of** edatlarıyla öne çıkarılır. 
 
 **Örnekler**:
-
-I gave the book to my friend. (I gave the book. The book is the direct object.)
-
-I bought a gift for my sister. (I bought a gift. The gift is the direct object.)
-
-Bu kural, İngilizce dilinde nesnelerin sırasını ve dolaylı nesnenin belirtilmesini açıklamaktadır.
-
-
-
-Örneğin, cümlede:
 
 **I gave the book to my friend.**
 
@@ -51,6 +41,15 @@ Bir diğer örnek:
 
 
 Burada, **a gift** doğrudan nesne (**direct object**), **my sister** (**indirect object**) dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
+
+
+- Dolaylı nesne, fiilden sonra ve doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir
+
+
+"I gave my sister a gift."
+
+Bu cümlede, **my sister** dolaylı nesne, **a gift** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden hemen sonra gelir.
+
 
 Bu yapı, fiilin eyleminden kimlerin yararlandığını veya kimlerin alıcı olduğunu belirtmeye yardımcı olur, böylece cümlenin anlamını daha net hale getirir.
 
