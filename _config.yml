@@ -27,10 +27,13 @@ url: "https://ikidenizz.github.io" # the base hostname & protocol for your site,
 twitter_username: EaPbyai
 github_username:  isunion99
 image: "/images/describing.jpg"
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
