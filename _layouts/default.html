@@ -1,49 +1,42 @@
 <!DOCTYPE html>
-<html lang="tr,en">
+<html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
   <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-   <meta name="author" content="ikideniz" />
-
-<!-- Diğer meta etiketler ve başlıklar burada -->
+  <meta name="author" content="ikideniz" />
 
   <!-- Twitter Card meta etiketleri -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/images/describing.jpg{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}">
   <meta name="twitter:url" content="{{ site.url }}">
 
   <!-- Open Graph meta etiketleri -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/images/describing.jpg{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="og:type" content="website">
 
-  <!-- Diğer meta etiketler ve başlıklar burada -->
+  <!-- Syntax highlighting CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" type="text/css" />
 
-   <!-- syntax highlighting CSS -->
-   <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
-
-   <!-- Homepage CSS -->
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-
-
+  <!-- Homepage CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" type="text/css" media="screen, projection" />
 </head>
 
 <body>
 <div class="site">
   <div class="title">
-    <a class="extra" href="/">ANASAYFA</a>
+    <a class="extra" href="{{ site.baseurl }}/">ANASAYFA</a>
   </div>
 
   {{ content }}
 
   <div class="footer">
-
     <div class="contact">
       <p>
         <a href="http://github.com/isunion99/">github.com/isunion99</a><br />
@@ -52,6 +45,5 @@
     </div>
   </div>
 </div>
-
 </body>
 </html>
