@@ -3,47 +3,135 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
-  <meta name="title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="ikideniz" />
 
-  <!-- Twitter Card meta etiketleri -->
+  <!-- Dinamik Meta Etiketleri -->
+  {% assign page_title = page.title | default: site.title %}
+  {% assign page_description = page.description | default: site.description %}
+  {% assign page_image = page.image | default: site.image %}
+
+  <title>{{ page_title }}</title>
+  <meta name="title" content="{{ page_title }}">
+  <meta name="description" content="{{ page_description }}">
+
+  <!-- Twitter Card Meta Etiketleri -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}">
+  <meta name="twitter:title" content="{{ page_title }}">
+  <meta name="twitter:description" content="{{ page_description }}">
+  <meta name="twitter:image" content="{{ site.url }}{{ page_image }}">
   <meta name="twitter:url" content="{{ site.url }}">
 
-  <!-- Open Graph meta etiketleri -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}">
+  <!-- Open Graph Meta Etiketleri -->
+  <meta property="og:title" content="{{ page_title }}">
+  <meta property="og:description" content="{{ page_description }}">
+  <meta property="og:image" content="{{ site.url }}{{ page_image }}">
   <meta property="og:url" content="{{ site.url }}">
   <meta property="og:type" content="website">
 
-  <!-- Syntax highlighting CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" type="text/css" />
+  <!-- CSS Dosyaları -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+  <style>
+    /* Responsive Tasarım için Ek CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
 
-  <!-- Homepage CSS -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css" type="text/css" media="screen, projection" />
+    .site {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+
+    .site-header .title {
+      text-align: center;
+      padding: 16px 0;
+      background-color: #f4f4f4;
+    }
+
+    .site-header .title a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1.5rem;
+    }
+
+    .site-content img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 16px 0;
+    }
+
+    .site-footer {
+      text-align: center;
+      padding: 16px 0;
+      background-color: #f4f4f4;
+      margin-top: 32px;
+    }
+
+    .site-footer .contact a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .site-footer .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* Mobil Cihazlar için Stil */
+    @media (max-width: 767px) {
+      body {
+        font-size: 14px;
+      }
+
+      .site-header .title a {
+        font-size: 1.2rem;
+      }
+
+      .site-footer {
+        padding: 8px 0;
+      }
+    }
+
+    /* Tablet Cihazlar için Stil */
+    @media (min-width: 768px) and (max-width: 1023px) {
+      body {
+        font-size: 16px;
+      }
+    }
+
+    /* Masaüstü Cihazlar için Stil */
+    @media (min-width: 1024px) {
+      body {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-<div class="site">
-  <div class="title">
-    <a class="extra" href="{{ site.baseurl }}/">ANASAYFA</a>
-  </div>
+  <div class="site">
+    <header class="site-header">
+      <div class="title">
+        <a class="extra" href="{{ site.baseurl }}/">ANASAYFA</a>
+      </div>
+    </header>
 
-  {{ content }}
+    <main class="site-content">
+      {{ content }}
+    </main>
 
-  <div class="footer">
-    <div class="contact">
-      <p>
-        <a href="http://github.com/isunion99/">github.com/isunion99</a><br />
-        <a href="http://twitter.com/EaPbyai/">twitter.com/EaPbyai</a><br />
-      </p>
-    </div>
+    <footer class="site-footer">
+      <div class="contact">
+        <p>
+          <a href="http://twitter.com/EaPbyai/">twitter.com/EaPbyai</a><br />
+        </p>
+      </div>
+    </footer>
   </div>
-</div>
 </body>
 </html>
