@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="ikideniz" />
 
   <!-- Dinamik Meta Etiketleri -->
@@ -31,90 +31,47 @@
   <!-- CSS Dosyaları -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
-  <style>
-    /* Genel Stil */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      font-size: 1rem;
-      line-height: 1.6;
-    }
 
-    .site {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    .site-header .title {
-      text-align: center;
-      padding: 16px 0;
-      background-color: #f4f4f4;
-    }
-
-    .site-header .title a {
-      text-decoration: none;
-      color: #333;
-      font-size: 1.5rem;
-    }
-
-    .site-content img {
-      max-width: 100%; /* Resimlerin genişliği ekrana sığsın */
-      height: auto; /* Oranları koru */
-      display: block;
-      margin: 16px 0;
-    }
-
-    .site-footer {
-      text-align: center;
-      padding: 16px 0;
-      background-color: #f4f4f4;
-      margin-top: 32px;
-    }
-
-    .site-footer .contact a {
-      color: #333;
-      text-decoration: none;
-    }
-
-    .site-footer .contact a:hover {
-      text-decoration: underline;
-    }
-
-    /* Mobil Cihazlar için Stil */
-    @media (max-width: 767px) {
-      body {
-        font-size: 14px; /* Yazı boyutunu küçült */
+  <!-- Schema Markup (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ page_title }}",
+    "description": "{{ page_description }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}",
+      "url": "{{ site.url }}/yazar-profil"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/logo.png",
+        "width": 600,
+        "height": 60
       }
-
-      .site-header .title a {
-        font-size: 1.2rem; /* Başlık boyutunu küçült */
-      }
-
-      .site-content {
-        padding: 0 8px; /* İçerik kenar boşluklarını azalt */
-      }
-
-      .site-footer {
-        padding: 8px 0; /* Footer kenar boşluklarını azalt */
-      }
-    }
-
-    /* Tablet Cihazlar için Stil */
-    @media (min-width: 768px) and (max-width: 1023px) {
-      body {
-        font-size: 16px; /* Yazı boyutunu orta boyuta ayarla */
-      }
-    }
-
-    /* Masaüstü Cihazlar için Stil */
-    @media (min-width: 1024px) {
-      body {
-        font-size: 18px; /* Yazı boyutunu büyüt */
-      }
-    }
-  </style>
+    },
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | date_to_xmlschema | default: page.date | date_to_xmlschema }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ page_image }}",
+      "width": 1200,
+      "height": 630
+    },
+    "articleBody": "{{ content | strip_html | truncate: 500 }}",
+    "keywords": "{{ page.tags | join: ', ' }}",
+    "wordCount": "{{ content | number_of_words }}",
+    "inLanguage": "tr"
+  }
+  </script>
 </head>
 
 <body>
@@ -132,7 +89,6 @@
     <footer class="site-footer">
       <div class="contact">
         <p>
-          <a href="http://github.com/isunion99/">github.com/isunion99</a><br />
           <a href="http://twitter.com/EaPbyai/">twitter.com/EaPbyai</a><br />
         </p>
       </div>
