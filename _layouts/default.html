@@ -59,11 +59,17 @@
       font-size: 1.5rem;
     }
 
-    .site-content img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 16px 0;
+    .site-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .site-content .content-item {
+      flex: 1 1 300px; /* Esnek genişlik, minimum 300px */
+      background: #f4f4f4;
+      padding: 16px;
+      box-sizing: border-box;
     }
 
     .site-footer {
@@ -92,22 +98,16 @@
         font-size: 1.2rem;
       }
 
+      .site-content {
+        flex-direction: column; /* Yazıları alt alta sırala */
+      }
+
+      .site-content .content-item {
+        flex: 1 1 auto; /* Genişliği otomatik ayarla */
+      }
+
       .site-footer {
         padding: 8px 0;
-      }
-    }
-
-    /* Tablet Cihazlar için Stil */
-    @media (min-width: 768px) and (max-width: 1023px) {
-      body {
-        font-size: 16px;
-      }
-    }
-
-    /* Masaüstü Cihazlar için Stil */
-    @media (min-width: 1024px) {
-      body {
-        font-size: 18px;
       }
     }
   </style>
@@ -122,7 +122,9 @@
     </header>
 
     <main class="site-content">
-      {{ content }}
+      <div class="content-item">
+        {{ content }}
+      </div>
     </main>
 
     <footer class="site-footer">
