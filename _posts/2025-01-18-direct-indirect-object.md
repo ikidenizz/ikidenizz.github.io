@@ -3,10 +3,11 @@ layout: post
 title: "DOLAYLI NESNE"
 description: "Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifade eden kelime veya kelime gruplarıdır."
 date: 2025-01-18 11:00:00 +0300
+image: "/images/describing.jpg"
 lang: tr
 author: isunion99
-categories: [language]
-tags: [english]
+categories: "language"
+tags: "english"
 published: true
 ---
 
