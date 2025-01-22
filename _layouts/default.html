@@ -181,10 +181,10 @@
         <p>Bu sayfayı paylaş:</p>
         <a href="https://twitter.com/intent/tweet?text={{ page.description | url_escape }}&url={{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-twitter"></i> Twitter'da Paylaş
-        </a>
+        </a><br />
         <a href="https://bsky.app/intent/compose?text={{ page.description | url_encode }}%20{{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-external-link-alt"></i> Bluesky'de Paylaş
-        </a>
+        </a><br />
       </div>
     </main>
 
@@ -197,6 +197,9 @@
           </a><br />
           <a href="https://bsky.app/profile/uinion.bsky.social" target="_blank" rel="noopener noreferrer">
             <i class="fas fa-external-link-alt"></i> Bluesky (@uinion.bsky.social)
+          </a><br />
+          <a href="{{ "/feed.xml" | relative_url }}" title="RSS Feed" target="_blank" rel="noopener noreferrer">
+          <i class="fas fa-rss"></i>
           </a><br />
         </p>
       </div>
