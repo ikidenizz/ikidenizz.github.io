@@ -8,7 +8,7 @@ category: "Ekonomi"
 tags: "Ekonomi"
 ---
 
-![refah]({{ "/assets/images/refah.jpeg" | relative_url }})
+![refah]({{ "/images/refah.jpeg" | relative_url }})
 
 ### **Fahiş Fiyat Artışı ve Yerel Üretim-Tüketimin Önemi**  
 
