@@ -89,89 +89,120 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
   <style>
-    /* Genel Stil */
+  /* Genel Stil */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .site {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .site-header .title {
+    text-align: center;
+    padding: 16px 0;
+    background-color: #f4f4f4;
+  }
+
+  .site-header .title a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.5rem;
+  }
+
+  .site-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0; /* Resimlerin üstüne ve altına boşluk */
+  }
+
+  .site-footer {
+    text-align: center;
+    padding: 16px 0;
+    background-color: #f4f4f4;
+    margin-top: 32px;
+  }
+
+  .site-footer .contact a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .site-footer .contact a:hover {
+    text-decoration: underline;
+  }
+
+  /* Paragraflar ve Başlıklar Arası Boşluk */
+  p {
+    margin: 1em 0; /* Paragraflar arası boşluk */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5em; /* Başlıkların üstüne boşluk */
+    margin-bottom: 0.5em; /* Başlıkların altına boşluk */
+  }
+
+  li {
+    margin-bottom: 0.5em; /* Liste öğeleri arası boşluk */
+  }
+
+  /* Mobil Cihazlar için Stil */
+  @media (max-width: 767px) {
     body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      font-size: 1rem;
-      line-height: 1.6;
-    }
-
-    .site {
-      max-width: 1200px;
-      margin: 0 auto;
-      padding: 0 16px;
-    }
-
-    .site-header .title {
-      text-align: center;
-      padding: 16px 0;
-      background-color: #f4f4f4;
+      font-size: 14px;
     }
 
     .site-header .title a {
-      text-decoration: none;
-      color: #333;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
-    .site-content img {
-      max-width: 100%; /* Resimlerin genişliği ekrana sığsın */
-      height: auto; /* Oranları koru */
-      display: block;
-      margin: 16px 0;
+    .site-content {
+      padding: 0 8px;
     }
 
     .site-footer {
-      text-align: center;
-      padding: 16px 0;
-      background-color: #f4f4f4;
-      margin-top: 32px;
+      padding: 8px 0;
     }
 
-    .site-footer .contact a {
-      color: #333;
-      text-decoration: none;
+    p {
+      margin: 0.8em 0; /* Mobil cihazlarda paragraflar arası boşluk */
     }
 
-    .site-footer .contact a:hover {
-      text-decoration: underline;
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.2em; /* Mobil cihazlarda başlıkların üstüne boşluk */
+      margin-bottom: 0.4em; /* Mobil cihazlarda başlıkların altına boşluk */
     }
 
-    /* Mobil Cihazlar için Stil */
-    @media (max-width: 767px) {
-      body {
-        font-size: 14px; /* Yazı boyutunu küçült */
-      }
-
-      .site-header .title a {
-        font-size: 1.2rem; /* Başlık boyutunu küçült */
-      }
-
-      .site-content {
-        padding: 0 8px; /* İçerik kenar boşluklarını azalt */
-      }
-
-      .site-footer {
-        padding: 8px 0; /* Footer kenar boşluklarını azalt */
-      }
+    li {
+      margin-bottom: 0.4em; /* Mobil cihazlarda liste öğeleri arası boşluk */
     }
 
-    /* Tablet Cihazlar için Stil */
-    @media (min-width: 768px) and (max-width: 1023px) {
-      body {
-        font-size: 16px; /* Yazı boyutunu orta boyuta ayarla */
-      }
+    .site-content img {
+      margin: 0.8em 0; /* Mobil cihazlarda resimlerin üstüne ve altına boşluk */
     }
+  }
 
-    /* Masaüstü Cihazlar için Stil */
-    @media (min-width: 1024px) {
-      body {
-        font-size: 18px; /* Yazı boyutunu büyüt */
-      }
+  /* Tablet Cihazlar için Stil */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 16px;
     }
-  </style>
+  }
+
+  /* Masaüstü Cihazlar için Stil */
+  @media (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+  }
+</style>
 </head>
 
 <body>
