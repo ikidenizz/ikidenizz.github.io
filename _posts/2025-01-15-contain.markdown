@@ -24,8 +24,7 @@ lang: tr
    - Comprise 
    - Encompass 
    - Consist of 
-   - Incorporate   
- 
+   - Incorporate 
 
 ### 2. **Sınırlamak / kontrol altında tutmak (to restrain or control)** 
   Örnek: "The firefighters managed to contain the fire." 
@@ -35,7 +34,7 @@ lang: tr
    - Curb 
    - Limit 
    - Suppress 
-   - Confine   
+   - Confine 
  
 
 ### 3. **Duygularını bastırmak (to hold back emotions)** 
@@ -60,38 +59,45 @@ lang: tr
 
  
 
-### Hangi eşanlamlının kullanılacağı, bağlam ve cümlenin anlamına bağlıdır. Daha spesifik bir bağlam verirseniz, doğru eşanlamlıyı seçmede yardımcı olabilirim! 😊
+ Hangi eşanlamlının kullanılacağı, bağlam ve cümlenin anlamına bağlıdır. Daha spesifik bir bağlam verirseniz, doğru eşanlamlıyı seçmede yardımcı olabilirim! 😊
 
 
 **"To contain"** kelimesinin temel anlamı, farklı bağlamlarda değişebilen türevleriyle birlikte şu şekilde kaliteli bir şekilde açıklanabilir:
  
 
 ### **Temel Anlam** 
+
 **"To contain"**, bir şeyin *fiziksel olarak içinde bulundurulması*, *bir sınır içinde tutulması*, ya da *bir durumun kontrol altına alınması* gibi anlamları kapsar. Bu temel anlam, genellikle bir şeyin sınırlarını belirleme veya onu belirli bir alanda sınırlama fikrine dayanır. 
  
 ### **Bağlama Göre Anlamları** 
+
 1. **İçermek / Bulundurmak** 
+
   Bir şeyin fiziksel veya soyut olarak bir başka şeyin içinde bulunması veya ona dahil olması. 
   - *Örnek:* "This bottle contains water." (*Bu şişe su içeriyor.*) 
   - Tetikleyici bağlam: Nesneler, içerik ve bütünlük.
 
 2. **Sınırlamak / Kontrol Altına Almak** 
+
   Bir durumu, nesneyi veya duyguyu kontrol altında tutmak ya da yayılmasını engellemek. 
   - *Örnek:* "Efforts were made to contain the spread of the virus." (*Virüsün yayılması kontrol altına alınmaya çalışıldı.*) 
   - Tetikleyici bağlam: Kontrol, kısıtlama, kriz yönetimi.
 
 3. **Duyguları Bastırmak / Göstermemek** 
+
   Duygusal bir tepkiyi veya ifadeyi engellemek ya da sınırlandırmak. 
   - *Örnek:* "She tried to contain her laughter during the meeting." (*Toplantı sırasında gülmesini bastırmaya çalıştı.*) 
   - Tetikleyici bağlam: Duygusal kontrol, sosyal normlar.
 
 4. **Bir Alanı Çevrelemek veya Kapsamak** 
+
   Fiziksel bir alanın sınırlarını çizmek ya da bir şeyi çevrelemek. 
   - *Örnek:* "The garden is contained by high walls." (*Bahçe, yüksek duvarlarla çevrilidir.*) 
   - Tetikleyici bağlam: Alan, sınır, çevreleme.
  
 
 ### **Kaliteli ve Özetleyici Açıklama**
+
 "To contain," bir şeyin *içinde bulunmasını* veya *kontrol altında tutulmasını* ifade eden çok yönlü bir fiildir. Fiziksel, duygusal veya soyut düzeyde, bir şeyi bir sınır içinde tutmak ya da yayılmasını engellemek amacını taşır. Hem içeriği hem de sınırlandırmayı kapsayan bu kelime, farklı bağlamlarda çok işlevlidir. 
 
 Bu tür bir açıklama hem bağlamsal hem de kavramsal anlamlarını kaliteli bir şekilde ortaya koyar.
@@ -100,6 +106,7 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
  
 
 ### 1. **Contain**
+
 - **Temel Anlam:** Bir şeyin fiziksel veya soyut olarak sınırlar içinde tutulmasını ifade eder.
 - **Vurgu:** İçermek, çevrelemek veya yayılmayı önlemek.
 - **Bağlamlar:** 
@@ -108,7 +115,9 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
 - **Öne Çıkan Özellik:** Sınırları koruma veya kontrol altında tutma.
  
 
+ 
 ### 2. **Restrain**
+
 - **Temel Anlam:** Bir şeyi fiziksel veya duygusal olarak durdurmak ya da dizginlemek.
 - **Vurgu:** Fiziksel veya soyut bir şeyi zapt etme.
 - **Bağlamlar:** 
@@ -118,6 +127,7 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
  
 
 ### 3. **Control**
+
 - **Temel Anlam:** Bir şeyin düzenli, istenen bir şekilde işlemesini sağlamak.
 - **Vurgu:** Yönetim ve düzenleme.
 - **Bağlamlar:** 
@@ -127,6 +137,7 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
  
 
 ### 4. **Curb**
+
 - **Temel Anlam:** Bir şeyi azaltmak veya sınırlamak için önlem almak.
 - **Vurgu:** Sınırlama veya azaltma.
 - **Bağlamlar:** 
@@ -137,6 +148,7 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
  
 
 ### 5. **Limit**
+
 - **Temel Anlam:** Bir şeyin kapsamını, miktarını veya derecesini sınırlamak.
 - **Vurgu:** Sabit bir sınır koymak.
 - **Bağlamlar:** 
@@ -147,6 +159,7 @@ Elbette! **"To contain"** ve onun eşanlamlıları olan **restrain**, **control*
  
 
 ### 6. **Suppress**
+
 - **Temel Anlam:** Bir şeyi zorla bastırmak veya önlemek.
 - **Vurgu:** Kuvvetle engelleme veya yok etme.
 - **Bağlamlar:** 
