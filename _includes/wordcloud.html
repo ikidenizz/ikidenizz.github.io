@@ -1,39 +1,98 @@
-<div id="wordcloud" style="width: 800px; height: 600px;"></div>
-
 <script>
-  var fill = d3.scaleOrdinal(d3.schemeCategory10);
-
+  // Tag verilerini oluştur
   var words = [
     {% for tag in site.tags %}
       {text: "{{ tag[0] }}", size: {{ tag[1].size }} },
     {% endfor %}
   ];
 
-  d3.layout.cloud().size([800, 600])
+  // Frekansı normalize edelim (örneğin, en büyük frekansın 100 olmasına izin verelim)
+  var maxSize = Math.max(...words.map(d => d.size));
+  words = words.map(d => {
+    return { text: d.text, size: (d.size / maxSize) * 100 };
+  });
+</script>
+
+
+<div id="wordcloud"></div>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+<script>
+  var width = window.innerWidth * 0.8; // Sayfanın genişliğinin %80'i kadar
+  var height = window.innerHeight * 0.6; // Sayfanın yüksekliğinin %60'ı kadar
+
+  // Tag verilerini oluştur
+  var words = [
+    {% for tag in site.tags %}
+      {text: "{{ tag[0] }}", size: {{ tag[1].size }} },
+    {% endfor %}
+  ];
+
+  // Frekansı normalize edelim (örneğin, en büyük frekansın 100 olmasına izin verelim)
+  var maxSize = Math.max(...words.map(d => d.size));
+  words = words.map(d => {
+    return { text: d.text, size: (d.size / maxSize) * 100 };
+  });
+
+  // Kelime bulutunu oluşturalım
+  d3.layout.cloud().size([width, height])
     .words(words)
     .padding(5)
-    .rotate(function() { return ~~(Math.random() * 2) * 90; })
+    .rotate(0) // Yatay olarak sıralamak için rotasyonu 0'a ayarla
     .font("Impact")
-    .fontSize(function(d) { return d.size * 10; })
+    .fontSize(function(d) { return d.size; }) // Frekansa göre boyutu ayarla
     .on("end", draw)
     .start();
 
   function draw(words) {
-    d3.select("#wordcloud").append("svg")
-      .attr("width", 800)
-      .attr("height", 600)
+    var svg = d3.select("#wordcloud").append("svg")
+      .attr("width", width)
+      .attr("height", height)
       .append("g")
-      .attr("transform", "translate(400,300)")
-      .selectAll("text")
+      .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+    var text = svg.selectAll("text")
       .data(words)
       .enter().append("text")
-      .style("font-size", function(d) { return d.size * 10 + "px"; })
+      .style("font-size", function(d) { return d.size + "px"; })
       .style("font-family", "Impact")
-      .style("fill", function(d, i) { return fill(i); })
+      .style("fill", function(d, i) { return d3.schemeCategory10[i % 10]; })
       .attr("text-anchor", "middle")
       .attr("transform", function(d) {
-        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+        return "translate(" + [d.x, d.y] + ")";
       })
       .text(function(d) { return d.text; });
   }
 </script>
+
+<style>
+  #wordcloud svg {
+    width: 100%;
+    height: auto;
+  }
+
+  #wordcloud text {
+    cursor: pointer;
+  }
+
+  #wordcloud text:hover {
+    fill: red;
+  }
+
+  @media (max-width: 768px) {
+  #wordcloud svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) {
+  #wordcloud svg {
+    width: 80%;
+    height: auto;
+  }
+}
+
+</style>

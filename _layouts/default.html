@@ -14,13 +14,6 @@
   <meta name="title" content="{{ page_title }}">
   <meta name="description" content="{{ page_description }}">
 
-<!-- D3.js -->
-<script src="https://d3js.org/d3.v5.min.js"></script>
-<!-- D3 Cloud -->
-<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
  {% if page.description %}
   {% assign description = page.description %}
 {% else %}
@@ -39,11 +32,6 @@
 <meta name="twitter:title" content="{{ page.title | escape }}">
 <meta name="twitter:description" content="{{ description }}">
 <meta name="twitter:image" content="{{ page.image | absolute_url }}">
-
-
-
-
-
 
   <!-- Schema Markup -->
   <script type="application/ld+json">
