@@ -79,10 +79,4 @@ Hz. Peygamberimiz (sav.)’in Hz. Aişe (ranh.) ile evliliği, yalnızca tarihse
 Onların hayatı, Kur'an'ın getirdiği ahlaki ilkelerin ve insani değerlerin bir aynası olarak, Müslümanların hayatlarını şekillendirmeye devam etmektedir. Asıl mesele, bu örneklerden modern hayatımıza dersler çıkarabilmek ve Peygamber Efendimizin (sav.) ahlakını yaşamımıza taşımaktır.
 
  
-<h1>Share on Twitter</h1>
-<a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
 
-
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
