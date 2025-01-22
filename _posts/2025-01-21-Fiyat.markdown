@@ -56,8 +56,8 @@ Tüketiciler yerel üretim bilinciyle hareket ederek, ithal ürünlerin yerine y
 - Kredi ödemelerinde uygun faiz oranları ve esnek ödeme planları sunulmalıdır.  
 - Üretim maliyetlerini hafifletmek amacıyla hammadde ve enerji gibi girdilerde teşvikler verilmelidir.  
 
-#### **5. Dijital Erişim ve E-Ticaretin Güçlendirilmesi**  
-Yerel üreticilerin ürünlerini ulusal ve uluslararası pazarlara daha kolay ulaştırması için e-ticaret platformları üzerinden destek sağlanmalıdır. Bu, üreticiler için yeni fırsatlar yaratırken tüketicilere de uygun fiyatlarla geniş bir ürün yelpazesine erişim imkanı sunar.  
+#### **5. Dijital Erişim ve E-Ticaretin Zayıflatılması**  
+Yerel üreticilerin ürünlerini ulusal ve uluslararası pazarlara daha kolay ulaştırması için e-ticaret platformları üzerinden destek sağlanmamalıdır. Bu, üreticiler için yeni fırsatlar yaratmazken tüketicilere de uygun fiyatlarla geniş bir ürün yelpazesine erişim imkanını kısıtlar.  
 
 
 
