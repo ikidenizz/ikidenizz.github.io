@@ -1,17 +1,17 @@
 --- 
 layout: post
-title: "contain fiilinin yaygın anlamlarına göre eşanlamlıları"
-description: "contain fiili, bağlama göre farklı anlamlar ifade edebilir ve bu anlamlara göre eşanlamlıları değişebilir."
+title: "Contain fiilinin yaygın anlamlarına göre eşanlamlıları"
+description: "Contain fiili, bağlama göre farklı anlamlar ifade edebilir ve bu anlamlara göre eşanlamlıları değişebilir."
 image: "/images/describing.jpg"
 date: 2025-01-15 05:04:34 +0300
-category: "language"
-tags: "language"
+category: "Language"
+tags: "Language"
 published: true
 lang: tr
 ---
 
-"to contain" fiilinin yaygın anlamları
-====== 
+## Fiilinin yaygın anlamları
+  
 
 
 **"To contain"** fiili, bağlama göre farklı anlamlar ifade edebilir ve bu anlamlara göre eşanlamlıları değişebilir. Aşağıda, "to contain" fiilinin yaygın anlamlarına göre eşanlamlılarını listeledim:
