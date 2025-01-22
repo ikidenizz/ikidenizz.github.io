@@ -6,6 +6,8 @@ image: "/images/describing.jpg"
 date: 2025-01-21 05:04:34 +0300
 category: "Ekonomi"
 tags: "Ekonomi"
+published: true
+lang: tr
 ---
 
 ![refah]({{ "/images/refah.jpeg" | relative_url }})
