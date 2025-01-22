@@ -1,55 +1,44 @@
-<div id="search-container">
-  <input type="text" id="search-input" placeholder="Search..." aria-label="Search through site content">
-  <ul id="search-results"></ul>
-</div>
-
 <script>
-  // Verileri JSON formatına dönüştürme
-  var searchIndex = [];
-  {% for post in site.posts %}
-    searchIndex.push({
-      "title": "{{ post.title | escape }}",
-      "content": "{{ post.content | strip_html | escape }}",
-      "url": "{{ post.url | relative_url }}"
-    });
-  {% endfor %}
+  fetch('/include/search.json')
+    .then(response => response.json())
+    .then(searchIndex => {
+      // Lunr.js ile arama motorunu oluşturma
+      var idx = lunr(function () {
+        this.ref('title');
+        this.field('title');
+        this.field('content');
 
-  // Lunr.js ile arama motorunu oluşturma
-  var idx = lunr(function () {
-    this.ref('title'); // Arama sonuçlarını başlığa göre referans al
-    this.field('title');
-    this.field('content');
-
-    searchIndex.forEach(function (doc) {
-      this.add(doc);
-    }, this);
-  });
-
-  // Arama işlemi
-  document.getElementById('search-input').addEventListener('keyup', function() {
-    var query = this.value;
-    var results = idx.search(query).map(function(result) {
-      return searchIndex.find(function(post) {
-        return post.title === result.ref;
+        searchIndex.forEach(function (doc) {
+          this.add(doc);
+        }, this);
       });
-    });
 
-    var searchResults = document.getElementById('search-results');
-    searchResults.innerHTML = '';
+      // Arama işlemi
+      document.getElementById('search-input').addEventListener('keyup', function() {
+        var query = this.value;
+        var results = idx.search(query).map(function(result) {
+          return searchIndex.find(function(post) {
+            return post.title === result.ref;
+          });
+        });
 
-    if (results.length > 0) {
-      results.forEach(function(post) {
-        if (post) { // Eğer post tanımlıysa
-          var listItem = document.createElement('li');
-          var link = document.createElement('a');
-          link.href = post.url;
-          link.textContent = post.title;
-          listItem.appendChild(link);
-          searchResults.appendChild(listItem);
+        var searchResults = document.getElementById('search-results');
+        searchResults.innerHTML = '';
+
+        if (results.length > 0) {
+          results.forEach(function(post) {
+            if (post) {
+              var listItem = document.createElement('li');
+              var link = document.createElement('a');
+              link.href = post.url;
+              link.textContent = post.title;
+              listItem.appendChild(link);
+              searchResults.appendChild(listItem);
+            }
+          });
+        } else {
+          searchResults.innerHTML = '<li>No results found</li>';
         }
       });
-    } else {
-      searchResults.innerHTML = '<li>No results found</li>';
-    }
-  });
+    });
 </script>
