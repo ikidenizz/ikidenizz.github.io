@@ -3,11 +3,11 @@ layout: post
 title: "İngilizce İfadeler"
 description: "İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru Türkçe çevirilerini öğrenmek, İngilizce pratiği yaparken çok işinize yarayabilir."
 date: 2025-01-15 11:00:00 +0300
-lang: tr
-author: isunion99
-categories: [language]
-tags: [english]
+image: "/images/describing.jpg"
+category: "language"
+tags: "language"
 published: true
+lang: tr
 ---
 
 
