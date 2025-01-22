@@ -37,11 +37,5 @@ Trump's foreign policy legacy sparked important discussions and analyses on issu
 #### Conclusion
 Trump's foreign policy left deep impacts on the U.S. and the world. These impacts will play a significant role in shaping future foreign policy decisions. As the U.S. moves forward towards unity and healing under the Biden administration, the lessons from the Trump era will continue to influence the future of U.S. foreign policy.
 
-<h1>Share on Twitter</h1>
-
-
-<a href="https://twitter.com/intent/tweet?text={{ page.description | url_escape }}&url={{ site.url }}{{ page.url | url_escape }}" target="_blank">Share on Twitter</a>
-
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-    async src="//gc.zgo.at/count.js"></script>
+ 
+ 

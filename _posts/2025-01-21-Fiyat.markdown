@@ -69,11 +69,4 @@ Bu yönde atılacak adımlar, sadece bugünün sorunlarına çözüm olmakla kal
 
 Ekonomimize katkıda bulunmak, sağlıklı ve uygun fiyatlı ürünlere ulaşmak ve sürdürülebilir bir gelecek sağlamak için bugün yerel üretime ve tüketme yönelik bilinçli bir adım atmamız gerekmektedir.
 
- 
-<h1>Share on Twitter</h1>
-<a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
-
-
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+  
