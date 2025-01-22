@@ -24,7 +24,7 @@ lang: tr
    - Comprise 
    - Encompass 
    - Consist of 
-   - Incorporate 
+   - Incorporate   
  
 
 ### 2. **Sınırlamak / kontrol altında tutmak (to restrain or control)** 
@@ -35,7 +35,7 @@ lang: tr
    - Curb 
    - Limit 
    - Suppress 
-   - Confine 
+   - Confine   
  
 
 ### 3. **Duygularını bastırmak (to hold back emotions)** 
