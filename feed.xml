@@ -4,34 +4,30 @@ permalink: /feed.xml
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>{{ site.title }}</title>
-        <description>{{ site.description }}</description>
-        <link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+        <title>{{ site.title | xml_escape }}</title>
+        <description>{{ site.description | xml_escape }}</description>
+        <link>{{ site.url }}{{ site.baseurl }}/</link>
+        <atom:link href="{{ "/feed.xml" | absolute_url }}" rel="self" type="application/rss+xml"/>
         <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-        <generator>Jekyll</generator>
+        <generator>Jekyll v{{ jekyll.version }}</generator>
 
         <!-- _config.yml'deki Resmi Kullanma -->
         <image>
-            <url>{{ site.url }}{{ site.image }}</url>
+            <url>{{ site.url }}{{ page.image }}</url>
             <title>{{ site.title }}</title>
             <link>{{ site.url }}</link>
         </image>
 
         {% for post in site.posts limit:10 %}
         <item>
-            <title>{{ post.title }}</title>
-            <description>{{ post.content | strip_html | truncate: 200 }}</description>
+            <title>{{ post.title | xml_escape }}</title>
+            <description>{{ post.content | xml_escape }}</description>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <link>{{ site.url }}{{ post.url }}</link>
-            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
-            <!-- Gönderiye Özel Resim -->
-            {% if post.image %}
-            <media:content url="{{ site.url }}{{ post.image }}" medium="image" type="image/jpeg" />
-            {% endif %}
+            <link>{{ post.url | absolute_url }}</link>
+            <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
         </item>
         {% endfor %}
     </channel>
