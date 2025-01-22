@@ -133,12 +133,19 @@
   .site-footer .contact a {
     color: #333;
     text-decoration: none;
+    font-size: 1.2rem;
   }
 
   .site-footer .contact a:hover {
+    color: #0077b5;
     text-decoration: underline;
   }
 
+  .site-footer .contact p {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
   /* Paragraflar ve Başlıklar Arası Boşluk */
   p {
     margin: 1em 0; /* Paragraflar arası boşluk */
@@ -230,20 +237,20 @@
 
 
 <footer class="site-footer">
-      <div class="contact">
-        <p>
-          <a href="http://twitter.com/EaPbyai/" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-twitter"></i> Twitter
-          </a><br />
-          <a href="https://bsky.app/profile/uinion.bsky.social" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-external-link-alt"></i> Bluesky (@uinion.bsky.social)
-          </a><br />
-          <a href="{{ "/feed.xml" | relative_url }}" title="RSS Feed" target="_blank" rel="noopener noreferrer">
-          <i class="fas fa-rss"></i>
-          </a><br />
-        </p>
-      </div>
-    </footer>
+  <div class="contact">
+    <p>
+      <a href="http://twitter.com/EaPbyai/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://bsky.app/profile/uinion.bsky.social" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-external-link-alt"></i>
+      </a>
+      <a href="{{ "/feed.xml" | relative_url }}" title="RSS Feed" target="_blank" rel="noopener noreferrer">
+        <i class="fas fa-rss"></i>
+      </a>
+    </p>
+  </div>
+</footer>
   </div>
 
   <!-- GoatCounter Script -->
