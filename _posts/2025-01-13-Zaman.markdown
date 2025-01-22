@@ -82,7 +82,3 @@ Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalı
 - **Genel Görelilik:** Güçlü kütleçekim alanlarında zaman yavaşlar.
 - Bu fenomen, deneylerle defalarca doğrulanmış bir fizik gerçeğidir ve evrenin yapısını anlamamız için temel bir rol oynar.
 
-
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>

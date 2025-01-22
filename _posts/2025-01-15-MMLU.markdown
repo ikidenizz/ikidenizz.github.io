@@ -34,9 +34,4 @@ MMLU, büyük dil modellerinin çoklu görevlerde ne kadar başarılı olduğunu
 
 Sonuç olarak, MMLU, bir dil modelinin "genel dil anlayışı" kabiliyetini test etmek ve değerlendirmek için geniş kapsamlı ve zorlu bir benchmark setidir.
  
-
-<h1>Share on Twitter</h1>
-<a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+ 

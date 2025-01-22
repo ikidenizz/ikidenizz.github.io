@@ -295,17 +295,6 @@ Bu fiiller, "contributions" kelimesi ile birlikte kullanıldığında, katkını
 
 
 
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
-
-
-
-
-
-
-
-
 
 
 

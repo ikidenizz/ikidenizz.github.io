@@ -22,13 +22,4 @@ Bu söz, Allah’ın, insanları hidayet yolunda bırakmadığını, onlara doğ
 **SONUÇ OLARAK**
 
 Yani, bu ifade, Allah’ın merhameti ve adaletinin bir göstergesi olarak, insanların doğru yolda ilerlemeleri için gerekli olan bilgi ve rehberliğin her zaman mevcut olduğunu anlatır. Bu da inananlar için umut verici bir mesajdır.
-
-
  
-<h1>Resim Paylaşımı</h1>
-<p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
-<a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
-
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>

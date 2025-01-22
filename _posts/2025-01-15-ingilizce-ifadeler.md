@@ -74,14 +74,4 @@ published: true
 ### **Sonuç**
 Bu ifadeleri günlük hayattaki İngilizce diyaloglarınızda kullanabilirsiniz. Düzgün ve doğru ifadelerle iletişim kurmak her zaman önemlidir. Daha fazla ifade için blogumuzu takipte kalın!
 
-
-
-<h1>Resim Paylaşımı</h1>
-<p>Bu resmi Twitter'da paylaşmak için aşağıdaki bağlantıya tıklayın:</p>
-<a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
-
-
-
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-    async src="//gc.zgo.at/count.js"></script>
+ 
