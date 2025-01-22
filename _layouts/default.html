@@ -182,7 +182,7 @@
         <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-twitter"></i> Twitter'da Paylaş
         </a>
-        <a href="https://bsky.app/intent/compose?text=Check%20out%20this%20page:%20{{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer">
+        <a href="https://bsky.app/intent/compose?text={{ page.description | url_encode }}%20{{ site.url }}{{ page.url | url_encode }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-external-link-alt"></i> Bluesky'de Paylaş
         </a>
       </div>
