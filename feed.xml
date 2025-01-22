@@ -4,7 +4,7 @@ permalink: /feed.xml
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <channel>
         <title>{{ site.title }}</title>
         <description>{{ site.description }}</description>
@@ -14,6 +14,13 @@ permalink: /feed.xml
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         <generator>Jekyll</generator>
 
+        <!-- _config.yml'deki Resmi Kullanma -->
+        <image>
+            <url>{{ site.url }}{{ site.image }}</url>
+            <title>{{ site.title }}</title>
+            <link>{{ site.url }}</link>
+        </image>
+
         {% for post in site.posts limit:10 %}
         <item>
             <title>{{ post.title }}</title>
@@ -21,6 +28,10 @@ permalink: /feed.xml
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
             <link>{{ site.url }}{{ post.url }}</link>
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <!-- Gönderiye Özel Resim -->
+            {% if post.image %}
+            <media:content url="{{ site.url }}{{ post.image }}" medium="image" type="image/jpeg" />
+            {% endif %}
         </item>
         {% endfor %}
     </channel>
