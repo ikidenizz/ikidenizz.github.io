@@ -179,7 +179,7 @@
       <!-- Paylaşım Butonları -->
       <div class="social-share">
         <p>Bu sayfayı paylaş:</p>
-        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer">
+        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.description }}" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-twitter"></i> Twitter'da Paylaş
         </a>
         <a href="https://bsky.app/intent/compose?text={{ page.description | url_encode }}%20{{ site.url }}{{ page.url | url_encode }}" target="_blank" rel="noopener noreferrer">
