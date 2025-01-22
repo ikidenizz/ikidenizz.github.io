@@ -18,19 +18,28 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-  <!-- Twitter Card Meta Etiketleri -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page_title }}">
-  <meta name="twitter:description" content="{{ page_description }}">
-  <meta name="twitter:image" content="{{ site.url }}{{ page_image }}">
-  <meta name="twitter:url" content="{{ site.url }}">
+ {% if page.description %}
+  {% assign description = page.description %}
+{% else %}
+  {% assign description = page.excerpt | strip_html | truncate: 160 %}
+{% endif %}
 
-  <!-- Open Graph Meta Etiketleri -->
-  <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:description" content="{{ page_description }}">
-  <meta property="og:image" content="{{ site.url }}{{ page_image }}">
-  <meta property="og:url" content="{{ site.url }}">
-  <meta property="og:type" content="website">
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:image" content="{{ page.image | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="article">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+
+
+
+
 
 
   <!-- Schema Markup -->
