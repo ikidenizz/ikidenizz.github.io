@@ -5,7 +5,9 @@ description: "contain fiili, bağlama göre farklı anlamlar ifade edebilir ve b
 image: "/images/describing.jpg"
 date: 2025-01-15 05:04:34 +0300
 category: "language"
-tags: ["english", "translation", "turkish"]
+tags: "language"
+published: true
+lang: tr
 ---
 
 "to contain" fiilinin yaygın anlamları
