@@ -16,18 +16,19 @@ permalink: /feed.xml
 
         <!-- _config.yml'deki Resmi Kullanma -->
         <image>
-            <url>{{ site.url }}{{ page.image }}</url>
+            <url>{{ site.url }}{{ post.image }}</url>
             <title>{{ site.title }}</title>
             <link>{{ site.url }}</link>
         </image>
 
         {% for post in site.posts limit:10 %}
         <item>
-            <title>{{ post.title | xml_escape }}</title>
-            <description>{{ post.content | xml_escape }}</description>
+            <title>{{ post.title }}</title>
+            <description>{{ post.content | strip_html | truncate: 200 }}</description>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <link>{{ post.url | absolute_url }}</link>
-            <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+            <link>{{ site.url }}{{ post.url }}</link>
+            <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <enclosure url="{{ site.url }}{{ post.image }}" length="0" type="image/jpeg" />
         </item>
         {% endfor %}
     </channel>
