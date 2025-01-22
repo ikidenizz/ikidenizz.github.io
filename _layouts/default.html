@@ -175,6 +175,20 @@
 
     <main class="site-content">
       {{ content }}
+
+      <!-- Paylaşım Butonları -->
+      <div class="social-share">
+        <p>Bu sayfayı paylaş:</p>
+        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page_title }}" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-twitter"></i> Twitter'da Paylaş
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-facebook"></i> Facebook'ta Paylaş
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page_title }}&summary={{ page_description }}" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i> LinkedIn'de Paylaş
+        </a>
+      </div>
     </main>
 
 <footer class="site-footer">
