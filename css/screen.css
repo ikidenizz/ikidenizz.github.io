@@ -33,7 +33,7 @@ h1 {
 }
 
 p {
-  margin-bottom: 1.5em; /* Paragraflar arası boşluk */
+  margin: 1em 0 1.5em 0; /* Paragrafların altına boşluk ekler */
 }
 
 li {
