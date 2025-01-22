@@ -1,0 +1,283 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="ikideniz" />
+
+  <!-- Dinamik Meta Etiketleri -->
+  {% assign page_title = page.title | default: site.title %}
+  {% assign page_description = page.description | default: site.description %}
+  {% assign page_image = page.image | default: site.image %}
+
+  <title>{{ page_title }}</title>
+  <meta name="title" content="{{ page_title }}">
+  <meta name="description" content="{{ page_description }}">
+
+ {% if page.description %}
+  {% assign description = page.description %}
+{% else %}
+  {% assign description = page.excerpt | strip_html | truncate: 160 %}
+{% endif %}
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="{{ page.title | escape }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:image" content="{{ page.image | absolute_url }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="article">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title | escape }}">
+<meta name="twitter:description" content="{{ description }}">
+<meta name="twitter:image" content="{{ page.image | absolute_url }}">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author }}",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/images/logo.png",
+      "width": 600,
+      "height": 60
+    }
+  },
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  },
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ site.url }}{{ page.image }}",
+    "width": 1200,
+    "height": 630
+  },
+  "articleBody": "{{ content | strip_html | truncate: 500 }}",
+  "keywords": "{{ page.tags | join: ', ' }}",
+  "wordCount": "{{ content | number_of_words }}",
+  "inLanguage": "tr"
+}
+</script>
+
+<script src="https://cdn.jsdelivr.net/lunr/2.3.8/lunr.min.js"></script>
+
+  <!-- CSS Dosyaları -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
+
+
+  <style>
+/* Genel Stil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Paylaşım Butonları Stili */
+.social-share {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.social-share p {
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+  color: #333;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em; /* Butonlar arasında boşluk */
+}
+
+.share-buttons a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75em 1.5em;
+  background-color: #0077b5; /* Buton arka plan rengi */
+  color: white; /* Buton metin rengi */
+  text-decoration: none;
+  border-radius: 5px; /* Köşeleri yuvarlak yap */
+  font-size: 1rem;
+  transition: background-color 0.3s ease; /* Renk geçiş efekti */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.share-buttons a:hover {
+  background-color: #005f8b; /* Fare üzerine gelindiğinde renk değişimi */
+}
+
+.share-buttons a i {
+  margin-right: 0.5em; /* İkon ile metin arasında boşluk */
+}
+
+.share-buttons a[href*="twitter"] {
+  background-color: #1da1f2; /* Twitter rengi */
+}
+
+.share-buttons a[href*="bluesky"] {
+  background-color: #0077b5; /* Bluesky rengi */
+}
+
+.site {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.site-header .title {
+  text-align: center;
+  padding: 16px 0;
+  background-color: #f4f4f4;
+}
+
+.site-header .title a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.site-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em 0; /* Resimlerin üstüne ve altına boşluk */
+}
+
+.site-footer {
+  text-align: center;
+  padding: 16px 0;
+  background-color: #f4f4f4;
+  margin-top: 32px;
+}
+
+.site-footer .contact a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.site-footer .contact a:hover {
+  color: #0077b5;
+  text-decoration: underline;
+}
+
+.site-footer .contact p {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* Paragraflar ve Başlıklar Arası Boşluk */
+p {
+  margin: 1em 0; /* Paragraflar arası boşluk */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.5em; /* Başlıkların üstüne boşluk */
+  margin-bottom: 0.5em; /* Başlıkların altına boşluk */
+}
+
+li {
+  margin-bottom: 0.5em; /* Liste öğeleri arası boşluk */
+}
+
+/* Mobil Cihazlar için Stil */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  .site-header .title a {
+    font-size: 1.2rem;
+  }
+
+  .site-content {
+    padding: 0 8px;
+  }
+
+  .site-footer {
+    padding: 8px 0;
+  }
+
+  p {
+    margin: 0.8em 0; /* Mobil cihazlarda paragraflar arası boşluk */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.2em; /* Mobil cihazlarda başlıkların üstüne boşluk */
+    margin-bottom: 0.4em; /* Mobil cihazlarda başlıkların altına boşluk */
+  }
+
+  li {
+    margin-bottom: 0.4em; /* Mobil cihazlarda liste öğeleri arası boşluk */
+  }
+
+  .site-content img {
+    margin: 0.8em 0; /* Mobil cihazlarda resimlerin üstüne ve altına boşluk */
+  }
+}
+
+/* Tablet Cihazlar için Stil */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Masaüstü Cihazlar için Stil */
+@media (min-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Arama Kutusu Stili */
+#search-container {
+  margin: 20px 0;
+}
+
+#search-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#search-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#search-container li {
+  margin: 10px 0;
+}
+
+#search-container a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+#search-container a:hover {
+  text-decoration: underline;
+}
+</style>
+</head>
