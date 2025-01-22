@@ -34,10 +34,3 @@ Dhimmi Status and Jim Crow Laws
 When discussing these topics, it's more constructive to try to understand historical events within their context rather than judging them by today's standards. This allows us to learn from history while ensuring we don't repeat past mistakes. Understanding and interpreting history accurately is crucial for preventing the recurrence of discriminatory practices.
 
  
-<h1>Share on Twitter</h1>
-<a href="https://twitter.com/intent/tweet?text={{ page.description | url_encode }}&url={{ site.url }}{{ page.url }}" target="_blank">Share on Twitter</a>
-
-
-
-<script data-goatcounter="https://gg123.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
