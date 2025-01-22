@@ -14,12 +14,6 @@ permalink: /feed.xml
         <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
         <generator>Jekyll v{{ jekyll.version }}</generator>
 
-        <!-- _config.yml'deki Resmi Kullanma -->
-        <image>
-            <url>{{ site.url }}{{ post.image }}</url>
-            <title>{{ site.title }}</title>
-            <link>{{ site.url }}</link>
-        </image>
 
         {% for post in site.posts limit:10 %}
         <item>
