@@ -24,6 +24,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
+  margin-top: 20px; /* Başlıkların üstüne boşluk ekler */
+
 }
 
 h1 {
@@ -31,7 +33,7 @@ h1 {
 }
 
 p {
-  margin: 1em 0;
+  margin: 1em 0 1.5em 0; /* Paragrafların altına boşluk ekler */
 }
 
 a {
