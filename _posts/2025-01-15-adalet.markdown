@@ -4,8 +4,8 @@ title: "Adalet"
 description: "Bu yazıda adalet, demokrasi, eğitim ve laiklik konularını ele alıyoruz."
 image: "/assets/images/Adalet.png"
 date: 2025-01-13 05:04:34 +0300
-categories: "politika"
-tags: [Adalet]
+categories: "Politika"
+tags: "Politika"
 ---
  
 

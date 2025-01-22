@@ -4,8 +4,8 @@ title: "MMLU"
 description: "MMLU, bir modelin çeşitli görevlerdeki genel dil anlama yeteneğini test etmek amacıyla oluşturulmuş bir test kümesidir."
 image: "/images/describing.jpg"
 date: 2025-01-14 05:04:34 +0300
-category: "NLP"
-tags: [MMLU, NLP, Veri]
+category: "Veri"
+tags: "Veri"
 ---
 
 MMLU

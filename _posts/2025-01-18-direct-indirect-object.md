@@ -7,7 +7,7 @@ image: "/images/describing.jpg"
 lang: tr
 author: isunion99
 categories: "language"
-tags: "english"
+tags: "language"
 published: true
 ---
 
