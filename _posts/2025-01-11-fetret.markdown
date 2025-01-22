@@ -4,8 +4,8 @@ title: "fetret"
 description: "Allah yeryüzünde fetret bırakmaz"
 image: "/images/describing.jpg"
 date: 2025-01-11 05:04:34 +0300
-category: "İMAN"
-tags: "İMAN"
+category: "İman"
+tags: "İman"
 ---
 
 'Allah yeryüzünde fetret bırakmaz'

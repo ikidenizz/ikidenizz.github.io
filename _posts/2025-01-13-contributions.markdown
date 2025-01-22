@@ -4,8 +4,8 @@ title: "contributions"
 description: "contributions bağlama göre kullanılan en yaygın eşanlamlıları"
 image: "/images/describing.jpg"
 date: 2025-01-13 05:04:34 +0300
-category: "language"
-tags: "language"
+category: "Language"
+tags: "Language"
 ---
 
 

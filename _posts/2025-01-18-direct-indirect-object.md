@@ -1,18 +1,18 @@
 ---
 layout: post
-title: "DOLAYLI NESNE"
+title: "Doğrudan nesne, bir eylemin doğrudan etkilediği nesne"
 description: "Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifade eden kelime veya kelime gruplarıdır."
 date: 2025-01-18 11:00:00 +0300
 image: "/images/describing.jpg"
 lang: tr
 author: isunion99
-categories: "language"
-tags: "language"
+categories: "Language"
+tags: "Language"
 published: true
 ---
 
- **indirect object** (dolaylı nesne) ve **direct object** (doğrudan nesne)
-====== 
+## **indirect object ve direct object**
+ 
 
 
 Doğrudan nesne, bir eylemin doğrudan etkilediği nesneyi ifade eder. 
