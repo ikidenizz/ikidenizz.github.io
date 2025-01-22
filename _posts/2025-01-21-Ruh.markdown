@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruh Açlığı"
-description: "Bugün toplumda yaygınlaşan 'bölüşmüş ateizm' ya da 'sıvı ateizmi', Tanrı'nın varlığına yönelik herhangi bir derin düşünce veya endişenin artık olmadığı bir durumu yansıtır. "
+description: "Toplumun ruhsal açlığını görmezden gelmek, onu derinlikle anlamaktan uzaklaştırır."
 image: "/images/Image-ateizm.jpeg"
 date: 2025-01-21 05:04:34 +0300
 category: "Felsefe"
