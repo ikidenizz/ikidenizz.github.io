@@ -3,7 +3,7 @@ layout: post
 title: "Trump's Foreign Policy and Its Impact"
 description: "Donald Trump's foreign policy was characterized by unpredictability, isolationism, and confrontation, leaving lasting impacts on the U.S. and the world."
 date: 2025-01-19 11:00:01 +0300
-image: "/images/describing.jpg"
+image: "/images/Trump.jpeg"
 lang: en
 author: isunion99
 categories: "Policy"
@@ -11,7 +11,7 @@ tags: "Policy"
 published: true
 ---
 
-
+![refah]({{ "/images/Trump.jpeg" | relative_url }})
 ### Trump's Foreign Policy and Its Impact
 
 #### Introduction
