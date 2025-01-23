@@ -1,40 +1,47 @@
+# Gemfile
 source "https://rubygems.org"
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+
+# Jekyll sürümünü yönetmek için burası kullanılır.
+# Farklı bir sürüm kullanmak isterseniz, aşağıdaki satırı değiştirin,
+# dosyayı kaydedin ve `bundle install` komutunu çalıştırın. Jekyll'i çalıştırmak için:
 #
 #     bundle exec jekyll serve
 #
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
+# Bu, doğru Jekyll sürümünün çalıştığından emin olmanıza yardımcı olacaktır.
 gem "jekyll", "~> 4.3.4"
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
+
+# Varsayılan tema. İstediğiniz herhangi bir tema ile değiştirebilirsiniz.
 gem "minima", "~> 2.5"
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
+
+# GitHub Pages kullanmak istiyorsanız, aşağıdaki satırı açabilirsiniz.
+# Ancak, bu durumda `gem "jekyll"` satırını yorum satırı yapmalısınız.
+# `bundle update github-pages` komutu ile güncelleme yapabilirsiniz.
 # gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
+
+# Jekyll eklentileri için gruplandırma
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-sitemap' # Sitemap oluşturmak için gerekli gem
+  # Diğer eklentiler buraya eklenebilir
 end
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
+# Windows ve JRuby'de zoneinfo dosyaları bulunmadığından, bu platformlarda
+# `tzinfo-data` gem'ini yükleyin.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
+# Performans artışı için Windows'ta dizinleri izlemek üzere `wdm` gem'ini yükleyin.
+gem "wdm", "~> 0.1", platforms: [:mingw, :x64_mingw, :mswin]
 
-# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
-# do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+# JRuby için `http_parser.rb` gem'ini `v0.6.x` sürümüne kilitleyin,
+# çünkü yeni sürümler Java karşılığına sahip değildir.
+gem "http_parser.rb", "~> 0.6.0", platforms: [:jruby]
 
-
-source 'https://rubygems.org'
-
+# Standart Ruby kütüphaneleri (logger, csv, base64, ostruct, erb)
+# Bu kütüphaneler genellikle Ruby'nin varsayılan olarak dahil ettiği kütüphanelerdir.
+# Ekstra olarak eklemenize gerek yoktur ancak eklerseniz hiçbir zarar vermez.
 gem 'logger'
 gem 'csv'
 gem 'base64'
