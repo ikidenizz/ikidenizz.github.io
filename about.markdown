@@ -4,3 +4,4 @@ title: About
 permalink: /about/
 ---
 
+[Anasayfaya dön]({{ site.url }})
