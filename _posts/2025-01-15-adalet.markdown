@@ -1,17 +1,19 @@
 ---
 layout: post
-title: "Adalet"
+title: "Adalet, Demokrasi, Eğitim, Laiklik"
 description: "Bu yazıda adalet, demokrasi, eğitim ve laiklik konularını ele alıyoruz."
-image: "/assets/images/Adalet.png"
+image: "/images/Adalet.png"
 date: 2025-01-13 05:04:34 +0300
 categories: "Politika"
 tags: "Politika"
+published: true
+lang: tr
 ---
  
 
+![Adalet, Demokrasi, Eğitim, Laiklik]({{ "/images/Adalet.png" | relative_url }})
 
 <!-- Resmin sayfada görünmesi için -->
-<img src="{{ site.url }}/assets/images/Adalet.png" alt="Adalet, Demokrasi, Eğitim, Laiklik" /> 
  
   
  
