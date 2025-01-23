@@ -2,8 +2,10 @@
 <html lang="{% if page.lang == 'en' %}en{% elsif page.lang == 'tr' %}tr{% else %}tr{% endif %}">
 <head>
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="ikideniz" />
+
   <!-- Dinamik Meta Etiketleri -->
   {% assign page_title = page.title | default: site.title %}
   {% assign page_description = page.description | default: site.description %}
@@ -11,22 +13,26 @@
   <title>{{ page_title }}</title>
   <meta name="title" content="{{ page_title }}">
   <meta name="description" content="{{ page_description }}">
+
   {% if page.description %}
     {% assign description = page.description %}
   {% else %}
     {% assign description = page.excerpt | strip_html | truncate: 160 %}
   {% endif %}
+
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="{{ page.title | escape }}">
   <meta property="og:description" content="{{ description }}">
-  <meta property="og:image" content="{{ page.image | absolute_url }}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="article">
+
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page.title | escape }}">
   <meta name="twitter:description" content="{{ description }}">
-  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}">
+
   <!-- Schema Markup -->
   <script type="application/ld+json">
   {
@@ -57,7 +63,7 @@
     },
     "image": {
       "@type": "ImageObject",
-      "url": "{{ site.url }}{{ page.image }}",
+      "url": "{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}{{ site.image }}{% endif %}",
       "width": 1200,
       "height": 630
     },
@@ -67,7 +73,6 @@
     "inLanguage": "{% if page.lang == 'en' %}en{% elsif page.lang == 'tr' %}tr{% else %}tr{% endif %}"
   }
   </script>
-
   <!-- CSS Dosyaları -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
