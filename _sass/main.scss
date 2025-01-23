@@ -7,6 +7,27 @@ body {
     line-height: 1.6;
 }
 
+/* Listelerin Madde İşaretlerini Kaldırma */
+ul {
+    list-style-type: none; /* Madde işaretlerini kaldır */
+    padding: 0; /* Liste içeriğiyle arasındaki boşlukları kaldır */
+    margin: 0; /* Liste üst ve altındaki boşlukları kaldır */
+}
+
+li {
+    margin-bottom: 1em; /* Liste öğeleri arası boşluk */
+}
+
+/* Yazı Çerçevesi Stili */
+.frame {
+    border: 2px solid #333; /* Çerçevenin kenarlık rengi */
+    padding: 16px; /* İçeriğin çerçeveyle arasındaki boşluk */
+    margin: 20px 0; /* Çerçevenin üst ve altındaki boşluk */
+    background-color: #f9f9f9; /* Çerçevenin arka plan rengi */
+    border-radius: 8px; /* Kenarların yuvarlatılması */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
 /* Paylaşım Butonları Stili */
 .social-share {
     text-align: center;
@@ -113,9 +134,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em; /* Başlıkların altına boşluk */
 }
 
-li {
-    margin-bottom: 0.5em; /* Liste öğeleri arası boşluk */
-}
 
 /* Mobil Cihazlar için Stil */
 @media (max-width: 767px) {
@@ -160,12 +178,4 @@ li {
     }
 }
 
-/* Yazı Çerçevesi Stili */
-.frame {
-    border: 2px solid #333; /* Çerçevenin kenarlık rengi */
-    padding: 16px; /* İçeriğin çerçeveyle arasındaki boşluk */
-    margin: 20px 0; /* Çerçevenin üst ve altındaki boşluk */
-    background-color: #f9f9f9; /* Çerçevenin arka plan rengi */
-    border-radius: 8px; /* Kenarların yuvarlatılması */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
-}
+
