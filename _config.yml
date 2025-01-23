@@ -43,3 +43,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+  # Dil Ayarları
+lang: tr
+languages:
+  en: English
+  tr: Türkçe
