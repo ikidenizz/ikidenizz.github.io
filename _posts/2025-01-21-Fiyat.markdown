@@ -9,7 +9,7 @@ tags: "Ekonomi"
 published: true
 lang: tr
 redirect_from:
-  - /ekonomi/2025/01/21/Fiyat.html
+  - https://ikidenizz.github.io/ekonomi/2025/01/21/Fiyat.html
 ---
 
 ![refah]({{ "/images/refah.jpeg" | relative_url }})
