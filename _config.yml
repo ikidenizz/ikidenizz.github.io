@@ -12,7 +12,8 @@ image: "/images/describing.jpg"
 # URL yapısı
 permalink: /:title/
 
-
+sass:
+  style: compressed # CSS sıkıştırma stilini seçin (compressed, expanded, etc.)
 
 # Build settings
 markdown: kramdown
