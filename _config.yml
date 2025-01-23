@@ -1,25 +1,26 @@
 
-markdown: kramdown
+# _config.yml
 title: ikideniz
 email: union2030@proton.me
-description: Güncel blog yazıları
-
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ikidenizz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+description: İki denizin birleştiği yerde Güncel blog yazıları
+baseurl: ""
+url: "https://ikidenizz.github.io"
 twitter_username: EaPbyai
 github_username:  isunion99
 image: "/images/describing.jpg"
 
-# _config.yml
+# URL yapısı
 permalink: /:title/
 
+
+
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-sitemap
-
+  - jekyll-seo-tag
 
 minima:
   social_links:
@@ -29,3 +30,15 @@ minima:
 
 header_pages:
   - about.md
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
