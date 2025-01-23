@@ -16,3 +16,7 @@ published: true
 
 
 Israel is home to 2 million Muslims who have the freedom to practice their religion peacefully. While all citizens benefit from this freedom, any form of violence or harm violates the principles upon which such freedoms are built.
+
+<div class="frame">
+  <p>Modesty and chastity are values we hold dear in our faith. It’s concerning to see societal norms that conflict with these principles, especially when it comes to the influence on younger generations. As Muslims, we strive to live with dignity and respect, and it’s challenging to reconcile these values in a society that has taken so much from us. Let’s reflect on how we can foster mutual understanding and coexistence.</p>
+</div>
