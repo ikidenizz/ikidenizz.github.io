@@ -4,8 +4,11 @@ title: "Safra Ateizmi"
 description: "Safra Ateizmi ve Ateist Düşüncenin Çeşitli Yönleri"
 image: "/images/describing.jpg"
 date: 2025-01-22 05:04:34 +0300
-category: "Ateizm"
-tags: "Ateizm"
+category: [Ateizm]
+tags: [Ateizm] 
+lang: tr
+author: isunion99
+published: true
 ---
 
  
