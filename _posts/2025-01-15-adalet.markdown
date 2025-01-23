@@ -2,10 +2,10 @@
 layout: post
 title: "Adalet, Demokrasi, Eğitim, Laiklik"
 description: "Bu yazıda adalet, demokrasi, eğitim ve laiklik konularını ele alıyoruz."
-image: "/images/Adalet.png"
+image: /images/Adalet.png
 date: 2025-01-13 05:04:34 +0300
 categories: "Politika"
-tags: "Politika"
+tags: [Adalet, Demokrasi, Laiklik]
 published: true
 lang: tr
 ---
