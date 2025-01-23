@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Peygamber Efendimiz Hz. Muhammed (sav.) ve Hz. Aişe (ranh.)’nin Evliliği"
-description: "Peygamber Efendimiz Hz. Muhammed (sav.) ve Hz. Aişe (ranh.)’nin evliliği, İslam ahlakını ve öğretilerini somut olarak yansıtan bir birlikteliktir."
+title: "Hz. Muhammed (sav.) ve Hz. Aişe (ranh.)’nin Evliliği"
+description: "Hz. Muhammed (sav.) ve Hz. Aişe (ranh.)’nin evliliği, İslam ahlakını ve öğretilerini somut olarak yansıtan bir birlikteliktir."
 image: "/images/describing.jpg"
 date: 2025-01-20 05:04:34 +0300
 category: [İslam] 
