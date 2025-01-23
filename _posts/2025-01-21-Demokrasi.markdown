@@ -2,13 +2,17 @@
 layout: post
 title: "İki Partili Sistem"
 description: "İki Partili Sistem: Demokrasinin Sınırları ve Gerçek Temsil Arayışı"
-image: "/images/describing.jpg"
+image: /images/parti.jpeg
 date: 2025-01-17 05:04:34 +0300
-category: "Demokrasi"
-tags: "Demokrasi"
+category: [Demokrasi] 
+tags: [Demokrasi, seçim] 
+lang: tr
+author: isunion99
+published: true
 ---
 
- 
+ ![parti]({{ "/images/parti.jpeg" | relative_url }})
+
 ### **İki Partili Sistem: Demokrasinin Sınırları ve Gerçek Temsil Arayışı**
 
 Demokrasi, tarih boyunca insanlığın özgürlük ve adalet arayışının en önemli araçlarından biri olmuştur. Ancak, günümüzde birçok ülkede iki partili sistem, demokrasinin temel ilkelerini zorlayan bir yapıya dönüşmüş durumda. Peki, bu sistem gerçekten demokrasiyi temsil ediyor mu, yoksa bir "seçim illüzyonu" mu yaratıyor?
