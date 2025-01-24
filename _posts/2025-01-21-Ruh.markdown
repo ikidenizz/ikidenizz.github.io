@@ -20,11 +20,13 @@ published: true
 
 
 
-"Toplumun ruhsal açlığını görmezden gelmek, onu derinlemesine anlamaktan uzaklaştırır. Günümüzde yaygınlaşan ‘sıvı ateizmi’, Tanrı’nın varlığına dair derin düşüncelerin ve endişelerin giderek azaldığı bir durumu yansıtıyor. Bu zihniyet, birçok insanın hayatında yer edinirken, ruhsal boşluk ve anlam arayışını da beraberinde getiriyor. Ancak, Tanrı’nın yokluğunu derin bir kayıp olarak hisseden ve bu durumun acısını yaşayanların varlığını da unutmamak gerekir.
+<div class="frame">
+  <p>Toplumun ruhsal açlığını görmezden gelmek, onu derinlemesine anlamaktan uzaklaştırır. Günümüzde yaygınlaşan ‘sıvı ateizmi’, Tanrı’nın varlığına dair derin düşüncelerin ve endişelerin giderek azaldığı bir durumu yansıtıyor. Bu zihniyet, birçok insanın hayatında yer edinirken, ruhsal boşluk ve anlam arayışını da beraberinde getiriyor. Ancak, Tanrı’nın yokluğunu derin bir kayıp olarak hisseden ve bu durumun acısını yaşayanların varlığını da unutmamak gerekir.
 
 Modern uygarlığın sunduğu konfor ve eğlence dünyasında yaşayan bazı bireyler, nihilizmin derinliklerinde bile kendilerini özgür ve mutlu hissedebiliyorlar. Postmodern anlayışla kendilerini dogmatik doğruların yükünden kurtulmuş gibi görseler de, bu tutum ruhlarını sterilize eden ve zihinlerini köleleştiren bir tür entelektüel uyuşturucuya dönüşebiliyor.
 
 Marx’ın da belirttiği gibi, kapitalist uygarlık gerçek bir tatmin sunmaz; eğer bir tatmin varsa, bu genellikle düşük seviyeli bir refahın sonucudur. Bugün toplumda Tanrı’nın ölümüne ve sekülerleşmeye duyulan neşe, aslında derin bir ruhsal açlığın maskesi olabilir.
 
-Toplumda yaygınlaşan farklı ateizm türleri ve bunların insan davranışlarına etkileri üzerine düşünmek, ruhsal arayışlarımızı anlamak açısından büyük önem taşıyor. #RuhsalAçlık #Ateizm #ToplumsalDeğişim"
+Toplumda yaygınlaşan farklı ateizm türleri ve bunların insan davranışlarına etkileri üzerine düşünmek, ruhsal arayışlarımızı anlamak açısından büyük önem taşıyor. #RuhsalAçlık #Ateizm #ToplumsalDeğişim</p>
+</div>
  
