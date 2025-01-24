@@ -6,6 +6,9 @@ image: "/images/describing.jpg"
 date: 2025-01-17 05:04:34 +0300
 category: "Demokrasi"
 tags: "Demokrasi"
+author: isunion99
+published: true
+lang: tr
 ---
 
  
