@@ -11,7 +11,11 @@ published: true
 lang: tr
 ---
 
- ![parti]({{ "/images/parti.jpeg" | relative_url }})
+ 
+ 
+
+![parti]({{ "/images/parti.jpeg" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
+
 
 ### **İki Partili Sistem: Demokrasinin Sınırları ve Gerçek Temsil Arayışı**
 
