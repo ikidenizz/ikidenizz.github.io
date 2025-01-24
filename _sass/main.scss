@@ -180,3 +180,50 @@ li {
     border-radius: 8px; /* Kenarların yuvarlatılması */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
 }
+
+/* Resimler için Genel Stil */
+.site-content img {
+    max-width: 100%; /* Resmin genişliği, konteyner genişliğini aşmaz */
+    height: auto; /* Yükseklik, genişliğe göre otomatik ayarlanır */
+    display: block; /* Resmi blok seviyesinde bir öğe yapar */
+    margin: 1em auto; /* Resmi yatayda ortalar ve üst/alt boşluk ekler */
+    border-radius: 8px; /* Resmin köşelerini yuvarlatır */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+}
+
+/* Duyarlı Resimler için Ek Stil */
+@media (max-width: 767px) {
+    .site-content img {
+        margin: 0.8em auto; /* Mobil cihazlarda resimlerin üst/alt boşluğu */
+    }
+}
+
+/* Resimleri Ortalama ve Boyutlandırma */
+.responsive-image {
+    max-width: 100%; /* Resmin genişliği, konteyner genişliğini aşmaz */
+    height: auto; /* Yükseklik, genişliğe göre otomatik ayarlanır */
+    display: block; /* Resmi blok seviyesinde bir öğe yapar */
+    margin: 1em auto; /* Resmi yatayda ortalar ve üst/alt boşluk ekler */
+}
+
+/* Belirli Bir Genişlik ve Yükseklik Vermek İçin */
+.fixed-size-image {
+    width: 500px; /* Sabit genişlik */
+    height: 300px; /* Sabit yükseklik */
+    object-fit: cover; /* Resmi belirtilen boyuta sığdırır (kırparak) */
+    border-radius: 8px; /* Köşeleri yuvarlatır */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+}
+
+/* Resimleri Ortalama ve Çerçeve Ekleme */
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333; /* Çerçeve rengi */
+    padding: 8px; /* Çerçeve içi boşluk */
+    background-color: #f9f9f9; /* Çerçeve arka plan rengi */
+    border-radius: 8px; /* Köşeleri yuvarlatır */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+}
