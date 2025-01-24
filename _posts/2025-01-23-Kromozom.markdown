@@ -11,7 +11,7 @@ author: isunion99
 published: true
 ---
 
-![İnsan kromozomu 2]({{ "/images/8808-fig1.jpg" | relative_url }}){:width="600px" height="auto" class="responsive-image centered-image"}
+![İnsan kromozomu 2]({{ "/images/8808-fig1.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 
 İnsanın şempanzelerle ortak bir atadan evrimleştiğine dair en önemli argümanlardan biri, "kromozom 2 birleşme modeli"dir. Bu model, insan kromozom 2'sinin iki küçük şempanze kromozomunun (2A ve 2B) birleşmesiyle oluştuğunu öne sürer. Ancak, bu modeli destekleyen kanıtların çoğu, DNA hibridizasyonu ve kromozom boyama gibi eski tekniklere dayanıyor ve yalnızca dolaylı veriler sunuyor.
