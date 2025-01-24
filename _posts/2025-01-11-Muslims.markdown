@@ -15,11 +15,11 @@ published: true
 ![Muslims]({{ "/images/Muslims.webp" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
 
 
-Israel is home to 2 million Muslims who have the freedom to practice their religion peacefully. While all citizens benefit from this freedom, any form of violence or harm violates the principles upon which such freedoms are built.
-
 <div class="frame">
-  <p>Modesty and chastity are values we hold dear in our faith. It’s concerning to see societal norms that conflict with these principles, especially when it comes to the influence on younger generations. As Muslims, we strive to live with dignity and respect, and it’s challenging to reconcile these values in a society that has taken so much from us. Let’s reflect on how we can foster mutual understanding and coexistence.</p>
+  <p>Israel is home to 2 million Muslims who have the freedom to practice their religion peacefully. While all citizens benefit from this freedom, any form of violence or harm violates the principles upon which such freedoms are built.
+
+Modesty and chastity are values we hold dear in our faith. It’s concerning to see societal norms that conflict with these principles, especially when it comes to the influence on younger generations. As Muslims, we strive to live with dignity and respect, and it’s challenging to reconcile these values in a society that has taken so much from us. Let’s reflect on how we can foster mutual understanding and coexistence.
+
+
+The Quran, in Surah An-Nur (24:30-31), advises women to 'draw their veils over their bosoms and not to display their beauty except to their husbands, their fathers, their husbands' fathers, their sons, their husbands' sons, their brothers, or their brothers' sons, or their sisters' sons, or their women, or those male attendants having no physical desire, or children who are not yet aware of the private aspects of women.' This principle, echoed in many cultures, underscores respect and dignity for women.</p>
 </div>
-
-
-The Quran, in Surah An-Nur (24:30-31), advises women to 'draw their veils over their bosoms and not to display their beauty except to their husbands, their fathers, their husbands' fathers, their sons, their husbands' sons, their brothers, or their brothers' sons, or their sisters' sons, or their women, or those male attendants having no physical desire, or children who are not yet aware of the private aspects of women.' This principle, echoed in many cultures, underscores respect and dignity for women.
