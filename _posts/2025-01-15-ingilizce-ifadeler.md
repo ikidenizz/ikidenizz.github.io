@@ -11,7 +11,7 @@ lang: tr
 ---
 
 
-## İngilizce'deki yaygın kısa ifadeler
+## **İngilizce'deki yaygın kısa ifadeler**
  
 
 İngilizce’deki yaygın kısa ifadeler, günlük konuşmalarda sıkça karşınıza çıkar. Bu ifadelerin bağlama uygun ve doğru Türkçe karşılıklarını öğrenmek, İngilizce pratiğinizi geliştirmenize büyük katkı sağlayabilir. İşte bazı örnekler:  
