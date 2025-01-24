@@ -268,20 +268,48 @@ font-weight: bold; /* Kalın yazı */
 }
 /* Yazı Çerçevesi Stili */
 .frame {
-    border: 2px solid #333; /* Çerçevenin kenarlık rengi */
+    border: 2px solid #1abc9c; /* Turkuaz renkli çerçeve kenarlığı */
     padding: 16px; /* İçeriğin çerçeveyle arasındaki boşluk */
     margin: 20px 0; /* Çerçevenin üst ve altındaki boşluk */
-    background-color: #f9f9f9; /* Çerçevenin arka plan rengi */
+    background-color: #e0f7f0; /* Çok açık turkuaz renkli çerçeve zemin rengi */
     border-radius: 8px; /* Kenarların yuvarlatılması */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
 
     p {
         margin: 0; /* Paragrafların çerçevenin içindeki boşluklarını kaldır */
+        color: #333; /* Metin rengi */
     }
 }
 
 /* Mobil Cihazlar için Stil */
 @media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    .site-header .title a {
+        font-size: 1.2rem;
+    }
+    .site-content {
+        padding: 0 8px;
+    }
+    .site-footer {
+        padding: 8px 0;
+    }
+    p {
+        margin: 0.8em 0; /* Mobil cihazlarda paragraflar arası boşluk */
+    }
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 1.2em; /* Mobil cihazlarda başlıkların üstüne boşluk */
+        margin-bottom: 0.4em; /* Mobil cihazlarda başlıkların altına boşluk */
+    }
+    li {
+        margin-bottom: 0.4em; /* Mobil cihazlarda liste öğeleri arası boşluk */
+    }
+    .site-content img {
+        margin: 0.8em 0; /* Mobil cihazlarda resimlerin üstüne ve altına boşluk */
+    }
+
+    /* Mobil Cihazlar için Yazı Çerçevesi Stili */
     .frame {
         padding: 12px; /* Daha küçük cihazlarda çerçevenin iç boşluklarını azalt */
         margin: 15px 0; /* Daha küçük cihazlarda çerçevenin üst ve altındaki boşlukları azalt */
@@ -291,6 +319,11 @@ font-weight: bold; /* Kalın yazı */
 
 /* Tablet Cihazlar için Stil */
 @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Tablet Cihazlar için Yazı Çerçevesi Stili */
     .frame {
         padding: 14px; /* Tablet cihazlarda çerçevenin iç boşluklarını orta seviyede ayarlama */
         margin: 18px 0; /* Tablet cihazlarda çerçevenin üst ve altındaki boşlukları orta seviyede ayarlama */
@@ -300,6 +333,11 @@ font-weight: bold; /* Kalın yazı */
 
 /* Masaüstü Cihazlar için Stil */
 @media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    /* Masaüstü Cihazlar için Yazı Çerçevesi Stili */
     .frame {
         padding: 16px; /* Büyük cihazlarda çerçevenin iç boşluklarını standart ayarlama */
         margin: 20px 0; /* Büyük cihazlarda çerçevenin üst ve altındaki boşlukları standart ayarlama */
