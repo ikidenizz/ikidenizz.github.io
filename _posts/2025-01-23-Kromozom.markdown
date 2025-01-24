@@ -3,7 +3,7 @@ layout: post
 title: "İnsan kromozomu 2"
 description: "İnsan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına yaratılışçılar tarafından getirilen bilimsel itirazlar"
 image: /images/Kromozom.png
-date: 2025-01-11 05:04:34 +0300
+date: 2025-01-23 05:04:34 +0300
 category: "Bilim" 
 tags: "Bilim" 
 lang: tr
