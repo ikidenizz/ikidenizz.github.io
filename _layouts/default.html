@@ -15,10 +15,10 @@
   {% unless page.url == "/" %}
     <li><a href="{{ site.baseurl }}/">{{ site.data.languages[page.lang].Home }}</a></li>
   {% endunless %}
-  {% unless page.url == "/about/" %}
+  {% unless page.url == "/about" %}
     <li><a href="{{ site.baseurl }}/about">{{ site.data.languages[page.lang].About }}</a></li>
   {% endunless %}
-  {% unless page.url == "/contact/" %}
+  {% unless page.url == "/contact" %}
     <li><a href="{{ site.baseurl }}/contact">{{ site.data.languages[page.lang].Contact }}</a></li>
   {% endunless %}
 </ul>
