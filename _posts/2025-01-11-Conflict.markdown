@@ -2,16 +2,16 @@
 layout: post
 title: "On Conflict, Violence, and the Cost of Hatred"
 description: "It is disheartening to see how certain individuals or groups underestimate the intelligence of the public with misleading narratives."
-image: "/images/describing.jpg"
+image: /images/describing.jpg
 date: 2025-01-17 05:04:34 +0300
-category: "Islamic"
-tags: "Islamic"
+category: "Islam"
+tags: "Islam"
 lang: en
 author: isunion99
 published: true
 ---
 
-On Conflict, Violence, and the Cost of Hatred
+## **On Conflict, Violence, and the Cost of Hatred**
 
 It is disheartening to see how certain individuals or groups underestimate the intelligence of the public with misleading narratives. Let us address some facts clearly: Hizballah, a group widely recognized for its acts of terrorism and violence, initiated a conflict with Israel by launching rockets and missiles.
 
