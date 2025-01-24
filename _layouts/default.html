@@ -75,15 +75,18 @@ setInterval(updateTime, 1000);
 {% endif %}
  {% endunless %}
 
-<h3>Önerilen Yazılar</h3>
+<!-- unless -->
+ {% unless page.url == "/" %}
+<h3>Rastgele Yazılar</h3>
 <ul>
-  {% assign related_posts = site.posts | where_exp: "post", "post.title contains page.title" %}
-  {% for post in related_posts limit: 3 %}
+  {% assign random_posts = site.posts | sample: 3 %}
+  {% for post in random_posts %}
     {% if post.url != page.url %} <!-- Mevcut yazıyı hariç tut -->
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
   {% endfor %}
 </ul>
+ {% endunless %}
       <div class="social-share">
         <p>Bu sayfayı paylaş:</p>
         <div class="share-buttons">
