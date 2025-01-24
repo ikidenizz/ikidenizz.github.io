@@ -4,6 +4,36 @@
 {% include head.html %}
 </head>
 <body>
+<!-- Tarih ve Saat Bilgisi -->
+  <div id="tarih-saat">
+    <p id="tarih"></p>
+    <p id="saat"></p>
+  </div>
+<script type="text/javascript">
+    function updateTime() {
+  var now = new Date();
+
+  var tarih = now.toLocaleDateString('tr-TR', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    weekday: 'long'
+  });
+
+  var saat = now.toLocaleTimeString('tr-TR', {
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  });
+
+  document.getElementById('tarih').textContent = tarih;
+  document.getElementById('saat').textContent = saat;
+}
+
+// Sayfa yüklendiğinde ve her saniyede bir saati güncelle
+updateTime();
+setInterval(updateTime, 1000);
+  </script>
   <div class="site">
     <header class="site-header">
       <div class="title">
@@ -22,10 +52,10 @@
 
 
       {% assign day = page.date | date: "%-d" %}
-{% assign month = page.date | date: "%m" %}
-{% assign year = page.date | date: "%Y" %}
+      {% assign month = page.date | date: "%m" %}
+      {% assign year = page.date | date: "%Y" %}
 
-{% if page.lang == "tr" %}
+  {% if page.lang == "tr" %}
   {% assign turkish_months = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
   {% assign month_index = month | minus: 1 %}
   <p class="post-date">

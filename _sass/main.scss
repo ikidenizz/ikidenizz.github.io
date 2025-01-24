@@ -227,3 +227,42 @@ li {
     border-radius: 8px; /* Köşeleri yuvarlatır */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
 }
+
+/* Tarih ve Saat Bilgisi */
+#tarih-saat {
+position: fixed; /* Sayfada sabit kalır */
+top: 20px; /* Üstten boşluk */
+right: 20px; /* Sağdan boşluk */
+background-color: #f4f4f4; /* Arka plan rengi */
+padding: 10px; /* İç boşluk */
+border-radius: 8px; /* Köşeleri yuvarlat */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+text-align: center; /* Metni ortala */
+font-family: Arial, sans-serif; /* Yazı tipi */
+}
+
+#tarih {
+font-size: 1.2rem; /* Tarih yazı boyutu */
+margin: 0; /* Varsayılan margin'i kaldır */
+color: #333; /* Yazı rengi */
+}
+
+#saat {
+font-size: 1.5rem; /* Saat yazı boyutu */
+margin: 0; /* Varsayılan margin'i kaldır */
+color: #0077b5; /* Saat yazı rengi */
+font-weight: bold; /* Kalın yazı */
+}
+@media (max-width: 767px) {
+    #tarih-saat {
+    top: 10px;
+    right: 10px;
+    padding: 8px;
+    }
+    #tarih {
+    font-size: 1rem;
+    }
+    #saat {
+    font-size: 1.2rem;
+    }
+}
