@@ -6,7 +6,7 @@ date: 2025-01-19 11:00:01 +0300
 image: "/images/describing.jpg"
 lang: en
 author: isunion99
-categories: [Policy]
+category: [Policy]
 tags: [Policy]
 published: true
 ---
