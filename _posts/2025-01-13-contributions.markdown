@@ -4,8 +4,8 @@ title: "Bağlama göre kullanılan en yaygın eşanlamlılar"
 description: "Bağlama göre kullanılan en yaygın eşanlamlılar"
 image: "/images/describing.jpg"
 date: 2025-01-13 05:04:34 +0300
-category: "Language"
-tags: "Language"
+category: [Language]
+tags: [Language]
 lang: tr
 author: isunion99
 published: true

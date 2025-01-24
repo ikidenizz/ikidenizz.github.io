@@ -4,8 +4,8 @@ title: "MMLU - Massive Multi-Task Language Understanding"
 description: "MMLU, bir modelin çeşitli görevlerdeki genel dil anlama yeteneğini test etmek amacıyla oluşturulmuş bir test kümesidir."
 image: "/images/describing.jpg"
 date: 2025-01-14 05:04:34 +0300
-category: "Veri"
-tags: "Veri"
+category: [Language]
+tags: [Language]
 author: isunion99
 published: true
 lang: tr
