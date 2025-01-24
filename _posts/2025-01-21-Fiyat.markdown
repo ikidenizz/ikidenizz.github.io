@@ -3,9 +3,9 @@ layout: post
 title: "Fahiş Fiyat Artışı ve Yerel Üretim-Tüketimin Önemi"
 description: "Fahiş fiyat artışları, ekonomik istikrarı ve refahı tehdit eden önemli bir sorun olarak toplumun her kesimini derinden etkilemektedir."
 image: /images/refah.jpeg
-date: 2025-01-21 05:04:34 +0300
-category: [YerelÜretim,Ekonomi,Sürdürülebilirlik]  
-tags: "Ekonomi"
+date: 2025-01-21 05:04:34 +0300 
+tags: [YerelÜretim,Ekonomi,Sürdürülebilirlik]
+category: "Ekonomi"
 published: true
 lang: tr
 ---
