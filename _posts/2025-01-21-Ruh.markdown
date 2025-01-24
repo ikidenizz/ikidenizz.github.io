@@ -44,10 +44,4 @@ Bugün toplumda yaygınlaşan **'sıvı ateizmi'**, Tanrı'nın varlığına yö
    - Bu insanlar, nihilizmin derinliklerinde bile kendilerini özgür ve mutlu hissediyorlar ve postmodern anlayışla kendilerini Tanrı ve dogmatik doğruların yükünden kurtarmış gibi düşünüyorlar.
    - Ancak gerçekte, bu tutum sadece ruhlarını sterilize eden ve zihinlerini köleleştiren bir tür entelektüel uyuşturucu olabiliyor.
    - Bu grup, modern toplumun sunduğu konfor ve eğlence dünyasında kendilerini gerçek özgürlük ve tatmin içinde sanırlar.
-
-<h3>İlgili Yazılar</h3>
-<ul>
-  {% for post in site.related_posts limit: 3 %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+ 
