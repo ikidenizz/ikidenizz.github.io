@@ -13,6 +13,12 @@ published: true
 
 ## **Lailkiğe EVET Sekülerleşmeye HAYIR**
 
+<div class="frame">
+  <p>"Toplumumuzda dinin rolü ve sekülerleşme süreci üzerine düşüncelerimi paylaşmak istiyorum. Sekülerleşme, dinin bireysel tercihlere indirgenmesi ve toplumsal hayattaki merkezî etkisinin azalması anlamına gelir. Bu süreç, din özgürlüğünü korurken, devletin ve toplumsal kurumların dinî referanslardan bağımsız hareket etmesini savunur. Laiklik ise bu sürecin kurumsal temelini oluşturur. Türkiye’de laik bir devlet yapısı benimsenmiş olsa da, toplumsal dokumuzda dinî değerler hâlâ önemli bir yer tutuyor. Ancak özellikle genç nüfus ve büyük şehirlerde sekülerleşme eğilimleri artıyor. Bu durum, dinî pratiklerin bireyselleşmesi ve toplumsal çeşitliliğin artması gibi sonuçlar doğuruyor. Herkesin inancını özgürce yaşayabildiği, ancak dinin toplumsal hayatta belirleyici olmadığı bir denge arayışı, modern toplumlar için büyük önem taşıyor. #Sekülerleşme #Laiklik #DinÖzgürlüğü"</p>
+</div>
+
+
+
 ### **Sekülerleşmenin Tanımı:**
 "Sekülerleşme, toplumun ve bireylerin dinî inançlar, değerler ve kurumlardan uzaklaşarak, dinî olguların gündelik hayat ve toplumsal kurumlar üzerindeki etkisinin azalması sürecidir. Bu süreç, herkesin dini inancını özgürce yaşama hakkını korurken, dinin toplumsal hayatta merkezî bir rol oynamaktan çıkmasını ve bireysel tercihlere indirgenmesini ifade eder."
 
