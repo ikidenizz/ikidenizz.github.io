@@ -1,31 +1,35 @@
 ---
 layout: post
-title: "Zaman"
+title: "Zaman Genişlemesi (Time Dilation)"
 description: "Zaman Genişlemesi Nedir?"
 image: "/images/describing.jpg"
 date: 2025-01-13 05:04:34 +0300
-category: "Zaman"
-tags: "Zaman"
+category: [Zaman] 
+tags: [Zaman, Time] 
+lang: tr
+author: isunion99
+published: true
 ---
 
-Zaman Genişlemesi Nedir?
-============
+
+## Zaman Genişlemesi Nedir?
 
 
-# Zaman Genişlemesi (Time Dilation)
+
+### Zaman Genişlemesi (Time Dilation)
 
 Zaman genişlemesi, Einstein'ın **İzafiyet Teorisi (Görelilik Teorisi)** ile açıklanan bir fizik fenomenidir. Bu olgu, zamanın mutlak olmadığını ve bir gözlemcinin hızına (**özel görelilik**) veya bulunduğu kütleçekim alanına (**genel görelilik**) bağlı olarak farklı şekilde “aktığını” ifade eder.
 
 
 
-## 1. Göreceli Hızdan Kaynaklanan Zaman Genişlemesi (Özel Görelilik)
+#### 1. Göreceli Hızdan Kaynaklanan Zaman Genişlemesi (Özel Görelilik)
 
 Bu tür zaman genişlemesi, iki gözlemci arasında meydana gelir ve birbirine göre yüksek hızlarda hareket etmeleri durumunda ortaya çıkar. **Einstein'ın Özel Görelilik Teorisi'ne** göre, bir gözlemci çok yüksek bir hızda (**ışık hızına yakın bir hızda**) hareket ediyorsa, o kişi için zaman daha yavaş akar.
 
 Bu durum matematiksel olarak şu denklemle gösterilir:
 
 
-![Einstein'ın Özel Görelilik Teorisi](/assets/images/Zaman.png)
+![Einstein'ın Özel Görelilik Teorisi](/images/Zaman.png)
 
 
 Burada:
@@ -43,14 +47,14 @@ Bir astronot, ışık hızına yakın bir hızla bir uzay gemisiyle seyahat eder
 
 
 
-## **2. Kütleçekimden Kaynaklanan Zaman Genişlemesi (Genel Görelilik)**
+#### **2. Kütleçekimden Kaynaklanan Zaman Genişlemesi (Genel Görelilik)**
 
 Bu tür zaman genişlemesi, güçlü bir kütleçekim alanının etkisiyle ortaya çıkar. **Einstein'ın Genel Görelilik Teorisi'ne** göre, bir gözlemci büyük bir kütlenin (örneğin bir gezegen, yıldız veya kara delik) yakınında bulunuyorsa, onun için zaman, uzak bir gözlemciye göre daha yavaş akar.
 
 Bu ilişki şu denklemle açıklanır:
 
 
-![ Einstein'ın Genel Görelilik Teorisi](/assets/images/Görelilik.png)
+![ Einstein'ın Genel Görelilik Teorisi](/images/Görelilik.png)
 
 
 Burada:
@@ -66,7 +70,7 @@ Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalı
 
 
 
-## **Zaman Genişlemesinin Günlük Yaşamda Önemi**
+#### **Zaman Genişlemesinin Günlük Yaşamda Önemi**
 
 1. **GPS Sistemleri**: GPS uyduları hem göreceli hızdan hem de kütleçekim etkisinden dolayı farklı "zaman genişlemesine" maruz kalır. Bu farklar düzeltilmezse, GPS hesaplamaları hatalı olur ve yer tespiti üzerinden çok büyük sapmalar meydana gelir.
 
@@ -76,7 +80,7 @@ Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalı
 
 
 
-## **Özet**
+#### **Özet**
 - Zaman genişlemesi, zamanın mutlak olmadığını, gözlemcinin hızı veya bulunduğu kütleçekim alanına bağlı olarak değiştiğini ifade eder.
 - **Özel Görelilik:** Yüksek hızlarda hareket edenler için zaman yavaşlar.
 - **Genel Görelilik:** Güçlü kütleçekim alanlarında zaman yavaşlar.
