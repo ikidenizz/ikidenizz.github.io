@@ -2,7 +2,7 @@
 layout: post
 title: "Sekülerleşme ve Laiklik İlişkisi"
 description: "Lailkiğe EVET Sekülerleşmeye HAYIR"
-image: /images/describing.jpg"
+image: /images/describing.jpg
 date: 2025-01-22 05:04:34 +0300
 category: "Islam"
 tags: "Islam"
@@ -14,7 +14,7 @@ published: true
 ## **Lailkiğe EVET Sekülerleşmeye HAYIR**
 
 <div class="frame">
-  <p>"Toplumumuzda dinin rolü ve sekülerleşme süreci üzerine düşüncelerimi paylaşmak istiyorum. Sekülerleşme, dinin bireysel tercihlere indirgenmesi ve toplumsal hayattaki merkezî etkisinin azalması anlamına gelir. Bu süreç, din özgürlüğünü korurken, devletin ve toplumsal kurumların dinî referanslardan bağımsız hareket etmesini savunur. Laiklik ise bu sürecin kurumsal temelini oluşturur. Türkiye’de laik bir devlet yapısı benimsenmiş olsa da, toplumsal dokumuzda dinî değerler hâlâ önemli bir yer tutuyor. Ancak özellikle genç nüfus ve büyük şehirlerde sekülerleşme eğilimleri artıyor. Bu durum, dinî pratiklerin bireyselleşmesi ve toplumsal çeşitliliğin artması gibi sonuçlar doğuruyor. Herkesin inancını özgürce yaşayabildiği, ancak dinin toplumsal hayatta belirleyici olmadığı bir denge arayışı, modern toplumlar için büyük önem taşıyor. #Sekülerleşme #Laiklik #DinÖzgürlüğü"</p>
+  <p>Toplumumuzda dinin rolü ve sekülerleşme süreci üzerine düşüncelerimi paylaşmak istiyorum. Sekülerleşme, dinin bireysel tercihlere indirgenmesi ve toplumsal hayattaki merkezî etkisinin azalması anlamına gelir. Bu süreç, din özgürlüğünü korurken, devletin ve toplumsal kurumların dinî referanslardan bağımsız hareket etmesini savunur. Laiklik ise bu sürecin kurumsal temelini oluşturur. Türkiye’de laik bir devlet yapısı benimsenmiş olsa da, toplumsal dokumuzda dinî değerler hâlâ önemli bir yer tutuyor. Ancak özellikle genç nüfus ve büyük şehirlerde sekülerleşme eğilimleri artıyor. Bu durum, dinî pratiklerin bireyselleşmesi ve toplumsal çeşitliliğin artması gibi sonuçlar doğuruyor. Herkesin inancını özgürce yaşayabildiği, ancak dinin toplumsal hayatta belirleyici olmadığı bir denge arayışı, modern toplumlar için büyük önem taşıyor. #Sekülerleşme #Laiklik #DinÖzgürlüğü</p>
 </div>
 
 

@@ -3,7 +3,7 @@ layout: post
 title: "Trump's latest actions"
 description: "Trump's latest actions appear to reflect a troubling trend of exploiting U.S."
 date: 2025-01-19 11:00:01 +0300
-image: "/images/describing.jpg"
+image: /images/describing.jpg
 lang: en
 author: isunion99
 category: "Policy"
