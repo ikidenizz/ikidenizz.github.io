@@ -14,64 +14,38 @@ lang: tr
 ## İngilizce'deki yaygın kısa ifadeler
  
 
-İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru Türkçe çevirilerini öğrenmek, İngilizce pratiği yaparken çok işinize yarayabilir. İşte bazı ifadeler ve dikkatli düzenlenmiş karşılıkları:
+İngilizce’deki yaygın kısa ifadeler, günlük konuşmalarda sıkça karşınıza çıkar. Bu ifadelerin bağlama uygun ve doğru Türkçe karşılıklarını öğrenmek, İngilizce pratiğinizi geliştirmenize büyük katkı sağlayabilir. İşte bazı örnekler:  
 
+**İngilizce - Türkçe İfadeler:**  
+- **Impossible!** → İmkansız! (Şaşkınlık veya inanılmaz bir durumu vurgular.)  
+  Örnek: “Bu kadar kısa sürede sınavı nasıl geçtin? Impossible!”  
 
+- **As you wish!** → Dilediğin gibi olsun! (Başkalarının isteğine uyduğunuzda kullanılır.)  
+  Örnek: “Tamam, istediğin gibi yapalım. As you wish!”  
 
-### **İngilizce - Türkçe İfadeler**
+- **I swear!** → Yemin ederim! (Güvence vermek için söylenir.)  
+  Örnek: “I swear, bunu ben yapmadım!”  
 
-1. **Impossible!**
-  *İmkansız!* 
-  Şaşkınlık veya inanılmaz bir durumu vurgulamak için kullanılır. 
-  - Örnek: "Bu kadar kısa sürede sınavı nasıl geçtin? Impossible!"
+- **Once more!** → Bir kez daha! (Bir şeyi tekrar etme isteğini ifade eder.)  
+  Örnek: “Bu filmi çok sevdim. İzleyelim once more!”  
 
-2. **As you wish!** 
-  *Dilediğin gibi olsun!* 
-  Başkalarının isteğine uyduğunuzda kullanılır. 
-  - Örnek: "Tamam, istediğin gibi yapalım. As you wish!"
+- **You think so?** → Sen öyle mi düşünüyorsun? (Karşıdaki kişinin fikrini sorgulamak veya hafif bir şüpheyle yanıt vermek için kullanılır.)  
+  Örnek: “Bu iş kolay! - Oh, you think so?”  
 
-3. **I swear!** 
-  *Yemin ederim!* 
-  Güvence vermek için söylenir. 
-  - Örnek: "I swear, bunu ben yapmadım!"
+- **Again!** → Tekrar! / Yine!  
+  Örnek: “Hata mı yaptık yine? Uff!”  
 
-4. **Once more!** 
-  *Bir kez daha!* 
-  Bir şeyi tekrar etme isteğini ifade eder. 
-  - Örnek: "Bu filmi çok sevdim. İzleyelim once more!"
+- **No clue!** → Hiçbir fikrim yok! (Anlamadığınızı veya bilmediğinizi ifade eder.)  
+  Örnek: “Bu problemin çözümünü biliyor musun? - No clue!”  
 
-5. **You think so!** 
-  *Sen öyle mi sanıyorsun?* veya *Sen öyle mi düşünüyorsun?* 
-  Karşıdaki kişinin fikrini sorgulamak veya hafif bir şüpheyle yanıt vermek için kullanılır. 
-  - Örnek: "Bu iş kolay! - Oh, you think so?"
+- **Keep me posted.** → Beni haberdar et! (Bilgi akışında kalmak istediğinizi belirtir.)  
+  Örnek: “Toplantıdan gelişmeler olursa, beni haberdar et!”  
 
-6. **Again!** 
-  *Tekrar!* veya *Yine!* 
-  - Örnek: "Hata mı yaptık igen? Uff!"
+- **High five!** → Çak bir beşlik! (Kutlama veya başarıyı paylaşırken kullanılır.)  
+  Örnek: “Projeyi bitirdik! High five!”  
 
-7. **No clue!** 
-  *Hiçbir fikrim yok!* 
-  Anlamadığınızı veya bilmediğinizi ifade eder. 
-  - Örnek: "Bu problemin çözümünü biliyor musun? - No clue!"
+- **Stay still!** → Hareketsiz kal! (Sakinleşmeyi veya kıpırdamamayı ifade eder.)  
+  Örnek: “Panik yapma, stay still!”  
 
-8. **Keep me posted** 
-  *Beni haberdar et!* 
-  Bilgi akışında kalmak istediğinizi belirtir. 
-  - Örnek: "Toplantıdan gelişmeler olursa, beni haberdar et!"
-
-9. **High five!** 
-  *Çak bir beşlik!* 
-  Kutlama veya başarıyı paylaşırken kullanılır. 
-  - Örnek: "Projeyi bitirdik! High five!"
-
-10. **Stay still!** 
-  *Hareketsiz kal!* 
-  Sakinleşmeyi veya kıpırdamamayı ifade eder. 
-  - Örnek: "Panik yapma, Stay still!"
-
-
-
-### **Sonuç**
-Bu ifadeleri günlük hayattaki İngilizce diyaloglarınızda kullanabilirsiniz. Düzgün ve doğru ifadelerle iletişim kurmak her zaman önemlidir. Daha fazla ifade için blogumuzu takipte kalın!
-
- 
+**Sonuç:**  
+Bu ifadeleri günlük İngilizce diyaloglarınızda kullanarak iletişiminizi daha akıcı ve doğal hale getirebilirsiniz. Doğru ifadelerle iletişim kurmak her zaman önemlidir. Daha fazla örnek için blogumuzu takipte kalın! #İngilizce #DilÖğrenimi #Pratikİfadeler
