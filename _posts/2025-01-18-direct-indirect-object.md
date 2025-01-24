@@ -4,8 +4,8 @@ title: "Doğrudan nesne, bir eylemin doğrudan etkilediği nesne"
 description: "Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi veya şeyi ifade eden kelime veya kelime gruplarıdır."
 date: 2025-01-18 11:00:00 +0300
 image: "/images/describing.jpg"
-categories: [Language]
-tags: [Language]
+categories: "Language"
+tags: "Language"
 author: isunion99
 published: true
 lang: tr
