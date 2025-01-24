@@ -75,6 +75,12 @@ setInterval(updateTime, 1000);
 {% endif %}
  {% endunless %}
 
+<h3>İlgili Yazılar</h3>
+<ul>
+  {% for post in site.related_posts limit: 3 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
       <div class="social-share">
         <p>Bu sayfayı paylaş:</p>
         <div class="share-buttons">
