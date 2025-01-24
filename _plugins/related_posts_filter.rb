@@ -1,30 +1,34 @@
 module Jekyll
     module RelatedPostsFilter
-        def related_posts_by_content(input_post, posts, limit = 3)
-            # Mevcut yazının içeriğini al
-            current_content = input_post.content.downcase
+        def calculate_tf_idf_similarity(content1, content2, all_contents)
+            tf1 = calculate_tf(content1)
+            tf2 = calculate_tf(content2)
+            idf = calculate_idf([content1, content2] + all_contents)
 
-            # Benzerlik skorlarını hesapla
-            related = posts.map do |post|
-                next if post.url == input_post.url # Mevcut yazıyı hariç tut
-                content = post.content.downcase
-                similarity = calculate_similarity(current_content, content)
-                { post: post, similarity: similarity }
-            end.compact
-
-            # Benzerlik skoruna göre sırala ve limit uygula
-            related.sort_by { |item| -item[:similarity] }.first(limit).map { |item| item[:post] }
+            similarity = 0
+            (tf1.keys | tf2.keys).each do |word|
+                similarity += (tf1[word] || 0) * idf[word] * (tf2[word] || 0) * idf[word]
+            end
+            similarity
         end
 
-        private
+        def calculate_tf(content)
+            words = content.split
+            total_words = words.size
+            tf = Hash.new(0)
+            words.each { |word| tf[word] += 1 }
+            tf.each { |word, count| tf[word] = count.to_f / total_words }
+            tf
+        end
 
-        # Basit bir benzerlik hesaplama fonksiyonu (kelime frekansına göre)
-        def calculate_similarity(content1, content2)
-            words1 = content1.split
-            words2 = content2.split
-            common_words = (words1 & words2).size
-            total_words = (words1 + words2).uniq.size
-            common_words.to_f / total_words
+        def calculate_idf(contents)
+            total_documents = contents.size
+            idf = Hash.new(0)
+            contents.each do |content|
+                content.split.uniq.each { |word| idf[word] += 1 }
+            end
+            idf.each { |word, count| idf[word] = Math.log(total_documents.to_f / count) }
+            idf
         end
     end
 end
