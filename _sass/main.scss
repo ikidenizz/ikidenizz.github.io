@@ -128,144 +128,6 @@ li {
     margin-bottom: 0.5em; /* Liste öğeleri arası boşluk */
 }
 
-/* Mobil Cihazlar için Stil */
-@media (max-width: 767px) {
-    body {
-        font-size: 14px;
-    }
-    .site-header .title a {
-        font-size: 1.2rem;
-    }
-    .site-content {
-        padding: 0 8px;
-    }
-    .site-footer {
-        padding: 8px 0;
-    }
-    p {
-        margin: 0.8em 0; /* Mobil cihazlarda paragraflar arası boşluk */
-    }
-    h1, h2, h3, h4, h5, h6 {
-        margin-top: 1.2em; /* Mobil cihazlarda başlıkların üstüne boşluk */
-        margin-bottom: 0.4em; /* Mobil cihazlarda başlıkların altına boşluk */
-    }
-    li {
-        margin-bottom: 0.4em; /* Mobil cihazlarda liste öğeleri arası boşluk */
-    }
-    .site-content img {
-        margin: 0.8em 0; /* Mobil cihazlarda resimlerin üstüne ve altına boşluk */
-    }
-}
-
-/* Tablet Cihazlar için Stil */
-@media (min-width: 768px) and (max-width: 1023px) {
-    body {
-        font-size: 16px;
-    }
-}
-
-/* Masaüstü Cihazlar için Stil */
-@media (min-width: 1024px) {
-    body {
-        font-size: 18px;
-    }
-}
-
-/* Yazı Çerçevesi Stili */
-.frame {
-    border: 2px solid #333; /* Çerçevenin kenarlık rengi */
-    padding: 16px; /* İçeriğin çerçeveyle arasındaki boşluk */
-    margin: 20px 0; /* Çerçevenin üst ve altındaki boşluk */
-    background-color: #f9f9f9; /* Çerçevenin arka plan rengi */
-    border-radius: 8px; /* Kenarların yuvarlatılması */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
-}
-
-/* Resimler için Genel Stil */
-.site-content img {
-    max-width: 100%; /* Resmin genişliği, konteyner genişliğini aşmaz */
-    height: auto; /* Yükseklik, genişliğe göre otomatik ayarlanır */
-    display: block; /* Resmi blok seviyesinde bir öğe yapar */
-    margin: 1em auto; /* Resmi yatayda ortalar ve üst/alt boşluk ekler */
-    border-radius: 8px; /* Resmin köşelerini yuvarlatır */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
-}
-
-/* Duyarlı Resimler için Ek Stil */
-@media (max-width: 767px) {
-    .site-content img {
-        margin: 0.8em auto; /* Mobil cihazlarda resimlerin üst/alt boşluğu */
-    }
-}
-
-/* Resimleri Ortalama ve Boyutlandırma */
-.responsive-image {
-    max-width: 100%; /* Resmin genişliği, konteyner genişliğini aşmaz */
-    height: auto; /* Yükseklik, genişliğe göre otomatik ayarlanır */
-    display: block; /* Resmi blok seviyesinde bir öğe yapar */
-    margin: 1em auto; /* Resmi yatayda ortalar ve üst/alt boşluk ekler */
-}
-
-/* Belirli Bir Genişlik ve Yükseklik Vermek İçin */
-.fixed-size-image {
-    width: 500px; /* Sabit genişlik */
-    height: 300px; /* Sabit yükseklik */
-    object-fit: cover; /* Resmi belirtilen boyuta sığdırır (kırparak) */
-    border-radius: 8px; /* Köşeleri yuvarlatır */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
-}
-
-/* Resimleri Ortalama ve Çerçeve Ekleme */
-.centered-image {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #333; /* Çerçeve rengi */
-    padding: 8px; /* Çerçeve içi boşluk */
-    background-color: #f9f9f9; /* Çerçeve arka plan rengi */
-    border-radius: 8px; /* Köşeleri yuvarlatır */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
-}
-
-/* Tarih ve Saat Bilgisi */
-#tarih-saat {
-position: fixed; /* Sayfada sabit kalır */
-top: 20px; /* Üstten boşluk */
-right: 20px; /* Sağdan boşluk */
-background-color: #f4f4f4; /* Arka plan rengi */
-padding: 10px; /* İç boşluk */
-border-radius: 8px; /* Köşeleri yuvarlat */
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
-text-align: center; /* Metni ortala */
-font-family: Arial, sans-serif; /* Yazı tipi */
-}
-
-#tarih {
-font-size: 1.2rem; /* Tarih yazı boyutu */
-margin: 0; /* Varsayılan margin'i kaldır */
-color: #333; /* Yazı rengi */
-}
-
-#saat {
-font-size: 1.5rem; /* Saat yazı boyutu */
-margin: 0; /* Varsayılan margin'i kaldır */
-color: #0077b5; /* Saat yazı rengi */
-font-weight: bold; /* Kalın yazı */
-}
-@media (max-width: 767px) {
-    #tarih-saat {
-    top: 10px;
-    right: 10px;
-    padding: 8px;
-    }
-    #tarih {
-    font-size: 1rem;
-    }
-    #saat {
-    font-size: 1.2rem;
-    }
-}
 /* Yazı Çerçevesi Stili */
 .frame {
     border: 2px solid #1abc9c; /* Turkuaz renkli çerçeve kenarlığı */
@@ -331,6 +193,19 @@ font-weight: bold; /* Kalın yazı */
     }
 }
 
+/* Masaüstü Cihazlar için Stil */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+
+    /* Masaüstü Cihazlar için Yazı Çerçevesi Stili */
+    .frame {
+        padding: 16px; /* Büyük cihazlarda çerçevenin iç boşluklarını standart ayarlama */
+        margin: 20px 0; /* Büyük cihazlarda çerçevenin üst ve altındaki boşlukları standart ayarlama */
+        border-radius: 10px; /* Büyük cihazlarda kenarların daha fazla yuvarlatılması */
+    }
+}
 /* Masaüstü Cihazlar için Stil */
 @media (min-width: 1024px) {
     body {
