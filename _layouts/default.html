@@ -4,6 +4,18 @@
 {% include head.html %}
 </head>
 <body>
+  <div class="site">
+    <header class="site-header">
+      <div class="title">
+        <a class="extra" href="{{ site.baseurl }}/">İKİ DENİZ</a>
+      </div>
+    </header>
+
+<!-- Tarih ve Saat Bilgisi -->
+  <div id="tarih-saat">
+    <p id="tarih"></p>
+    <p id="saat"></p>
+  </div>
 <script type="text/javascript">
     function updateTime() {
   var now = new Date();
@@ -29,18 +41,6 @@
 updateTime();
 setInterval(updateTime, 1000);
   </script>
-  <div class="site">
-    <header class="site-header">
-      <div class="title">
-        <a class="extra" href="{{ site.baseurl }}/">İKİ DENİZ</a>
-      </div>
-    </header>
-
-<!-- Tarih ve Saat Bilgisi -->
-  <div id="tarih-saat">
-    <p id="tarih"></p>
-    <p id="saat"></p>
-  </div>
 
     <nav>
     <ul>
