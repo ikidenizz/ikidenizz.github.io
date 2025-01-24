@@ -15,8 +15,7 @@ published: true
 
 ### **Safra Ateizmi ve Ateist Düşüncenin Çeşitli Yönleri**
 
-<div class="frame">
-  <p>Ateizm, tanrı inancını reddeden bir felsefi bakış açısıdır, ancak tek bir türde değil, farklı tonlarda ve yaklaşımlarda ortaya çıkar. Bu tweet'te, ‘safra ateizmi’ olarak bilinen ve dinlere, tanrı inancına veya dini kurumlara karşı öfke ve hayal kırıklığıyla karakterize edilen bir ateizm türünü ele alacağız. Safra ateizmi, genellikle sert ve alaycı bir dil kullanarak dini inançları eleştirir.
+Ateizm, tanrı inancını reddeden bir felsefi bakış açısıdır, ancak tek bir türde değil, farklı tonlarda ve yaklaşımlarda ortaya çıkar. Bu tweet'te, ‘safra ateizmi’ olarak bilinen ve dinlere, tanrı inancına veya dini kurumlara karşı öfke ve hayal kırıklığıyla karakterize edilen bir ateizm türünü ele alacağız. Safra ateizmi, genellikle sert ve alaycı bir dil kullanarak dini inançları eleştirir.
 
 **Safra Ateizminin Özellikleri:**
 - **Öfke ve Hayal Kırıklığı:** Dinlerin yol açtığı zararlara (savaşlar, baskı, bilimsel ilerlemeye engel olma gibi) karşı duyulan tepki.
@@ -40,12 +39,3 @@ published: true
 **Sonuç:**
 Safra ateizmi, ateizmin duygusal ve sert bir türüdür. Dinlere ve tanrı inancına karşı öfke ve hayal kırıklığı temelinde şekillenir. Ancak bu tutum, aşırı duygusallık ve kutuplaşma riski taşır. Ateizmin daha sakin, yapıcı veya felsefi türleri de mevcuttur. #Ateizm #Felsefe #DinVeToplum"
 
-
-### Revizyonun Gerekçeleri:
-1. **Daha Diplomatik Dil:** Orijinal tweet'teki sert ve yargılayıcı ifadeler yumuşatılarak, konuya daha tarafsız ve kapsayıcı bir bakış açısı sunuldu.
-2. **Netlik ve Anlaşılırlık:** Uzun ve karmaşık cümleler sadeleştirildi, böylece mesaj daha kolay anlaşılır hale getirildi.
-3. **Ana Fikrin Korunması:** Safra ateizminin tanımı, özellikleri, örnekleri ve eleştirileri korunarak, daha dengeli bir anlatım sağlandı.
-4. **Çözüm Odaklı Yaklaşım:** Sonuç bölümünde, ateizmin farklı türlerine değinilerek, yapıcı bir perspektif sunuldu.
-
-Bu revizyon, hem daha geniş bir kitleye hitap edebilir hem de konuyu daha yapıcı bir şekilde tartışmaya açabilir.</p>
-</div>
