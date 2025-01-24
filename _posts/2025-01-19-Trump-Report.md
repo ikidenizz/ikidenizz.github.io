@@ -13,6 +13,13 @@ published: true
 
 ![Trump's Foreign Policy and Its Impact]({{ "/images/Trump.jpeg" | relative_url }}){:width="500px" height="auto"}
 
+<figure>
+  <img src="/images/Trump.jpeg" alt="Trump's Foreign Policy and Its Impact" class="responsive-image centered-image">
+  <figcaption>Bu bir örnek resim açıklamasıdır.</figcaption>
+</figure>
+
+{% picture /images/Trump.jpeg --img class="responsive-image" %}
+
 ## **Trump's Foreign Policy and Its Impact**
 
 ### **Introduction**
