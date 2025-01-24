@@ -15,13 +15,7 @@ published: true
 
 
 
-## **"İnsan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına yaratılışçılar tarafından getirilen bilimsel itirazlar:**
-
-Tweet'inizi daha etkili, anlaşılır ve diplomatik bir dil ile yeniden ifade etmek için aşağıdaki revize edilmiş versiyonu öneriyorum. Bu versiyon, ana fikri korurken daha net, daha akıcı ve daha az teknik jargon içeren bir anlatım sunar:
-
----
-
-**"İnsan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına karşı çeşitli bilimsel itirazlar:**
+## **"İnsan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına karşı çeşitli bilimsel itirazlar:**
 
 1️⃣ **Fonksiyonel Gen Argümanı:** Bazı genetikçiler, insan kromozomu 2'deki iddia edilen birleşme bölgesinin aslında işlevsel bir gen içerdiğini savunuyor. Örneğin, Jeffrey Tomkins, bu bölgenin birleşmiş telomerlerin kalıntıları yerine, önemli bir genin fonksiyonel bir parçası olduğunu ileri sürüyor.
 
