@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "İnsan kromozomu 2"
-description: "İnsan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına yaratılışçılar tarafından getirilen bilimsel itirazlar"
+description: "Kromozom 2 birleşme modeli, insanın şempanzelerle ortak atadan evrimleştiğini savunuyor. Ancak, telomerik tekrarların eksikliği ve işlevsel genlerin varlığı gibi tutarsızlıklar, bu modelin geçerliliğini sorgulatıyor. Bilimsel verileri yeniden inceleyelim! 🧬"
 image: "/images/8808-dna.jpg"
 date: 2025-01-23 05:04:34 +0300
 category:  "Bilim"
