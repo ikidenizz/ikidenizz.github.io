@@ -17,7 +17,7 @@ published: true
 ## **Toplumun ruhsal açlığını görmezden gelmek, onu derinlikle anlamaktan uzaklaştırır.**  
 
 
-![ateizmt]({{ "Image-ateizm.jpeg" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
+![ateizm]({{ "/images/Image-ateizm.jpeg" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
 
 
 Bugün toplumda yaygınlaşan **'sıvı ateizmi'**, Tanrı'nın varlığına yönelik herhangi bir derin düşünce veya endişenin artık olmadığı bir durumu yansıtır. Bu zihniyet, giderek fazla insanın hayatının bir parçası haline gelmiş ve onların ruhsal açlığını artırmıştır. Ancak bu tabloya ek olarak, bazı insanların Tanrı'nın yokluğunu büyük bir kayıp olarak hissettiği ve bunun sonucunda boşluk ve anlam kaybının acısını yaşadığı da göz ardı edilmemelidir.
