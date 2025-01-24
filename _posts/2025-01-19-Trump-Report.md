@@ -11,14 +11,8 @@ tags: "Policy"
 published: true
 ---
 
-![Trump's Foreign Policy and Its Impact]({{ "/images/Trump.jpeg" | relative_url }}){:width="300px" height="auto"}
+![Trump's Foreign Policy and Its Impact]({{ "/images/Trump.jpeg" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
 
-<figure>
-  <img src="/images/Trump.jpeg" alt="Trump's Foreign Policy and Its Impact" class="responsive-image centered-image">
-  <figcaption>Bu bir örnek resim açıklamasıdır.</figcaption>
-</figure>
-
-{% picture /images/Trump.jpeg --img class="responsive-image" class="centered-image" %}
 
 ## **Trump's Foreign Policy and Its Impact**
 
