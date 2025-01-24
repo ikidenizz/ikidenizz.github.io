@@ -2,7 +2,7 @@
 layout: post
 title: "İnsan kromozomu 2"
 description: "İnsan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına yaratılışçılar tarafından getirilen bilimsel itirazlar"
-image: /images/Kromozom.png
+image: /images/8808-dna.jpg
 date: 2025-01-23 05:04:34 +0300
 category:  "Bilim"
 tags:  [Bilim, Genetik, Yaratılış, Evrim]
@@ -11,7 +11,7 @@ author: isunion99
 published: true
 ---
 
-![İnsan kromozomu 2]({{ "/images/Kromozom.png" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
+![İnsan kromozomu 2]({{ "/images/8808-fig1.jpg" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
 
 Genetik Bilimi Araştırmacısı Jeffrey Tomkins, Dr. Jeffrey P. Tomkins, insan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına karşı çıkıyor ve bu iddiayı çürütmek için bir dizi bilimsel argüman sunuyor. 🧬 Tomkins, insan kromozomu 2'deki sözde "birleşme bölgesi"nin aslında DDX11L2 genini içerdiğini ve bu genin hücre bölünmesi, DNA onarımı gibi kritik süreçlerde rol oynadığını belirtiyor. Bu, birleşme bölgesinin işlevsiz bir kalıntı değil, aktif bir genin parçası olduğunu gösteriyor. Ayrıca, kromozom 2'deki telomerik diziler (TTAGGG), birleşme kalıntısı olarak değil, genomun düzenlenmesinde aktif rol oynayan işlevsel elementler olarak karşımıza çıkıyor. 
 
