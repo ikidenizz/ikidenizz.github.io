@@ -266,3 +266,43 @@ font-weight: bold; /* Kalın yazı */
     font-size: 1.2rem;
     }
 }
+/* Yazı Çerçevesi Stili */
+.frame {
+    border: 2px solid #333; /* Çerçevenin kenarlık rengi */
+    padding: 16px; /* İçeriğin çerçeveyle arasındaki boşluk */
+    margin: 20px 0; /* Çerçevenin üst ve altındaki boşluk */
+    background-color: #f9f9f9; /* Çerçevenin arka plan rengi */
+    border-radius: 8px; /* Kenarların yuvarlatılması */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+
+    p {
+        margin: 0; /* Paragrafların çerçevenin içindeki boşluklarını kaldır */
+    }
+}
+
+/* Mobil Cihazlar için Stil */
+@media (max-width: 767px) {
+    .frame {
+        padding: 12px; /* Daha küçük cihazlarda çerçevenin iç boşluklarını azalt */
+        margin: 15px 0; /* Daha küçük cihazlarda çerçevenin üst ve altındaki boşlukları azalt */
+        border-radius: 6px; /* Daha küçük cihazlarda kenarların daha az yuvarlatılması */
+    }
+}
+
+/* Tablet Cihazlar için Stil */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .frame {
+        padding: 14px; /* Tablet cihazlarda çerçevenin iç boşluklarını orta seviyede ayarlama */
+        margin: 18px 0; /* Tablet cihazlarda çerçevenin üst ve altındaki boşlukları orta seviyede ayarlama */
+        border-radius: 8px; /* Tablet cihazlarda kenarların orta seviyede yuvarlatılması */
+    }
+}
+
+/* Masaüstü Cihazlar için Stil */
+@media (min-width: 1024px) {
+    .frame {
+        padding: 16px; /* Büyük cihazlarda çerçevenin iç boşluklarını standart ayarlama */
+        margin: 20px 0; /* Büyük cihazlarda çerçevenin üst ve altındaki boşlukları standart ayarlama */
+        border-radius: 10px; /* Büyük cihazlarda kenarların daha fazla yuvarlatılması */
+    }
+}
