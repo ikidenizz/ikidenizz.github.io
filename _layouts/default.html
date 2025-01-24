@@ -11,11 +11,17 @@
       </div>
     </header>
     <nav>
-      <ul>
-        <li><a href="{{ site.baseurl }}/">{{ site.data.languages[page.lang].Home }}</a></li>
-        <li><a href="{{ site.baseurl }}/about">{{ site.data.languages[page.lang].About }}</a></li>
-        <li><a href="{{ site.baseurl }}/contact">{{ site.data.languages[page.lang].Contact }}</a></li>
-      </ul>
+    <ul>
+  {% unless page.url == "/" %}
+    <li><a href="{{ site.baseurl }}/">{{ site.data.languages[page.lang].Home }}</a></li>
+  {% endunless %}
+  {% unless page.url == "/about/" %}
+    <li><a href="{{ site.baseurl }}/about">{{ site.data.languages[page.lang].About }}</a></li>
+  {% endunless %}
+  {% unless page.url == "/contact/" %}
+    <li><a href="{{ site.baseurl }}/contact">{{ site.data.languages[page.lang].Contact }}</a></li>
+  {% endunless %}
+</ul>
     </nav>
 <main class="site-content">
       {{ content }}
