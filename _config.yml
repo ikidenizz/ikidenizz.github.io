@@ -11,7 +11,7 @@ image: "/images/describing.jpg"
 timezone: Europe/Istanbul
 # URL yapısı
 permalink: /:title/
-
+plugins_dir: enabled
 sass:
   style: compressed # CSS sıkıştırma stilini seçin (compressed, expanded, etc.)
 
