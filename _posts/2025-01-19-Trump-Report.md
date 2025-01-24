@@ -11,7 +11,7 @@ tags: "Policy"
 published: true
 ---
 
-![Trump's Foreign Policy and Its Impact]({{ "/images/Trump.jpeg" | relative_url }})
+![Trump's Foreign Policy and Its Impact]({{ "/images/Trump.jpeg" | relative_url }}){:width="500px" height="auto"}
 
 ## **Trump's Foreign Policy and Its Impact**
 
