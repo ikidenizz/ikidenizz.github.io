@@ -44,15 +44,18 @@ Bugün toplumda yaygınlaşan **'sıvı ateizmi'**, Tanrı'nın varlığına yö
    - Ancak gerçekte, bu tutum sadece ruhlarını sterilize eden ve zihinlerini köleleştiren bir tür entelektüel uyuşturucu olabiliyor.
    - Bu grup, modern toplumun sunduğu konfor ve eğlence dünyasında kendilerini gerçek özgürlük ve tatmin içinde sanırlar.
 
-<p class="post-date">
-  Yayın Tarihi: {{ page.date | turkish_date }} {{ page.date | date: "%H:%M" }}
-</p>
-
 {% assign day = page.date | date: "%-d" %}
 {% assign month = page.date | date: "%m" %}
 {% assign year = page.date | date: "%Y" %}
-{% assign turkish_months = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
-{% assign month_index = month | minus: 1 %}
-<p class="post-date">
-  Yayın Tarihi: {{ day }} {{ turkish_months[month_index] }} {{ year }}
-</p>
+
+{% if page.lang == "tr" %}
+  {% assign turkish_months = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
+  {% assign month_index = month | minus: 1 %}
+  <p class="post-date">
+    Yayın Tarihi: {{ day }} {{ turkish_months[month_index] }} {{ year }}
+  </p>
+{% else %}
+  <p class="post-date">
+    Published on: {{ page.date | date: "%B %d, %Y" }}
+  </p>
+{% endif %}
