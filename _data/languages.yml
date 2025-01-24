@@ -3,8 +3,10 @@ en:
   Home: "Home"
   About: "About"
   Contact: "Contact"
+  RSS_Feed: "RSS Feed"
 
 tr:
   Home: "Anasayfa"
   About: "Hakkımızda"
   Contact: "İletişim"
+  RSS_Feed: "RSS Beslemesi"
