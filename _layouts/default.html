@@ -19,6 +19,23 @@
     </nav>
 <main class="site-content">
       {{ content }}
+
+
+      {% assign day = page.date | date: "%-d" %}
+{% assign month = page.date | date: "%m" %}
+{% assign year = page.date | date: "%Y" %}
+
+{% if page.lang == "tr" %}
+  {% assign turkish_months = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
+  {% assign month_index = month | minus: 1 %}
+  <p class="post-date">
+    Yayın Tarihi: {{ day }} {{ turkish_months[month_index] }} {{ year }}
+  </p>
+{% else %}
+  <p class="post-date">
+    Published on: {{ page.date | date: "%B %d, %Y" }}
+  </p>
+{% endif %}
       <div class="social-share">
         <p>Bu sayfayı paylaş:</p>
         <div class="share-buttons">
