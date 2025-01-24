@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Zaman Genişlemesi (Time Dilation)"
-description: "Zaman Genişlemesi Nedir?"
-image: "/images/describing.jpg"
-date: 2025-01-13 05:04:34 +0300
-category: [Zaman] 
-tags: [Zaman, Time] 
-lang: tr
+title: "İki Partili Sistem"
+description: "İki Partili Sistem: Demokrasinin Sınırları ve Gerçek Temsil Arayışı"
+image: /images/parti.jpeg
+date: 2025-01-17 05:04:34 +0300
+category: "Demokrasi" 
+tags: "Demokrasi" 
 author: isunion99
 published: true
+lang: tr
 ---
 
 
