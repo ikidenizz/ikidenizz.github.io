@@ -6,9 +6,9 @@ image: /images/parti.jpeg
 date: 2025-01-17 05:04:34 +0300
 category: [Demokrasi] 
 tags: [Demokrasi, seçim] 
-lang: tr
 author: isunion99
 published: true
+lang: tr
 ---
 
  ![parti]({{ "/images/parti.jpeg" | relative_url }})
