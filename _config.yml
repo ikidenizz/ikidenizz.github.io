@@ -8,10 +8,9 @@ url: "https://ikidenizz.github.io"
 twitter_username: EaPbyai
 github_username:  isunion99
 image: "/images/describing.jpg"
-timezone: Europe/Istanbul
+
 # URL yapısı
 permalink: /:title/
-plugins_dir: enabled
 sass:
   style: compressed # CSS sıkıştırma stilini seçin (compressed, expanded, etc.)
 
