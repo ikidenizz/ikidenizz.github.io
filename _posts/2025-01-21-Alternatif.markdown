@@ -2,10 +2,10 @@
 layout: post
 title: "Demokrasinin Illüzyonu"
 description: "İki Parti Sistemi ve Demokrasinin Illüzyonu"
-image: "/images/describing.jpg"
+image: /images/describing.jpg
 date: 2025-01-17 05:04:34 +0300
-category: [Felsefe]
-tags: [Felsefe]
+category: "Felsefe"
+tags: "Felsefe"
 author: isunion99
 published: true
 lang: tr
