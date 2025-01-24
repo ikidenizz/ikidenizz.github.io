@@ -4,14 +4,14 @@ title: "Sekülerleşme ve Laiklik İlişkisi"
 description: "Lailkiğe EVET Sekülerleşmeye HAYIR"
 image: "/images/describing.jpg"
 date: 2025-01-22 05:04:34 +0300
-category: "Din"
-tags: "Din"
+category: [İslam]
+tags: [İslam]
 lang: tr
 author: isunion99
 published: true
 ---
 
-## Lailkiğe EVET Sekülerleşmeye HAYIR
+## **Lailkiğe EVET Sekülerleşmeye HAYIR**
 
 ### **Sekülerleşmenin Tanımı:**
 "Sekülerleşme, toplumun ve bireylerin dinî inançlar, değerler ve kurumlardan uzaklaşarak, dinî olguların gündelik hayat ve toplumsal kurumlar üzerindeki etkisinin azalması sürecidir. Bu süreç, herkesin dini inancını özgürce yaşama hakkını korurken, dinin toplumsal hayatta merkezî bir rol oynamaktan çıkmasını ve bireysel tercihlere indirgenmesini ifade eder."
