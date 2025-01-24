@@ -44,3 +44,6 @@ Bugün toplumda yaygınlaşan **'sıvı ateizmi'**, Tanrı'nın varlığına yö
    - Ancak gerçekte, bu tutum sadece ruhlarını sterilize eden ve zihinlerini köleleştiren bir tür entelektüel uyuşturucu olabiliyor.
    - Bu grup, modern toplumun sunduğu konfor ve eğlence dünyasında kendilerini gerçek özgürlük ve tatmin içinde sanırlar.
 
+<p class="post-date">
+  Yayın Tarihi: {{ page.date | turkish_date }}
+</p>
