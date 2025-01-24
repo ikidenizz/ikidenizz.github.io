@@ -13,7 +13,7 @@
     <nav>
       <ul>
         {% assign current_lang = page.lang %}
-        <a href="{{ site.baseurl }}/">{{ site.data.languages[current_lang].Home }}</a>
+        <li><a href="{{ site.baseurl }}/">{{ site.data.languages[current_lang].Home }}</a></li>
         <li><a href="{{ site.baseurl }}/about">{{ site.data.languages[current_lang].About }}</a></li>
         <li><a href="{{ site.baseurl }}/contact">{{ site.data.languages[current_lang].Contact }}</a></li>
       </ul>
