@@ -13,7 +13,7 @@ image: "/images/describing.jpg"
 permalink: /:title/
 sass:
   style: compressed # CSS sıkıştırma stilini seçin (compressed, expanded, etc.)
-  sass_dir: _sass
+
 # Build settings
 markdown: kramdown
 theme: minima
