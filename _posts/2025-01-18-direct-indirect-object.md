@@ -15,32 +15,19 @@ lang: tr
  
 
 
-Doğrudan nesne, bir eylemin doğrudan etkilediği nesneyi ifade eder. 
+Doğrudan nesne (direct object), bir eylemin doğrudan etkilediği nesneyi ifade eder. Dolaylı nesne (indirect object) ise, eylemin dolaylı olarak etkilediği nesneyi belirtir. İşte bu kavramları örneklerle açıklıyorum:
 
-Dolaylı nesne ise, bir eylemin dolaylı olarak etkilediği nesneyi ifade eder.
+**Edat Kullanımı:**
+Dolaylı nesne, doğrudan nesneden sonra geldiğinde genellikle 'to', 'for' veya 'of' gibi edatlarla birlikte kullanılır.
+- Örnek: 'I gave the book to my friend.'  
+  Burada 'the book' doğrudan nesne, 'my friend' ise dolaylı nesnedir.
 
-- Dolaylı nesne, doğrudan nesneden sonra geldiğinde, genellikle **to** veya **for** veya **of** gibi bir edatla birlikte kullanılır. 
+- Örnek: 'I bought a gift for my sister.'  
+  Burada 'a gift' doğrudan nesne, 'my sister' ise dolaylı nesnedir.
 
+**Edat Kullanmadan:**
+Dolaylı nesne, fiilden hemen sonra ve doğrudan nesneden önce geldiğinde edat kullanılmaz.
+- Örnek: 'I gave my sister a gift.'  
+  Bu cümlede 'my sister' dolaylı nesne, 'a gift' ise doğrudan nesnedir.
 
-**I gave the book to my friend.**
-
-Burada, **my friend** dolaylı nesne, **the book** ise doğrudan nesnedir. 
-
-
-
-**I bought a gift for my sister.**
-
-
-Burada, **a gift** doğrudan nesne, **my sister** dolaylı nesnedir ve **for** edatı ile belirtilmiştir.
-
-
-- Dolaylı nesne, fiilden sonra ve doğrudan nesneden önce geldiğinde, edat kullanmadan ifade edilir
-
-
-**I gave my sister a gift.**
-
-Bu cümlede, **my sister** dolaylı nesne, **a gift** ise doğrudan nesnedir. Dolaylı nesne, **gave** fiilinden hemen sonra gelir.
-
-
-Dolaylı nesnelerin yerleşimini anlamak, cümle yapısını kavramak ve iletişimde netlik sağlamak açısından önemlidir.
- 
+Dolaylı ve doğrudan nesnelerin cümledeki yerini anlamak, hem cümle yapısını kavramak hem de iletişimde netlik sağlamak açısından büyük önem taşır. #DilBilgisi #İngilizce #NesneYapısı
