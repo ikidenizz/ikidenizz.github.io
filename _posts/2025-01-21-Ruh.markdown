@@ -45,5 +45,5 @@ Bugün toplumda yaygınlaşan **'sıvı ateizmi'**, Tanrı'nın varlığına yö
    - Bu grup, modern toplumun sunduğu konfor ve eğlence dünyasında kendilerini gerçek özgürlük ve tatmin içinde sanırlar.
 
 <p class="post-date">
-  Yayın Tarihi: {{ page.date | turkish_date }}
+  Yayın Tarihi: {{ page.date | turkish_date }} {{ page.date | date: "%H:%M" }}
 </p>
