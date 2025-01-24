@@ -3,7 +3,7 @@ layout: post
 title: "İngilizce'deki yaygın kısa ifadeler"
 description: "İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru Türkçe çevirilerini öğrenmek, İngilizce pratiği yaparken çok işinize yarayabilir."
 date: 2025-01-15 11:00:00 +0300
-image: "/images/describing.jpg"
+image: /images/describing.jpg
 category: "Language"
 tags: "Language"
 published: true

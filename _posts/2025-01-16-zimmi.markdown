@@ -4,11 +4,9 @@ title: "Zimmî Statüsü ve Jim Crow Yasaları"
 description: "Zimmî Statüsü ve Jim Crow Yasaları: Bir Karşılaştırma"
 image: /images/describing.jpg
 date: 2025-01-16 05:04:34 +0300
-categories: [islam]
-tags: "İslam"
+category: "Islam"
+tags: "Islam"
 lang: tr
-redirect_from:
-  - /islam/2025/01/16/zimmi.html
 ---
 
 ## Zimmî Statüsü ve Jim Crow Yasaları

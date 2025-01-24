@@ -2,10 +2,10 @@
 layout: post
 title: "Ruh Açlığı"
 description: "Toplumun ruhsal açlığını görmezden gelmek, onu derinlikle anlamaktan uzaklaştırır."
-image: "/images/Image-ateizm.jpeg"
+image: /images/Image-ateizm.jpeg
 date: 2025-01-21 05:04:34 +0300
-category: [Felsefe]
-tags: [Felsefe]
+category: "Felsefe"
+tags: "Felsefe"
 lang: tr
 author: isunion99
 published: true
