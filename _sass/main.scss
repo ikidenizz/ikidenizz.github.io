@@ -124,10 +124,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em; /* Başlıkların altına boşluk */
 }
 
-li {
-    margin-bottom: 0.5em; /* Liste öğeleri arası boşluk */
-}
-
 /* Mobil Cihazlar için Stil */
 @media (max-width: 767px) {
     body {
@@ -160,7 +156,9 @@ li {
     .frame {
         padding: 12px; /* Daha küçük cihazlarda çerçevenin iç boşluklarını azalt */
         margin: 15px 0; /* Daha küçük cihazlarda çerçevenin üst ve altındaki boşlukları azalt */
-        border-radius: 6px; /* Daha küçük cihazlarda kenarların daha az yuvarlatılması */
+        border: 2px solid #0077b5; /* Çerçeve rengi ve kalınlığı */
+        border-radius: 6px; /* Kenar yuvarlama */
+        background-color: #f9f9f9; /* Çerçeve arka plan rengi */
     }
 }
 
@@ -172,37 +170,19 @@ li {
 
     /* Tablet Cihazlar için Yazı Çerçevesi Stili */
     .frame {
-        padding: 14px; /* Tablet cihazlarda çerçevenin iç boşluklarını orta seviyede ayarlama */
-        margin: 18px 0; /* Tablet cihazlarda çerçevenin üst ve altındaki boşlukları orta seviyede ayarlama */
-        border-radius: 8px; /* Tablet cihazlarda kenarların orta seviyede yuvarlatılması */
+        padding: 14px; /* Tablet cihazlarda çerçevenin iç boşlukları */
+        margin: 20px 0; /* Tablet cihazlarda çerçevenin üst ve altındaki boşluklar */
+        border: 2px solid #0077b5; /* Çerçeve rengi ve kalınlığı */
+        border-radius: 8px; /* Kenar yuvarlama */
+        background-color: #f9f9f9; /* Çerçeve arka plan rengi */
     }
 }
 
-/* Masaüstü Cihazlar için Stil */
-@media (min-width: 1024px) {
-    body {
-        font-size: 18px;
-    }
-
-    /* Masaüstü Cihazlar için Yazı Çerçevesi Stili */
-    .frame {
-        padding: 16px; /* Büyük cihazlarda çerçevenin iç boşluklarını standart ayarlama */
-        margin: 20px 0; /* Büyük cihazlarda çerçevenin üst ve altındaki boşlukları standart ayarlama */
-        border-radius: 10px; /* Büyük cihazlarda kenarların daha fazla yuvarlatılması */
-    }
-}
-
-/* Yazı Çerçevesi Stili */
+/* Genel Yazı Çerçevesi Stili */
 .frame {
-    border: 2px solid #1abc9c; /* Turkuaz renkli çerçeve kenarlığı */
-    padding: 16px; /* İçeriğin çerçeveyle arasındaki boşluk */
+    padding: 16px; /* Genel çerçeve iç boşluğu */
     margin: 20px 0; /* Çerçevenin üst ve altındaki boşluk */
-    background-color: #e0f7f0; /* Çok açık turkuaz renkli çerçeve zemin rengi */
-    border-radius: 8px; /* Kenarların yuvarlatılması */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Gölge efekti */
-}
-
-.frame p {
-    margin: 0; /* Paragrafların çerçevenin içindeki boşluklarını kaldır */
-    color: #333; /* Metin rengi */
+    border: 2px solid #0077b5; /* Çerçeve rengi ve kalınlığı */
+    border-radius: 8px; /* Kenar yuvarlama */
+    background-color: #f9f9f9; /* Çerçeve arka plan rengi */
 }
