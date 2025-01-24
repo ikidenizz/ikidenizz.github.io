@@ -18,7 +18,7 @@ published: true
   <figcaption>Bu bir örnek resim açıklamasıdır.</figcaption>
 </figure>
 
-{% picture /images/Trump.jpeg --img class="responsive-image" %}
+{% picture /images/Trump.jpeg --img class="responsive-image" class="centered-image" %}
 
 ## **Trump's Foreign Policy and Its Impact**
 
