@@ -7,12 +7,12 @@
   <div class="site">
     <header class="site-header">
       <div class="title">
-        <a class="extra" href="{{ site.baseurl }}/">{{ site.data.languages[page.lang].Home }}</a>
+        <a class="extra" href="{{ site.baseurl }}/">İKİ DENİZ</a>
       </div>
     </header>
     <nav>
       <ul>
-        {% assign current_lang = page.lang | default: site.lang %}
+        {% assign current_lang = page.lang %}
         <li><a href="{{ site.baseurl }}/">{{ site.data.languages[current_lang].Home }}</a></li>
         <li><a href="{{ site.baseurl }}/about">{{ site.data.languages[current_lang].About }}</a></li>
         <li><a href="{{ site.baseurl }}/contact">{{ site.data.languages[current_lang].Contact }}</a></li>
