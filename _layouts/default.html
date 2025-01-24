@@ -75,10 +75,10 @@ setInterval(updateTime, 1000);
 {% endif %}
  {% endunless %}
 
-<h3>Rastgele Yazılar</h3>
+<h3>Önerilen Yazılar</h3>
 <ul>
-  {% assign random_posts = site.posts | sample: 3 %}
-  {% for post in random_posts %}
+  {% assign related_posts = site.posts | where_exp: "post", "post.title contains page.title" %}
+  {% for post in related_posts limit: 3 %}
     {% if post.url != page.url %} <!-- Mevcut yazıyı hariç tut -->
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endif %}
