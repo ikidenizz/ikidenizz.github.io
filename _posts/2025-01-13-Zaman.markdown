@@ -12,17 +12,17 @@ lang: tr
 ---
 
 
-## Zaman Genişlemesi Nedir?
+## **Zaman Genişlemesi Nedir?**
 
 
 
-### Zaman Genişlemesi (Time Dilation)
+### **Zaman Genişlemesi (Time Dilation)**
 
 Zaman genişlemesi, Einstein'ın **İzafiyet Teorisi (Görelilik Teorisi)** ile açıklanan bir fizik fenomenidir. Bu olgu, zamanın mutlak olmadığını ve bir gözlemcinin hızına (**özel görelilik**) veya bulunduğu kütleçekim alanına (**genel görelilik**) bağlı olarak farklı şekilde “aktığını” ifade eder.
 
 
 
-#### 1. Göreceli Hızdan Kaynaklanan Zaman Genişlemesi (Özel Görelilik)
+#### **1. Göreceli Hızdan Kaynaklanan Zaman Genişlemesi (Özel Görelilik)**
 
 Bu tür zaman genişlemesi, iki gözlemci arasında meydana gelir ve birbirine göre yüksek hızlarda hareket etmeleri durumunda ortaya çıkar. **Einstein'ın Özel Görelilik Teorisi'ne** göre, bir gözlemci çok yüksek bir hızda (**ışık hızına yakın bir hızda**) hareket ediyorsa, o kişi için zaman daha yavaş akar.
 
