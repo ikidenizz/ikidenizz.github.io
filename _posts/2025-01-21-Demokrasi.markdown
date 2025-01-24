@@ -4,8 +4,8 @@ title: "İki Partili Sistem"
 description: "İki Partili Sistem: Demokrasinin Sınırları ve Gerçek Temsil Arayışı"
 image: /images/parti.jpeg
 date: 2025-01-17 05:04:34 +0300
-category:  [Demokrasi]
-tags: [Demokrasi] 
+category:  [Felsefe]
+tags: [Felsefe] 
 author: isunion99
 published: true
 lang: tr
