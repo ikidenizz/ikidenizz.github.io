@@ -42,6 +42,8 @@ updateTime();
 setInterval(updateTime, 1000);
   </script>
 
+
+  <!-- nav -->
     <nav>
     <ul>
   {% unless page.url == "/" %}
@@ -49,10 +51,13 @@ setInterval(updateTime, 1000);
   {% endunless %}
 </ul>
     </nav>
+
+
 <main class="site-content">
       {{ content }}
 
-
+<!-- unless -->
+ {% unless page.url == "/" %}
       {% assign day = page.date | date: "%-d" %}
       {% assign month = page.date | date: "%m" %}
       {% assign year = page.date | date: "%Y" %}
@@ -68,6 +73,8 @@ setInterval(updateTime, 1000);
     Published on: {{ page.date | date: "%B %d, %Y" }}
   </p>
 {% endif %}
+ {% endunless %}
+
       <div class="social-share">
         <p>Bu sayfayı paylaş:</p>
         <div class="share-buttons">
