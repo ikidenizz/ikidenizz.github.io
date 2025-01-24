@@ -4,11 +4,6 @@
 {% include head.html %}
 </head>
 <body>
-<!-- Tarih ve Saat Bilgisi -->
-  <div id="tarih-saat">
-    <p id="tarih"></p>
-    <p id="saat"></p>
-  </div>
 <script type="text/javascript">
     function updateTime() {
   var now = new Date();
@@ -40,6 +35,13 @@ setInterval(updateTime, 1000);
         <a class="extra" href="{{ site.baseurl }}/">İKİ DENİZ</a>
       </div>
     </header>
+
+<!-- Tarih ve Saat Bilgisi -->
+  <div id="tarih-saat">
+    <p id="tarih"></p>
+    <p id="saat"></p>
+  </div>
+
     <nav>
     <ul>
   {% unless page.url == "/" %}
