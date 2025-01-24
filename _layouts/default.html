@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang }}">
+<head>
 {% include head.html %}
+</head>
 <body>
   <div class="site">
     <header class="site-header">
       <div class="title">
-        <a class="extra" href="{{ site.baseurl }}/">İKİ DENİZ</a>
+        <a class="extra" href="{{ site.baseurl }}/">{{ site.data.languages[page.lang | default: site.lang].Home }}</a>
       </div>
     </header>
     <nav>
