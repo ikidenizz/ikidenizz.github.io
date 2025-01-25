@@ -2,7 +2,7 @@
 layout: post
 title: "Safra Ateizmi"
 description: "Safra Ateizmi ve Ateist Düşüncenin Çeşitli Yönleri"
-image: "/images/describing.jpg"
+image: /images/atheizm.png
 date: 2025-01-22 05:04:34 +0300
 category: "Islam"
 tags: "Islam" 
@@ -13,7 +13,8 @@ published: true
 
  
 
-### **Safra Ateizmi ve Ateist Düşüncenin Çeşitli Yönleri**
+![atheizm]({{ "/images/atheizm.png" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
+
 
 Ateizm, tanrı inancını reddeden bir felsefi bakış açısıdır, ancak tek bir türde değil, farklı tonlarda ve yaklaşımlarda ortaya çıkar. ‘Safra ateizmi’ olarak bilinen ve dinlere, tanrı inancına veya dini kurumlara karşı öfke ve hayal kırıklığıyla karakterize edilen bir ateizm türünü ele alacağız. Safra ateizmi, genellikle sert ve alaycı bir dil kullanarak dini inançları eleştirir.
 
