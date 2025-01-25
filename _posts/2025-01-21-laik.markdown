@@ -2,7 +2,7 @@
 layout: post
 title: "Sekülerleşme ve Laiklik İlişkisi"
 description: "Lailkiğe EVET Sekülerleşmeye HAYIR"
-image: /images/describing.jpg
+image: /images/sembolik.png
 date: 2025-01-22 05:04:34 +0300
 category: "Islam"
 tags: "Islam"
@@ -10,6 +10,8 @@ lang: tr
 author: isunion99
 published: true
 ---
+
+![sembolik]({{ "/images/sembolik.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 ## **Lailkiğe EVET Sekülerleşmeye HAYIR**
 
