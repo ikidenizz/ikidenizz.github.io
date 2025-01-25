@@ -14,15 +14,9 @@ published: true
 ![İnsan kromozomu 2]({{ "/images/8808-fig1.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 
-İnsanın şempanzelerle ortak bir atadan evrimleştiğine dair en önemli argümanlardan biri, "kromozom 2 birleşme modeli"dir. Bu model, insan kromozom 2'sinin iki küçük şempanze kromozomunun (2A ve 2B) birleşmesiyle oluştuğunu öne sürer. Ancak, bu modeli destekleyen kanıtların çoğu, DNA hibridizasyonu ve kromozom boyama gibi eski tekniklere dayanıyor ve yalnızca dolaylı veriler sunuyor.
-
-Güncel genomik analizler, birleşme bölgesindeki telomerik tekrarların (TTAGGG) beklenen uzun ve mükemmel yapıda olmadığını, seyrek ve parçalı olduğunu gösteriyor. Ayrıca, bu bölgede işlevsel genler bulunması, birleşme modelini sorgulatıyor. İkinci bir sentromer kalıntısına dair kanıtlar da eksiktir ve şempanze ile insan kromozomları arasındaki sentromer konumları tutarsızdır.
-
-Bu bulgular, birleşme modelinin spekülatif olduğunu ve insan-primat evriminin temel taşlarından biri olarak sunulmasını ciddi şekilde sorgulatıyor. 
-
-Genetik Bilimi Araştırmacısı, Dr. Jeffrey P. Tomkins, insan kromozomu 2'nin şempanze kromozomlarının birleşmesiyle oluştuğu iddiasına karşı çıkıyor ve bu iddiayı çürütmek için bir dizi bilimsel argüman sunuyor. 🧬 Tomkins, insan kromozomu 2'deki sözde "birleşme bölgesi"nin aslında DDX11L2 genini içerdiğini ve bu genin hücre bölünmesi, DNA onarımı gibi kritik süreçlerde rol oynadığını belirtiyor. Bu, birleşme bölgesinin işlevsiz bir kalıntı değil, aktif bir genin parçası olduğunu gösteriyor. Ayrıca, kromozom 2'deki telomerik diziler (TTAGGG), birleşme kalıntısı olarak değil, genomun düzenlenmesinde aktif rol oynayan işlevsel elementler olarak karşımıza çıkıyor. 
-
-ENCODE Projesi'nin insan genomunun %80'inden fazlasının biyokimyasal aktivite gösterdiğini ortaya koyması, "işlevsiz DNA" argümanını çürütüyor ve birleşme iddiasını zayıflatıyor. Tomkins, şempanze ve insan genomlarının karşılaştırılmasında kullanılan yöntemlerin önyargılı olabileceğini ve eksik verilerin birleşme iddiasının doğruluğunu sorgulattığını belirtiyor. Son olarak, insan kromozomu 2'nin yapısı ve işlevselliği, rastgele mutasyonlarla açıklanamayacak kadar karmaşık; bu da Tomkins'e göre bilinçli bir tasarımın kanıtı olarak görülüyor. Bu argümanlar, yaratılışçı bakış açısını desteklerken, evrimsel birleşme iddiasını ciddi şekilde sorgulatıyor. 🧬✨
+<div class="frame">
+  <p>İnsan ve şempanze kromozomları arasındaki benzerlikler, evrimsel bir ortak ataya işaret ediyor gibi görünse de, detaylı incelemeler farklı bir tablo ortaya koyuyor. İnsan kromozom 2’sinin, şempanzelerdeki iki küçük kromozomun birleşmesiyle oluştuğu iddiası, güncel genomik analizlerle ciddi şekilde sorgulanıyor. Birleşme bölgesindeki telomerik tekrarların düzensiz ve parçalı yapısı, bu bölgede işlevsel genlerin bulunması ve ikinci bir sentromer kalıntısına dair kanıtların eksikliği, birleşme modelinin spekülatif olduğunu gösteriyor. İnsan kromozomu 2’nin karmaşık yapısı ve işlevselliği, rastgele mutasyonlarla açıklanamayacak kadar özelleşmiş olup, bilinçli bir tasarımın izlerini taşıyor. Bu bulgular, evrimsel birleşme iddiasını sorgulatırken, yaratılışçı bakış açısını destekleyen güçlü kanıtlar sunuyor.🧬✨</p>
+</div>
 
 Kaynaklar:
 
