@@ -2,7 +2,7 @@
 layout: post
 title: "İnsan kromozomu 2"
 description: "Kromozom 2 birleşme modeli, insanın şempanzelerle ortak atadan evrimleştiğini savunuyor. Ancak, telomerik tekrarların eksikliği ve işlevsel genlerin varlığı gibi tutarsızlıklar, bu modelin geçerliliğini sorgulatıyor.  🧬"
-image: /images/8808-dna.jpg
+image: /images/8808-fig1.jpg
 date: 2025-01-23 05:04:34 +0300
 category:  "Bilim"
 tags:  [Bilim, Genetik, Yaratılış, Evrim]
