@@ -11,10 +11,6 @@ author: isunion99
 published: true
 ---
 
-## Allah yeryüzünde fetret bırakmaz. 🌍✨
-
-Fetret, boşluk veya duraksama anlamına gelir. Bu ifade, Allah'ın evrende sürekli bir düzen ve denge sağladığını, insanları doğru yolda tutmak için rehberlik ettiğini hatırlatır. Peygamberler ve kutsal kitaplar, bu rehberliğin birer tezahürüdür.
-
-Kuran'ın mesajları, insanlığın manevi ve ahlaki değerlerini korumasına yardımcı olur. Bu, Allah'ın merhametinin ve adaletinin bir göstergesidir. İnananlar için bu, her zaman doğru yolu bulabilecekleri umudunu taşır. 🌟
-
-#İman #Rehberlik #Kuran #AllahınMerhameti
+<div class="frame">
+  <p>Allah yeryüzünde fetret bırakmaz; bu, evrende sürekli bir düzen ve dengenin var olduğunu gösterir. 🌍✨ Fetret, boşluk veya duraksama anlamına gelir ve Allah’ın insanları doğru yolda tutmak için rehberlik ettiğini hatırlatır. Peygamberler ve kutsal kitaplar, bu rehberliğin açık birer tezahürüdür. Kuran’ın mesajları, insanlığın manevi ve ahlaki değerlerini korumasına yardımcı olur ki bu, Allah’ın merhametinin ve adaletinin bir yansımasıdır. İnananlar için bu durum, her zaman doğru yolu bulabilecekleri bir umut kaynağıdır. 🌟</p>
+</div>
