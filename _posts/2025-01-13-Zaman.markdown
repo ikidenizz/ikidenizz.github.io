@@ -12,29 +12,6 @@ lang: tr
 ---
 
 
-## **Zaman Genişlemesi Nedir?**
-
-
-Zaman genişlemesi, Einstein’ın İzafiyet Teorisi (Görelilik Teorisi) ile açıklanan bir fizik fenomenidir. Bu olgu, zamanın mutlak olmadığını ve bir gözlemcinin hızına (özel görelilik) veya bulunduğu kütleçekim alanına (genel görelilik) bağlı olarak farklı şekilde “aktığını” ifade eder.
-
-**1. Göreceli Hızdan Kaynaklanan Zaman Genişlemesi (Özel Görelilik):**
-Bu tür zaman genişlemesi, iki gözlemci arasında meydana gelir ve birbirine göre yüksek hızlarda hareket etmeleri durumunda ortaya çıkar. Einstein’ın Özel Görelilik Teorisi’ne göre, bir gözlemci çok yüksek bir hızda (ışık hızına yakın bir hızda) hareket ediyorsa, o kişi için zaman daha yavaş akar.
-
-**Örnek:** Bir astronot, ışık hızına yakın bir hızla bir uzay gemisiyle seyahat ederse, gemide geçen zaman (astronotun yaşlanma süresi), Dünya üzerinde kalan birine göre daha yavaş olacaktır. Bu durum “İkizler Paradoksu” olarak adlandırılır: Bir uzaya giden ikiz, Dünya’da kalan ikizine göre daha az yaşlanır.
-
-**2. Kütleçekimden Kaynaklanan Zaman Genişlemesi (Genel Görelilik):**
-Bu tür zaman genişlemesi, güçlü bir kütleçekim alanının etkisiyle ortaya çıkar. Einstein’ın Genel Görelilik Teorisi’ne göre, bir gözlemci büyük bir kütlenin (örneğin bir gezegen, yıldız veya kara delik) yakınında bulunuyorsa, onun için zaman, uzak bir gözlemciye göre daha yavaş akar.
-
-**Örnek:** Dünya’nın yüzeyindeki bir saat, bir uydudaki saate göre daha yavaş çalışır. Çünkü Dünya’nın yüzeyi, uyduların bulunduğu yörüngeye göre daha güçlü bir kütleçekim alanına sahiptir. GPS uydularındaki saatlerin doğruluğunu koruyabilmek için hem hız kaynaklı (özel görelilik) hem de kütleçekim kaynaklı (genel görelilik) zaman genişlemesi etkisi hesaplanır.
-
-**Zaman Genişlemesinin Günlük Yaşamda Önemi:**
-- **GPS Sistemleri:** GPS uyduları hem göreceli hızdan hem de kütleçekim etkisinden dolayı farklı “zaman genişlemesine” maruz kalır. Bu farklar düzeltilmezse, GPS hesaplamaları hatalı olur ve yer tespiti üzerinden çok büyük sapmalar meydana gelir.
-- **Parçacık Hızlandırıcıları:** Yüksek hızda hareket eden parçacıklar (örneğin, kozmostaki müonlar) üzerinde yapılan deneyler, zaman genişlemesini doğrular. Bu parçacıklar, ışık hızına yakın hızlarla hareket ettikçe, ömürleri gözlemlenebilir şekilde uzar.
-- **Astronomi ve Kara Delikler:** Kara deliklerin yakınındaki zaman genişlemesi, bilimkurgu filmlerinde popüler bir konu olmuştur. Örneğin, bir kişinin kara deliğe yakın bir bölgede bulunması durumunda onun için zaman daha yavaş akar.
-
-**Özet:**
-Zaman genişlemesi, zamanın mutlak olmadığını, gözlemcinin hızı veya bulunduğu kütleçekim alanına bağlı olarak değiştiğini ifade eder.
-- **Özel Görelilik:** Yüksek hızlarda hareket edenler için zaman yavaşlar.
-- **Genel Görelilik:** Güçlü kütleçekim alanlarında zaman yavaşlar.
-
-Bu fenomen, deneylerle defalarca doğrulanmış bir fizik gerçeğidir ve evrenin yapısını anlamamız için temel bir rol oynar. #ZamanGenişlemesi #GörelilikTeorisi #Fizik
+<div class="frame">
+  <p>Zaman genişlemesi, Einstein’ın Görelilik Teorisi ile açıklanan ve zamanın mutlak olmadığını gösteren bir fiziksel olgudur. Bu olgu, bir gözlemcinin hızına (özel görelilik) veya bulunduğu kütleçekim alanına (genel görelilik) bağlı olarak zamanın farklı şekilde aktığını ifade eder. Özel görelilikte, ışık hızına yakın hızlarda hareket eden bir gözlemci için zaman daha yavaş akar; bu durum, “İkizler Paradoksu” ile örneklendirilir. Genel görelilikte ise, güçlü bir kütleçekim alanı (örneğin bir kara delik veya gezegen yakını) zamanın daha yavaş akmasına neden olur. Bu etki, GPS uydularındaki saatlerin doğruluğunu korumak için dikkate alınır, çünkü Dünya’nın yüzeyindeki saatler, uydulardakilere göre daha yavaş çalışır. Zaman genişlemesi, günlük hayatta GPS sistemlerinden parçacık hızlandırıcılarına ve kara deliklerin yakınındaki zaman akışının incelenmesine kadar birçok alanda önemli bir rol oynar. Bu fenomen, deneylerle defalarca doğrulanmış olup, evrenin yapısını anlamamız için temel bir öneme sahiptir.</p>
+</div>
