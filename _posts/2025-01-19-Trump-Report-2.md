@@ -7,7 +7,7 @@ image: /images/describing.jpg
 lang: en
 author: isunion99
 category: "Policy"
-tags: "Policy"
+tags: [Trump, U.S. Power, Economically Weaker Nations, Exploitation, Motivations, Global Tensions, Personal Insecurities, Strategic Foresight, Leadership, Maturity, Unity, Divisiveness, Constructive Approach, Decision-Making, International Relations]
 published: true
 ---
  
