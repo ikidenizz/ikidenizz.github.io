@@ -2,12 +2,14 @@
 layout: default
 ---
 
-<!-- Tag Bulutu -->
-  <div class="post-tags">
-    <h3>Bu Gönderinin Tag'leri:</h3>
-    <ul>
-      {% for tag in page.tags %}
-        <li><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
-      {% endfor %}
-    </ul>
-  </div>
+<h1>Tag: {{ page.tag }}</h1>
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains page.tag %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
