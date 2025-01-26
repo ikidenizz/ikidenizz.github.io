@@ -44,24 +44,36 @@
         {% endif %}
       {% endunless %}
 
+  <!-- Katagori kontrolü -->
       {% unless page.url == "/" %}
-        <div id="related-posts">
-          <h3>
-            {% if page.lang == "en" %}
-              Related Posts
-            {% else %}
-              Aynı Kategorideki Yazılar
-            {% endif %}
-          </h3>
-          <ul>
-            {% for post in site.categories[page.category] limit: 3 %}
-              {% if post.url != page.url %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      {% endunless %}
+  <div id="related-posts">
+    <h3>
+      {% if page.lang == "en" %}
+        Related Posts
+      {% else %}
+        Aynı Kategorideki Yazılar
+      {% endif %}
+    </h3>
+    
+    {% if site.categories[page.category] %}
+      <ul>
+        {% for post in site.categories[page.category] limit: 3 %}
+          {% if post.url != page.url %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>
+        {% if page.lang == "en" %}
+          No posts found in this category.
+        {% else %}
+          Bu kategoride henüz yazı bulunmamaktadır.
+        {% endif %}
+      </p>
+    {% endif %}
+  </div>
+{% endunless %}
 
       {% if page.layout == "post" %}
         {% include social-share.html %}
