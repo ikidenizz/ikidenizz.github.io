@@ -5,7 +5,7 @@ description: "İngilizce’de contributions kelimesi, bağlama göre farklı eş
 image: /images/describing.jpg
 date: 2025-01-13 05:04:34 +0300
 category: "Language"
-tags: "Language"
+tags: ""
 lang: tr
 author: isunion99
 published: true

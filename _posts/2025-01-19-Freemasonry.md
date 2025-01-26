@@ -7,7 +7,7 @@ image: /images/describing.jpg
 lang: en
 author: isunion99
 category: "Policy"
-tags: "Policy"
+tags: [Freemasonry, Secretive Organization, Ancient Pagan Societies, Modern Society, Materialism, Humanism, Evolutionism, Influence, Politics, Education, Art, Culture, Philosophy, Ancient Egyptian Beliefs, Greek Pagan Beliefs, Secret Societies, Knights Templar, Rosicrucians, New World Order, Idolization of Humanity, Eradication of True Religion]
 published: true
 ---
 

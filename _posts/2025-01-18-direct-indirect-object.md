@@ -5,7 +5,7 @@ description: "Dolaylı nesne, bir fiilin eyleminin gerçekleştirildiği kişi v
 date: 2025-01-18 11:00:00 +0300
 image: /images/describing.jpg
 category: "Language"
-tags: "Language"
+tags: ""
 author: isunion99
 published: true
 lang: tr
