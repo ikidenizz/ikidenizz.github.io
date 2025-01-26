@@ -77,7 +77,27 @@ setInterval(updateTime, 1000);
 
 <!-- unless -->
  {% unless page.url == "/" %}
-<h3>Aynı Kategorideki Yazılar</h3>
+ 
+<!-- ilgili postun dilini değiştir -->
+<div id="related-posts">
+  <h3>
+    {% if page.lang == "en" %}
+      Related Posts
+    {% else %}
+      Aynı Kategorideki Yazılar
+    {% endif %}
+  </h3>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.tags contains page.tag and post.url != page.url %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+
 <ul>
   {% for post in site.categories[page.category] limit: 3 %}
     {% if post.url != page.url %} <!-- Mevcut yazıyı hariç tut -->
