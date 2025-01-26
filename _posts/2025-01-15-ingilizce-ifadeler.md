@@ -5,7 +5,7 @@ description: "İngilizce'deki yaygın kısa ifadelerin, bağlama uygun ve doğru
 date: 2025-01-15 11:00:00 +0300
 image: /images/describing.jpg
 category: "Language"
-tags: "Language"
+tags: ""
 published: true
 lang: tr
 ---
