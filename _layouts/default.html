@@ -98,13 +98,7 @@ setInterval(updateTime, 1000);
   </ul>
 </div>
 
-<ul>
-  {% for post in site.categories[page.category] limit: 3 %}
-    {% if post.url != page.url %} <!-- Mevcut yazıyı hariç tut -->
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
+
  {% endunless %}
       <div class="social-share">
         <p>Bu sayfayı paylaş:</p>
