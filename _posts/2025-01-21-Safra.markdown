@@ -13,7 +13,7 @@ published: true
 
  
 
-![atheizm]({{ "/images/atheizm.png" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
+![atheizm]({{ "/images/atheizm.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 
 <div class="frame">
