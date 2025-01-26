@@ -23,10 +23,9 @@
       </ul>
     </nav>
 
-    <main class="site-content">
-      {{ content }}
-
-      {% unless page.url == "/" %}
+    <main class="site-content">  
+    
+{% unless page.url == "/" %}
         {% assign day = page.date | date: "%-d" %}
         {% assign month = page.date | date: "%m" %}
         {% assign year = page.date | date: "%Y" %}
@@ -43,6 +42,11 @@
           </p>
         {% endif %}
       {% endunless %}
+      
+
+      {{ content }}
+
+    
 
   <!-- Katagori kontrolü 
       {% unless page.url == "/" %}
@@ -92,7 +96,7 @@
   <script data-goatcounter="https://gg123.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
 
-  <!-- JavaScript Dosyası -->
-  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+  <!-- JavaScript Dosyası
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script> -->
 </body>
 </html>
