@@ -5,7 +5,7 @@ description: "İki Partili Sistem: Demokrasinin Sınırları ve Gerçek Temsil A
 image: /images/parti.jpeg
 date: 2025-01-17 05:04:34 +0300
 category:  "Felsefe" 
-tags: "Felsefe" 
+tags: [iki partili sistem, demokrasi, çoğulculuk, fikir çeşitliliği, seçim illüzyonu, azınlık görüşler, marjinal gruplar, temsil, seçmen, siyasi tercih, kapsayıcı demokrasi, çoğulcu sistem, seçim sistemi revizyonu, sivil toplum, siyasi hareketler, siyasi kültür, demokratik gelişim, yaşam biçimi, siyasi katılım, toplumsal sorumluluk, demokratik ilkeler, siyasi reform, demokrasinin sınırları, yeni siyasi yapı, demokratik temsil, siyasi çeşitlilik, demokratik değerler, toplumsal adalet, siyasi yenilik, demokratik katılım] 
 author: isunion99
 published: true
 lang: tr
