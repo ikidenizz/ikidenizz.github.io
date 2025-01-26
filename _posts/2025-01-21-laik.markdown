@@ -5,7 +5,7 @@ description: "Lailkiğe EVET Sekülerleşmeye HAYIR"
 image: /images/sembolik.png
 date: 2025-01-22 05:04:34 +0300
 category: "Islam"
-tags: "Islam"
+tags: [toplum, din, sekülerleşme, laiklik, din özgürlüğü, bireysel tercih, toplumsal hayat, devlet, dinî referanslar, Türkiye, dinî değerler, genç nüfus, büyük şehirler, dinî pratikler, bireyselleşme, toplumsal çeşitlilik, modern toplum, denge arayışı, inanç özgürlüğü, kurumsal yapı, toplumsal dokuma, dinin rolü, sekülerleşme eğilimleri, dinî etki, toplumsal değişim, özgürlük, çoğulculuk, dinî yaşam, toplumsal dönüşüm]
 lang: tr
 author: isunion99
 published: true
