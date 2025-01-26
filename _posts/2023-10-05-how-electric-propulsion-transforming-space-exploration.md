@@ -18,11 +18,3 @@ Electric propulsion is no longer just a theoretical concept. It is steadily carv
 
 ---
 
-### Related Topics
-- [NASA's Artemis Program](https://www.nasa.gov/specials/artemis/)
-- [More About Electric Propulsion](https://en.wikipedia.org/wiki/Ion_thruster)
-
----
-
-##### Tags:
-#SpaceExploration #ElectricPropulsion #NASA #Artemis #Innovation
