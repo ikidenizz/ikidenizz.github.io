@@ -6,7 +6,7 @@ image: /images/Solar-Electric-Propulsion-SEP-Spacecraft.webp
 date: 2025-01-21 05:04:34 +0300
 category: "Felsefe"
 tags: [UzayKeşfi, Elektrikliİticiler, NASA, Artemis, Yenilik]
-lang: 
+lang: tr
 author: isunion99
 published: true
 ---
@@ -31,15 +31,5 @@ Elektrikli iticiler artık sadece bir bilimsel araştırma konusu değil; insanl
 </p>
 </div>
  
-
-
-### İlgili Konular
-- [Artemis Programı](https://www.nasa.gov/specials/artemis/)
-- [Elektrikli İticiler Hakkında Daha Fazla Bilgi](https://en.wikipedia.org/wiki/Ion_thruster)
-
-
-
-##### Etiketler:
-#UzayKeşfi #Elektrikliİticiler #NASA #Artemis #Yenilik
 
 ---
