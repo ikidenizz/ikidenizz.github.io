@@ -11,7 +11,7 @@ lang: tr
 ---
  
 
-![refah]({{ "/images/refah.jpeg" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
+![refah]({{ "/images/refah.jpeg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 <div class="frame">
   <p>Fahiş fiyat artışları, ekonomik istikrarı ve toplumsal refahı tehdit eden ciddi bir sorundur. Bu sorunun çözümünde yerel üretim ve tüketimi desteklemek, hem ekonomik sürdürülebilirlik hem de toplumsal fayda açısından kritik bir rol oynayabilir. Fahiş fiyat artışı, genellikle yerli üretime ilginin azalması, lojistik altyapının yetersiz kalması, ithalat bağımlılığı ve döviz kurlarındaki dalgalanmalar ile üretici maliyetlerinin yüksekliği ve tüketiciye ulaşan fiyatların kontrolsüz artışı gibi nedenlerle ortaya çıkar. Ancak, bu zorluklara karşı yerel üretim ve tüketimi güçlendirmek, birçok fayda sağlar. Üreticiler için gelir artışı, maliyet düşüşü, rekabet gücü ve istihdam imkanları; tüketiciler için ise daha ekonomik, sağlıklı ve çeşitli ürünlere erişim anlamına gelir. Yerel üretimi ve tüketimi desteklemenin yolları arasında, üretici-tüketici bağlantısını güçlendiren lojistik merkezleri kurmak, gıda güvenliği ve fiyat istikrarı için tahıl siloları yaygınlaştırmak, tüketicileri yerel ürünleri tercih etmeye teşvik etmek ve üreticilere finansman, düşük faizli krediler ve hammadde teşvikleri sağlamaktan oluşur. Sonuç olarak, yerel üretim ve tüketimi desteklemek sadece ekonomik dalgalanmalara karşı bir koruma kalkanı değil, aynı zamanda sürdürülebilir bir gelecek için atılmış önemli bir adımdır. Yerel ekonomiyi güçlendirerek, hem günümüzün sorunlarına çözüm bulabilir hem de geleceğe yatırım yapabiliriz.</p>
