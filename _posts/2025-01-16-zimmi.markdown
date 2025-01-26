@@ -5,24 +5,10 @@ description: "Zimmî Statüsü ve Jim Crow Yasaları: Bir Karşılaştırma"
 image: /images/describing.jpg
 date: 2025-01-16 05:04:34 +0300
 category: "Islam"
-tags: "Islam"
+tags: [tarihsel olaylar, dönemsel koşullar, sosyal yapı, zimmî statüsü, İslam tarihi, Endülüs Emevî Devleti, Osmanlı İmparatorluğu, gayrimüslimler, bilim, sanat, ticaret, İslam alimleri, adalet, insan onuru, Jim Crow Yasaları, ırk ayrımcılığı, kurumsal ayrımcılık, modern dünya, insan hakları, evrensel değerler, eşit haklar, dini köken, etnik köken, modern hukuk, tarihi anlamak, geçmiş hatalar, yapıcı yaklaşım, tarihsel bağlam, İslami öğretiler, sosyal adalet, tarihsel değerlendirme]
 lang: tr
 ---
 
-## **Zimmî Statüsü ve Jim Crow Yasaları**
- 
-Her tarihsel durum, kendi dönemi ve koşulları içinde değerlendirilmelidir. Farklı dönemlerdeki sosyal yapıları doğrudan karşılaştırmak yanıltıcı olabilir.  
-
-**İslam Tarihi:**  
-İslam tarihinde zimmî statüsü, dönem ve bölgeye göre farklılık gösterdi. Örneğin, Endülüs Emevî Devleti veya Osmanlı İmparatorluğu’nda gayrimüslimler, bilim, sanat ve ticaret gibi alanlarda önemli konumlara gelebiliyordu. Bu, bahsettiğiniz kurallardan oldukça farklı bir tablo çizer.  
-
-**Modern Yorum:**  
-Günümüz İslam alimlerinin çoğu, bu tarihsel uygulamaların bugün geçerli olmadığını vurguluyor ve İslam’ın temel mesajının adalet ve insan onuruna saygı olduğunu belirtiyor.  
-
-**Jim Crow Yasaları:**  
-Bu yasalar, ırk temelinde kurumsallaşmış bir ayrımcılık sistemini temsil ediyordu. Zimmî statüsü ise dini bir kategorizasyondu ve farklı tarihsel bağlamlarda farklı şekillerde uygulandı.  
-
-**Modern Dünya:**  
-Günümüzde insan hakları evrensel değerler olarak kabul ediliyor. Tüm insanların dini veya etnik kökenine bakılmaksızın eşit haklara sahip olması gerektiği anlayışı, hem İslami öğretilerle hem de modern hukukla uyumludur.  
-
-Bu konuları tartışırken, tarihsel olayları bugünün değerleriyle yargılamak yerine, o dönemin şartları içinde anlamaya çalışmak daha yapıcı bir yaklaşımdır. Tarihi doğru anlamak, geçmişteki hataları tekrarlamamak için büyük önem taşır. #Tarih #İnsanHakları #İslamTarihi
+<div class="frame">
+  <p>Tarihsel olaylar, kendi dönemlerinin koşulları içinde değerlendirilmelidir; farklı dönemlerdeki sosyal yapıları doğrudan karşılaştırmak yanıltıcı olabilir. İslam tarihinde zimmî statüsü, dönem ve bölgeye göre farklılık gösterdi. Örneğin, Endülüs Emevî Devleti ve Osmanlı İmparatorluğu’nda gayrimüslimler, bilim, sanat ve ticaret gibi alanlarda önemli konumlara gelebiliyordu. Günümüz İslam alimleri, bu tarihsel uygulamaların bugün geçerli olmadığını vurgulayarak İslam’ın temel mesajının adalet ve insan onuruna saygı olduğunu belirtiyor. Öte yandan, Jim Crow Yasaları, ırk temelinde kurumsallaşmış bir ayrımcılık sistemini temsil ediyordu ve zimmî statüsünden farklı bir bağlamda ortaya çıktı. Modern dünyada, insan hakları evrensel değerler olarak kabul ediliyor ve tüm insanların dini veya etnik kökenine bakılmaksızın eşit haklara sahip olması gerektiği anlayışı, hem İslami öğretilerle hem de modern hukukla uyumludur. Tarihi doğru anlamak, geçmişteki hataları tekrarlamamak için büyük önem taşır; bu nedenle, tarihsel olayları bugünün değerleriyle yargılamak yerine, o dönemin şartları içinde anlamaya çalışmak daha yapıcı bir yaklaşımdır.</p>
+</div>
