@@ -57,7 +57,11 @@
 
       {{ content }}
 
-    
+ 
+      <div id="tarih-saat">
+        <p id="tarih"></p>
+        <p id="saat"></p>
+      </div>   
 
   <!-- Katagori kontrolü  -->
       {% unless page.url == "/" %}
@@ -90,10 +94,6 @@
   </div>
 {% endunless %}
 
-      <div id="tarih-saat">
-        <p id="tarih"></p>
-        <p id="saat"></p>
-      </div>
       
       {% if page.layout == "post" %}
         {% include social-share.html %}
