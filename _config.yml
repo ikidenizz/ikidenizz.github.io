@@ -49,3 +49,7 @@ languages:
   en: English
   tr: Türkçe
 
+collections:
+  tags:
+    output: true
+    permalink: /tags/
