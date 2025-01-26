@@ -1,152 +1,86 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-{% include head.html %}
+  {% include head.html %}
 </head>
 <body>
   <div class="site">
     <header class="site-header">
       <div class="title">
         <a class="extra" href="{{ site.baseurl }}/">İKİ DENİZ</a>
-
-<!-- Tarih ve Saat Bilgisi      </div> -->
-  <div id="tarih-saat">
-    <p id="tarih"></p>
-    <p id="saat"></p>
-  </div>
+      </div>
+      <div id="tarih-saat">
+        <p id="tarih"></p>
+        <p id="saat"></p>
+      </div>
     </header>
 
-<script type="text/javascript">
-    function updateTime() {
-  var now = new Date();
-
-  var tarih = now.toLocaleDateString('tr-TR', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    weekday: 'long'
-  });
-
-  var saat = now.toLocaleTimeString('tr-TR', {
-    hour: '2-digit',
-    minute: '2-digit',
-    second: '2-digit'
-  });
-
-  document.getElementById('tarih').textContent = tarih;
-  document.getElementById('saat').textContent = saat;
-}
-
-// Sayfa yüklendiğinde ve her saniyede bir saati güncelle
-updateTime();
-setInterval(updateTime, 1000);
-  </script>
-
-
-  <!-- nav -->
     <nav>
-    <ul>
-  {% unless page.url == "/" %}
-    <li><a href="{{ site.baseurl }}/">{{ site.data.languages[page.lang].Home }}</a></li>
-  {% endunless %}
-</ul>
+      <ul>
+        {% unless page.url == "/" %}
+          <li><a href="{{ site.baseurl }}/">{{ site.data.languages[page.lang].Home }}</a></li>
+        {% endunless %}
+      </ul>
     </nav>
 
-
-<main class="site-content">
+    <main class="site-content">
       {{ content }}
 
-<!-- unless -->
- {% unless page.url == "/" %}
-      {% assign day = page.date | date: "%-d" %}
-      {% assign month = page.date | date: "%m" %}
-      {% assign year = page.date | date: "%Y" %}
+      {% unless page.url == "/" %}
+        {% assign day = page.date | date: "%-d" %}
+        {% assign month = page.date | date: "%m" %}
+        {% assign year = page.date | date: "%Y" %}
 
-  {% if page.lang == "tr" %}
-  {% assign turkish_months = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
-  {% assign month_index = month | minus: 1 %}
-  <p class="post-date">
-    Yayın Tarihi: {{ day }} {{ turkish_months[month_index] }} {{ year }}
-  </p>
-{% else %}
-  <p class="post-date">
-    Published on: {{ page.date | date: "%B %d, %Y" }}
-  </p>
-{% endif %}
- {% endunless %}
-
-<!-- unless -->
- {% unless page.url == "/" %}
- 
-<!-- ilgili postun dilini değiştir -->
-<div id="related-posts">
-  <h3>
-    {% if page.lang == "en" %}
-      Related Posts
-    {% else %}
-      Aynı Kategorideki Yazılar
-    {% endif %}
-  </h3>
-  <ul>
-  {% for post in site.categories[page.category] limit: 3 %}
-    {% if post.url != page.url %} <!-- Mevcut yazıyı hariç tut -->
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-</div>
-
-
- {% endunless %}
- 
-<!-- sosyal butonlar -->
-  {% if page.layout == "post" %}
-  <div class="social-share">
-    <div class="share-buttons">
-      <a href="https://twitter.com/intent/tweet?text={{ page.description | url_escape }}&url={{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
-        <i class="fab fa-twitter"></i>
-        {% if page.lang == "en" %}
-          Share on Twitter
+        {% if page.lang == "tr" %}
+          {% assign turkish_months = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
+          {% assign month_index = month | minus: 1 %}
+          <p class="post-date">
+            Yayın Tarihi: {{ day }} {{ turkish_months[month_index] }} {{ year }}
+          </p>
         {% else %}
-          Twitter'da Paylaş
+          <p class="post-date">
+            Published on: {{ page.date | date: "%B %d, %Y" }}
+          </p>
         {% endif %}
-      </a>
-      <a href="https://bsky.app/intent/compose?text={{ page.description | url_encode }}%20{{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
-        <i class="fas fa-external-link-alt"></i>
-        {% if page.lang == "en" %}
-          Share on Bluesky
-        {% else %}
-          Bluesky'de Paylaş
-        {% endif %}
-      </a>
-    </div>
-  </div>
-{% endif %}
+      {% endunless %}
+
+      {% unless page.url == "/" %}
+        <div id="related-posts">
+          <h3>
+            {% if page.lang == "en" %}
+              Related Posts
+            {% else %}
+              Aynı Kategorideki Yazılar
+            {% endif %}
+          </h3>
+          <ul>
+            {% for post in site.categories[page.category] limit: 3 %}
+              {% if post.url != page.url %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      {% endunless %}
+
+      {% if page.layout == "post" %}
+        {% include social-share.html %}
+      {% endif %}
     </main>
 
-    <footer class="site-footer">
-      <div class="contact">
-        <p>
-          <a href="http://twitter.com/EaPbyai/" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="https://bsky.app/profile/uinion.bsky.social" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-external-link-alt"></i>
-          </a>{% assign current_lang = page.lang | default: site.lang %}
-          <a href="{{ '/feed.xml' | relative_url }}" title="{{ site.data.languages[current_lang].RSS_Feed }}" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-rss"></i>
-          </a>
-        </p>
-      </div>
-    </footer>
+    {% include footer.html %}
   </div>
-  
-<!-- Kelime Bulutu (Sadece Anasayfada Göster) -->
-{% if page.url == "/" %}
-  {% include wordcloud.html %}
-{% endif %}
+
+  <!-- Kelime Bulutu (Sadece Anasayfada Göster) -->
+  {% if page.url == "/" %}
+    {% include wordcloud.html %}
+  {% endif %}
+
   <!-- GoatCounter Script -->
   <script data-goatcounter="https://gg123.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
+
+  <!-- JavaScript Dosyası -->
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
 </html>
