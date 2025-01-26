@@ -1,15 +1,42 @@
 <script>
-  // Postun tag'lerini al
+  // Tag verilerini oluştur
   var words = [
-    {% for tag in page.tags %}
-      { text: "{{ tag }}", size: 50 }, // Her tag için sabit bir boyut (isteğe bağlı olarak dinamik yapılabilir)
+    {% for tag in site.tags %}
+      {text: "{{ tag[0] }}", size: {{ tag[1].size }} },
     {% endfor %}
   ];
 
-  // Kelime bulutunu oluştur
-  var width = window.innerWidth * 0.8; // Sayfanın genişliğinin %80'i kadar
-  var height = window.innerHeight * 0.4; // Sayfanın yüksekliğinin %40'ı kadar
+  // Frekansı normalize edelim (örneğin, en büyük frekansın 100 olmasına izin verelim)
+  var maxSize = Math.max(...words.map(d => d.size));
+  words = words.map(d => {
+    return { text: d.text, size: (d.size / maxSize) * 100 };
+  });
+</script>
 
+
+<div id="wordcloud"></div>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+<script>
+  var width = window.innerWidth * 0.8; // Sayfanın genişliğinin %80'i kadar
+  var height = window.innerHeight * 0.6; // Sayfanın yüksekliğinin %60'ı kadar
+
+  // Tag verilerini oluştur
+  var words = [
+    {% for tag in site.tags %}
+      {text: "{{ tag[0] }}", size: {{ tag[1].size }} },
+    {% endfor %}
+  ];
+
+  // Frekansı normalize edelim (örneğin, en büyük frekansın 100 olmasına izin verelim)
+  var maxSize = Math.max(...words.map(d => d.size));
+  words = words.map(d => {
+    return { text: d.text, size: (d.size / maxSize) * 100 };
+  });
+
+  // Kelime bulutunu oluşturalım
   d3.layout.cloud().size([width, height])
     .words(words)
     .padding(5)
@@ -40,11 +67,6 @@
   }
 </script>
 
-<div id="wordcloud"></div>
-
-<script src="https://d3js.org/d3.v5.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
-
 <style>
   #wordcloud svg {
     width: 100%;
@@ -60,16 +82,17 @@
   }
 
   @media (max-width: 768px) {
-    #wordcloud svg {
-      width: 100%;
-      height: auto;
-    }
+  #wordcloud svg {
+    width: 100%;
+    height: auto;
   }
+}
 
-  @media (min-width: 769px) {
-    #wordcloud svg {
-      width: 80%;
-      height: auto;
-    }
+@media (min-width: 769px) {
+  #wordcloud svg {
+    width: 80%;
+    height: auto;
   }
+}
+
 </style>
