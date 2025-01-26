@@ -14,14 +14,19 @@
         <p id="saat"></p>
       </div>
     </header>
-
-    <nav>
-      <ul>
-        {% unless page.url == "/" %}
-          <li><a href="{{ site.baseurl }}/">{{ site.data.languages[page.lang].Home }}</a></li>
-        {% endunless %}
-      </ul>
-    </nav>
+    
+<nav>
+  <ul>
+    {% unless page.url == "/" %}
+      <li>
+        <a href="{{ site.baseurl }}/">
+          <i class="fas fa-home"></i> <!-- Ev simgesi -->
+          <span class="sr-only">{{ site.data.languages[page.lang].Home }}</span> <!-- Erişilebilirlik için metin -->
+        </a>
+      </li>
+    {% endunless %}
+  </ul>
+</nav>
 
     <main class="site-content">  
     
