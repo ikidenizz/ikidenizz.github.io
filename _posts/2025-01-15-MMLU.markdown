@@ -5,31 +5,12 @@ description: "MMLU, bir modelin çeşitli görevlerdeki genel dil anlama yetene�
 image: /images/describing.jpg
 date: 2025-01-14 05:04:34 +0300
 category: "Language"
-tags: "Language"
+tags: [MMLU, Massive Multi-Task Language Understanding, doğal dil işleme, NLP, dil modelleri, çoklu görevler, benchmark, test kümesi, metin sınıflandırma, mantık, matematik, okuma anlama, genel dil anlama, başarı oranı, accuracy, çok yönlü yetenekler, genelleştirilebilir yetenekler, metin yelpazesi, mantık soruları, akıl yürütme, matematiksel problem çözme, çoklu seçim soruları, büyük dil modelleri, performans karşılaştırma, genel dil yetenekleri, kapsamlı araç, zorlu test, dil anlama, NLP benchmark, model değerlendirme, yapay zeka, dil modelleri testi]
 author: isunion99
 published: true
 lang: tr
 ---
 
-## **MMLU (Massive Multi-Task Language Understanding)**
-
-
-MMLU (Massive Multi-Task Language Understanding), doğal dil işleme (NLP) alanında bir dil modelinin çoklu görevlerdeki performansını ölçmek için kullanılan kapsamlı bir benchmark’tır. MMLU, bir modelin genel dil anlama yeteneğini değerlendirmek amacıyla yaklaşık 57 farklı görevden oluşan bir test kümesi sunar.  
-
-**MMLU’nun Özellikleri:**  
-- **Çoklu Görev:** Metin sınıflandırma, mantık, matematik, okuma anlama gibi çeşitli alanlarda performans ölçümü.  
-- **Büyük Veri Kümesi:** Farklı konularda geniş bir metin yelpazesi içerir.  
-- **Değerlendirme Kriteri:** Başarı oranı (accuracy) üzerinden modelin doğru cevap verme yeteneği ölçülür.  
-- **Yetenek Testi:** Modelin çok yönlü ve genelleştirilebilir yeteneklerini test eder.  
-
-**Örnek Görevler:**  
-- Metin sınıflandırma  
-- Mantık ve akıl yürütme soruları  
-- Okuma anlama  
-- Matematiksel problem çözme  
-- Çoklu seçim soruları  
-
-**Kullanım Alanı:**  
-MMLU, büyük dil modellerinin çeşitli görevlerdeki performansını karşılaştırmak ve genel dil anlama yeteneklerini değerlendirmek için yaygın olarak kullanılır. Bu, modellerin sadece belirli bir alanda değil, geniş bir yelpazede ne kadar başarılı olduğunu anlamaya yardımcı olur.  
-
-MMLU, dil modellerinin “genel dil anlayışı” kabiliyetini test etmek için zorlu ve kapsamlı bir araçtır. #NLP #MMLU #YapayZeka
+<div class="frame">
+  <p>MMLU (Massive Multi-Task Language Understanding), doğal dil işleme (NLP) alanında dil modellerinin çoklu görevlerdeki performansını ölçmek için kullanılan kapsamlı bir benchmark’tır. Yaklaşık 57 farklı görevden oluşan bu test kümesi, metin sınıflandırma, mantık, matematik, okuma anlama gibi çeşitli alanlarda modelin genel dil anlama yeteneğini değerlendirir. MMLU, farklı konularda geniş bir metin yelpazesi sunar ve başarı oranı (accuracy) üzerinden modelin doğru cevap verme yeteneğini ölçer. Bu, modellerin çok yönlü ve genelleştirilebilir yeteneklerini test etmek için idealdir. Örnek görevler arasında metin sınıflandırma, mantık ve akıl yürütme soruları, okuma anlama, matematiksel problem çözme ve çoklu seçim soruları bulunur. MMLU, büyük dil modellerinin çeşitli görevlerdeki performansını karşılaştırmak ve genel dil anlama yeteneklerini değerlendirmek için yaygın olarak kullanılır. Bu benchmark, modellerin sadece belirli bir alanda değil, geniş bir yelpazede ne kadar başarılı olduğunu anlamaya yardımcı olan zorlu ve kapsamlı bir araçtır.</p>
+</div>
