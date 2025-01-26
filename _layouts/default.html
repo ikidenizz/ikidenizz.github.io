@@ -23,10 +23,6 @@
     {% endunless %}
   </ul>
 </nav>
-      <div id="tarih-saat">
-        <p id="tarih"></p>
-        <p id="saat"></p>
-      </div>
       
     </header>
     
@@ -94,9 +90,16 @@
   </div>
 {% endunless %}
 
+      <div id="tarih-saat">
+        <p id="tarih"></p>
+        <p id="saat"></p>
+      </div>
+      
       {% if page.layout == "post" %}
         {% include social-share.html %}
       {% endif %}
+      
+
     </main>
 
     {% include footer.html %}
