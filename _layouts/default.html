@@ -99,16 +99,25 @@ setInterval(updateTime, 1000);
 
  {% endunless %}
       <div class="social-share">
-        <p>Bu sayfayı paylaş:</p>
-        <div class="share-buttons">
-          <a href="https://twitter.com/intent/tweet?text={{ page.description | url_escape }}&url={{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
-            <i class="fab fa-twitter"></i> Twitter'da Paylaş
-          </a>
-          <a href="https://bsky.app/intent/compose?text={{ page.description | url_encode }}%20{{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
-            <i class="fas fa-external-link-alt"></i> Bluesky'de Paylaş
-          </a>
-        </div>
-      </div>
+  <div class="share-buttons">
+    <a href="https://twitter.com/intent/tweet?text={{ page.description | url_escape }}&url={{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-twitter"></i>
+      {% if page.lang == "en" %}
+        Share on Twitter
+      {% else %}
+        Twitter'da Paylaş
+      {% endif %}
+    </a>
+    <a href="https://bsky.app/intent/compose?text={{ page.description | url_encode }}%20{{ site.url }}{{ page.url | url_escape }}" target="_blank" rel="noopener noreferrer">
+      <i class="fas fa-external-link-alt"></i>
+      {% if page.lang == "en" %}
+        Share on Bluesky
+      {% else %}
+        Bluesky'de Paylaş
+      {% endif %}
+    </a>
+  </div>
+</div>
     </main>
 
     <footer class="site-footer">
