@@ -5,7 +5,7 @@ description: "Hz. Muhammed (sav.) ve Hz. Aişe (ranh.)’nin evliliği, İslam a
 image: /images/describing.jpg
 date: 2025-01-20 05:04:34 +0300
 category: "Islam" 
-tags: "Islam" 
+tags: [Peygamber Efendimiz, Hz. Muhammed (sav.), Hz. Aişe (ranh.), evlilik, İslam ahlakı, örnek hayat, eğitim, ahlak, hadis, dinî bilgi, Kur’an-ı Kerim, evlilik kurumu, hikmet, sosyal yapı, kültürel yapı, aile değerleri, ilim, hitabet, rehber, modern hayat, sorumluluk, miras, birliktelik, örnek model, İslam öğretileri, toplumsal hayat, sevgi, saygı, rıza, insani değerler] 
 lang: tr
 author: isunion99
 published: true
