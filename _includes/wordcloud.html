@@ -7,7 +7,11 @@
   // Tag verilerini oluştur
   var words = [
     {% for tag in site.tags %}
-      { text: "{{ tag[0] }}", size: {{ tag[1].size }}, link: "/tags/{{ tag[0] | slugify }}" },
+      { 
+        text: "{{ tag[0] }}", 
+        size: {{ tag[1].size }}, 
+        link: "{{ site.baseurl }}{{ tag[1].first.url }}" // İlgili tag'in ilk postunun URL'si
+      },
     {% endfor %}
   ];
 
@@ -50,7 +54,7 @@
       })
       .text(function(d) { return d.text; })
       .on("click", function(d) {
-        // Tıklanan tag'in linkine yönlendir
+        // Tıklanan tag'in ilk postunun linkine yönlendir
         window.location.href = d.link;
       })
       .style("cursor", "pointer"); // İmleci el işaretine dönüştür
