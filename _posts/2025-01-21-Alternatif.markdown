@@ -5,7 +5,7 @@ description: "İki Parti Sistemi ve Demokrasinin Illüzyonu"
 image: /images/describing.jpg
 date: 2025-01-17 05:04:34 +0300
 category: "Felsefe"
-tags: "Felsefe"
+tags: [iki parti sistemi, demokrasi, toplumsal illüzyon, politik illüzyon, seçim hakkı, halk katılımı, toplumsal bölünme, ekonomik çıkarlar, göstermelik demokrasi, gösterişli kapitalizm, hızlı kapitalizm, totalitarizm, özgürlük, refah, kamuoyu manipülasyonu, yanılsama, eğitim, farkındalık, çok partili sistem, bağımsız medya, toplumsal illüzyonlar, gerçek demokrasi, siyasi kültür, katılımcı demokrasi, siyasi reform, demokratik zayıflık, kapsayıcılık, siyasi katılım, demokratik değerler, toplumsal değişim]
 author: isunion99
 published: true
 lang: tr
