@@ -6,7 +6,7 @@ image: /images/Solar-Electric-Propulsion-SEP-Spacecraft.webp
 date: 2025-01-21 05:04:34 +0300
 category: "Felsefe"
 tags: [UzayKeşfi, Elektrikliİticiler, NASA, Artemis, Yenilik]
-lang: tr
+lang: 
 author: isunion99
 published: true
 ---
