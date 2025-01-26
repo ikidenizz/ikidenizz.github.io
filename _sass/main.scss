@@ -1,3 +1,15 @@
+/* Renk Değişkenleri */
+:root {
+    --primary-color: #0077b5;
+    --twitter-color: #1da1f2;
+    --bluesky-color: #0077b5;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --white-color: #ffffff;
+    --hover-color: #005f8b;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
 /* Genel Stil */
 body {
     font-family: Arial, sans-serif;
@@ -5,17 +17,18 @@ body {
     padding: 0;
     font-size: 1rem;
     line-height: 1.6;
+    color: var(--text-color);
 }
 
 /* Listelerin Madde İşaretlerini Kaldırma */
 ul {
-    list-style-type: none; /* Madde işaretlerini kaldır */
-    padding: 0; /* Liste içeriğiyle arasındaki boşlukları kaldır */
-    margin: 0; /* Liste üst ve altındaki boşlukları kaldır */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 li {
-    margin-bottom: 1em; /* Liste öğeleri arası boşluk */
+    margin-bottom: 1em;
 }
 
 /* Paylaşım Butonları Stili */
@@ -27,44 +40,45 @@ li {
 .social-share p {
     font-size: 1.1rem;
     margin-bottom: 1em;
-    color: #333;
+    color: var(--text-color);
 }
 
 .share-buttons {
     display: flex;
     justify-content: center;
-    gap: 1em; /* Butonlar arasında boşluk */
+    gap: 1em;
 }
 
 .share-buttons a {
     display: inline-flex;
     align-items: center;
     padding: 0.75em 1.5em;
-    background-color: #0077b5; /* Buton arka plan rengi */
-    color: white; /* Buton metin rengi */
+    background-color: var(--primary-color);
+    color: var(--white-color);
     text-decoration: none;
-    border-radius: 5px; /* Köşeleri yuvarlak yap */
+    border-radius: 5px;
     font-size: 1rem;
-    transition: background-color 0.3s ease; /* Renk geçiş efekti */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px var(--shadow-color);
 }
 
 .share-buttons a:hover {
-    background-color: #005f8b; /* Fare üzerine gelindiğinde renk değişimi */
+    background-color: var(--hover-color);
 }
 
 .share-buttons a i {
-    margin-right: 0.5em; /* İkon ile metin arasında boşluk */
+    margin-right: 0.5em;
 }
 
 .share-buttons a[href*="twitter"] {
-    background-color: #1da1f2; /* Twitter rengi */
+    background-color: var(--twitter-color);
 }
 
 .share-buttons a[href*="bluesky"] {
-    background-color: #0077b5; /* Bluesky rengi */
+    background-color: var(--bluesky-color);
 }
 
+/* Site Genel Stili */
 .site {
     max-width: 1200px;
     margin: 0 auto;
@@ -74,12 +88,12 @@ li {
 .site-header .title {
     text-align: center;
     padding: 16px 0;
-    background-color: #f4f4f4;
+    background-color: var(--background-color);
 }
 
 .site-header .title a {
     text-decoration: none;
-    color: #333;
+    color: var(--text-color);
     font-size: 1.5rem;
 }
 
@@ -87,24 +101,24 @@ li {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 1em 0; /* Resimlerin üstüne ve altına boşluk */
+    margin: 1em 0;
 }
 
 .site-footer {
     text-align: center;
     padding: 16px 0;
-    background-color: #f4f4f4;
+    background-color: var(--background-color);
     margin-top: 32px;
 }
 
 .site-footer .contact a {
-    color: #333;
+    color: var(--text-color);
     text-decoration: none;
     font-size: 1.2rem;
 }
 
 .site-footer .contact a:hover {
-    color: #0077b5;
+    color: var(--primary-color);
     text-decoration: underline;
 }
 
@@ -116,73 +130,72 @@ li {
 
 /* Paragraflar ve Başlıklar Arası Boşluk */
 p {
-    margin: 1em 0; /* Paragraflar arası boşluk */
+    margin: 1em 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 1.5em; /* Başlıkların üstüne boşluk */
-    margin-bottom: 0.5em; /* Başlıkların altına boşluk */
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
 }
 
-/* Mobil Cihazlar için Stil */
-@media (max-width: 767px) {
+/* Yazı Çerçevesi Stili */
+.frame {
+    padding: 16px;
+    margin: 20px 0;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    background-color: var(--background-color);
+}
+
+/* Mobil ve Tablet Cihazlar için Stil */
+@media (max-width: 1023px) {
     body {
         font-size: 14px;
     }
+
     .site-header .title a {
         font-size: 1.2rem;
     }
+
     .site-content {
         padding: 0 8px;
     }
+
     .site-footer {
         padding: 8px 0;
     }
+
     p {
-        margin: 0.8em 0; /* Mobil cihazlarda paragraflar arası boşluk */
-    }
-    h1, h2, h3, h4, h5, h6 {
-        margin-top: 1.2em; /* Mobil cihazlarda başlıkların üstüne boşluk */
-        margin-bottom: 0.4em; /* Mobil cihazlarda başlıkların altına boşluk */
-    }
-    li {
-        margin-bottom: 0.4em; /* Mobil cihazlarda liste öğeleri arası boşluk */
-    }
-    .site-content img {
-        margin: 0.8em 0; /* Mobil cihazlarda resimlerin üstüne ve altına boşluk */
+        margin: 0.8em 0;
     }
 
-    /* Mobil Cihazlar için Yazı Çerçevesi Stili */
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 1.2em;
+        margin-bottom: 0.4em;
+    }
+
+    li {
+        margin-bottom: 0.4em;
+    }
+
+    .site-content img {
+        margin: 0.8em 0;
+    }
+
     .frame {
-        padding: 12px; /* Daha küçük cihazlarda çerçevenin iç boşluklarını azalt */
-        margin: 15px 0; /* Daha küçük cihazlarda çerçevenin üst ve altındaki boşlukları azalt */
-        border: 2px solid #0077b5; /* Çerçeve rengi ve kalınlığı */
-        border-radius: 6px; /* Kenar yuvarlama */
-        background-color: #f9f9f9; /* Çerçeve arka plan rengi */
+        padding: 12px;
+        margin: 15px 0;
     }
 }
 
-/* Tablet Cihazlar için Stil */
+/* Tablet Cihazlar için Ek Stil */
 @media (min-width: 768px) and (max-width: 1023px) {
     body {
         font-size: 16px;
     }
 
-    /* Tablet Cihazlar için Yazı Çerçevesi Stili */
     .frame {
-        padding: 14px; /* Tablet cihazlarda çerçevenin iç boşlukları */
-        margin: 20px 0; /* Tablet cihazlarda çerçevenin üst ve altındaki boşluklar */
-        border: 2px solid #0077b5; /* Çerçeve rengi ve kalınlığı */
-        border-radius: 8px; /* Kenar yuvarlama */
-        background-color: #f9f9f9; /* Çerçeve arka plan rengi */
+        padding: 14px;
+        margin: 20px 0;
     }
-}
-
-/* Genel Yazı Çerçevesi Stili */
-.frame {
-    padding: 16px; /* Genel çerçeve iç boşluğu */
-    margin: 20px 0; /* Çerçevenin üst ve altındaki boşluk */
-    border: 2px solid #0077b5; /* Çerçeve rengi ve kalınlığı */
-    border-radius: 8px; /* Kenar yuvarlama */
-    background-color: #f9f9f9; /* Çerçeve arka plan rengi */
 }
