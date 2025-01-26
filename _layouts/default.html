@@ -5,16 +5,12 @@
 </head>
 <body>
   <div class="site">
+  
     <header class="site-header">
       <div class="title">
         <a class="extra" href="{{ site.baseurl }}/">İKİ DENİZ</a>
       </div>
-      <div id="tarih-saat">
-        <p id="tarih"></p>
-        <p id="saat"></p>
-      </div>
-    </header>
-    
+      
 <nav>
   <ul>
     {% unless page.url == "/" %}
@@ -27,6 +23,15 @@
     {% endunless %}
   </ul>
 </nav>
+      <div id="tarih-saat">
+        <p id="tarih"></p>
+        <p id="saat"></p>
+      </div>
+      
+    </header>
+    
+
+
 <style>
 .fa-home {
   font-size: 1.2em; /* Simge boyutu */
