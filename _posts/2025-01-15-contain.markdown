@@ -10,30 +10,6 @@ published: true
 lang: tr
 ---
 
-## **İngilizce’deki 'to contain' fiili**
-
-İngilizce’deki 'to contain' fiili, bağlama göre farklı anlamlar ifade edebilir ve bu anlamlara göre eşanlamlıları değişebilir. İşte 'to contain' fiilinin yaygın anlamları ve eşanlamlıları:  
-
-**1. İçermek / Bulundurmak (to hold or include):**  
-Bir şeyin fiziksel veya soyut olarak içinde bulunması.  
-Örnek: “This box contains old photos.” (Bu kutu eski fotoğraflar içeriyor.)  
-Eşanlamlılar: Include, hold, comprise, encompass, consist of, incorporate.  
-
-**2. Sınırlamak / Kontrol Altında Tutmak (to restrain or control):**  
-Bir durumu veya nesneyi kontrol altına almak.  
-Örnek: “The firefighters managed to contain the fire.” (İtfaiyeciler yangını kontrol altına aldı.)  
-Eşanlamlılar: Restrain, control, curb, limit, suppress, confine.  
-
-**3. Duygularını Bastırmak (to hold back emotions):**  
-Duygusal bir tepkiyi engellemek.  
-Örnek: “She struggled to contain her excitement.” (Heyecanını bastırmakta zorlandı.)  
-Eşanlamlılar: Restrain, hold back, suppress, check, keep in check.  
-
-**4. Bir Alanı Çevrelemek (to enclose or surround):**  
-Bir şeyi belirli bir alan içinde tutmak.  
-Örnek: “The garden is contained within these walls.” (Bahçe bu duvarlar içinde çevrilidir.)  
-Eşanlamlılar: Enclose, surround, encircle, border, fence in.  
-
-**Hangi eşanlamlının kullanılacağı, bağlam ve cümlenin anlamına bağlıdır. Daha spesifik bir bağlam verirseniz, doğru eşanlamlıyı seçmede yardımcı olabilirim! 😊**  
-
-#İngilizce #DilÖğrenimi #KelimeBilgisi
+<div class="frame">
+  <p>İngilizce’deki ‘to contain’ fiili, bağlama göre farklı anlamlar ifade edebilir ve bu anlamlara göre eşanlamlıları değişebilir. Bu fiil, genellikle üç temel anlamı kapsar: ilk olarak, bir şeyin fiziksel veya soyut olarak içinde bulunması anlamına gelir; örneğin, "This box contains old photos." (Bu kutu eski fotoğraflar içeriyor) cümlesinde olduğu gibi. Bu bağlamda, yaygın eşanlamlılar arasında include, hold, comprise, encompass, consist of ve incorporate yer alır. İkinci olarak, ‘to contain’ bir durumu veya nesneyi kontrol altına alma anlamına gelebilir; mesela, "The firefighters managed to contain the fire." (İtfaiyeciler yangını kontrol altına aldı) cümlesinde görüldüğü gibi. Bu anlam için sıkça kullanılan eşanlamlılar arasında restrain, control, curb, limit, suppress ve confine bulunur. Üçüncü olarak, ‘to contain’ duygusal bir tepkiyi engelleme anlamına da gelebilir; örneğin, "She struggled to contain her excitement." (Heyecanını bastırmakta zorlandı) cümlelerinde olduğu gibi. Bu bağlamda, eşanlamlılar arasında restrain, hold back, suppress, check ve keep in check yer alır. Son olarak, ‘to contain’ bir alanı çevrelemek veya belirli sınırlar içinde tutmak anlamına da gelebilir; örneğin, "The garden is contained within these walls." (Bahçe bu duvarlar içinde çevrilidir). Bu bağlamda ise enclose, surround, encircle, border ve fence in terimleri kullanılır. Hangi eşanlamlının kullanılacağı, cümledeki bağlam ve özel anlamına bağlıdır.</p>
+</div> 
