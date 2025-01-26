@@ -2,10 +2,12 @@
 layout: default
 ---
 
-<!-- Post Sayfaları -->
-<h3>İlgili Tag'ler</h3>
-<ul>
-  {% for tag in page.tags %}
-    <li><a href="/tags/{{ tag }}">{{ tag }}</a></li>
-  {% endfor %}
-</ul>
+<!-- Tag Bulutu -->
+  <div class="post-tags">
+    <h3>Bu Gönderinin Tag'leri:</h3>
+    <ul>
+      {% for tag in page.tags %}
+        <li><a href="/tags/{{ tag | slugify }}">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
