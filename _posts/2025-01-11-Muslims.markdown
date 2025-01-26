@@ -12,7 +12,7 @@ published: true
 ---
 
 
-![Muslims]({{ "/images/Muslims.webp" | relative_url }}){:width="300px" height="auto" class="responsive-image centered-image"}
+![Muslims]({{ "/images/Muslims.webp" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 
 <div class="frame">
