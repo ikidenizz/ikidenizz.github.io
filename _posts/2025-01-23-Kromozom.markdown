@@ -5,7 +5,7 @@ description: "Kromozom 2 birleşme modeli, insanın şempanzelerle ortak atadan 
 image: /images/8808-fig1.jpg
 date: 2025-01-23 05:04:34 +0300
 category:  "Bilim"
-tags:  [Bilim, Genetik, Yaratılış, Evrim]
+tags:  [insan, şempanze, kromozom, kromozom 2, evrim, ortak ata, genomik analiz, birleşme modeli, telomerik tekrarlar, işlevsel genler, sentromer, spekülatif, rastgele mutasyonlar, bilinçli tasarım, yaratılışçılık, evrimsel iddia, karmaşık yapı, işlevsellik, kanıt, sorgulama, genetik, DNA, biyoloji, bilimsel bulgular, evrim teorisi, yaratılış, genom, genetik benzerlikler, bilimsel analiz, evrimsel biyoloji]
 lang: tr
 author: isunion99
 published: true
