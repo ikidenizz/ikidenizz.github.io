@@ -115,7 +115,11 @@ setInterval(updateTime, 1000);
       </div>
     </footer>
   </div>
+  
+<!-- Kelime Bulutu (Sadece Anasayfada Göster) -->
+{% if page.url == "/" %}
   {% include wordcloud.html %}
+{% endif %}
   <!-- GoatCounter Script -->
   <script data-goatcounter="https://gg123.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
