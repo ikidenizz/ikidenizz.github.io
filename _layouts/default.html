@@ -28,12 +28,14 @@
 
     <main class="site-content">  
 
-      <!-- Dil Filtreleme Butonları -->
+      <!-- Dil Filtreleme Butonları (Sadece Ana Sayfada Görünür) -->
+      {% if page.url == "/" %}
       <div style="margin-bottom: 20px;">
         <button class="button" onclick="filterPosts('en')">English</button>
         <button class="button" onclick="filterPosts('tr')">Türkçe</button>
         <button class="button" onclick="filterPosts('all')">All</button>
       </div>
+      {% endif %}
 
 {% unless page.url == "/" %}
         {% assign day = page.date | date: "%-d" %}
