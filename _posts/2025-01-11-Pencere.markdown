@@ -6,7 +6,7 @@ image: "/images/Muslims.webp"
 date: 2025-01-17 05:04:34 +0300
 category: "Islam" 
 tags: [Ölüm, hayat,Mektub ]
-lang: en
+lang: tr
 author: isunion99
 published: true
 ---
