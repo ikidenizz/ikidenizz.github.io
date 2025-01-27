@@ -11,19 +11,6 @@ author: isunion99
 published: true
 ---
 
-
-Tabii ki, "Gelecek Gelişmelere Yönelik Öneriler" bölümünü de ekleyerek Jekyll postunu güncelleyebilirim. Aşağıda, bu bölümü de içeren güncellenmiş Türkçe Jekyll postu bulunmaktadır.
-
-### `_posts/2023-10-05-fonksiyonlar-c-programlama-dilinde.md`
-
-```markdown
----
-layout: post
-title: "C Programlama Dilinde Fonksiyonlar"
-date: 2023-10-05
-lang: tr
----
-
 # C Programlama Dilinde Fonksiyonlar
 
 ## Fonksiyonlar Hakkında Genel Bilgi
