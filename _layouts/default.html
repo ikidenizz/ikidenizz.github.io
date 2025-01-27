@@ -56,7 +56,8 @@
       
       {{ content }}
 
-      <!-- Post Listesi -->
+      <!-- Post Listesi (Sadece Ana Sayfada Görünür) -->
+      {% if page.url == "/" %}
       <ul id="post-list">
         {% for post in site.posts %}
         <li class="post-item {{ post.lang }}" data-lang="{{ post.lang }}">
@@ -65,6 +66,7 @@
         </li>
         {% endfor %}
       </ul>
+      {% endif %}
 
       <!-- Katagori kontrolü  -->
       {% unless page.url == "/" %}
