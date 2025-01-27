@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Functions in the C Programming Language"
-description: "Allah yeryüzünde fetret bırakmaz"
+description: "A function acts as a block of code that receives data (referred to using local symbolic names known as parameters), processes this data, and typically returns a result based on the input provided."
 image: /images/describing.jpg
 date: 2025-01-11 05:04:34 +0300
-category: "Functions" 
+category: "programming" 
 tags: "Functions" 
 lang: en
 author: isunion99
