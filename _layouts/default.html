@@ -56,9 +56,9 @@
       
       {{ content }}
 
-      <!-- Post Listesi (Sadece Ana Sayfada Görünür - Butonlarla Filtrelenen Liste) -->
+      <!-- Post Listesi (Sadece Ana Sayfada Görünür) -->
       {% if page.url == "/" %}
-      <ul id="filtered-post-list">
+      <ul id="post-list">
         {% for post in site.posts %}
         <li class="post-item {{ post.lang }}" data-lang="{{ post.lang }}">
           <span>{{ post.date | date: "%d %B %Y" | replace: "January", "Ocak" | replace: "February", "Şubat" | replace: "March", "Mart" | replace: "April", "Nisan" | replace: "May", "Mayıs" | replace: "June", "Haziran" | replace: "July", "Temmuz" | replace: "August", "Ağustos" | replace: "September", "Eylül" | replace: "October", "Ekim" | replace: "November", "Kasım" | replace: "December", "Aralık" }}</span> &raquo;
@@ -67,16 +67,6 @@
         {% endfor %}
       </ul>
       {% endif %}
-
-      <!-- Tüm Postaların Listesi (Her Sayfada Görünür) -->
-      <ul id="all-post-list">
-        {% for post in site.posts %}
-        <li class="post-item {{ post.lang }}" data-lang="{{ post.lang }}">
-          <span>{{ post.date | date: "%d %B %Y" | replace: "January", "Ocak" | replace: "February", "Şubat" | replace: "March", "Mart" | replace: "April", "Nisan" | replace: "May", "Mayıs" | replace: "June", "Haziran" | replace: "July", "Temmuz" | replace: "August", "Ağustos" | replace: "September", "Eylül" | replace: "October", "Ekim" | replace: "November", "Kasım" | replace: "December", "Aralık" }}</span> &raquo;
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
 
       <!-- Katagori kontrolü  -->
       {% unless page.url == "/" %}
@@ -146,21 +136,13 @@
 
   <script>
     function filterPosts(language) {
-      const filteredPosts = document.querySelectorAll('#filtered-post-list .post-item');
-      const allPosts = document.querySelectorAll('#all-post-list .post-item');
-
-      // Filtrelenen listedeki postları gizle/göster
-      filteredPosts.forEach(post => {
+      const posts = document.querySelectorAll('.post-item');
+      posts.forEach(post => {
         if (language === 'all' || post.dataset.lang === language) {
           post.classList.remove('hidden');
         } else {
           post.classList.add('hidden');
         }
-      });
-
-      // Tüm postaların listesinde herhangi bir değişiklik yapma
-      allPosts.forEach(post => {
-        post.classList.remove('hidden');
       });
 
       // Seçilen dil bilgisini yerel depolamaya kaydet
