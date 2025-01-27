@@ -14,8 +14,7 @@ published: true
 
 
 Yirmidördüncü Pencere
-<div class="frame">
-  <p>
+
 
 "Allah'tan başka ilah yoktur. Her şey yok olucudur, ancak O'nun zatı bâkidir. Hüküm O'nundur ve O'na döndürüleceksiniz." (Kasas, 88)
 
@@ -27,5 +26,4 @@ Nasıl ki canlılar, varlıklarıyla bir Vâcib-ül Vücud'un (varlığı zorunl
 
 Özetle, "Ölümünden sonra yeryüzünü dirilten O'dur" (Rum, 19) sırrınca, yeryüzü bir baharda Allah'ın varlığına şahitlik ettiği gibi, ölümüyle de geçmiş ve gelecekteki sayısız mucizelere işaret eder. Bir bahar yerine binlerce baharı, bir mucize yerine binlerce mucizeyi gösterir. Geçmişteki her bahar, şimdikinden daha kesin bir şahitlik sunar, çünkü onların zahirî sebepleri yok olmuş, ancak Allah'ın kudretiyle yerlerine yenileri gelmiştir. Gelecekteki baharlar ise, yoktan var edilecek olmalarıyla, Allah'ın kudretine daha da parlak bir şekilde şahitlik ederler.
 
-Ey tabiata saplanan ve bataklıkta boğulmak üzere olan gafil! Geçmiş ve geleceğe hükmeden hikmetli ve kudretli bir el sahibi olmayan bir şey, nasıl bu yeryüzünün hayatına müdahale edebilir? Senin gibi hiç olan tesadüf ve tabiat, buna nasıl karışabilir? Kurtulmak istersen, şunu söyle: "Tabiat, Allah'ın kudretinin bir defteridir. Tesadüf ise, bizim cehaletimizi örten ilahî hikmetin bir perdesidir." Hakikate yönel ve kurtul!</p>
-</div>
+Ey tabiata saplanan ve bataklıkta boğulmak üzere olan gafil! Geçmiş ve geleceğe hükmeden hikmetli ve kudretli bir el sahibi olmayan bir şey, nasıl bu yeryüzünün hayatına müdahale edebilir? Senin gibi hiç olan tesadüf ve tabiat, buna nasıl karışabilir? Kurtulmak istersen, şunu söyle: "Tabiat, Allah'ın kudretinin bir defteridir. Tesadüf ise, bizim cehaletimizi örten ilahî hikmetin bir perdesidir." Hakikate yönel ve kurtul!
