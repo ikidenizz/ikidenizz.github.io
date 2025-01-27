@@ -1,0 +1,142 @@
+---
+layout: post
+title: "Functions in the C Programming Language"
+description: "Allah yeryüzünde fetret bırakmaz"
+image: /images/describing.jpg
+date: 2025-01-11 05:04:34 +0300
+category: "Functions" 
+tags: "Functions" 
+lang: en
+author: isunion99
+published: true
+---
+
+# Functions in the C Programming Language
+
+## Overview of Functions in C
+
+The C programming language shares similarities with many modern programming languages by enabling the use of functions—self-contained modules of code that accept input, perform computations, and generate output. In C, every function must have a defined return type and parameter types. A function acts as a block of code that receives data (referred to using local symbolic names known as parameters), processes this data, and typically returns a result based on the input provided.
+
+### Function Prototypes
+
+For a function to utilize another function, its prototype must be declared in the file before it is invoked. If a function is defined above the point where it is used, the compiler will automatically recognize it. However, if a function is defined below the point where it is used, its prototype must be declared at the beginning of the file. This ensures the compiler understands the function's signature before it encounters any calls to it.
+
+Here is the syntax for declaring a function prototype in C:
+
+```c
+RETURN_TYPE name_of_function(PARAMETER_TYPE param1, PARAMETER_TYPE param2, ...);
+```
+
+Here are some examples of function prototypes commonly placed at the top of a C source file:
+
+```c
+float sqrt(float x);
+
+float average(int grades[], int length);
+```
+
+A prototype can appear at the beginning of a C source file to describe what the function returns and what it needs (return type and parameter list), followed by a semicolon. The function prototype is also used at the beginning of the code for the function. Therefore, the prototype can appear twice in a source code file in C. No semicolon is used when the prototype appears with the code.
+
+### The `main` Function
+
+In C, the `main` function behaves similarly to other functions but has specific characteristics. It has a return type (`int` by default) and may accept parameters (such as command-line arguments). The primary distinction is that the `main` function is invoked by the operating system when the program is executed. Thus, it serves as the entry point of the program and is the first function to run.
+
+Example of the `main` function:
+
+```c
+int main() {
+    // This is the body of the function (lots of code can go here)
+    return 0; // The main function usually returns 0 if successful
+}
+```
+
+### Example Function: `max`
+
+Here’s an example of a function that returns the maximum of two double values:
+
+```c
+double max(double param1, double param2) {
+    if (param1 > param2) {
+        return param1;
+    } else {
+        return param2;
+    }
+}
+```
+
+### Void Functions
+
+Void functions do not return any value. Here’s an example of a void function that prints a birthday message:
+
+```c
+void print_happy_birthday(int age) {
+    printf("Congratulations on your %d th Birthday\n", age);
+    return; // You can "terminate" a void function by using return.
+            // Here it is redundant because the function is over anyway.
+}
+```
+
+Each C function must specify the type of data generated. For example, the above function `max` returns a value of type “double”. The line `return X;` must be found, where `X` is a value or a variable that contains a value of the specified type.
+
+When a code snippet calls or invokes a function, it does so using the following syntax:
+
+```c
+variable = function_name(args, ...);
+```
+
+The function name must exactly match the function name in the function prototype. Arguments are a list of values (or variables that contain values) that are “passed” to the function. The number of arguments “passed” to a function must exactly match the number of parameters required for the function. The type of each argument must exactly match the type of each parameter. The type of the return variable must exactly match the return type of the function. The “variable” in the example above must be of a type that matches the return type of the function. The line `return X` is somewhere within the function. The value of `X` is then copied into the “variable”.
+
+## Passing Parameters
+
+### Pass by Value
+
+Passing by value means that the actual data is copied and stored in the parameter. Changes made to the parameter inside the function do not affect the original data in the calling function.
+
+Example of pass by value:
+
+```c
+#include <stdio.h>
+
+// C function using pass by value (Notice no &)
+void doit(int x) {
+    x = 5;
+}
+
+// Test function for passing by value (i.e., making a copy)
+int main() {
+    int z = 27;
+    doit(z);
+    printf("z is now %d\n", z); // Output: z is now 27
+
+    return 0;
+}
+```
+
+### Pass by Reference
+
+In C, arrays are inherently passed by reference, meaning modifications to the array within the function affect the original array. For non-array parameters, you can simulate pass-by-reference behavior using pointers. This involves passing the address of the variable (using the `&` operator) to the function, allowing the function to modify the original variable.
+
+Example of pass by reference (using pointers):
+
+```c
+#include <stdio.h>
+
+void doit(int *x) {
+    *x = 5;
+}
+
+int main() {
+    int z = 27;
+    doit(&z);
+    printf("z is now %d\n", z); // Output: z is now 5
+
+    return 0;
+}
+```
+
+## References
+
+- [University of Utah C Functions Tutorial](https://www.cs.utah.edu/~germain/PPS/Topics/C_Language/c_functions.html)
+
+---
+
