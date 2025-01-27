@@ -37,6 +37,23 @@
       </div>
       {% endif %}
 
+{% unless page.url == "/" %}
+        {% assign day = page.date | date: "%-d" %}
+        {% assign month = page.date | date: "%m" %}
+        {% assign year = page.date | date: "%Y" %}
+        {% if page.lang == "tr" %}
+          {% assign turkish_months = "Ocak,Şubat,Mart,Nisan,Mayıs,Haziran,Temmuz,Ağustos,Eylül,Ekim,Kasım,Aralık" | split: "," %}
+          {% assign month_index = month | minus: 1 %}
+          <p class="post-date">
+            Yayın Tarihi: {{ day }} {{ turkish_months[month_index] }} {{ year }}
+          </p>
+        {% else %}
+          <p class="post-date">
+            Published on: {{ page.date | date: "%B %d, %Y" }}
+          </p>
+        {% endif %}
+      {% endunless %}
+      
       {{ content }}
 
       <!-- Post Listesi (Sadece Ana Sayfada Görünür - Butonlarla Filtrelenen Liste) -->
@@ -51,37 +68,36 @@
       </ul>
       {% endif %}
 
-      <!-- Kategori Kontrolü - Sadece Tekil Yazılarda Göster -->
-      {% if page.layout == "post" %}
-      <div id="related-posts">
-        <h3>
-          {% if page.lang == "en" %}
-            Related Posts
-          {% else %}
-            Aynı Kategorideki Yazılar
-          {% endif %}
-        </h3>
-        
-        {% if site.categories[page.category] %}
-          <ul>
-            {% for post in site.categories[page.category] limit: 3 %}
-              {% if post.url != page.url %}
-                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-        {% else %}
-          <p>
-            {% if page.lang == "en" %}
-              No posts found in this category.
-            {% else %}
-              Bu kategoride henüz yazı bulunmamaktadır.
-            {% endif %}
-          </p>
-        {% endif %}
-      </div>
+      <!-- Katagori kontrolü  -->
+      {% unless page.url == "/" %}
+  <div id="related-posts">
+    <h3>
+      {% if page.lang == "en" %}
+        Related Posts
+      {% else %}
+        Aynı Kategorideki Yazılar
       {% endif %}
-      
+    </h3>
+    
+    {% if site.categories[page.category] %}
+      <ul>
+        {% for post in site.categories[page.category] limit: 3 %}
+          {% if post.url != page.url %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>
+        {% if page.lang == "en" %}
+          No posts found in this category.
+        {% else %}
+          Bu kategoride henüz yazı bulunmamaktadır.
+        {% endif %}
+      </p>
+    {% endif %}
+  </div>
+{% endunless %}
       <div id="tarih-saat">
         <p id="tarih"></p>
         <p id="saat"></p>
