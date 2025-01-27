@@ -1,17 +1,60 @@
 ---
 layout: default
 ---
+
+<style>
+  .button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .hidden {
+    display: none;
+  }
+</style>
+
 <div id="home">
   <h1>Blog Yazıları</h1>
-  <ul class="posts">
-    <!--{% for post in site.posts %}
-      <li>
-        <span>{{ post.date | date: "%d %B %Y" | replace: "January", "Ocak" | replace: "February", "Şubat" | replace: "March", "Mart" | replace: "April", "Nisan" | replace: "May", "Mayıs" | replace: "June", "Haziran" | replace: "July", "Temmuz" | replace: "August", "Ağustos" | replace: "September", "Eylül" | replace: "October", "Ekim" | replace: "November", "Kasım" | replace: "December", "Aralık" }}</span> &raquo;
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+
+  <!-- Dil Filtreleme Butonları (Sadece Ana Sayfada Görünür) -->
+  <div style="margin-bottom: 20px;">
+    <button class="button" onclick="filterPosts('en')">English</button>
+    <button class="button" onclick="filterPosts('tr')">Türkçe</button>
+    <button class="button" onclick="filterPosts('all')">All</button>
+  </div>
+
+  <!-- Post Listesi (Sadece Ana Sayfada Görünür - Butonlarla Filtrelenen Liste) -->
+  <ul id="filtered-post-list">
+    {% for post in site.posts %}
+    <li class="post-item {{ post.lang }}" data-lang="{{ post.lang }}">
+      <span>{{ post.date | date: "%d %B %Y" | replace: "January", "Ocak" | replace: "February", "Şubat" | replace: "March", "Mart" | replace: "April", "Nisan" | replace: "May", "Mayıs" | replace: "June", "Haziran" | replace: "July", "Temmuz" | replace: "August", "Ağustos" | replace: "September", "Eylül" | replace: "October", "Ekim" | replace: "November", "Kasım" | replace: "December", "Aralık" }}</span> &raquo;
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
     {% endfor %}
-  </ul>-->
+  </ul>
 </div>
 
+<script>
+  function filterPosts(language) {
+    const filteredPosts = document.querySelectorAll('#filtered-post-list .post-item');
 
- <!-- Post Listesi (Sadece Ana Sayfada Görünür - Butonlarla Filtrelenen Liste) -->
+    // Filtrelenen listedeki postları gizle/göster
+    filteredPosts.forEach(post => {
+      if (language === 'all' || post.dataset.lang === language) {
+        post.classList.remove('hidden');
+      } else {
+        post.classList.add('hidden');
+      }
+    });
+
+    // Seçilen dil bilgisini yerel depolamaya kaydet
+    localStorage.setItem('selectedLanguage', language);
+  }
+
+  // Sayfa yüklendiğinde yerel depolamadan dil bilgisini al ve uygula
+  window.onload = function() {
+    const selectedLanguage = localStorage.getItem('selectedLanguage') || 'all';
+    filterPosts(selectedLanguage);
+  };
+</script>
