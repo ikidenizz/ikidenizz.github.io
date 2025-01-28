@@ -5,8 +5,8 @@ description: "Kanada'da Bulunan Genç Pterozor Fosili, Tarih Öncesi Avcı-Av İ
 image: /images/describing.jpg
 date: 2025-01-17 05:04:34 +0300
 category: "Bilim"
-tags: [Paleontoloji Bilim, Fosil]
-lang: en
+tags: [Paleontoloji, Bilim, Fosil]
+lang: tr
 author: isunion99
 published: true
 ---
