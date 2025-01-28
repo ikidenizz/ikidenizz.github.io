@@ -49,3 +49,5 @@ languages:
   en: English
   tr: Türkçe
 
+google_analytics: "G-XXXXXXXXXX"
+google_tag_manager: "GTM-XXXXXXX"

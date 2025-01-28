@@ -1,0 +1,115 @@
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','{{ site.google_tag_manager }}');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Google Analytics v4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ site.google_analytics }}', {
+    'anonymize_ip': true,
+    'cookie_flags': 'SameSite=None;Secure',
+    'page_path': location.pathname + location.search + location.hash
+  });
+</script>
+
+<!-- Cookie Consent -->
+<script>
+  window.cookieConsent = {
+    init: function() {
+      if (!localStorage.getItem('cookieConsent')) {
+        this.showBanner();
+      }
+    },
+
+    showBanner: function() {
+      var banner = document.createElement('div');
+      banner.id = 'cookie-banner';
+      banner.style.cssText = 'position:fixed;bottom:0;width:100%;background:#f1f1f1;padding:20px;text-align:center;z-index:1000;';
+      banner.innerHTML = `
+        <p>Bu site deneyiminizi geliştirmek için çerezler kullanmaktadır.
+           <button onclick="window.cookieConsent.accept()"
+                   style="background:#4CAF50;color:white;border:none;padding:10px 20px;margin:0 10px;cursor:pointer;">
+             Kabul Et
+           </button>
+           <button onclick="window.cookieConsent.reject()"
+                   style="background:#f44336;color:white;border:none;padding:10px 20px;cursor:pointer;">
+             Reddet
+           </button>
+        </p>`;
+      document.body.appendChild(banner);
+    },
+
+    accept: function() {
+      localStorage.setItem('cookieConsent', 'accepted');
+      this.enableAnalytics();
+      document.getElementById('cookie-banner').remove();
+    },
+
+    reject: function() {
+      localStorage.setItem('cookieConsent', 'rejected');
+      this.disableAnalytics();
+      document.getElementById('cookie-banner').remove();
+    },
+
+    enableAnalytics: function() {
+      // Google Analytics'i etkinleştir
+      window['ga-disable-{{ site.google_analytics }}'] = false;
+      // GTM'i etkinleştir
+      dataLayer.push({'event': 'consent-accepted'});
+    },
+
+    disableAnalytics: function() {
+      // Google Analytics'i devre dışı bırak
+      window['ga-disable-{{ site.google_analytics }}'] = true;
+      // GTM'i devre dışı bırak
+      dataLayer.push({'event': 'consent-rejected'});
+    }
+  };
+
+  // Sayfa yüklendiğinde çerez izni kontrolü
+  document.addEventListener('DOMContentLoaded', function() {
+    window.cookieConsent.init();
+  });
+</script>
+
+<!-- Custom Event Tracking -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Scroll derinliği takibi
+    let scrollDepthMarkers = [25, 50, 75, 100];
+    let scrollDepthTracked = new Set();
+
+    window.addEventListener('scroll', function() {
+      let scrollPercent = (document.documentElement.scrollTop + document.body.scrollTop) /
+                         (document.documentElement.scrollHeight - document.documentElement.clientHeight) * 100;
+
+      scrollDepthMarkers.forEach(function(marker) {
+        if (scrollPercent >= marker && !scrollDepthTracked.has(marker)) {
+          scrollDepthTracked.add(marker);
+          gtag('event', 'scroll_depth', {
+            'depth': marker,
+            'page': location.pathname
+          });
+        }
+      });
+    });
+
+    // Dış bağlantı tıklama takibi
+    document.addEventListener('click', function(e) {
+      let target = e.target.closest('a');
+      if (target && target.hostname !== window.location.hostname) {
+        gtag('event', 'external_link_click', {
+          'url': target.href,
+          'text': target.innerText || 'no text'
+        });
+      }
+    });
+  });
+</script>
