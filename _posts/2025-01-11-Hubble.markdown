@@ -2,7 +2,7 @@
 layout: post
 title: "Hubble Uzay Teleskobu"
 description: "Hubble'ın son görüntüsü, İkizler Takımyıldızı'nda 600 milyon ışık yılı uzaklıktaki bir galakside keşfedilen SN 2022aajn süpernovasını gözler önüne seriyor."
-image: /images/describing.jpg
+image: /images/2022aajn.png
 date: 2025-01-17 05:04:34 +0300
 category: "Bilim"
 tags: [Hubble, Uzay, Bilim]
@@ -11,6 +11,9 @@ author: isunion99
 published: true
 ---
 
-Hubble Uzay Teleskobu, Evrenin Genişlemesine Işık Tutan Bir Süpernova Yakaladı!
+
+![ateizm]({{ "/images/2022aajn.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+
+## **Hubble Uzay Teleskobu, Evrenin Genişlemesine Işık Tutan Bir Süpernova Yakaladı!**
 
 Hubble'ın son görüntüsü, İkizler Takımyıldızı'nda 600 milyon ışık yılı uzaklıktaki bir galakside keşfedilen SN 2022aajn süpernovasını gözler önüne seriyor. Bu Tip Ia süpernova, evrenin genişlemesini ölçmek için kozmik bir ölçüt görevi görüyor. Hubble, bu tür süpernovaları inceleyerek galaksilerin uzaklıklarını ve evrenin genişleme hızını daha hassas bir şekilde hesaplamayı amaçlıyor. #Hubble #Uzay #Bilim
