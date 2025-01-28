@@ -1,10 +1,15 @@
 
+# Site Bilgileri
+
 # _config.yml
 title: ikideniz
-email: union2030@proton.me
 description: İki denizin birleştiği yerde Güncel blog yazıları
-baseurl: ""
 url: "https://ikidenizz.github.io"
+author: "isunion99"
+email: union2030@proton.me
+baseurl: ""
+
+
 twitter_username: EaPbyai
 github_username:  isunion99
 image: "/images/describing.jpg"
@@ -51,3 +56,24 @@ languages:
 
 google_analytics: "G-XXXXXXXXXX"
 google_tag_manager: "GTM-XXXXXXX"
+
+
+# İş Yeri Bilgileri (Yerel SEO için)
+business_name: "İşletme Adı"
+street_address: "Adres"
+city: "Şehir"
+region: "Bölge"
+postal_code: "Posta Kodu"
+country: "Ülke"
+latitude: 41.0082
+longitude: 28.9784
+
+# Doğrulama Tokenları
+google_site_verification: "token"
+bing_site_verification: "token"
+yandex_verification: "token"
+baidu_verification: "token"
+naver_verification: "token"
+
+# Dil Ayarları
+languages: ["tr", "en", "de"]

@@ -1,0 +1,87 @@
+<!-- Temel Meta Etiketleri -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<!-- Genel SEO Meta Etiketleri -->
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+<!-- Yandex Özel Meta Etiketleri -->
+<meta name="yandex-verification" content="verification_token">
+<meta name="yandex" content="index, follow">
+
+<!-- Bing Özel Meta Etiketleri -->
+<meta name="msvalidate.01" content="bing_site_verification_token">
+
+<!-- Baidu Özel Meta Etiketleri -->
+<meta name="baidu-site-verification" content="baidu_token">
+
+<!-- DuckDuckGo -->
+<meta name="duckduckgo" content="index, follow">
+
+<!-- Naver (Güney Kore) -->
+<meta name="naver-site-verification" content="naver_token">
+
+<!-- Mobil Cihaz Meta Etiketleri -->
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+
+<!-- Site Doğrulama Meta Etiketleri -->
+<meta name="norton-safeweb-site-verification" content="norton_token">
+<meta name="google-site-verification" content="google_token">
+
+<!-- Sosyal Medya ve Rich Snippet Meta Etiketleri -->
+{% if page.author %}
+<meta name="author" content="{{ page.author }}">
+{% endif %}
+
+{% if page.keywords %}
+<meta name="keywords" content="{{ page.keywords | join: ', ' }}">
+{% endif %}
+
+<!-- Yerel SEO Meta Etiketleri -->
+{% if page.local_business %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "{{ site.business_name }}",
+  "image": "{{ site.business_image }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.street_address }}",
+    "addressLocality": "{{ site.city }}",
+    "addressRegion": "{{ site.region }}",
+    "postalCode": "{{ site.postal_code }}",
+    "addressCountry": "{{ site.country }}"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ site.latitude }},
+    "longitude": {{ site.longitude }}
+  }
+}
+</script>
+{% endif %}
+
+<!-- Dil ve Bölge Ayarları -->
+<link rel="alternate" href="{{ site.url }}" hreflang="x-default">
+{% for lang in site.languages %}
+<link rel="alternate" href="{{ site.url }}/{{ lang }}" hreflang="{{ lang }}">
+{% endfor %}
+
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ site.url }}/feed.xml">
+
+<!-- Favicon ve Touch Icons -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
