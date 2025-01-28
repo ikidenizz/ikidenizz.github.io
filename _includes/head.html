@@ -5,41 +5,53 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="author" content="{{ site.author | default: 'ikideniz' }}" />
-
+  <meta name="format-detection" content="telephone=no">
   <!-- Güvenlik Başlıkları -->
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
   <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
   <meta name="referrer" content="strict-origin-when-cross-origin">
-
+  
+  <!-- Arama Motoru Temel Meta Etiketleri -->
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  
   <!-- PWA Desteği -->
   <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
   <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
-
-  <!-- Dinamik Başlık ve Meta Açıklamalar -->
+  <!-- Dinamik Meta Etiketleri -->
   {% assign page_title = page.title | default: site.title %}
   {% assign page_description = page.description | default: site.description | default: page.excerpt | strip_html | truncate: 160 %}
   
   <title>{{ page_title }}</title>
   <meta name="title" content="{{ page_title | escape }}">
   <meta name="description" content="{{ page_description | escape }}">
-
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}">
+  {% endif %}
+  {% if page.author %}
+  <meta name="author" content="{{ page.author | escape }}">
+  {% endif %}
   <!-- Canonical URL -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-
   <!-- Alternatif Dil Linkleri -->
+  <link rel="alternate" href="{{ site.url }}" hreflang="x-default">
   {% if page.alternate %}
     {% for alternate in page.alternate %}
       <link rel="alternate" hreflang="{{ alternate.lang }}" href="{{ alternate.url | absolute_url }}">
     {% endfor %}
   {% endif %}
-
+  <!-- RSS Feed -->
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ site.url }}/feed.xml">
   <!-- Favicon Set -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
   <link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
-
+  <meta name="msapplication-TileColor" content="#da532c">
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="{{ page_title | escape }}">
   <meta property="og:description" content="{{ page_description | escape }}">
@@ -53,7 +65,6 @@
   {% if page.last_modified_at %}
     <meta property="article:modified_time" content="{{ page.last_modified_at | date_to_xmlschema }}">
   {% endif %}
-
   <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ page_title | escape }}">
@@ -63,71 +74,87 @@
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
     <meta name="twitter:creator" content="@{{ site.twitter_username }}">
   {% endif %}
-
-  <!-- Schema.org Markup -->
+  <!-- Yerel İşletme Schema -->
+  {% if page.local_business %}
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebPage{% endif %}",
-      "headline": "{{ page_title | escape }}",
-      "description": "{{ page_description | escape }}",
-      "url": "{{ page.url | absolute_url }}",
-      {% if page.image %}
-      "image": {
-        "@type": "ImageObject",
-        "url": "{{ page.image | absolute_url }}",
-        "width": 1200,
-        "height": 630
-      },
-      {% endif %}
-      {% if page.date %}
-      "datePublished": "{{ page.date | date_to_xmlschema }}",
-      {% endif %}
-      {% if page.last_modified_at %}
-      "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
-      {% endif %}
-      "author": {
-        "@type": "Person",
-        "name": "{{ site.author }}",
-        "url": "{{ site.url }}"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "{{ site.title }}",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "{{ site.url }}/images/logo.png",
-          "width": 600,
-          "height": 60
-        }
-      },
-      {% if page.tags %}
-      "keywords": "{{ page.tags | join: ', ' | escape }}",
-      {% endif %}
-      "inLanguage": "{{ page.lang | default: 'tr' }}"
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "{{ site.business_name }}",
+    "image": "{{ site.business_image }}",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "{{ site.street_address }}",
+      "addressLocality": "{{ site.city }}",
+      "addressRegion": "{{ site.region }}",
+      "postalCode": "{{ site.postal_code }}",
+      "addressCountry": "{{ site.country }}"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": {{ site.latitude }},
+      "longitude": {{ site.longitude }}
     }
+  }
   </script>
-
+  {% endif %}
+  <!-- Genel Schema.org Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebPage{% endif %}",
+    "headline": "{{ page_title | escape }}",
+    "description": "{{ page_description | escape }}",
+    "url": "{{ page.url | absolute_url }}",
+    {% if page.image %}
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ page.image | absolute_url }}",
+      "width": 1200,
+      "height": 630
+    },
+    {% endif %}
+    {% if page.date %}
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    {% endif %}
+    {% if page.last_modified_at %}
+    "dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",
+    {% endif %}
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}/images/logo.png"
+      }
+    },
+    {% if page.tags %}
+    "keywords": "{{ page.tags | join: ', ' | escape }}",
+    {% endif %}
+    "inLanguage": "{{ page.lang | default: 'tr' }}"
+  }
+  </script>
   <!-- Preload Critical Assets -->
   <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
   <link rel="preload" href="{{ site.baseurl }}/assets/css/fonts/main-font.woff2" as="font" type="font/woff2" crossorigin>
-
   <!-- CSS Files -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/screen.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-  <!-- Conditional Analytics Load -->
-  {% if jekyll.environment == "production" and site.google_analytics %}
-    {% include analytics.html %}
-  {% endif %}
-
   <!-- Critical CSS -->
   <style>
     /* Buraya kritik CSS kuralları eklenebilir */
     body { margin: 0; padding: 0; }
     .container { max-width: 1200px; margin: 0 auto; }
   </style>
+  <!-- Analytics -->
+  {% if jekyll.environment == "production" %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
