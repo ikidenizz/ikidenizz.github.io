@@ -2,7 +2,7 @@
 layout: post
 title: "Çin'in Deepseek Projesi"
 description: "Son dönemde Çin'in Deepseek projesi, küresel teknoloji ve strateji çevrelerinde büyük yankı uyandırdı. Bu proje, özellikle ABD'deki İngiliz Deepstate'in (derin devlet) etkilerine karşı bir cevap olarak yorumlanıyor."
-image: /images/2022aajn.png
+image: /images/Deepseek-R1.jpg
 date: 2025-01-17 05:04:34 +0300
 category: "Bilim"
 tags: [Deepseek, Deepstate, İngiliz]
@@ -12,7 +12,7 @@ published: true
 ---
 
 
-![ateizm]({{ "/images/2022aajn.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+![ateizm]({{ "/images/Deepseek-R1.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 ## **Çin'in Deepseek Projesi, ABD'deki İngiliz Deepstate'in Etkilerine Karşı Bir Stratejik Adım mı?**
 
