@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Çevresel Faktörler ve Bilinçaltı"
-description: "Günlük hayatımızda yaşadığımız olaylar ve çevremizdeki insanların etkileri, bilinçaltımıza derinlemesine etki edebilir ve bizi geçici hipnoz hallerine sokabilir."
+title: "200 Milyon Yıldızlı Döşek"
+description: "Hubble'un Andromeda Galaksisi Üzerine Şaşırtıcı Yeni Portresi"
 image: /images/Hubble-M31-PHAT-PHAST-Mosaic-scaled.jpg
 date: 2025-01-28 05:04:34 +0300
 category: "astronomi"
