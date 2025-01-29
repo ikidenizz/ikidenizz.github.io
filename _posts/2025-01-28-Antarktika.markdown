@@ -2,7 +2,7 @@
 layout: post
 title: "Antarktika'nın Gizemi Açığa Çıkıyor"
 description: "Antarktika, dünyanın en soğuk, en uzak ve en az keşfedilmiş kıtasıdır. Ancak bu kıtanın altında saklı olanlar, insanlık için büyük bir potansiyele sahip olabilir."
-image: /images/vlcsnap-2.png
+image: /images/Mt_erebus.jpg
 date: 2025-01-28 05:04:34 +0300
 category: "bilim"
 tags: [antarktika, enerji, incil]
