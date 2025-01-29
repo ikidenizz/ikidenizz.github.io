@@ -1,0 +1,71 @@
+---
+layout: post
+title: "200 Million-Star Tapestry"
+description: "Hubble’s Astonishing New Portrait of Andromeda"
+image: /images/Hubble-M31-PHAT-PHAST-Mosaic-scaled.jpg
+date: 2025-01-28 05:04:34 +0300
+category: "astronomy"
+tags: [astronomy, space, science]
+lang: en
+author: isunion99
+published: true
+---
+
+# 200 Million-Star Tapestry: Hubble’s Astonishing New Portrait of Andromeda
+
+The Hubble Space Telescope has once again outdone itself by providing the most detailed survey of the Andromeda galaxy to date. This new portrait captures 200 million stars and spans over a decade of research, offering fresh perspectives on Andromeda's age, structure, and stellar composition.
+
+## The Largest Photomosaic from Hubble
+
+This is the largest photomosaic ever assembled from Hubble Space Telescope observations. It is a panoramic view of the Andromeda galaxy, located 2.5 million light-years away from Earth. This mosaic took over 10 years to create, captures 200 million stars, still a fraction of Andromeda’s population, and contains about 2.5 billion pixels. This detailed look will help astronomers piece together the Andromeda galaxy’s past history, including mergers with smaller satellite galaxies. Credit: NASA, ESA, Benjamin F. Williams (UWashington), Zhuo Chen (UWashington), L. Clifton Johnson (Northwestern); Image Processing: Joseph DePasquale (STScI)
+
+![Hubble M31 PHAT+PHAST Mosaic](https://scitechdaily.com/images/Hubble-M31-PHAT-PHAST-Mosaic-scaled.jpg)
+*Caption: Hubble M31 PHAT+PHAST Mosaic. Credit: NASA, ESA, Benjamin F. Williams (UWashington), Zhuo Chen (UWashington), L. Clifton Johnson (Northwestern); Image Processing: Joseph DePasquale (STScI)*
+
+## Unveiling Andromeda Through Hubble’s Lens
+
+Today, the Hubble Space Telescope has completed the most detailed survey of Andromeda to date. This extensive study has provided valuable new insights into the galaxy’s evolutionary history, revealing key differences from the Milky Way’s own development.
+
+University of Washington astronomers presented the findings on January 16 in Maryland at a meeting of the American Astronomical Society, and in an accompanying paper published the same date in *The Astrophysical Journal*.
+
+## Visualizing a Galactic Giant
+
+Without Andromeda as an example of a spiral galaxy, astronomers would know much less about the structure and evolution of our own Milky Way. That’s because Earth is embedded inside the Milky Way. This is like trying to understand the layout of New York City by standing in the middle of Central Park.
+
+“With Hubble we can get into enormous detail about what’s happening on a holistic scale across the entire disk of the galaxy. You can’t do that with any other large galaxy,” said principal investigator Benjamin Williams, a UW research associate professor of astronomy.
+
+Hubble’s sharp imaging capabilities can resolve more than 200 million stars in the Andromeda galaxy, detecting only stars brighter than our sun. They look like grains of sand across the beach. But the telescope can’t capture everything. Andromeda’s total population is estimated to be 1 trillion stars, with many less massive stars falling below Hubble’s sensitivity limit.
+
+## A Decade-Long Galactic Exploration
+
+Photographing Andromeda was a Herculean task because the galaxy is a much bigger target in the sky than the galaxies Hubble routinely observes, which are often billions of light years away. The full mosaic was carried out under two Hubble programs. In total it required over 1,000 Hubble orbits, spanning more than a decade.
+
+This panorama started about a decade ago with the Panchromatic Hubble Andromeda Treasury program. Images were obtained at near-ultraviolet, visible, and near-infrared wavelengths using instruments aboard Hubble to photograph the northern half of Andromeda.
+
+### Completing the Galactic Portrait
+
+This has now been followed by the newly published Panchromatic Hubble Andromeda Southern Treasury. This phase added images of approximately 100 million stars in the southern half of Andromeda. This southern region is structurally unique and more sensitive to the galaxy’s merger history than the northern disk mapped earlier.
+
+Combined, the two programs collectively cover the entire disk of Andromeda, which is seen almost edge-on — tilted by 77 degrees relative to the view we see from Earth. The galaxy is so large that the mosaic is assembled from approximately 600 separate fields of view. The mosaic image is made up of at least 2.5 billion pixels.
+
+## Andromeda’s Asymmetrical Mysteries
+
+“The asymmetry between the two halves — now visually evident in this image — is incredibly intriguing,” said Zhuo Chen, a UW postdoctoral researcher in astronomy and lead author of the accompanying paper. “It’s fascinating to see the detailed structures of an external spiral galaxy mapped over such a large, contiguous area.”
+
+The complementary Hubble survey programs provide information about the age, heavy-element abundance, and stellar masses inside Andromeda. This will allow astronomers to distinguish between competing scenarios where Andromeda merged with one or more galaxies. Hubble’s detailed measurements constrain models of Andromeda’s merger history and disk evolution.
+
+“This ambitious photography of the Andromeda galaxy sets a new benchmark for precision studies of large spiral galaxies,” Chen said.
+
+## Diverse Histories of Neighbor Galaxies
+
+Though the Milky Way and Andromeda galaxies formed presumably around the same time many billions of years ago, observational evidence shows that they have very different evolutionary histories, despite growing up in the same cosmological neighborhood. Andromeda seems to be more highly populated with younger stars and unusual features like coherent streams of stars, researchers say. This implies it has a more active recent star formation and interaction history than the Milky Way.
+
+“This detailed look at the resolved stars will help us to piece together the galaxy’s past merger and interaction history,” Williams said.
+
+### Reference
+
+- **Paper**: Zhuo Chen, Benjamin Williams, Dustin Lang, Andrew Dolphin, Meredith Durbin, Julianne J. Dalcanton, Adam Smercina, Léo Girardi, Claire E. Murray, Eric F. Bell, Martha L. Boyer, Richard D’Souza, Karoline Gilbert, Karl Gordon, Puragra Guhathakurta, Francois Hammer, L. Clifton Johnson, Tod R. Lauer, Margaret Lazzarini, Jeremiah W. Murphy, Ekta Patel, Amanda Quirk, Mariangelly Díaz Rodríguez, Julia Christine Roman-Duval, Robyn E. Sanderson, Anil Seth, Tobin M. Wainer and Daniel R. Weisz. "PHAST. The Panchromatic Hubble Andromeda Southern Treasury. I. Ultraviolet and Optical Photometry of over 90 Million Stars in M31". *The Astrophysical Journal*, January 16, 2025.
+- **DOI**: [10.3847/1538-4357/ad7e2b]
+- **Funding**: NASA and the Simons Foundation.
+
+This research underscores the complexity of galactic evolution and highlights the importance of continued exploration and observation. The Andromeda galaxy serves as a critical reference point for understanding our own Milky Way and the broader universe.
