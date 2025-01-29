@@ -25,7 +25,7 @@ Bir radyo alıcısı düşünün. Bu verici, çevresel faktörlerden (insanları
 - **Frekans Ayarlayıcı:** Bilinçaltı etkileşimini gösterir.
 - **Çıkış Hoparlörü:** Sonuç olarak oluşan gerçekliği temsil eder.
 
-Bu radyo alıcı, çevresel faktörlerin nasıl bilinçaltımıza ulaştığını ve onu şekillendirdiğini gösterir. Vericinin her bir katmanı, farklı aşamalarda olan süreci ifade eder.
+Bu radyo alıcı, çevresel faktörlerin nasıl bilinçaltımıza ulaştığını ve onu şekillendirdiğini gösterir. Alıcının her bir katmanı, farklı aşamalarda olan süreci ifade eder.
 
 ## Çevresel Faktörlerin Etkisi
 
