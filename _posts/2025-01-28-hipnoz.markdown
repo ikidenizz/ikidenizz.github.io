@@ -16,16 +16,16 @@ published: true
 
 Günlük hayatımızda yaşadığımız olaylar ve çevresel faktörlerin etkileri, bilinçaltımıza derinlemesine etki edebilir ve bizi geçici hipnoz hallerine sokabilir. Özellikle sürekli konuşan insanlar, tekrarlanan haber akışları, TV kanalları ve YouTube vlogları gibi çevresel faktörler, bu tür etkileri tetikleyebilir. Bu yazıda, bu süreçleri daha iyi anlamak için görsel ilişkilendirme ve açıklama yapacağız.
 
-## Görsel İlişkilendirme: Bilinçaltı Radyo Vericisi
+## Görsel İlişkilendirme: Bilinçaltı Radyo Alıcısı
 
-Bir radyo vericisi düşünün. Bu verici, çevresel faktörlerden (insanların konuşmaları, haber akışları, TV kanalları, YouTube vlogları) gelen sinyalleri alır ve bunları odaklayarak içeri aktarır. Radyo vericisinin içinde çeşitli katmanlar bulunuyor:
+Bir radyo alıcısı düşünün. Bu verici, çevresel faktörlerden (insanların konuşmaları, haber akışları, TV kanalları, YouTube vlogları) gelen sinyalleri alır ve bunları odaklayarak içeri aktarır. Radyo alıcısının içinde çeşitli katmanlar bulunuyor:
 
 - **Sinyal Alma Anteni:** Çevresel faktörleri temsil eder.
 - **Veri İşleme Birimi:** Duygular ve düşünceleri simgeler.
 - **Frekans Ayarlayıcı:** Bilinçaltı etkileşimini gösterir.
 - **Çıkış Hoparlörü:** Sonuç olarak oluşan gerçekliği temsil eder.
 
-Bu radyo verici, çevresel faktörlerin nasıl bilinçaltımıza ulaştığını ve onu şekillendirdiğini gösterir. Vericinin her bir katmanı, farklı aşamalarda olan süreci ifade eder.
+Bu radyo alıcı, çevresel faktörlerin nasıl bilinçaltımıza ulaştığını ve onu şekillendirdiğini gösterir. Vericinin her bir katmanı, farklı aşamalarda olan süreci ifade eder.
 
 ## Çevresel Faktörlerin Etkisi
 
