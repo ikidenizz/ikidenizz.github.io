@@ -14,7 +14,6 @@ published: true
 
 
 
-![Hubble]({{ "/images/Hubble-M31-PHAT-PHAST-Mosaic-scaled.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 # 200 Milyon Yıldızlı Döşek: Hubble'un Andromeda Galaksisi Üzerine Şaşırtıcı Yeni Portresi
 
@@ -24,7 +23,8 @@ Hubble Uzay Teleskobu tekrar kendini aşarak Andromeda galaksisinin en detaylı 
 
 Bu, Hubble Uzay Teleskobu gözlemlerinden derlenen en büyük foto mozaiktir. Bu panorama, Dünya'dan 2.5 milyon ışık yılı uzaklıktaki Andromeda galaksisine bakıyor. Bu mozaik, 10 yıldan fazla bir süreye yayılmıştır, 200 milyon yıldızı yakalamıştır - hala Andromeda'nın popülasyonunun küçük bir kısmını oluşturan - ve yaklaşık 2.5 milyar piksel içeriyor. Bu ayrıntılı bakış, astronotların Andromeda galaksisinin geçmiş tarihini, daha küçük uydu galaksileriyle olan birleşme olaylarını bir araya getirmelerine yardımcı olacaktır. Kaynak: NASA, ESA, Benjamin F. Williams (UWashington), Zhuo Chen (UWashington), L. Clifton Johnson (Northwestern); Görüntü İşleme: Joseph DePasquale (STScI)
 
-![Hubble M31 PHAT+PHAST Mozaik](https://example.com/hubble-andromeda-mosaic.jpg)
+
+![Hubble]({{ "/images/Hubble-M31-PHAT-PHAST-Mosaic-scaled.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 *Başlık: Hubble M31 PHAT+PHAST Mozaik. Kaynak: NASA, ESA, Benjamin F. Williams (UWashington), Zhuo Chen (UWashington), L. Clifton Johnson (Northwestern); Görüntü İşleme: Joseph DePasquale (STScI)*
 
 ## Hubble'un Merceği Aracılığıyla Andromeda'yı Ortaya Çıkarma
