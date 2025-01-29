@@ -14,7 +14,6 @@ published: true
 
 
 
-![Mosaic]({{ "/images/M31-PHAT-PHAST-Mosaic-Compass-and-Scale-Image-scaled.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
  
 Hubble Uzay Teleskobu, Andromeda galaksisinin şimdiye kadarki en detaylı görüntüsünü yakalayarak, galaksinin geçmişine ve yapısına dair yeni ipuçları ortaya çıkardı. Bu çarpıcı mozaik, 2,5 milyon ışık yılı uzaklıktaki Andromeda’nın 200 milyon yıldızını gözler önüne seriyor ve galaksinin tarihine dair önemli bilgiler sunuyor.
@@ -42,5 +41,6 @@ Chen, Z., Williams, B., ve diğerleri. “PHAST. The Panchromatic Hubble Androme
 ---
 
 **Görsel:**  
-![Andromeda Mosaic](/assets/images/andromeda-mosaic.jpg)  
+
+![Mosaic]({{ "/images/M31-PHAT-PHAST-Mosaic-Compass-and-Scale-Image-scaled.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"} 
 *Hubble Uzay Teleskobu tarafından oluşturulan Andromeda galaksisinin mozaiği. Kaynak: NASA, ESA, Benjamin F. Williams (UWashington), Zhuo Chen (UWashington), L. Clifton Johnson (Northwestern); Görüntü İşleme: Joseph DePasquale (STScI)*
