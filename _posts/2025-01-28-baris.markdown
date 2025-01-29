@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Barış ve Adalet"
-description: Esirlere kraliçe gibi davranılıyor, peki 7 Ekim saldırısına ne gerek vardı?"
+description: "Esirlere kraliçe gibi davranılıyor, peki 7 Ekim saldırısına ne gerek vardı?"
 image: /images/vlcsnap-2.png
 date: 2025-01-28 05:04:34 +0300
 category: "siyaset"
-tags: [siyaset, toplum, dini_yorumlar]
+tags: [siyaset, toplum]
 lang: tr
 author: isunion99
 published: true
