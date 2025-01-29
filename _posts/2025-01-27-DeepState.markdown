@@ -12,7 +12,7 @@ published: true
 ---
 
 
-![ateizm]({{ "/images/Deepseek-R1.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+![Deepseek]({{ "/images/Deepseek-R1.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 ## **Çin'in Deepseek Projesi, ABD'deki İngiliz Deepstate'in Etkilerine Karşı Bir Stratejik Adım mı?**
 
