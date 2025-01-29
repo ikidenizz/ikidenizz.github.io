@@ -29,7 +29,7 @@ Bu radyo alıcı, çevresel faktörlerin nasıl bilinçaltımıza ulaştığın�
 
 ## Çevresel Faktörlerin Etkisi
 
-Bu "Bilinçaltı Radyo Vericisi" içindeki katmanlar, bilinçaltımızın nasıl çalıştığını simgeliyor:
+Bu "Bilinçaltı Radyo Alıcısı" içindeki katmanlar, bilinçaltımızın nasıl çalıştığını simgeliyor:
 
 - **Sinyal Alma Anteni:** Çevresel faktörleri temsil eder. Bu anten, çevremizdeki insan konuşmaları, haber akışları, TV kanalları ve YouTube vloglarından gelen sinyalleri toplar ve odaklar.
 - **Veri İşleme Birimi:** Duygular ve düşünceleri simgeler. Bu birimde, dışarıdan gelen sinyaller duygu ve düşüncelerle işlenerek bilinçaltımıza aktarılır.
