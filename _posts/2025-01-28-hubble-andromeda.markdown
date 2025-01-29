@@ -17,7 +17,7 @@ published: true
 
 # 200 Milyon Yıldızlı Döşek: Hubble'un Andromeda Galaksisi Üzerine Şaşırtıcı Yeni Portresi
 
-Hubble Uzay Teleskobu tekrar kendini aşarak Andromeda galaksisinin en detaylı anketini sağladı. Bu yeni portre 200 milyon yıldızı yakalıyor ve on yıla yayılan bir araştırma süreci boyunca, Andromeda'nın yaşını, yapısını ve yıldız bileşimini hakkında yeni perspektifler sunuyor.
+Hubble Uzay Teleskobu tekrar kendini aşarak Andromeda galaksisinin en detaylı panorama sağladı. Bu yeni portre 200 milyon yıldızı yakalıyor ve on yıla yayılan bir araştırma süreci boyunca, Andromeda'nın yaşını, yapısını ve yıldız bileşimini hakkında yeni perspektifler sunuyor.
 
 ## Hubble'dan Gelen En Büyük Foto Mozaik
 
