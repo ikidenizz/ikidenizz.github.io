@@ -2,7 +2,7 @@
 layout: post
 title: "Kuran'da Ruh ve Öncelikler"
 description: "Kuran, merak edilen ve belki en ilginç konu olan Ruh'u açıklamaz. 'Size bu konuda az bilgi verildi' (İsra 17:85) der ve konuyu kapatır."
-image: /images/vlcsnap-2.png
+image: /images/describing.jpg
 date: 2025-01-28 05:04:34 +0300
 category: "siyaset"
 tags: [kuran, tevrat, incil]
