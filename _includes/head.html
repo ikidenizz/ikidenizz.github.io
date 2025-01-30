@@ -14,12 +14,14 @@
   
 <!-- Ek Güvenlik Meta Etiketleri -->
 <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'self';"> -->
-
 <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
 <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">
 
+<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+<meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">
 <meta name="referrer" content="no-referrer-when-downgrade">
 <meta http-equiv="Feature-Policy" content="fullscreen 'self'; geolocation 'none'; microphone 'none'; camera 'none'">
+
 
 
   <!-- Arama Motoru Temel Meta Etiketleri -->
@@ -33,7 +35,6 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
   <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
-  
   <!-- Dinamik Meta Etiketleri -->
   {% assign page_title = page.title | default: site.title %}
   {% assign page_description = page.description | default: site.description | default: page.excerpt | strip_html | truncate: 160 %}
@@ -153,39 +154,12 @@
   <!-- Preload Critical Assets -->
   <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
   <link rel="preload" href="{{ site.baseurl }}/assets/css/fonts/main-font.woff2" as="font" type="font/woff2" crossorigin>
-  
   <!-- CSS Files -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/screen.css">
-   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css">
-  
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
- <!-- <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/all.min.css"> -->
-
- <!-- 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous">
-
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" integrity="sha512-4rtdOxQvBnP1nqjfu1y9QyDXgIcv7oHQsE5cxn9f32WkGcPTjRrBrp3XynBNZNeIyXBJKbRiwtYSXcuxaSdwNw==" crossorigin="anonymous"> 
-     
-<link rel="stylesheet" href="https://ikidenizz.github.io/assets/css/screen.css" 
-      integrity="sha384-b5d14275d0246cd81771361d4daa165cf9624ab7d565483fb291cd512d8d122757a5e66b0dedc318796b90a080b262be" 
-      crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://ikidenizz.github.io/assets/css/syntax.css" 
-      integrity="sha384-acfa7e931d60b72ea586e737e157db08ce68168716b6880b0194c7ba5e461ff6695e76c1ef60ec3fdb75d6054dbd69b9" 
-      crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://ikidenizz.github.io/assets/css/main.css" 
-      integrity="sha384-4f63214f5072010a3b52b61cddb37c81eb3d806c0a1f8713ccc6394d00eecf536bcaea1e0b52f0ed71fc601cdefecff5" 
-      crossorigin="anonymous">
-      
-<link rel="stylesheet" href="https://ikidenizz.github.io/assets/css/base.css" 
-      integrity="sha384-6fbca6e65eae1bb6f93106962ba9abaf14f5e2e4d10947dec29879b97c6271e52921a3638be99736b32742ade653068f" 
-      crossorigin="anonymous"> -->
-<!-- 
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://cdnjs.cloudflare.com https://ikidenizz.github.io; font-src 'self' https://cdnjs.cloudflare.com;"> -->
-
-
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <!-- Critical CSS -->
   <style>
     /* Buraya kritik CSS kuralları eklenebilir */
