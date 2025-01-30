@@ -58,15 +58,6 @@ google_analytics: "G-XXXXXXXXXX"
 google_tag_manager: "GTM-XXXXXXX"
 
 
-# İş Yeri Bilgileri (Yerel SEO için)
-business_name: "İşletme Adı"
-street_address: "Adres"
-city: "Şehir"
-region: "Bölge"
-postal_code: "Posta Kodu"
-country: "Ülke"
-latitude: 41.0082
-longitude: 28.9784
 
 # Doğrulama Tokenları
 google_site_verification: "token"
