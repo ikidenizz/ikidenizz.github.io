@@ -19,9 +19,11 @@ Hubble Uzay Teleskobu, Andromeda galaksisinin şimdiye kadarki en detaylı gör�
 **Kaynak:**  
 Chen, Z., Williams, B., ve diğerleri. “PHAST. The Panchromatic Hubble Andromeda Southern Treasury. I. Ultraviolet and Optical Photometry of over 90 Million Stars in M31.” *The Astrophysical Journal*, 16 Ocak 2025. DOI: 10.3847/1538-4357/ad7e2b
 
----
 
 **Görsel:**  
 
 ![Mosaic]({{ "/images/M31-PHAT-PHAST-Mosaic-Compass-and-Scale-Image-scaled.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"} 
 *Hubble Uzay Teleskobu tarafından oluşturulan Andromeda galaksisinin mozaiği. Kaynak: NASA, ESA, Benjamin F. Williams (UWashington), Zhuo Chen (UWashington), L. Clifton Johnson (Northwestern); Görüntü İşleme: Joseph DePasquale (STScI)*
+
+
+---
