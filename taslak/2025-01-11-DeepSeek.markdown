@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Çinli teknoloji start-up'ı DeepSeek'in yükselişi"
+description: "Çin üniversitelerinden yeni mezunlardan oluşan DeepSeek, 20 Ocak'ta piyasaya sürdüğü R1 büyük dil modeliyle OpenAI'ın o1 serisi modelleriyle rekabet edebilecek performans sergileyerek teknoloji dünyasını şaşırttı."
+image: /images/describing.jpg
+date: 2025-01-11 05:04:34 +0300
+category: "YapayZekâ" 
+tags: "YapayZekâ" 
+lang: tr
+author: isunion99
+published: true
+---
+
+Çinli teknoloji start-up'ı DeepSeek'in yükselişi, ABD'nin Çin'in teknolojik ilerlemesini sınırlama stratejisi olan 'küçük avlu, yüksek çit' yaklaşımındaki zayıflıkları ortaya çıkardı. Uzmanlara göre, DeepSeek'in başarısı, ABD ile Çin arasındaki en parlak yapay zekâ beyinlerini kazanma yarışını da hızlandırdı. Ancak Çin'in küresel bir yapay zekâ lideri olması için önünde uzun bir yol var.
+
+Hangzhou merkezli DeepSeek, bu hafta hem Çin hem de ABD'deki uygulama mağazalarında ücretsiz indirme listelerinde birinci sıraya yerleşerek ChatGPT'yi bile geride bıraktı. Bu durum, ABD'li teknoloji yatırımcılarını endişelendirirken, Nasdaq endeksi yüzde 4, Nvidia hisseleri ise yüzde 12'ye varan düşüşler yaşadı.
+
+Çin üniversitelerinden yeni mezunlardan oluşan DeepSeek, 20 Ocak'ta piyasaya sürdüğü R1 büyük dil modeliyle OpenAI'ın o1 serisi modelleriyle rekabet edebilecek performans sergileyerek teknoloji dünyasını şaşırttı. Büyük dil modelleri, ChatGPT gibi üretken yapay zekâ hizmetlerinin temelini oluşturan teknolojilerdir. #YapayZekâ #Teknoloji #DeepSeek
