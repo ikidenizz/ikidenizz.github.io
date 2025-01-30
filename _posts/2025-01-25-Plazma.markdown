@@ -19,17 +19,11 @@ published: true
 ## **Uzayın sessizliğinde yankılanan bir teknoloji, insanlığın geleceğini şekillendirmek üzere yükseliyor: elektrikli plazma iticiler.**  
 
 
-
-<div class="frame">
-  <p>Uzayın sessizliğinde yankılanan bir teknoloji, insanlığın geleceğini şekillendirmek üzere yükseliyor: **elektrikli iticiler**. Virginia Üniversitesi'nden Doçent Dr. Chen Cui ve ekibi, bu yenilikçi sistemle uzay keşfini dönüştürüyor. 
+Uzayın sessizliğinde yankılanan bir teknoloji, insanlığın geleceğini şekillendirmek üzere yükseliyor: **elektrikli iticiler**. Virginia Üniversitesi'nden Doçent Dr. Chen Cui ve ekibi, bu yenilikçi sistemle uzay keşfini dönüştürüyor. 
 
 Geleneksel kimyasal roketlerden farklı olarak, **iyonize gazlarla** çalışan bu iticiler, daha az yakıtla uzun mesafeler kat ederek daha verimli, güvenli ve sürdürülebilir bir uzay yolculuğu vaat ediyor. **NASA'nın Artemis programı** gibi Mars’a yolculuk ve Ay’a dönüş projeleri için ideal kabul edilen bu teknoloji, aynı zamanda bazı zorluklar da barındırıyor. Örneğin, yüksek hızlı plazma ışınlarının uzay araçlarına zarar verebilme riski.
 
 Ancak, Cui'nin süper bilgisayarlarla yürüttüğü **simülasyon çalışmaları**, bu riskleri minimize etmek ve plazma davranışını daha iyi anlamak için umut vadediyor. Sonuçlar, elektronların karmaşık ısı akışı ve soğuma dinamiklerini ortaya koyarak geleceğin uzay keşiflerinde bu teknolojinin daha güvenilir bir şekilde kullanılmasının önünü açıyor. 
 
 Elektrikli iticiler artık sadece bir bilimsel araştırma konusu değil; insanlığı yıldızlara taşıyacak bir devrimin temel taşı olarak kabul görüyor. 🚀
-</p>
-</div>
- 
 
----
