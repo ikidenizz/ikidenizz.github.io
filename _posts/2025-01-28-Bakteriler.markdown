@@ -20,6 +20,4 @@ Georgia Teknoloji Enstitüsü tarafından 28 Ocak 2025 tarihinde yayımlanan yen
 
 
 Kaynak: 
-
-"Mikrobiyal türler ve iç tür birimleri, yüksek homolog rekombinasyon ile ekolojik bütünlük sayesinde var olmaktadır" - Nature Communications, 15 Kasım 2024."
-
+Conrad, R.E., Brink, C.E., Viver, T. et al. Microbial species and intraspecies units exist and are maintained by ecological cohesiveness coupled to high homologous recombination. Nat Commun 15, 9906 (2024). https://doi.org/10.1038/s41467-024-53787-0
