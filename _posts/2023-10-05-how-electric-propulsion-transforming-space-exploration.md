@@ -2,7 +2,7 @@
 layout: post
 title: "How Electric Propulsion is Transforming Space Exploration?"
 description: "A groundbreaking technology is rising to shape the future of humanity in the vast silence of space"
-date: 2023-10-05 12:00:00 +0300
+date: 2024-01-25 12:00:00 +0300
 categories: [space-technology, science]
 tags: [SpaceExploration, ElectricPropulsion, NASA, Artemis, Innovation]
 author: "University of Virginia Research Team"
