@@ -15,7 +15,7 @@ published: true
 ![Salinibacter]({{ "/images/Salinibacter-ruber-Cells.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 
-# The Secret Lives of Bacteria: Challenging Evolutionary Myths
+# **The Secret Lives of Bacteria: Challenging Evolutionary Myths**
 
 A recent study led by Kostas Konstantinidis from the Georgia Institute of Technology is reshaping our understanding of bacterial evolution. This research challenges long-held assumptions about how bacteria form and maintain species. While traditional evolutionary theories have struggled to explain the cohesion of bacterial species, this new study offers an intriguing perspective that raises questions about the adequacy of these theories.
 
