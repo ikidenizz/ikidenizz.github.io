@@ -20,5 +20,6 @@ published: true
 Barış ve adalet, çelişkilerle değil, tutarlılıkla sağlanmalıdır. Kur’an’da esirlere insanca muamele edilmesi vurgulanırken (Mümtehine 60:8), bu yaklaşımın yalnızca belirli durumlarla sınırlı kalmayıp evrensel olarak uygulanması gerektiği belirtilmiştir. İnsanların haklarına saygı göstermek, barış ve adaletin temel taşını oluştururken, 7 Ekim saldırısı gibi olaylar bu değerlerin nasıl ihlal edilebileceğini gözler önüne sermektedir. Kur’an’da **“Kim bir cana zarar verirse, sanki bütün insanlığa zarar vermiş gibidir”** (Maide 5:32) denilerek, şiddetin toplumsal huzuru nasıl bozduğu net bir şekilde ifade edilir. Aynı tutarlılık, İncil ve Tevrat’ta da vurgulanır; İncil’de **“Barış yapanlar mutlu olacaklar; çünkü onlara Tanrı’nın çocukları denilecek”** (Matteos 5:9) ayeti ile barışçıl tutum teşvik edilirken, Tevrat’ta **“Adaleti sevin ve doğru olanı arayın”** (Amos 5:24) diyerek doğruluk ve adaletin önemi ortaya konur. Barış ve adalet ancak tutarlı ve sürekli bir şekilde sağlanabilir; Allah’ın verdiği emirler, insanlara bu konularda doğru bir yaşamın rehberliğini sunar. İnsanlar, barış ve adaleti her zaman koruyarak, hakikati aramaya ve toplumsal huzuru sağlamaya yönelmelidir.
  
 ![vlcsnap-20]({{ "/images/vlcsnap-20.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+---
 
  
