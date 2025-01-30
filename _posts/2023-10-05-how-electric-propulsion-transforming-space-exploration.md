@@ -1,12 +1,15 @@
 ---
 layout: post
-title: "🚀 How Electric Propulsion is Transforming Space Exploration?"
+title: "How Electric Propulsion is Transforming Space Exploration?"
+description: "A groundbreaking technology is rising to shape the future of humanity in the vast silence of space"
 date: 2023-10-05 12:00:00 +0300
 categories: [space-technology, science]
 tags: [SpaceExploration, ElectricPropulsion, NASA, Artemis, Innovation]
 author: "University of Virginia Research Team"
 lang: en
 ---
+
+## **How Electric Propulsion is Transforming Space Exploration?**
 
 A groundbreaking technology is rising to shape the future of humanity in the vast silence of space: **electric propulsion**. Associate Professor Dr. Chen Cui and his team at the University of Virginia are leading pioneering research to revolutionize space exploration.
 
