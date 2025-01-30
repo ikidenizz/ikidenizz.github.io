@@ -5,7 +5,7 @@ description: "Lailkiğe EVET Sekülerleşmeye HAYIR"
 image: /images/sembolik.png
 date: 2025-01-22 05:04:34 +0300
 category: "Islam"
-tags: [toplum, din, sekülerleşme, laiklik, din özgürlüğü, bireysel tercih, toplumsal hayat, devlet, dinî referanslar, Türkiye, dinî değerler, genç nüfus, büyük şehirler, dinî pratikler, bireyselleşme, toplumsal çeşitlilik, modern toplum, denge arayışı, inanç özgürlüğü, kurumsal yapı, toplumsal dokuma, dinin rolü, sekülerleşme eğilimleri, dinî etki, toplumsal değişim, özgürlük, çoğulculuk, dinî yaşam, toplumsal dönüşüm]
+tags: [toplum, din, sekülerleşme, laiklik]
 lang: tr
 author: isunion99
 published: true
@@ -13,8 +13,6 @@ published: true
 
 ![sembolik]({{ "/images/sembolik.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
-## **Lailkiğe EVET Sekülerleşmeye HAYIR**
+**Lailkiğe EVET Sekülerleşmeye HAYIR**
 
-<div class="frame">
-  <p>Toplumumuzda dinin rolü ve sekülerleşme süreci üzerine düşüncelerimi paylaşmak istiyorum. Sekülerleşme, dinin bireysel tercihlere indirgenmesi ve toplumsal hayattaki merkezî etkisinin azalması anlamına gelir. Bu süreç, din özgürlüğünü korurken, devletin ve toplumsal kurumların dinî referanslardan bağımsız hareket etmesini savunur. Laiklik ise bu sürecin kurumsal temelini oluşturur. Türkiye’de laik bir devlet yapısı benimsenmiş olsa da, toplumsal dokumuzda dinî değerler hâlâ önemli bir yer tutuyor. Ancak özellikle genç nüfus ve büyük şehirlerde sekülerleşme eğilimleri artıyor. Bu durum, dinî pratiklerin bireyselleşmesi ve toplumsal çeşitliliğin artması gibi sonuçlar doğuruyor. Herkesin inancını özgürce yaşayabildiği, ancak dinin toplumsal hayatta belirleyici olmadığı bir denge arayışı, modern toplumlar için büyük önem taşıyor. #Sekülerleşme #Laiklik #DinÖzgürlüğü</p>
-</div>
+Toplumumuzda dinin rolü ve sekülerleşme süreci üzerine düşüncelerimi paylaşmak istiyorum. Sekülerleşme, dinin bireysel tercihlere indirgenmesi ve toplumsal hayattaki merkezî etkisinin azalması anlamına gelir. Bu süreç, din özgürlüğünü korurken, devletin ve toplumsal kurumların dinî referanslardan bağımsız hareket etmesini savunur. Laiklik ise bu sürecin kurumsal temelini oluşturur. Türkiye’de laik bir devlet yapısı benimsenmiş olsa da, toplumsal dokumuzda dinî değerler hâlâ önemli bir yer tutuyor. Ancak özellikle genç nüfus ve büyük şehirlerde sekülerleşme eğilimleri artıyor. Bu durum, dinî pratiklerin bireyselleşmesi ve toplumsal çeşitliliğin artması gibi sonuçlar doğuruyor. Herkesin inancını özgürce yaşayabildiği, ancak dinin toplumsal hayatta belirleyici olmadığı bir denge arayışı, modern toplumlar için büyük önem taşıyor.
