@@ -11,7 +11,7 @@ author: isunion99
 published: true
 ---
 
-### **Giriş: Türkiye'nin Mevcut Durumu**
+### **Türkiye'nin Mevcut Durumu**
 
 Türkiye, son yıllarda ekonomik kırılganlıklar, sosyal eşitsizlikler ve siyasi belirsizliklerle karşı karşıya. Yüksek enflasyon, işsizlik, döviz kuru dalgalanmaları ve gelir adaletsizliği, ülkenin öncelikli sorunları arasında. Ancak, bu sorunların üstesinden gelmek için radikal ve yenilikçi çözümler mümkün. İşte Türkiye için bir dönüşüm yol haritası:
 
@@ -77,7 +77,7 @@ Türkiye, coğrafi konumu itibarıyla küresel bir aktör olma potansiyeline sah
 
 ---
 
-### Sonuç: Türkiye İçin Yeni Bir Başlangıç
+### **Sonuç: Türkiye İçin Yeni Bir Başlangıç**
 
 Türkiye, mevcut sorunlarını aşmak ve daha adil, sürdürülebilir ve refah içinde bir gelecek inşa etmek için radikal adımlar atmalı. Ekonomik istikrar, sosyal devletin güçlendirilmesi, yeşil ekonomi, demokratik katılım, eğitim ve inovasyon, ve dengeli bir dış politika, bu dönüşümün temel taşları olabilir.
 
