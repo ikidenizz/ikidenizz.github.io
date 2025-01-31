@@ -1,0 +1,27 @@
+
+#wordcloud svg {
+width: 100%;
+height: auto;
+}
+
+#wordcloud text {
+cursor: pointer;
+}
+
+#wordcloud text:hover {
+fill: red;
+}
+
+@media (max-width: 768px) {
+    #wordcloud svg {
+    width: 100%;
+    height: auto;
+    }
+}
+
+@media (min-width: 769px) {
+    #wordcloud svg {
+    width: 80%;
+    height: auto;
+    }
+}
