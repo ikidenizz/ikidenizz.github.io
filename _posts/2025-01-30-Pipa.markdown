@@ -59,10 +59,17 @@ Eğer doğanın bu tür ilginç hikayelerine ilgi duyuyorsanız, diğer yazılar
 
 ---
 
-📷 **Kapak Görseli:**  
-*Bu türle ilgili görseller için uygun bir Creative Commons fotoğraf eklenebilir.*
 
-*Daha fazla bilgi için kaynak: [Wikipedia – Pipa pipa](https://en.wikipedia.org/wiki/Pipa_pipa)*
+** Pipa kara kurbağasının eşsiz üreme sürecini canlı bir şekilde izlemek ister misiniz? Aşağıdaki videoyu izleyin:** 
+
+<video width="640" height="360" controls>
+  <source src="/assets/videos/Pipa.mp4" type="video/mp4">
+  <source src="/assets/videos/Pipa.webm" type="video/webm">
+  Tarayıcınız bu videoyu desteklemiyor. Lütfen [dosyayı indirin](/assets/videos/pipa-kurbagasi.mp4).
+</video>
+
+
+
 
 ---
 
