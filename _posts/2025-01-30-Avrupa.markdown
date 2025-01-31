@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Evren ve insan beyni"
+title: "Avrupa Birliği ve Türkiye İçin Yeni Bir Vizyon"
 description: "Kuantum Sıçraması ile Avrupa Birliği ve Türkiye İçin Yeni Bir Vizyon"
 image: /images/describing.jpg
 date: 2025-01-30 05:04:34 +0300
