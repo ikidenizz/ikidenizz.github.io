@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Evren ve insan beyni"
+description: "Evren ve insan beyni, insanlık tarihinin en büyük iki gizemi olarak bilim insanları ve filozofları büyülemeye devam ediyor. "
+image: /images/describing.jpg
+date: 2025-01-30 05:04:34 +0300
+category: "Felsefe" 
+tags: [Evren,insan] 
+lang: tr
+author: isunion99
+published: true
+---
+
+**Evren ve insan beyni**
+
+Evren ve insan beyni, insanlık tarihinin en büyük iki gizemi olarak bilim insanları ve filozofları büyülemeye devam ediyor. Big Bang öncesindeki evrenin durumu, çoklu evrenler veya alternatif boyutlar gibi soruları gündeme getirirken hâlâ bir muamma iken, insan beyni, milyarlarca nöron ve trilyonlarca bağlantıya sahip yapısıyla sıklıkla bir galaksiye benzetilir. Ancak beynimizin bu karmaşıklığı, algılarımızın ve gerçeklik deneyimimizin sınırlı olabileceğini sorgulatıyor. İnsan gözü, elektromanyetik tayfın yalnızca görünür bir kısmını algılayabilirken, geniş bir gerçeklik—ultraviyole veya kızılötesi gibi—algımızın tamamen dışında kalır. Bu durum, ruhsal ve duygusal deneyimlerimizin de daha büyük bir metafizik gerçekliğin yalnızca küçük bir kısmını ifade edebileceğini düşündürür. Kur’an’ın “Size ilimden yalnızca az bir şey verilmiştir” (İsra 17:85) ayeti, bu sınırlılığı hatırlatarak hem yaratılışın büyüklüğüne hem de insanın bilgi kapasitesinin sınırlarına vurgu yapar. Her şeye rağmen, bu sınırlılıklar, insanlığın evrenin, beynin ve ruhsal boyutların derinliklerini anlamaya çalışmasını, bilinmeyene olan merakını ve varoluşunun anlamını sorgulamasını daima diri tutar.
+
+---
