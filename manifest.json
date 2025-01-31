@@ -1,0 +1,27 @@
+{
+  "name": "My Jekyll Blog",
+  "short_name": "JekyllBlog",
+  "description": "Minimalist bir Jekyll blogu. Teknoloji, yazılım ve kişisel notların birleşimi.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/icon-512x512.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ]
+}
