@@ -3,7 +3,7 @@ layout: post
 title: "Hiçbir din, yalnızca bazı takipçilerinin eylemleriyle tanımlanamaz"
 description: "Hiçbir din, yalnızca bazı takipçilerinin eylemleriyle tanımlanamaz, tıpkı her inancın mensuplarının da herkes gibi hata yapabilen insanlar olması gibi."
 image: /images/describing.jpg
-date: 2025-01-11 05:04:34 +0300
+date: 2025-01-31 05:04:34 +0300
 category: "Islam" 
 tags: "Islam" 
 lang: tr
