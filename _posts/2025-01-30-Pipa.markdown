@@ -2,7 +2,7 @@
 layout: post
 title: "Pipa Kara Kurbağası: Doğanın İlginç Anneliği"
 description: "Pipa kara kurbağası, diğer birçok kurbağa türünden farklı olarak yumurtalarını dişinin sırtında taşır."
-image: /images/Pipa.webp
+image: /images/Pipa.png
 date: 2025-01-30 05:04:34 +0300
 category: "biyoloji" 
 tags: [biyoloji,kurbağalar,biyoçeşitlilik] 
@@ -11,7 +11,7 @@ author: isunion99
 published: true
 ---
 
-![Pipa]({{ "/images/Pipa.webp" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+![Pipa]({{ "/images/Pipa.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 Hayvanlar dünyası bizi şaşırtmaktan asla vazgeçmiyor. Pipa kara kurbağası (**Pipa pipa**), doğanın en benzersiz ve etkileyici adaptasyonlarına sahip canlılarından biri. Bu küçük amfibi, yavrularını koruma ve geliştirme yöntemleriyle bilim insanlarını bile hayrete düşürüyor. Peki, Pipa kara kurbağasının üreme hikayesi ne kadar ilginç olabilir?
 
