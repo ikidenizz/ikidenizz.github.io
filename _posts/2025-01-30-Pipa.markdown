@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pipa Kara Kurbağası: Doğanın İlginç Anneliği"
-description: "Pipa kara kurbağasının benzersiz yaşam döngüsüne ve yumurtalarını derisinde taşıma yöntemine göz atalım."
+description: "Pipa kara kurbağası, diğer birçok kurbağa türünden farklı olarak yumurtalarını dişinin sırtında taşır."
 image: /images/Pipa.webp
 date: 2025-01-30 05:04:34 +0300
 category: "biyoloji" 
