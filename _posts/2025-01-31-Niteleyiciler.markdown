@@ -421,5 +421,86 @@ Niteleyiciler:
    - Yan cümlelerde özne-yüklem uyumu önemlidir
    - Öbeklerde mantıksal bütünlük korunmalıdır
 
+İncelemeyi cümle cümle yapalım:
 
+1. "The dress **that the champion wore on the tennis court** was trimmed **with green piping**."
+- İki çok kelimeli niteleyici: "that the champion wore on the tennis court" (yan cümle, dress'i niteler) ve "with green piping" (öbek, trimmed'ı niteler)
+
+2. "The man **in the ski mask** ran **down the stairs**."
+- İki öbek: "in the ski mask" (man'i niteler) ve "down the stairs" (ran'i niteler)
+
+3. "He went out **on cold nights** **without a coat**."
+- İki öbek: "on cold nights" ve "without a coat" (ikisi de went out'u niteler)
+
+4. "The flanker **of the visiting team** ran **around the right end**."
+- İki öbek: "of the visiting team" (flanker'ı niteler) ve "around the right end" (ran'i niteler)
+
+5. "The building **in which we are living** has been condemned."
+- Bir yan cümle: "in which we are living" (building'i niteler)
+
+6. "A car **that is double parked** blocks traffic **in the entire street**."
+- Bir yan cümle: "that is double parked" (car'ı niteler)
+- Bir öbek: "in the entire street" (blocks'u niteler)
+
+7. "The man **carrying the brown portfolio** left his papers **on his desk**."
+- İki öbek: "carrying the brown portfolio" (man'i niteler) ve "on his desk" (left'i niteler)
+
+8. "Garbage had fallen **across the sidewalk**."
+- Bir öbek: "across the sidewalk" (had fallen'ı niteler)
+
+9. "People **of all ages** enjoy swimming."
+- Bir öbek: "of all ages" (people'ı niteler)
+
+10. "The cigar store **on the corner** sells newspapers **from many cities**."
+- İki öbek: "on the corner" (store'u niteler) ve "from many cities" (newspapers'ı niteler)
+
+11. "A line **of unemployed men and women** waited **at the office door**."
+- İki öbek: "of unemployed men and women" (line'ı niteler) ve "at the office door" (waited'ı niteler)
+
+12. "The girl **in the red dress** walked **down the street**."
+- İki öbek: "in the red dress" (girl'ü niteler) ve "down the street" (walked'ı niteler)
+
+13. "The light **of morning** shone **through the window**."
+- İki öbek: "of morning" (light'ı niteler) ve "through the window" (shone'u niteler)
+
+14. "The rain **we had yesterday** left large puddles **on streets all over the city**."
+- Bir yan cümle: "we had yesterday" (rain'i niteler)
+- Bir öbek: "on streets all over the city" (left'i niteler)
+
+15. "The window box **we planted** is full **of red flowers**."
+- Bir yan cümle: "we planted" (window box'ı niteler)
+- Bir öbek: "of red flowers" (full'u niteler)
+
+16. "A pair **of blackbirds** nests **under that bridge**."
+- İki öbek: "of blackbirds" (pair'i niteler) ve "under that bridge" (nests'i niteler)
+
+17. "Students **from our school** always visit the museum."
+- Bir öbek: "from our school" (students'ı niteler)
+
+18. "The girl **with brown eyes** pointed **across the room** **with her left hand**."
+- Üç öbek: "with brown eyes" (girl'ü niteler), "across the room" ve "with her left hand" (pointed'ı nitelerler)
+
+19. "The driver **of our bus** is pleasant **to all his passengers**."
+- İki öbek: "of our bus" (driver'ı niteler) ve "to all his passengers" (pleasant'ı niteler)
+
+20. "Ida will have dinner **at our house** **on Saturday**."
+- İki öbek: "at our house" ve "on Saturday" (will have'i nitelerler)
+
+21. "A salesman **who speaks only English** cannot communicate **with many customers**."
+- Bir yan cümle: "who speaks only English" (salesman'i niteler)
+- Bir öbek: "with many customers" (communicate'i niteler)
+
+22. "The batter **who hit to left field** reached second base **before the ball was thrown in**."
+- İki yan cümle: "who hit to left field" (batter'ı niteler) ve "before the ball was thrown in" (reached'i niteler)
+
+23. "A dog **that is well trained** obeys a well-trained master."
+- Bir yan cümle: "that is well trained" (dog'u niteler)
+
+24. "The priest **in our parish** helps everyone **who comes to him**."
+- Bir öbek: "in our parish" (priest'i niteler)
+- Bir yan cümle: "who comes to him" (everyone'ı niteler)
+
+25. "A skier **who knows what she is doing** moves **with great caution**."
+- Bir yan cümle: "who knows what she is doing" (skier'ı niteler)
+- Bir öbek: "with great caution" (moves'u niteler)
 ---
