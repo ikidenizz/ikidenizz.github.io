@@ -1,0 +1,389 @@
+---
+layout: post
+title: "JSON'dan SQLite'e Geçiş Rehberi 2"
+description: "JSON ya da başka bir yöntemden SQLite'e geçiş yapmak, yazılım uygulamanızın **mevcut veri saklama yöntemini** SQLite gibi daha güçlü ve esnek bir veritabanı çözümüne taşımanız anlamına gelir."
+image: /images/describing.jpg
+date: 2025-01-31 05:04:34 +0300
+category: "veri" 
+tags: [JSON,SQLite]  
+lang: tr
+author: isunion99
+published: true
+---
+
+# JSON'dan SQLite'e Geçiş Rehberi
+
+JSON ya da başka bir yöntemden SQLite'e geçiş yapmak, yazılım uygulamanızın **mevcut veri saklama yöntemini** SQLite gibi daha güçlü ve esnek bir veritabanı çözümüne taşımanız anlamına gelir. Bu rehberde, modern SQLite özelliklerini de kapsayan detaylı bir geçiş süreci anlatılmaktadır.
+
+## 1. Mevcut JSON Yapısını Anlama
+
+İlk olarak, JSON dosyanızdaki veri yapısını incelemeniz gerekir. Örneğin:
+
+```json
+{
+  "users": [
+    {"id": 1, "name": "Alice", "age": 25, "email": "alice@example.com"},
+    {"id": 2, "name": "Bob", "age": 30, "email": "bob@example.com"},
+    {"id": 3, "name": "Charlie", "age": 35, "email": "charlie@example.com"}
+  ],
+  "books": [
+    {"id": 1, "title": "Book A", "author": "Author A", "year": 2020},
+    {"id": 2, "title": "Book B", "author": "Author B", "year": 2021}
+  ]
+}
+```
+
+Bu yapı, ilişkisel tablolar halinde saklanacaktır:
+- **Users** tablosu: Kullanıcı bilgilerini temsil eder
+- **Books** tablosu: Kitap bilgilerini temsil eder
+
+## 2. Veri Doğrulama ve Şema Kontrolü
+
+Veri taşıma işleminden önce, verilerin doğruluğunu kontrol etmek önemlidir:
+
+```python
+import jsonschema
+
+def validate_json_data(data):
+    schema = {
+        "type": "object",
+        "properties": {
+            "users": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {"type": "integer"},
+                        "name": {"type": "string"},
+                        "age": {"type": "integer"},
+                        "email": {"type": "string", "format": "email"}
+                    },
+                    "required": ["id", "name", "email"]
+                }
+            },
+            "books": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "id": {"type": "integer"},
+                        "title": {"type": "string"},
+                        "author": {"type": "string"},
+                        "year": {"type": "integer"}
+                    },
+                    "required": ["id", "title", "author"]
+                }
+            }
+        }
+    }
+    
+    try:
+        jsonschema.validate(instance=data, schema=schema)
+        return True, "Veri şeması geçerli"
+    except jsonschema.exceptions.ValidationError as e:
+        return False, f"Veri şeması hatası: {str(e)}"
+```
+
+## 3. Modern SQLite Veritabanı Hazırlığı
+
+SQLite'in modern özelliklerini kullanan bir veritabanı oluşturma:
+
+```python
+import sqlite3
+import logging
+from datetime import datetime
+
+class DatabaseManager:
+    def __init__(self, db_file):
+        self.db_file = db_file
+        self.conn = None
+        self.setup_logging()
+        
+    def setup_logging(self):
+        logging.basicConfig(
+            filename=f'db_migration_{datetime.now().strftime("%Y%m%d_%H%M%S")}.log',
+            level=logging.INFO,
+            format='%(asctime)s - %(levelname)s - %(message)s'
+        )
+    
+    def connect(self):
+        try:
+            self.conn = sqlite3.connect(self.db_file)
+            # JSON1 uzantısını etkinleştir
+            self.conn.enable_load_extension(True)
+            self.conn.load_extension("json1")
+            return True
+        except sqlite3.Error as e:
+            logging.error(f"Veritabanı bağlantı hatası: {e}")
+            return False
+    
+    def create_tables(self):
+        try:
+            cursor = self.conn.cursor()
+            
+            # Users tablosu
+            cursor.execute("""
+            CREATE TABLE IF NOT EXISTS users (
+                id INTEGER PRIMARY KEY,
+                name TEXT NOT NULL,
+                age INTEGER,
+                email TEXT UNIQUE NOT NULL,
+                created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+                metadata JSON,
+                GENERATED COLUMN email_domain AS (
+                    json_extract(metadata, '$.email_info.domain')
+                )
+            )
+            """)
+            
+            # Books tablosu
+            cursor.execute("""
+            CREATE TABLE IF NOT EXISTS books (
+                id INTEGER PRIMARY KEY,
+                title TEXT NOT NULL,
+                author TEXT NOT NULL,
+                year INTEGER,
+                metadata JSON,
+                FOREIGN KEY (author) REFERENCES authors(name)
+            )
+            """)
+            
+            # FTS5 tablosu kitap araması için
+            cursor.execute("""
+            CREATE VIRTUAL TABLE IF NOT EXISTS books_fts USING fts5(
+                title,
+                author,
+                content='books',
+                content_rowid='id'
+            )
+            """)
+            
+            # İndeksler
+            cursor.execute("""
+            CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
+            CREATE INDEX IF NOT EXISTS idx_books_author ON books(author);
+            """)
+            
+            self.conn.commit()
+            logging.info("Tablolar başarıyla oluşturuldu")
+            return True
+            
+        except sqlite3.Error as e:
+            logging.error(f"Tablo oluşturma hatası: {e}")
+            self.conn.rollback()
+            return False
+```
+
+## 4. Toplu Veri Aktarımı
+
+Verileri batch halinde aktarmak için optimize edilmiş bir yöntem:
+
+```python
+from tqdm import tqdm
+
+def bulk_insert_data(db_manager, json_data, batch_size=1000):
+    try:
+        cursor = db_manager.conn.cursor()
+        
+        # Users verilerini aktar
+        users = json_data.get('users', [])
+        for i in tqdm(range(0, len(users), batch_size), desc="Users aktarılıyor"):
+            batch = users[i:i + batch_size]
+            cursor.executemany(
+                """
+                INSERT INTO users (id, name, age, email, metadata)
+                VALUES (?, ?, ?, ?, json(?))
+                """,
+                [(user['id'], user['name'], user['age'], user['email'],
+                  json.dumps({'email_info': {'domain': user['email'].split('@')[1]}}))
+                 for user in batch]
+            )
+        
+        # Books verilerini aktar
+        books = json_data.get('books', [])
+        for i in tqdm(range(0, len(books), batch_size), desc="Books aktarılıyor"):
+            batch = books[i:i + batch_size]
+            cursor.executemany(
+                """
+                INSERT INTO books (id, title, author, year, metadata)
+                VALUES (?, ?, ?, ?, json(?))
+                """,
+                [(book['id'], book['title'], book['author'], book['year'],
+                  json.dumps({'added_date': datetime.now().isoformat()}))
+                 for book in batch]
+            )
+            
+            # FTS tablosunu güncelle
+            cursor.executemany(
+                """
+                INSERT INTO books_fts (rowid, title, author)
+                VALUES (?, ?, ?)
+                """,
+                [(book['id'], book['title'], book['author']) for book in batch]
+            )
+        
+        db_manager.conn.commit()
+        logging.info("Veri aktarımı başarıyla tamamlandı")
+        return True
+        
+    except sqlite3.Error as e:
+        logging.error(f"Veri aktarım hatası: {e}")
+        db_manager.conn.rollback()
+        return False
+```
+
+## 5. Veri Doğrulama ve Test
+
+Aktarılan verilerin doğruluğunu kontrol etmek için test fonksiyonları:
+
+```python
+def verify_migration(db_manager, original_data):
+    try:
+        cursor = db_manager.conn.cursor()
+        
+        # Users verilerini kontrol et
+        cursor.execute("SELECT COUNT(*) FROM users")
+        users_count = cursor.fetchone()[0]
+        if users_count != len(original_data['users']):
+            logging.error(f"Users veri sayısı uyuşmazlığı: {users_count} != {len(original_data['users'])}")
+            return False
+            
+        # Books verilerini kontrol et
+        cursor.execute("SELECT COUNT(*) FROM books")
+        books_count = cursor.fetchone()[0]
+        if books_count != len(original_data['books']):
+            logging.error(f"Books veri sayısı uyuşmazlığı: {books_count} != {len(original_data['books'])}")
+            return False
+            
+        # FTS araması test et
+        cursor.execute("SELECT COUNT(*) FROM books_fts")
+        fts_count = cursor.fetchone()[0]
+        if fts_count != books_count:
+            logging.error("FTS indeks sayısı uyuşmazlığı")
+            return False
+            
+        logging.info("Veri doğrulama başarılı")
+        return True
+        
+    except sqlite3.Error as e:
+        logging.error(f"Doğrulama hatası: {e}")
+        return False
+```
+
+## 6. Örnek Kullanım
+
+Tüm bu işlemleri bir araya getiren ana fonksiyon:
+
+```python
+def migrate_json_to_sqlite(json_file_path, db_file_path):
+    # JSON verisini oku
+    with open(json_file_path, 'r') as f:
+        json_data = json.load(f)
+    
+    # Veri şemasını doğrula
+    is_valid, message = validate_json_data(json_data)
+    if not is_valid:
+        logging.error(message)
+        return False
+    
+    # Veritabanı yöneticisini başlat
+    db_manager = DatabaseManager(db_file_path)
+    if not db_manager.connect():
+        return False
+    
+    # Tabloları oluştur
+    if not db_manager.create_tables():
+        return False
+    
+    # Verileri aktar
+    if not bulk_insert_data(db_manager, json_data):
+        return False
+    
+    # Doğrulama yap
+    if not verify_migration(db_manager, json_data):
+        return False
+    
+    logging.info("Migrasyon başarıyla tamamlandı")
+    return True
+```
+
+## 7. Modern SQLite Özellikleri
+
+### FTS5 ile Metin Araması
+
+```sql
+-- Kitap başlıklarında arama
+SELECT * FROM books_fts WHERE title MATCH 'python';
+
+-- Yazar isimlerinde bulanık arama
+SELECT * FROM books_fts WHERE author MATCH 'rob*';
+```
+
+### JSON Fonksiyonları
+
+```sql
+-- JSON verilerinden değer çıkarma
+SELECT json_extract(metadata, '$.email_info.domain') as domain
+FROM users;
+
+-- JSON güncelleme
+UPDATE users 
+SET metadata = json_set(metadata, '$.last_login', CURRENT_TIMESTAMP)
+WHERE id = 1;
+```
+
+### Window Functions
+
+```sql
+-- Her yazarın en popüler kitabını bulma
+SELECT title, author,
+       ROW_NUMBER() OVER (PARTITION BY author ORDER BY year DESC) as latest_book
+FROM books;
+```
+
+## 8. Performans İpuçları
+
+1. **İndeks Kullanımı:**
+   - Sık sorgulanan sütunlar için indeks oluşturun
+   - Compound indeksleri düşünün
+   
+2. **Transaction Yönetimi:**
+   - Büyük veri aktarımlarında transaction kullanın
+   - Batch size'ı optimize edin
+
+3. **Memory Kullanımı:**
+   - PRAGMA cache_size ve page_size değerlerini ayarlayın
+   - temp_store pragmasını memory olarak ayarlayın
+
+4. **Concurrency:**
+   - WAL (Write-Ahead Logging) modunu kullanın
+   - Busy timeout değerini ayarlayın
+
+## 9. Güvenlik Önlemleri
+
+1. **Yetkilendirme:**
+   - Dosya izinlerini doğru ayarlayın
+   - Veritabanı dosyasını güvenli bir konumda saklayın
+
+2. **Veri Güvenliği:**
+   - Hassas verileri şifreleyin
+   - Düzenli yedekleme yapın
+
+3. **SQL Injection Koruması:**
+   - Parametrize sorgular kullanın
+   - User input'u doğrulayın
+
+## Sonuç
+
+Bu modern SQLite geçiş rehberi, veri taşıma işlemini güvenli, verimli ve ölçeklenebilir bir şekilde yapmanızı sağlar. SQLite'in modern özelliklerini kullanarak, uygulamanızın veri katmanını güçlendirebilir ve performansını artırabilirsiniz.
+
+Özellikle dikkat edilmesi gereken noktalar:
+- Veri doğrulama
+- Batch processing
+- Hata yönetimi
+- Performans optimizasyonu
+- Güvenlik önlemleri
+
+Her projenin gereksinimleri farklı olabileceğinden, bu rehberi kendi ihtiyaçlarınıza göre uyarlayabilirsiniz.
+
+---
