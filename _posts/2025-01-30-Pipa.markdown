@@ -11,8 +11,7 @@ author: isunion99
 published: true
 ---
 
-![Deepseek]("https://images.ecency.com/p/o1AJ9qDyyJNSpZWhUgGYc3MngFqoAN3WF9dMqgEcVLPHEunU6.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
-
+![Pipa]({{ "/images/Pipa.webp" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
 Hayvanlar dünyası bizi şaşırtmaktan asla vazgeçmiyor. Pipa kara kurbağası (**Pipa pipa**), doğanın en benzersiz ve etkileyici adaptasyonlarına sahip canlılarından biri. Bu küçük amfibi, yavrularını koruma ve geliştirme yöntemleriyle bilim insanlarını bile hayrete düşürüyor. Peki, Pipa kara kurbağasının üreme hikayesi ne kadar ilginç olabilir?
 
