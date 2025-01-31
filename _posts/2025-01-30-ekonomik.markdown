@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Türkiye’nin son yıllarda karşı karşıya kaldığı ekonomik ve sosyal zorluklar"
+title: "Ekonomik ve sosyal zorluklar"
 description: "Türkiye’nin son yıllarda karşı karşıya kaldığı ekonomik ve sosyal zorluklar, bizlere sorumluluklarımızı hatırlatıyor ve bu sorunların çözümü için bir dönüşüm fırsatı sunuyor."
 image: /images/describing.jpg
 date: 2025-01-30 05:04:34 +0300
