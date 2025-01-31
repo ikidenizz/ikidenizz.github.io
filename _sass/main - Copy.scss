@@ -1,9 +1,3 @@
-/* Font Awesome'ı Yerel Olarak Import Et */
-@import 'fontawesome';
-@import 'solid'; // Solid ikonlar için
-@import 'brands'; // Marka ikonları için
-@import 'regular'; // Regular ikonlar için
-
 /* Renk Değişkenleri */
 :root {
     --primary-color: #0077b5;
@@ -74,7 +68,6 @@ li {
 
 .share-buttons a i {
     margin-right: 0.5em;
-    font-size: 1.2em; /* İkon boyutu */
 }
 
 .share-buttons a[href*="twitter"] {
@@ -85,7 +78,7 @@ li {
     background-color: var(--bluesky-color);
 }
 
-/* Site Genel Stil */
+/* Site Genel Stili */
 .site {
     max-width: 1200px;
     margin: 0 auto;
