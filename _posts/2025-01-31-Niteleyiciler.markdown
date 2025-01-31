@@ -503,4 +503,108 @@ Niteleyiciler:
 25. "A skier **who knows what she is doing** moves **with great caution**."
 - Bir yan cümle: "who knows what she is doing" (skier'ı niteler)
 - Bir öbek: "with great caution" (moves'u niteler)
+
+Elbette! Verilen yazıyı inceledim ve alıştırmaların çözümleme biçimlerini adım adım açıklayan kapsamlı bir dil bilgisi çalışması olduğunu gözlemledim. Bu tür bir metin gramer analizi yapmak için tasarlanmış olup Türkçe veya İngilizce öğrenen dil öğrencilerine yönelik bir kaynak niteliğindedir. Şimdi, her bir bölümün özeti ve öne çıkan noktalarıyla birlikte alıştırmaları inceleyelim.
+
+---
+
+### Bölüm 1: **"Principal Elements of the Sentence" (Cümlenin Temel Unsurları)**
+Bu bölüm, bir cümlenin temel yapı taşlarını tanımlamaktadır:
+- **Fiil (Verb):** Cümledeki eylemi veya durum halini tanımlar.
+  - Örnek: "Rats eat cheese." (Eat, fiildir.)
+- **Özne (Subject):** Fiilin cümlede ilgilendiği kişi veya şeydir.
+  - Örnek: "Trees and shrubs line the boulevard." (Trees and shrubs, öznedir.)
+- **Nesne (Direct Object):** Fiilin etkilediği kişiyi veya şeyi tanımlar.
+  - Örnek: "The gardener fertilized the lawn." (Lawn, doğrudan nesnedir.)
+- **Tamamlayıcı (Complement):** Kopulatif (linking) fiilleri tamamlayan unsurdur.
+  - Örnek: "He seems well." (Well, tamamlayıcıdır.)
+
+### Özet:
+1. Cümlede ana unsurları bulmak için şu adımlar izleniyor:
+   1. Fiili belirleyin: Ne oluyor? Hangi durum ifade ediliyor?
+   2. Özne: Kim veya ne bu eylemi yapıyor? Hangi durumun öznesi?
+   3. Nesne: Fiilin etkilediği kişi/şey ne?
+   4. Tamamlayıcı: Kopulatif fiillerin anlamını tamamlayan unsur ne?
+
+---
+
+### Bölüm 2: **"Indirect Object" (Dolaylı Nesne)**
+Bu bölüm, dolaylı nesnenin tanımı ve yapısında kullanılan kurallara odaklanıyor. İki tür dolaylı nesne gösteriliyor:
+1. **"To", "for", veya "of" ile gelen dolaylı nesne:**
+   - Örnek: "He gave the job to me." (Me, "to" ön ekiyle dolaylı nesnedir.)
+2. **Fiilden hemen sonra eklenip ön ek içermeyen dolaylı nesne:**
+   - Örnek: "He gave me the job." (Me, dolaylı nesne ve "to" kullanılmaz.)
+
+### Özet:
+- İndirgenmiş yapı kullanımları arasındaki farklar örneklerle gösterilmiştir.
+- Tipik dolaylı nesne kullanan fiiller şunlardır: ask, tell, send, give, show.
+
+---
+
+### Bölüm 3: **"Modifiers" (Belirleyiciler/Düzenleyiciler)**
+Bu kısım, tek kelimelik ve çok kelimelik belirleyicilerle ilgiliydi:
+1. **"Single-word Modifiers" (Tek kelimelik Belirleyiciler)**:
+   - Fiilleri, özneyi, nesneleri veya diğer belirteçleri nitelemek için kullanılır.
+   - Örnek: "The tired wife came home very late." (Tired, özneyi tanımlar; very, late sözcüğünü tanımlar.)
+2. **"Multiple-word Modifiers" (Birden Fazla Kelimeden Oluşan Belirleyiciler)**:
+   - Bu belirleyiciler hem cümlecik (clause) hem de ifade (phrase) formunda olabilir.
+   - Örnek: "A car that is double parked blocks traffic in the entire street." ("That is double parked," arabayı tanımlar.)
+
+---
+
+### Sorular ve Cevaplama Yöntemi
+Şimdi, sorular için analiz yapalım:
+
+#### 1. Multiple-word Modifiers
+Alıştırma: Tümce içindeki çok kelimeli belirleyicileri altını çizin.
+
+---
+
+**Cümleler ve Açıklamalı Cevaplar:**
+1. **The dress _that the champion wore on the tennis court_ was trimmed with green piping.**
+   - Belirleyici: "that the champion wore on the tennis court" (Elbiseyi betimleyen bir cümlecik.)
+2. **The man _in the ski mask_ ran down the stairs.**
+   - Belirleyici: "in the ski mask" (Adamı tanımlayan bir ifade.)
+3. **He went out _on cold nights without a coat_.**
+   - Belirleyici: "on cold nights without a coat" (Fiil 'went out'a detay ekliyor.)
+4. **The flanker _of the visiting team_ ran around the right end.**
+   - Belirleyici: "of the visiting team" (Flanker'i niteleyen ifade.)
+5. **The building _in which we are living_ has been condemned.**
+   - Belirleyici: "in which we are living" (Bina hakkında bilgi veren bir tümcecik.)
+6. **A car _that is double parked_ blocks traffic in the entire street.**
+   - Belirleyici: "that is double parked" (Arabayı nitelendiren bir tanım.)
+
+---
+
+#### 2. Indirect Objects
+Alıştırma: Dolaylı nesnelerin altını çizin.
+
+---
+
+**Cümleler ve Açıklamalı Cevaplar:**
+1. **Central American countries provide excellent facilities _for vacationers_.**
+   - Dolaylı Nesne: "for vacationers" (Kime tesis sağlanıyor? Tatilcilere.)
+2. **The auction house sent the carpet _to the museum_.**
+   - Dolaylı Nesne: "to the museum" (Halı nereye gönderildi? Müzeye.)
+3. **Attorneys ask _their clients_ searching questions.**
+   - Dolaylı Nesne: "their clients" (Sorular kime soruluyor? Müvekkillere.)
+
+---
+
+#### 3. Single-Word Modifiers
+**Alıştırma Talimatı:** Tek kelimelik belirleyiciler altını çizmeniz gerekiyor.
+
+---
+
+**Cümleler ve Cevapları:**
+1. **An _outdoor_ market attracts _enthusiastic_ visitors.**
+   - Belirleyiciler: "outdoor" (market'i tanımlar), "enthusiastic" (visitors'ı tanımlar).
+2. **The _patient_ child greeted her _joyfully_.**
+   - Belirleyiciler: "patient" (child'ı tanımlar), "joyfully" (fiili tanımlar).
+
+---
+
+### Genel Yorum:
+Yazı, İngilizce dil bilgisiyle alakalı konuları baştan sona sistematik ve detaylı bir şekilde anlatmaktadır. Verilen alıştırmalar da dil bilgisi kavrayışını pekiştirmeye yöneliktir. Öğrencilerin, cümle yapılarını daha iyi anlaması ve yazı becerilerini geliştirmesi için oldukça faydalı bir materyaldir.
+
 ---
