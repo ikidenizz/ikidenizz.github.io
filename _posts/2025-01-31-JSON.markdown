@@ -1,0 +1,182 @@
+---
+layout: post
+title: "JSON ya da başka bir yöntemden SQLite'e geçiş yapmak"
+description: "JSON ya da başka bir yöntemden SQLite'e geçiş yapmak, yazılım uygulamanızın **mevcut veri saklama yöntemini** SQLite gibi daha güçlü ve esnek bir veritabanı çözümüne taşımanız anlamına gelir."
+image: /images/describing.jpg
+date: 2025-01-31 05:04:34 +0300
+category: "veri" 
+tags: [JSON,SQLite]  
+lang: tr
+author: isunion99
+published: true
+---
+
+JSON ya da başka bir yöntemden SQLite'e geçiş yapmak, yazılım uygulamanızın **mevcut veri saklama yöntemini** SQLite gibi daha güçlü ve esnek bir veritabanı çözümüne taşımanız anlamına gelir. Aşağıdaki adımlar, genel bir yol haritası olacaktır. Bu adımlar, JSON tabanlı bir veri saklama sistemini örnek alarak açıklanmıştır:
+
+---
+
+## **1. Mevcut JSON Yapısını Anlama**
+İlk olarak, JSON dosyanızdaki veri yapısını incelemeniz gerekir. Örneğin:
+
+Bir JSON dosyasının içeriği aşağıdaki gibi olabilir:
+```json
+{
+  "users": [
+    {"id": 1, "name": "Alice", "age": 25},
+    {"id": 2, "name": "Bob", "age": 30},
+    {"id": 3, "name": "Charlie", "age": 35}
+  ],
+  "books": [
+    {"id": 1, "title": "Book A", "author": "Author A"},
+    {"id": 2, "title": "Book B", "author": "Author B"}
+  ]
+}
+```
+
+Bu tür bir yapı, genellikle ilişkisel tablolar halinde saklanabilir:
+- **Users** tablosu: Kullanıcı bilgilerini temsil eder.
+- **Books** tablosu: Kitap bilgilerini temsil eder.
+
+---
+
+## **2. SQLite Veritabanı Hazırlığı**
+SQLite'e geçmeden önce, bir SQLite veritabanı dosyası oluşturmanız gerekiyor. Python gibi bir programlama dili kullanarak örnek bir veritabanı oluşturabilirsiniz.
+
+### Örnek: SQLite Veritabanı Oluşturma
+```python
+import sqlite3
+
+# SQLite veritabanı dosyası oluştur
+connection = sqlite3.connect("database.db")
+cursor = connection.cursor()
+
+# Users tablosu oluştur
+cursor.execute("""
+CREATE TABLE users (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    age INTEGER
+)
+""")
+# Books tablosu oluştur
+cursor.execute("""
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY,
+    title TEXT,
+    author TEXT
+)
+""")
+connection.commit()
+connection.close()
+```
+
+---
+
+## **3. JSON Verisini SQLite'e Aktarma**
+Şimdi, JSON verisini SQLite tablosuna ekleme (insert) işlemi yapacağız. Yapıyı otomatik olarak dönüştürmek için bir *script* yazabilirsiniz.
+
+### Örnek: Python ile JSON'dan SQLite'e Aktarım
+```python
+import json
+import sqlite3
+
+# JSON dosyasını oku
+with open("data.json", "r") as file:
+    data = json.load(file)
+
+# SQLite veritabanına bağlan
+connection = sqlite3.connect("database.db")
+cursor = connection.cursor()
+
+# Kullanıcı verilerini ekle
+for user in data["users"]:
+    cursor.execute("INSERT INTO users (id, name, age) VALUES (?, ?, ?)", 
+                   (user["id"], user["name"], user["age"]))
+
+# Kitap verilerini ekle
+for book in data["books"]:
+    cursor.execute("INSERT INTO books (id, title, author) VALUES (?, ?, ?)", 
+                   (book["id"], book["title"], book["author"]))
+
+# Değişiklikleri kaydet ve bağlantıyı kapat
+connection.commit()
+connection.close()
+```
+
+Bu kod:
+1. JSON dosyasını okuyarak veri yapılarını çözümler.
+2. JSON dosyasındaki kullanıcı ve kitap verilerini SQLite tablolarına ekler.
+
+---
+
+## **4. JSON'dan SQLite'e Otomatik Dönüşüm**
+Eğer JSON dosyasının yapısı daha karmaşıksa, otomatik bir dönüşüm yöntemi geliştirebilirsiniz. Örnek bir dönüşüm yöntemi aşağıda verilmiştir:
+
+### Genel Tablo ve Sütun Oluşturucu
+```python
+def create_table_from_json(json_data, table_name, cursor):
+    # İlk öğeyi al ve sütun isimlerini çıkart
+    first_item = json_data[0]
+    columns = ", ".join([f"{key} TEXT" for key in first_item.keys()])
+
+    # Tabloyu oluştur
+    cursor.execute(f"CREATE TABLE {table_name} ({columns})")
+
+    # Verileri tabloya ekle
+    for row in json_data:
+        placeholders = ", ".join(["?" for _ in row.keys()])
+        cursor.execute(f"INSERT INTO {table_name} VALUES ({placeholders})", tuple(row.values()))
+```
+
+Bu yöntem, JSON dosyasını okuyup tabloyu ve sütunları dinamik olarak oluşturabilir:
+
+### Uygulama:
+```python
+import json
+import sqlite3
+
+with open("data.json", "r") as file:
+    data = json.load(file)
+
+connection = sqlite3.connect("database.db")
+cursor = connection.cursor()
+
+# Dinamik olarak tabloları ve verileri oluştur
+for table_name, rows in data.items():
+    create_table_from_json(rows, table_name, cursor)
+
+connection.commit()
+connection.close()
+```
+
+---
+
+## **5. SQLite Kullanımı ve JSON'un Avantajları**
+SQLite'e geçiş, avantajlıdır çünkü:
+- **Hız ve Verimlilik:** JSON gibi dosyalardan daha hızlı okuma/yazma sunar.
+- **İlişkisel Veri Yapısı:** Tablo yapısıyla karmaşık ilişkiler kurabilirsiniz.
+- **Güvenlik:** ACID özellikleri sayesinde veri güvenliği sağlar.
+- **Arama ve Sorgulama:** SQL kullanarak veri üzerinde kolay sorgu yapılabilir.
+
+---
+
+## **6. Denemeler ve Testler**
+- **Yedekleme:** JSON'dan SQLite'e geçişten önce tüm verilerin yedeğini alın.
+- **Testler:** Taşınan verilerin eksiksiz taşınıp taşınmadığını kontrol edin.
+- **Hata Ayıklama:** JSON yapısı çok karışıksa, dönüşüm sürecini kademeli olarak ilerletin.
+
+---
+
+## **7. Opsiyonel Araçlar**
+Eğer programlama kullanmadan JSON'dan SQLite'e geçmek istiyorsanız, şu araçları kullanabilirsiniz:
+1. **DB Browser for SQLite:**
+   - JSON'u direkt alıp SQLite veri tabanına dönüştürebilen bir grafik arayüz yazılımıdır.
+   - [DB Browser for SQLite](https://sqlitebrowser.org/) ücretsizdir.
+
+2. **Online Dönüştürücüler:**  
+   - JSON dosyalarını SQLite'e çevirebilmenizi sağlayan bazı çevrimiçi araçlar mevcuttur.
+
+---
+
+## **Sonuç**
+JSON gibi basit düzeyde veri saklama yönteminden SQLite gibi ilişkisel bir veritabanına geçiş, yazılımınızın esnekliğini ve performansını artıracaktır. Yukarıdaki adımları takip ederek sorunsuz bir geçiş süreci sağlayabilirsiniz. Eğer yapınıza özel başka gereksinimler veya sorunlar varsa detay verebilirsiniz, size daha spesifik bir çözüm sunabilirim. 😊
