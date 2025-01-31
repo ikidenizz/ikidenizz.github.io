@@ -72,9 +72,17 @@ li {
     background-color: var(--hover-color);
 }
 
-/* Verilen Stil */
-.hidden {
-    display: none;
+.share-buttons a i {
+    margin-right: 0.5em;
+    font-size: 1.2em; /* İkon boyutu */
+}
+
+.share-buttons a[href*="twitter"] {
+    background-color: var(--twitter-color);
+}
+
+.share-buttons a[href*="bluesky"] {
+    background-color: var(--bluesky-color);
 }
 
 /* Site Genel Stil */
