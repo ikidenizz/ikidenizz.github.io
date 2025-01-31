@@ -15,14 +15,6 @@ published: true
 
 ![vlcsnap-2]({{ "/images/vlcsnap-2.png" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
 
----
-layout: post
-title: "Peace and Justice: Achieved Through Consistency, Not Contradictions"
-date: 2023-10-15 00:00:00 +0300
-categories: politics society religious_views
-author: [Author's Name]
----
-
 # Peace and Justice: Achieved Through Consistency, Not Contradictions
 
 "Prisoners are treated like queens; so why was the October 7 attack necessary? Peace and justice are achieved through consistency, not contradictions." This statement prompts us to reflect on how peace and justice can be established in a consistent manner. In this article, we will discuss this topic using verses from the Quran and other religious sources.
