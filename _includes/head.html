@@ -28,7 +28,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
-  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+  
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}"  integrity="sha256-oIxgtakwqV6SYNeWjqFzRzb9HLA6MfDWfsOlP7s4BG0=" crossorigin="anonymous">
   <!-- Dinamik Meta Etiketleri -->
   {% assign page_title = page.title | default: site.title %}
   {% assign page_description = page.description | default: site.description | default: page.excerpt | strip_html | truncate: 160 %}
