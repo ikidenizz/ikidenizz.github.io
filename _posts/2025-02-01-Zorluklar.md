@@ -2,10 +2,11 @@
 layout: post
 title: "Zorlukların Toprağında Filizlenmek"
 description: "Çevresel zorluklar ve olumsuz insanlar, manevi yenilenme için birer fırsata dönüşebilir."
-date: 2024-01-25 12:00:00 +0300
+date: 2025-02-01 12:00:00 +0300
 categories: [farkındalık, fırsat]
 tags: [Zorluk, Ruhsal, İnşirah, Diriliş, Maddi]
-author: ""
+author: isunion99
+published: true
 lang: tr
 ---
 
