@@ -506,7 +506,7 @@ Niteleyiciler:
 
 Elbette! Verilen yazıyı inceledim ve alıştırmaların çözümleme biçimlerini adım adım açıklayan kapsamlı bir dil bilgisi çalışması olduğunu gözlemledim. Bu tür bir metin gramer analizi yapmak için tasarlanmış olup Türkçe veya İngilizce öğrenen dil öğrencilerine yönelik bir kaynak niteliğindedir. Şimdi, her bir bölümün özeti ve öne çıkan noktalarıyla birlikte alıştırmaları inceleyelim.
 
----
+
 
 ### Bölüm 1: **"Principal Elements of the Sentence" (Cümlenin Temel Unsurları)**
 Bu bölüm, bir cümlenin temel yapı taşlarını tanımlamaktadır:
@@ -526,7 +526,7 @@ Bu bölüm, bir cümlenin temel yapı taşlarını tanımlamaktadır:
    3. Nesne: Fiilin etkilediği kişi/şey ne?
    4. Tamamlayıcı: Kopulatif fiillerin anlamını tamamlayan unsur ne?
 
----
+
 
 ### Bölüm 2: **"Indirect Object" (Dolaylı Nesne)**
 Bu bölüm, dolaylı nesnenin tanımı ve yapısında kullanılan kurallara odaklanıyor. İki tür dolaylı nesne gösteriliyor:
@@ -539,7 +539,7 @@ Bu bölüm, dolaylı nesnenin tanımı ve yapısında kullanılan kurallara odak
 - İndirgenmiş yapı kullanımları arasındaki farklar örneklerle gösterilmiştir.
 - Tipik dolaylı nesne kullanan fiiller şunlardır: ask, tell, send, give, show.
 
----
+
 
 ### Bölüm 3: **"Modifiers" (Belirleyiciler/Düzenleyiciler)**
 Bu kısım, tek kelimelik ve çok kelimelik belirleyicilerle ilgiliydi:
@@ -550,7 +550,7 @@ Bu kısım, tek kelimelik ve çok kelimelik belirleyicilerle ilgiliydi:
    - Bu belirleyiciler hem cümlecik (clause) hem de ifade (phrase) formunda olabilir.
    - Örnek: "A car that is double parked blocks traffic in the entire street." ("That is double parked," arabayı tanımlar.)
 
----
+
 
 ### Sorular ve Cevaplama Yöntemi
 Şimdi, sorular için analiz yapalım:
@@ -558,7 +558,7 @@ Bu kısım, tek kelimelik ve çok kelimelik belirleyicilerle ilgiliydi:
 #### 1. Multiple-word Modifiers
 Alıştırma: Tümce içindeki çok kelimeli belirleyicileri altını çizin.
 
----
+
 
 **Cümleler ve Açıklamalı Cevaplar:**
 1. **The dress _that the champion wore on the tennis court_ was trimmed with green piping.**
@@ -574,12 +574,12 @@ Alıştırma: Tümce içindeki çok kelimeli belirleyicileri altını çizin.
 6. **A car _that is double parked_ blocks traffic in the entire street.**
    - Belirleyici: "that is double parked" (Arabayı nitelendiren bir tanım.)
 
----
+
 
 #### 2. Indirect Objects
 Alıştırma: Dolaylı nesnelerin altını çizin.
 
----
+
 
 **Cümleler ve Açıklamalı Cevaplar:**
 1. **Central American countries provide excellent facilities _for vacationers_.**
@@ -589,12 +589,12 @@ Alıştırma: Dolaylı nesnelerin altını çizin.
 3. **Attorneys ask _their clients_ searching questions.**
    - Dolaylı Nesne: "their clients" (Sorular kime soruluyor? Müvekkillere.)
 
----
+
 
 #### 3. Single-Word Modifiers
 **Alıştırma Talimatı:** Tek kelimelik belirleyiciler altını çizmeniz gerekiyor.
 
----
+
 
 **Cümleler ve Cevapları:**
 1. **An _outdoor_ market attracts _enthusiastic_ visitors.**
@@ -602,9 +602,214 @@ Alıştırma: Dolaylı nesnelerin altını çizin.
 2. **The _patient_ child greeted her _joyfully_.**
    - Belirleyiciler: "patient" (child'ı tanımlar), "joyfully" (fiili tanımlar).
 
----
+
 
 ### Genel Yorum:
 Yazı, İngilizce dil bilgisiyle alakalı konuları baştan sona sistematik ve detaylı bir şekilde anlatmaktadır. Verilen alıştırmalar da dil bilgisi kavrayışını pekiştirmeye yöneliktir. Öğrencilerin, cümle yapılarını daha iyi anlaması ve yazı becerilerini geliştirmesi için oldukça faydalı bir materyaldir.
+
+Here’s the analysis of the sentences, identifying **verbs**, **subjects**, **direct objects**, **complements**, **indirect objects**, and **modifiers**:
+
+
+
+### 1. **Lisa hastily wrote an angry letter to her mother.**
+- **Verb**: wrote  
+- **Subject**: Lisa  
+- **Direct Object**: an angry letter  
+- **Indirect Object**: to her mother  
+- **Modifiers**: hastily (modifies "wrote"), angry (modifies "letter")
+
+
+
+### 2. **Beethoven is the greatest composer of all time.**
+- **Verb**: is  
+- **Subject**: Beethoven  
+- **Complement**: the greatest composer of all time  
+- **Modifiers**: greatest (modifies "composer"), of all time (modifies "composer")
+
+
+
+### 3. **While I was waiting for Jon, I met another old friend.**
+- **Verb**: met  
+- **Subject**: I  
+- **Direct Object**: another old friend  
+- **Modifiers**: another, old (modify "friend"), While I was waiting for Jon (adverbial clause modifying "met")
+
+
+
+### 4. **Michelle is the worst student in the junior class.**
+- **Verb**: is  
+- **Subject**: Michelle  
+- **Complement**: the worst student in the junior class  
+- **Modifiers**: worst (modifies "student"), in the junior class (modifies "student")
+
+
+
+### 5. **The Democratic candidate gave an important speech on the radio.**
+- **Verb**: gave  
+- **Subject**: The Democratic candidate  
+- **Direct Object**: an important speech  
+- **Modifiers**: important (modifies "speech"), on the radio (modifies "gave")
+
+
+
+### 6. **Nola gave Marla a very expensive present.**
+- **Verb**: gave  
+- **Subject**: Nola  
+- **Direct Object**: a very expensive present  
+- **Indirect Object**: Marla  
+- **Modifiers**: very, expensive (modify "present")
+
+
+
+### 7. **The young woman rose from her chair near the window.**
+- **Verb**: rose  
+- **Subject**: The young woman  
+- **Modifiers**: young (modifies "woman"), from her chair (modifies "rose"), near the window (modifies "chair")
+
+
+
+### 8. **Literary critics often are frustrated authors.**
+- **Verb**: are  
+- **Subject**: Literary critics  
+- **Complement**: frustrated authors  
+- **Modifiers**: often (modifies "are"), frustrated (modifies "authors")
+
+
+
+### 9. **A competent ornithologist identified many rare birds.**
+- **Verb**: identified  
+- **Subject**: A competent ornithologist  
+- **Direct Object**: many rare birds  
+- **Modifiers**: competent (modifies "ornithologist"), many, rare (modify "birds")
+
+
+
+### 10. **Emma Dally has written three interesting novels on modern English life.**
+- **Verb**: has written  
+- **Subject**: Emma Dally  
+- **Direct Object**: three interesting novels  
+- **Modifiers**: three, interesting (modify "novels"), on modern English life (modifies "novels")
+
+
+
+### 11. **Working far into the night gives Gary bad headaches.**
+- **Verb**: gives  
+- **Subject**: Working far into the night  
+- **Direct Object**: bad headaches  
+- **Indirect Object**: Gary  
+- **Modifiers**: far into the night (modifies "Working"), bad (modifies "headaches")
+
+
+
+### 12. **Most Third World nations experience economic difficulties.**
+- **Verb**: experience  
+- **Subject**: Most Third World nations  
+- **Direct Object**: economic difficulties  
+- **Modifiers**: Most (modifies "Third World nations"), economic (modifies "difficulties")
+
+
+
+### 13. **Old automobiles are a burden to their users.**
+- **Verb**: are  
+- **Subject**: Old automobiles  
+- **Complement**: a burden to their users  
+- **Modifiers**: Old (modifies "automobiles"), to their users (modifies "burden")
+
+
+
+### 14. **Life has never been better for this generation.**
+- **Verb**: has been  
+- **Subject**: Life  
+- **Complement**: better  
+- **Modifiers**: never (modifies "has been"), for this generation (modifies "better")
+
+
+
+### 15. **I always study at night.**
+- **Verb**: study  
+- **Subject**: I  
+- **Modifiers**: always (modifies "study"), at night (modifies "study")
+
+
+
+### 16. **The new puppies are the envy of the neighbors.**
+- **Verb**: are  
+- **Subject**: The new puppies  
+- **Complement**: the envy of the neighbors  
+- **Modifiers**: new (modifies "puppies"), of the neighbors (modifies "envy")
+
+
+
+### 17. **H. L. Mencken was an irreverent critic.**
+- **Verb**: was  
+- **Subject**: H. L. Mencken  
+- **Complement**: an irreverent critic  
+- **Modifiers**: irreverent (modifies "critic")
+
+
+
+### 18. **Kate made attractive dresses for herself and her friends.**
+- **Verb**: made  
+- **Subject**: Kate  
+- **Direct Object**: attractive dresses  
+- **Modifiers**: attractive (modifies "dresses"), for herself and her friends (modifies "made")
+
+
+
+### 19. **Actors receive many letters every day.**
+- **Verb**: receive  
+- **Subject**: Actors  
+- **Direct Object**: many letters  
+- **Modifiers**: many (modifies "letters"), every day (modifies "receive")
+
+
+
+### 20. **Poverty damages the lives of many rural children.**
+- **Verb**: damages  
+- **Subject**: Poverty  
+- **Direct Object**: the lives of many rural children  
+- **Modifiers**: of many rural children (modifies "lives"), many, rural (modify "children")
+
+
+
+### 21. **We still go to the theater as often as possible.**
+- **Verb**: go  
+- **Subject**: We  
+- **Modifiers**: still (modifies "go"), to the theater (modifies "go"), as often as possible (modifies "go")
+
+
+
+### 22. **Commodity prices are high everywhere.**
+- **Verb**: are  
+- **Subject**: Commodity prices  
+- **Complement**: high  
+- **Modifiers**: everywhere (modifies "high")
+
+
+
+### 23. **When Dick cuts himself, he bleeds for a long time.**
+- **Verb**: bleeds  
+- **Subject**: he  
+- **Modifiers**: When Dick cuts himself (adverbial clause modifies "bleeds"), for a long time (modifies "bleeds")
+
+
+
+### 24. **Paper airplanes rarely fly for more than a few minutes.**
+- **Verb**: fly  
+- **Subject**: Paper airplanes  
+- **Modifiers**: rarely (modifies "fly"), for more than a few minutes (modifies "fly")
+
+
+
+### 25. **Fishing is great fun once you have learned the fundamental skills.**
+- **Verb**: is  
+- **Subject**: Fishing  
+- **Complement**: great fun  
+- **Modifiers**: great (modifies "fun"), once you have learned the fundamental skills (adverbial clause modifies "is")
+
+
+
+This breakdown identifies the key components of each sentence. Let me know if you need further clarification! 😊
+
 
 ---
