@@ -121,6 +121,7 @@ Bu metin, İngilizce cümle yapısını anlamak için temel bir rehber niteliği
 
 **Öneri**: Bu tür alıştırmalar, öğrencilerin cümle yapısını daha iyi anlamaları için düzenli olarak tekrarlanmalı ve farklı cümle örnekleri üzerinde uygulanmalıdır. Ayrıca, bağlayıcı fiillerin farklı kullanımlarına dair daha fazla örnek eklenerek konu pekiştirilebilir.
 
+---
  
 
 
