@@ -6,26 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="format-detection" content="telephone=no">
+  
+  <!-- Güvenlik Başlıkları 
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">-->
   <meta name="referrer" content="strict-origin-when-cross-origin">
   
-  <!-- Güvenlik Başlıkları -->
-  <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
-  <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
-  <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">
-  
-  <!-- Content Security Policy -->
-  <meta http-equiv="Content-Security-Policy" content="
-    default-src 'self';
-    script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
-    style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
-    img-src 'self' data: https:;
-    font-src 'self' https://fonts.gstatic.com;
-    connect-src 'self';
-    frame-ancestors 'none';
-  ">
+    
+<!-- Ek Güvenlik Meta Etiketleri 
+<meta http-equiv="Content-Security-Policy" content="
+  default-src 'self';
+  script-src 'self' https://cdnjs.cloudflare.com;
+  style-src 'self' https://cdnjs.cloudflare.com;
+  img-src 'self' data: https:;
+  font-src 'self' https://fonts.gstatic.com;
+  connect-src 'self' https://api.example.com;
+  frame-ancestors 'none';
+  manifest-src 'self' https://your-cdn.example.com;
+">
 
-  <!-- Arama Motoru Meta Etiketleri -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'self';">
+
+<meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+<meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">-->
+
+
+  <!-- Arama Motoru Temel Meta Etiketleri -->
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -36,16 +42,21 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
   
-  <!-- Favicon Set -->
-  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-  <meta name="msapplication-TileColor" content="#da532c">
-  
-  <!-- Manifest -->
+
+<!-- Standart Favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    
+<!-- PNG Formatında Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+
+    <!-- SVG Formatında Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+
   <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
   
   <!-- Dinamik Meta Etiketleri -->
@@ -76,6 +87,13 @@
   <!-- RSS Feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} Feed" href="{{ site.url }}/feed.xml">
   
+  <!-- Favicon Set -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
+  <link rel="mask-icon" href="{{ '/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="{{ page_title | escape }}">
   <meta property="og:description" content="{{ page_description | escape }}">
@@ -100,58 +118,7 @@
     <meta name="twitter:creator" content="@{{ site.twitter_username }}">
   {% endif %}
   
-  <!-- Microformats Markup -->
-  <style>
-    .h-card, .h-entry, .h-feed { display: block; }
-  </style>
-
-  {% if page.layout == 'post' %}
-  <!-- Blog post için h-entry markup -->
-  <div class="h-entry" style="display:none;">
-    <h1 class="p-name">{{ page.title }}</h1>
-    <div class="e-content">{{ page.excerpt }}</div>
-    <a class="u-url" href="{{ page.url | absolute_url }}">Permalink</a>
-    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time>
-    <time class="dt-updated" datetime="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}">
-      {{ page.last_modified_at | default: page.date | date_to_string }}
-    </time>
-    <a class="p-author h-card" href="{{ site.url }}">{{ site.author }}</a>
-  </div>
-  {% endif %}
-
-  <!-- Yazar bilgileri için h-card markup -->
-  <div class="h-card" style="display:none;">
-    <img class="u-photo" src="{{ site.author_image }}" alt="{{ site.author }}"/>
-    <a class="p-name u-url" href="{{ site.url }}">{{ site.author }}</a>
-    <p class="p-note">{{ site.author_bio }}</p>
-    {% if site.email %}
-    <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-    {% endif %}
-    <p class="p-locality">{{ site.location }}</p>
-  </div>
-
-  <!-- Blog feed için h-feed markup -->
-  {% if page.layout == 'home' %}
-  <div class="h-feed" style="display:none;">
-    <h1 class="p-name">{{ site.title }}</h1>
-    <data class="p-summary">{{ site.description }}</data>
-    <data class="p-author h-card">{{ site.author }}</data>
-    <ul>
-      {% for post in site.posts limit:10 %}
-      <li class="h-entry">
-        <h2 class="p-name">{{ post.title }}</h2>
-        <div class="p-summary">{{ post.excerpt }}</div>
-        <a class="u-url" href="{{ post.url | absolute_url }}">{{ post.title }}</a>
-        <time class="dt-published" datetime="{{ post.date | date_to_xmlschema }}">
-          {{ post.date | date_to_string }}
-        </time>
-      </li>
-      {% endfor %}
-    </ul>
-  </div>
-  {% endif %}
-
-  <!-- Schema.org Markup -->
+  <!-- Genel Schema.org Markup -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -191,39 +158,43 @@
     "inLanguage": "{{ page.lang | default: 'tr' }}"
   }
   </script>
-
   <!-- Preload Critical Assets -->
-  <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
+ <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
+   <!-- <link rel="preload" href="{{ site.baseurl }}/assets/css/fonts/main-font.woff2" as="font" type="font/woff2" crossorigin> -->
   
-  <!-- CSS Files -->
+<!-- CSS Files -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" integrity="sha512-4rtdOxQvBnP1nqjfu1y9QyDXgIcv7oHQsE5cxn9f32WkGcPTjRrBrp3XynBNZNeIyXBJKbRiwtYSXcuxaSdwNw==" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" integrity="sha512-+D2X4buEIXcOKX8oHcEZwgLshYXRtRNDqwva4wNaqCjID6WOPD051JKzcQjyVbessWDfISnwpKNzM7gOlQX4vQ==" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/screen.css" integrity="sha512-e00sQBXCZzdnvhpFn0hJKlTvYhi7WN1f71kzn2fI/RivRYUObXzFpiI4XnHuGLXxInzOd8E8JzRKP9taiDn6Ag==" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css" integrity="sha512-LQiJs5bp0h1+6QBRzq1x3dSQH34N0CCMdQWKZYtrCPm/8GQjs1vAqp7n1Dp/ukF29Vi9ItKgnS+qC7oug1dVdg==" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/wordcloud.css" integrity="sha256-apy+qdWYF0pfCJou9jwCvG9/OM8ggQ9vXrLu7QALXco=" crossorigin="anonymous">
+ <!-- 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous">
+-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css" integrity="sha512-+D2X4buEIXcOKX8oHcEZwgLshYXRtRNDqwva4wNaqCjID6WOPD051JKzcQjyVbessWDfISnwpKNzM7gOlQX4vQ==" crossorigin="anonymous">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/screen.css" integrity="sha512-e00sQBXCZzdnvhpFn0hJKlTvYhi7WN1f71kzn2fI/RivRYUObXzFpiI4XnHuGLXxInzOd8E8JzRKP9taiDn6Ag==" crossorigin="anonymous">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css" integrity="sha512-LQiJs5bp0h1+6QBRzq1x3dSQH34N0CCMdQWKZYtrCPm/8GQjs1vAqp7n1Dp/ukF29Vi9ItKgnS+qC7oug1dVdg==" crossorigin="anonymous">
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/wordcloud.css" integrity="sha256-apy+qdWYF0pfCJou9jwCvG9/OM8ggQ9vXrLu7QALXco=" crossorigin="anonymous">
 
   <!-- Critical CSS -->
   <style>
-    .button {
-      margin: 5px;
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-    .hidden {
-      display: none;
-    }
-    body { 
-      margin: 0; 
-      padding: 0; 
-    }
-    .container { 
-      max-width: 1200px; 
-      margin: 0 auto; 
-    }
-  </style>
+  .button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .hidden {
+    display: none;
+  }
+</style>
 
+  <style>
+    /* Buraya kritik CSS kuralları eklenebilir */
+    body { margin: 0; padding: 0; }
+    .container { max-width: 1200px; margin: 0 auto; }
+  </style>
   <!-- Analytics -->
   {% if jekyll.environment == "production" %}
     {% include analytics.html %}
