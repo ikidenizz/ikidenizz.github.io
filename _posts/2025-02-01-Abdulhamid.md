@@ -17,11 +17,11 @@ II. Abdülhamid döneminde askerlik muafiyetleri, merkezi otoriteyi korumak içi
 
 **Kaynaklar:**
 
--Stanford J. Shaw, _History of the Ottoman Empire and Modern Turkey_
+- Stanford J. Shaw, _History of the Ottoman Empire and Modern Turkey_
 
--Kemal Karpat, Ottoman Population 1830-1914
+- Kemal Karpat, _Ottoman Population 1830-1914_
 
--Mehmet Hacısalihoğlu, Doğu Vilayetleri ve Osmanlı-Kürt İlişkileri
+- Mehmet Hacısalihoğlu, _Doğu Vilayetleri ve Osmanlı-Kürt İlişkileri_
 
 ---
 
