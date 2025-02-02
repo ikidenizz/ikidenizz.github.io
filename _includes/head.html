@@ -120,143 +120,121 @@
   
   <!-- Genel Schema.org Markup -->
   <!-- Schema.org Markup -->
-{% if page.layout == 'post' %}
-<!-- Blog Post Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ page.url | absolute_url }}"
-  },
-  "headline": "{{ page_title | escape }}",
-  "description": "{{ page_description | escape }}",
-  "image": {
-    "@type": "ImageObject",
-    "url": "{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}",
-    "height": 630,
-    "width": 1200
-  },
-  "author": {
-    "@type": "Person",
-    "name": "{{ site.author }}",
-    "url": "{{ site.url }}",
-    {% if site.email %}"email": "{{ site.email }}",{% endif %}
-    {% if site.twitter_username %}"sameAs": ["https://twitter.com/{{ site.twitter_username }}"]{% endif %}
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}/images/logo.png",
-      "width": 600,
-      "height": 60
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "inLanguage": "{{ site.lang | default: 'tr' }}",
+      "potentialAction": [{
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ site.url }}/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }]
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "logo": {
+        "@type": "ImageObject",
+        "inLanguage": "{{ site.lang | default: 'tr' }}",
+        "url": "{{ site.url }}/images/logo.png",
+        "contentUrl": "{{ site.url }}/images/logo.png",
+        "width": 600,
+        "height": 60,
+        "caption": "{{ site.title }}"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "inLanguage": "{{ site.lang | default: 'tr' }}",
+        "url": "{{ site.url }}/images/logo.png",
+        "contentUrl": "{{ site.url }}/images/logo.png",
+        "width": 600,
+        "height": 60,
+        "caption": "{{ site.title }}"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ site.location }}",
+        "addressCountry": "TR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "{{ site.email }}",
+        {% if site.phone %}"telephone": "{{ site.phone }}",{% endif %}
+        "contactType": "customer service",
+        "availableLanguage": ["Turkish", "English"]
+      },
+      "sameAs": [
+        {% if site.twitter_username %}"https://twitter.com/{{ site.twitter_username }}",{% endif %}
+        {% if site.github_username %}"https://github.com/{{ site.github_username }}",{% endif %}
+        {% if site.linkedin_username %}"https://linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}/#webpage",
+      "url": "{{ site.url }}",
+      "name": "{{ site.title }}",
+      "isPartOf": { "@id": "{{ site.url }}/#website" },
+      "about": { "@id": "{{ site.url }}/#organization" },
+      "datePublished": "{{ site.time | date_to_xmlschema }}",
+      "dateModified": "{{ site.time | date_to_xmlschema }}",
+      "description": "{{ site.description }}",
+      "breadcrumb": {
+        "@id": "{{ site.url }}/#breadcrumb"
+      },
+      "inLanguage": "{{ site.lang | default: 'tr' }}",
+      "potentialAction": [{
+        "@type": "ReadAction",
+        "target": ["{{ site.url }}"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ site.url }}/#breadcrumb",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Ana Sayfa"
+      }]
+    },
+    {
+      "@type": "ItemList",
+      "itemListElement": [
+        {% for post in site.posts limit:10 %}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "item": {
+            "@type": "BlogPosting",
+            "url": "{{ post.url | absolute_url }}",
+            "name": "{{ post.title }}",
+            "headline": "{{ post.title }}",
+            "description": "{{ post.excerpt | strip_html | truncatewords: 30 }}",
+            "datePublished": "{{ post.date | date_to_xmlschema }}",
+            "dateModified": "{{ post.last_modified_at | default: post.date | date_to_xmlschema }}",
+            "author": {
+              "@type": "Person",
+              "name": "{{ site.author }}"
+            }
+          }
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      ]
     }
-  },
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-  {% if page.tags %}"keywords": "{{ page.tags | join: ', ' | escape }}",{% endif %}
-  {% if page.categories %}"articleSection": "{{ page.categories | join: ', ' | escape }}",{% endif %}
-  "inLanguage": "{{ page.lang | default: 'tr' }}"
-}
-</script>
-
-{% elsif page.layout == 'page' %}
-<!-- Static Page Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "{{ page.url | absolute_url }}"
-  },
-  "headline": "{{ page_title | escape }}",
-  "description": "{{ page_description | escape }}",
-  "image": {
-    "@type": "ImageObject",
-    "url": "{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.image | absolute_url }}{% endif %}",
-    "height": 630,
-    "width": 1200
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}/images/logo.png",
-      "width": 600,
-      "height": 60
-    }
-  },
-  "datePublished": "{{ page.date | default: site.time | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: site.time | date_to_xmlschema }}",
-  "inLanguage": "{{ page.lang | default: 'tr' }}"
-}
-</script>
-
-{% elsif page.layout == 'home' %}
-<!-- Website Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "{{ site.title }}",
-  "description": "{{ site.description }}",
-  "url": "{{ site.url }}",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "{{ site.url }}/search?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ site.url }}/images/logo.png",
-      "width": 600,
-      "height": 60
-    }
-  },
-  "sameAs": [
-    {% if site.twitter_username %}"https://twitter.com/{{ site.twitter_username }}",{% endif %}
-    {% if site.github_username %}"https://github.com/{{ site.github_username }}",{% endif %}
-    {% if site.linkedin_username %}"https://linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
   ]
 }
-</script>
-
-<!-- Organization Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "{{ site.title }}",
-  "url": "{{ site.url }}",
-  "logo": {
-    "@type": "ImageObject",
-    "url": "{{ site.url }}/images/logo.png",
-    "width": 600,
-    "height": 60
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "{{ site.phone }}",
-    "contactType": "customer service",
-    "email": "{{ site.email }}",
-    "availableLanguage": ["Turkish", "English"]
-  },
-  "sameAs": [
-    {% if site.twitter_username %}"https://twitter.com/{{ site.twitter_username }}",{% endif %}
-    {% if site.github_username %}"https://github.com/{{ site.github_username }}",{% endif %}
-    {% if site.linkedin_username %}"https://linkedin.com/in/{{ site.linkedin_username }}"{% endif %}
-  ]
-}
-</script>
-{% endif %}
 
 <!-- Breadcrumb Schema -->
 {% if page.url != '/' %}
