@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Abdülhamid II Dönemi Askerlik Muafiyetleri"
-description: "II. Abdülhamid döneminde askerlik muafiyetleri, merkezi otoriteyi korumak için tasarlanmıştı. Dini sınıflar (kadılar, imamlar), Harem-i Şerif hademesi ve Hicaz doğumlular muaf tutulurken, Doğu Anadolu’daki Kürt aşiretleri ile Arap bedevileri, isyan riski nedeniyle askere alınmadı."
+description: "II. Abdülhamid döneminde askerlik muafiyetleri, merkezi otoriteyi korumak için tasarlanmıştı. Dini sınıflar (kadılar, imamlar), Harem-i Şerif hademesi ve Hicaz doğumlular muaf tutulurken, aşiretleri ile bedeviler, isyan riski nedeniyle askere alınmadı."
 date: 2025-02-01 12:00:00 +0300
 last_modified_at: 2025-02-02
 image: /images/describing.jpg
