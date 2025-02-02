@@ -53,17 +53,6 @@ languages:
   en: English
   tr: Türkçe
 
-google_analytics: G-XXXXXXXXXX
-google_tag_manager: GTM-XXXXXXX
 
 
-
-# Doğrulama Tokenları
-google_site_verification: token
-bing_site_verification: token
-yandex_verification: token
-baidu_verification: token
-naver_verification: token
-
-# Dil Ayarları
 languages: [tr, en, de]
