@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Zorlukların Toprağında Filizlenmek"
-description: "Çevresel zorluklar ve olumsuz insanlar, manevi yenilenme için birer fırsata dönüşebilir."
+description: "Çevresel zorluklar ve olumsuz insanlar, manevi yenilenme için birer fırsata dönüşebilir. Kur'an'ın **'Her zorlukla bir kolaylık vardır'** (İnşirah 6) müjdesi, sıkıntıların ardındaki hikmeti hatırlatır."
 date: 2025-02-01 12:00:00 +0300
 last_modified_at: 2025-02-02
 image: /images/describing.jpg
@@ -10,6 +10,7 @@ tags: [Zorluk, Ruhsal, İnşirah, Diriliş, Maddi]
 published: true
 lang: tr
 ---
+
 
 # **Zorlukların Toprağında Filizlenmek: Kur'an Işığında Ruhsal Diriliş ve Yeni Bir 'Ben'in İnşası**
 
