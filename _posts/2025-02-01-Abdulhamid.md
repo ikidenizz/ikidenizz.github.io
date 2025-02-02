@@ -17,7 +17,7 @@ II. Abdülhamid döneminde askerlik muafiyetleri, merkezi otoriteyi korumak içi
 
 **Kaynaklar:**
 
--Stanford J. Shaw, History of the Ottoman Empire and Modern Turkey
+-Stanford J. Shaw, _History of the Ottoman Empire and Modern Turkey_
 
 -Kemal Karpat, Ottoman Population 1830-1914
 
