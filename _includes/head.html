@@ -63,7 +63,7 @@
   {% assign page_title = page.title | default: site.title %}
   {% assign page_description = page.description | default: site.description | default: page.excerpt | strip_html | truncate: 160 %}
   
-  <title>{{ page_title }}</title>
+  <title><h2>{{ page_title }}</h2></title>
   <meta name="title" content="{{ page_title | escape }}">
   <meta name="description" content="{{ page_description | escape }}">
   {% if page.keywords %}
