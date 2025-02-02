@@ -2,7 +2,7 @@
 layout: post
 title: "Günümüzde Antifaşizm"
 description: "Günümüzde antifaşizm kavramı, gerçek bir faşist tehdit olmaksızın, neoliberal düzeni meşrulaştıran bir araç haline gelmiştir."
-date: 2025-02-02 12:00:00 +0300
+date: 2025-02-01 12:00:00 +0300
 last_modified_at: 2025-02-02
 image: /images/describing.jpg
 categories: [Antifaşizm]
