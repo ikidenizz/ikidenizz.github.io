@@ -9,6 +9,12 @@ author: "isunion99"
 email: union2030@proton.me
 baseurl: ""
 
+author:
+  name: "ikideniz"
+  website: "https://ikidenizz.github.io"
+  bio: "Freelance writer and blogger."
+default_post_image: "/images/describing.jpg"
+
 
 twitter_username: EaPbyai
 github_username:  isunion99
