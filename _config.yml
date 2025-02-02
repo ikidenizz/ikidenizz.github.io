@@ -7,9 +7,9 @@ description: İki denizin birleştiği yerde Güneşin altında Güncel blog yaz
 url: https://ikidenizz.github.io
 author: isunion99
 email: union2030@proton.me
+phone: +90123456789
 baseurl:
-location: Turkey
-
+location: Istanbul, Turkey
 
 twitter_username: EaPbyai
 github_username:  isunion99
@@ -33,6 +33,8 @@ minima:
     - { platform: github,  user_url: https://github.com/isunion99 }
     - { platform: twitter, user_url: https://twitter.com/EaPbyai }
 
+twitter_username: EaPbyai
+github_username: isunion99
 
 header_pages:
   - about.md
