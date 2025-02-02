@@ -28,10 +28,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-minima:
-  social_links:
-    - { platform: github,  user_url: https://github.com/isunion99 }
-    - { platform: twitter, user_url: https://twitter.com/EaPbyai }
 
 twitter_username: EaPbyai
 github_username: isunion99
