@@ -10,6 +10,12 @@ email: union2030@proton.me
 baseurl:
 location: Turkey
 
+author:
+  name: ikideniz
+  website: https://ikidenizz.github.io
+  bio: Freelance writer and blogger.
+default_post_image: /images/describing.jpg
+
 
 
 twitter_username: EaPbyai
