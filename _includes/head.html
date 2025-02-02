@@ -119,7 +119,6 @@
   {% endif %}
   
   <!-- Genel Schema.org Markup -->
-  <!-- Schema.org Markup -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -235,35 +234,6 @@
     }
   ]
 }
-
-<!-- Breadcrumb Schema -->
-{% if page.url != '/' %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "{{ site.title }}",
-      "item": "{{ site.url }}"
-    }
-    {% assign crumbs = page.url | split: '/' %}
-    {% assign crumb_path = '' %}
-    {% for crumb in crumbs offset: 1 %}
-    {% assign crumb_path = crumb_path | append: '/' | append: crumb %}
-    ,{
-      "@type": "ListItem",
-      "position": {{ forloop.index | plus: 1 }},
-      "name": "{{ crumb | capitalize | replace: '-', ' ' }}",
-      "item": "{{ site.url }}{{ crumb_path }}"
-    }
-    {% endfor %}
-  ]
-}
-</script>
-{% endif %}
   <!-- Preload Critical Assets -->
  <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
    <!-- <link rel="preload" href="{{ site.baseurl }}/assets/css/fonts/main-font.woff2" as="font" type="font/woff2" crossorigin> -->
