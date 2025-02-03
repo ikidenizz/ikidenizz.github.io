@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Pandemi döneminde eğitim"
+description: "Pandemi döneminde eğitim, akademik sonuçlar açısından "kalite kaybı" yaşamasa da, insani ve sosyal boyutlarıyla derin bir yara aldı."
+image: /images/describing.jpg
+date: 2025-02-02 05:07:34 +0300
+category: "Pandemi" 
+tags: "eğitim" 
+lang: tr
+author: isunion99
+published: true
+---
+
+# **Pandemi döneminde eğitim**
+  
+Pandemi döneminde eğitim, akademik sonuçlar açısından "kalite kaybı" yaşamasa da, insani ve sosyal boyutlarıyla derin bir yara aldı. Ekran bağımlı dersler, öğrencilerin duyusal deneyimlerini (fiziksel etkileşim, sınıf dinamikleri) ve eleştirel düşünme becerilerini zayıflattı; kaygı, yalnızlık ve aidiyet eksikliği yaygınlaştı. Okulun "bilgi aktaran kurum" olmanın ötesinde, toplumsal bağları güçlendiren bir sosyal ağ olduğu gerçeği, hibrit modellerin bile telafi edemediği bir boşluk yarattı. Teknoloji, erişimi kolaylaştırsa da, öğretmenin gözündeki ışığı görmenin veya laboratuvarda deney yapmanın yerini dolduramadı. Bugün, eğitimi sürdürülebilir kılmak için sınıfları AR/VR gibi araçlarla zenginleştirmek ancak insan etkileşimini merkeze alan bir denge şart: Çünkü öğrenmek, yalnızca *bilmek* değil, *hissetmek* ve *bağ kurmak* demek.
+
+
+---
