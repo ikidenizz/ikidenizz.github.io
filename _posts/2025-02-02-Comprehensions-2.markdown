@@ -15,12 +15,12 @@ published: true
 # **Python'da Liste Üreteçleri: Performanslı ve Okunabilir Kod Yazma Rehberi**  
 
 
-
+---
 
 ## **Giriş**  
 Liste Üreteçleri (List Comprehensions), Python'da listeleri **hızlı**, **okunabilir** ve **şık** bir şekilde oluşturmanın en etkili yöntemlerinden biridir. Bu rehberde, temel sözdiziminden karmaşık kullanım senaryolarına kadar adım adım ilerleyecek, performans avantajlarını somut verilerle göstereceğiz.  
 
-
+---
 
 ## **Temel Sözdizimi ve Bileşenler**  
 ```python
@@ -29,7 +29,7 @@ Liste Üreteçleri (List Comprehensions), Python'da listeleri **hızlı**, **oku
 **Bileşenlerin Görsel Anlatımı:**  
 ![Liste Üreteçleri Bileşenleri](https://i.imgur.com/XYz7T9O.png) *Görsel: Her bir bileşenin işlevi*  
 
-
+---
 
 ## **Pratik Örnekler (Klasik vs. Liste Üreteçleri)**  
 
@@ -45,7 +45,7 @@ kareler = [i**2 for i in range(10)]
 ```  
 **Çıktı:** `[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]`  
 
-
+---
 
 ### **2. Koşullu Filtreleme: Çift Sayılar**  
 ```python
@@ -60,7 +60,7 @@ ciftler = [i for i in range(10) if i % 2 == 0]
 ```  
 **Çıktı:** `[0, 2, 4, 6, 8]`  
 
-
+---
 
 ### **3. İç İçe Döngüler: Kartezyen Çarpım**  
 ```python
@@ -80,12 +80,12 @@ sonuc = [(x, y) for x in liste1 for y in liste2]
 
 **Görsel Tablo:**  
 | `x` | `y` | Sonuç      |  
-|--|--||  
+|-----|-----|------------|  
 | 1   | a   | (1, a)     |  
 | 1   | b   | (1, b)     |  
 | ... | ... | ...        |  
 
-
+---
 
 ## **Gelişmiş Kullanımlar**  
 
@@ -106,7 +106,7 @@ print(transpoze)  # Çıktı: [[1, 3, 5], [2, 4, 6]]
 **Görsel:**  
 ![Matris Transpozu](https://i.imgur.com/8mRrKlD.png) *Görsel: Satırların sütunlara dönüşümü*  
 
-
+---
 
 ## **Performans Karşılaştırması**  
 ```python
@@ -124,11 +124,11 @@ print(f"Klasik Döngü: {time_dongu:.4f} sn\nListe Üreteci: {time_uretec:.4f} s
 ```  
 **Sonuç Tablosu:**  
 | Yöntem           | Süre (sn) |  
-||--|  
+|------------------|-----------|  
 | Klasik Döngü     | 0.0423    |  
 | Liste Üreteci    | 0.0231    |  
 
-
+---
 
 ## **En İyi Uygulamalar & Uyarılar**  
 ✅ **Okunabilirlik:** Karmaşık üreteçleri birden fazla satıra bölün:  
@@ -146,7 +146,7 @@ sonuc = [
 - Yan etkisi olan işlemler (dosya yazma, veritabanı erişimi) için **kullanmayın**.  
 - Aşırı karmaşık üreteçler yerine **fonksiyon** veya **generator** kullanın.  
 
-
+---
 
 ## **Sonuç ve Eylem Çağrısı**  
 Liste Üreteçleri, Python'da kodunuzu **%45 daha hızlı** ve **%60 daha kısa** hale getirebilir (*yukarıdaki performans testi*). Ancak, okunabilirlikten ödün vermeden kullanın.  
@@ -161,7 +161,7 @@ for i in range(50):
 
 **📢 Geri Bildirim:** Bu rehberi nasıl buldunuz? [Anket Bağlantısı](#) üzerinden görüşlerinizi paylaşın!  
 
- 
+--- 
 
 **Güncelleme Notları:**  
 - Performans verileri ve görsellerle desteklendi.  
