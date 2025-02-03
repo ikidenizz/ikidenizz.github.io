@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Python'da List Comprehensions 2"
-description: List Comprehensions, Python'un en güçlü ve esnek özelliklerinden biridir. Geleneksel döngü yapılarına kıyasla daha kısa, okunabilir ve genellikle daha hızlı kod yazmanıza olanak tanır."
+title: "Python'da Liste Üreteçleri 2"
+description: Liste Üreteçleri, Python'un en güçlü ve esnek özelliklerinden biridir. Geleneksel döngü yapılarına kıyasla daha kısa, okunabilir ve genellikle daha hızlı kod yazmanıza olanak tanır."
 image: /images/describing.jpg
 date: 2025-02-02 05:04:34 +0300
 category: "Python"
