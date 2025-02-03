@@ -20,7 +20,7 @@ Liste Üreteçleri, Python'un en güçlü ve esnek özelliklerinden biridir. Gel
 ---
 
 ## **Temel Sözdizimi**
-Liste Üreteçleri'in genel yapısı şu şekildedir:
+Liste Üreteçleri'nin genel yapısı şu şekildedir:
 ```python
 [yeni_değer for eleman in mevcut_liste if koşul]
 ```
