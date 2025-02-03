@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pandemi döneminde eğitim"
-description: "Pandemi döneminde eğitim, akademik sonuçlar açısından "kalite kaybı" yaşamasa da, insani ve sosyal boyutlarıyla derin bir yara aldı."
+description: "Pandemi döneminde eğitim, akademik sonuçlar açısından 'kalite kaybı' yaşamasa da, insani ve sosyal boyutlarıyla derin bir yara aldı."
 image: /images/describing.jpg
 date: 2025-02-02 05:07:34 +0300
 category: "Pandemi" 
