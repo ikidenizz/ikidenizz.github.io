@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NATO içindeki çatlakları ve Trump’ın olası ikinci döneminde artabilecek transatlantik gerilimler"
+title: "NATO içindeki çatlakları"
 description: "Rusya Devlet Başkanı Putin’in "Avrupa elitlerinin Trump’ın önünde kuyruk sallayacağı" yönündeki açıklaması, Batı’daki siyasi ve medyatik çevrelerde hem şok hem de derin bir sorgulamaya yol açtı."
 image: /images/describing.jpg
 date: 2025-02-02 05:04:34 +0300
