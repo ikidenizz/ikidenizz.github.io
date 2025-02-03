@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gazze'de 15 Aylık İsrail Saldırıları"
-description: "Filistin hükümetinin yayımladığı verilere göre, İsrail ordusu 15 ayı aşkın sürede Gazze Şeridi’ne yaklaşık 100 bin ton patlayıcı attı ve bu saldırılar altyapının %88’inin tahrip olmasına neden oldu."
+description: "Filistin hükümetinin yayımladığı verilere göre, İsrail ordusu 15 ayı aşkın sürede Gazze Şeridi’ne yaklaşık 100 bin ton patlayıcı attı ve altyapının %88’inin tahrip olmasına neden oldu."
 image: /images/Gazze.png
 date: 2025-02-02 05:04:34 +0300
 category: "Filistin"
