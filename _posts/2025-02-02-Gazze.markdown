@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Gazze'de 15 Aylık İsrail Saldırıları"
+description: "Filistin hükümetinin yayımladığı verilere göre, İsrail ordusu 15 ayı aşkın sürede Gazze Şeridi’ne yaklaşık 100 bin ton patlayıcı attı ve bu saldırılar altyapının %88’inin tahrip olmasına neden oldu."
+image: /images/re.webp
+date: 2025-02-02 05:04:34 +0300
+category: "Filistin"
+tags: [Gazze, İsrail, İngiliz]
+lang: tr
+author: isunion99
+published: true
+---
+
+# **Gazze'de 15 Aylık İsrail Saldırıları: Altyapı Yok Edildi, İnsani Kriz Derinleşti**
+
+Filistin hükümetinin yayımladığı verilere göre, İsrail ordusu 15 ayı aşkın sürede Gazze Şeridi’ne yaklaşık 100 bin ton patlayıcı attı ve bu saldırılar altyapının %88’inin tahrip olmasına neden oldu. 161 bin 600 konut tamamen yıkılırken, 81 bin konut oturulamaz hale geldi ve 194 bin konut kısmi hasar aldı; ayrıca, 216 kamu binası, 42 spor tesisi, 137 okul ve üniversite zarar gördü, 832 cami yıkıldı, 158 cami ciddi hasar aldı ve 3 kilise hedef alındı. 2 bin 800 kilometrelik yol, 206 tarihi eser ve 19 mezarlık zarar görürken, sağlık kurumları, isale ve kanalizasyon hatları da ağır hasar aldı; 34 hastane vuruldu, 330 bin metre su şebekesi ile 655 bin metre kanalizasyon hattı kullanılamaz hale geldi, Gazze’deki su kaynaklarının %35’i işlevsiz ve 717 kuyu çalışmaz durumda bulunuyor. Ekonomik zarar 38 milyar doları aşarken, 3 bin 680 kilometrelik elektrik ağının yok edilmesi ve %68’inin hasar görmesi, bölgedeki enerji arzında ciddi aksamalara yol açtı; 120 megavatlık elektrik arzının kesilmesi ve tek elektrik santralinin yakıt yetersizliği nedeniyle durması, sağlık hizmetlerinin aksamasına, ilaç ve tıbbi malzeme depolama süreçlerinin bozulmasına ve suyun “savaş aracı” olarak kullanılmasına neden oldu. Sonuç olarak, saldırılar en az 17 bin 841 çocuk, 12 bin 298 kadın ve 47 bin 107 Filistinlinin hayatını kaybetmesine, 111 bin 147 kişinin yaralanmasına yol açtı ve evlerine dönebilenler mülklerinin enkaz yığınına dönmüş olduğunu gördü.
+
+![Gazze]({{ "/images/re.webp" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+---
