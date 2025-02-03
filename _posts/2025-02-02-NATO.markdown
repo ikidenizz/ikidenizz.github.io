@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "NATO içindeki çatlakları"
-description: "Rusya Devlet Başkanı Putin’in "Avrupa elitlerinin Trump’ın önünde kuyruk sallayacağı" yönündeki açıklaması, Batı’daki siyasi ve medyatik çevrelerde hem şok hem de derin bir sorgulamaya yol açtı."
+description: "Rusya Devlet Başkanı Putin’in 'Avrupa elitlerinin Trump’ın önünde kuyruk sallayacağı' yönündeki açıklaması, Batı’daki siyasi ve medyatik çevrelerde hem şok hem de derin bir sorgulamaya yol açtı."
 image: /images/describing.jpg
-date: 2025-02-02 05:04:34 +0300
+date: 2025-02-02 05:07:34 +0300
 category: "Rusya" 
 tags: "Avrupa" 
 lang: tr
