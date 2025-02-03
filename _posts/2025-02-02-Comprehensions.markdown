@@ -118,7 +118,7 @@ print(ciftler)  # Çıktı: [0, 2, 4, 6, 8]
 ---
 
 ### **4. Özet**
-Bu kod, `range(10)`'dan gelen sayıları kontrol ederek yalnızca çift olanlarını bir liste halinde toplar. List Comprehensions yapısı, bu işlemi tek bir satırda daha kısa ve okunabilir bir şekilde gerçekleştirir.
+Bu kod, `range(10)`'dan gelen sayıları kontrol ederek yalnızca çift olanlarını bir liste halinde toplar. Liste Üreteçleri yapısı, bu işlemi tek bir satırda daha kısa ve okunabilir bir şekilde gerçekleştirir.
 
 **Sonuç:** Kodun çıktısı, `[0, 2, 4, 6, 8]` dir. 🚀
 
