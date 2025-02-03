@@ -76,15 +76,6 @@ print(ciftler)  # Çıktı: [0, 2, 4, 6, 8]
 
 **Açıklama:** `if i % 2 == 0` koşulu, sadece çift sayıları listeye ekler.
 
-Aşağıdaki kodu adım adım açıklayalım:
-
----
-
-### **Kod:**
-```python
-ciftler = [i for i in range(10) if i % 2 == 0]
-print(ciftler)  # Çıktı: [0, 2, 4, 6, 8]
-```
 
 ---
 
