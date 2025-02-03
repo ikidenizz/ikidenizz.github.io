@@ -76,7 +76,7 @@ print(ciftler)  # Çıktı: [0, 2, 4, 6, 8]
 
 **Açıklama:** `if i % 2 == 0` koşulu, sadece çift sayıları listeye ekler.
 
-Tabii! Aşağıdaki kodu adım adım açıklayalım:
+Aşağıdaki kodu adım adım açıklayalım:
 
 ---
 
@@ -85,19 +85,6 @@ Tabii! Aşağıdaki kodu adım adım açıklayalım:
 ciftler = [i for i in range(10) if i % 2 == 0]
 print(ciftler)  # Çıktı: [0, 2, 4, 6, 8]
 ```
-
----
-
-### **1. List Comprehension Nedir?**
-List Comprehensions, Python'da listeleri hızlı ve okunabilir bir şekilde oluşturmak için kullanılan bir yapıdır. Genel formatı şu şekildedir:
-```python
-[yeni_değer for eleman in mevcut_liste if koşul]
-```
-Bu durumda:
-- `yeni_değer`: Her eleman için üretilen veya hesaplanan değer.
-- `eleman`: Mevcut listedeki her bir öğe.
-- `mevcut_liste`: Üzerinde işlem yapılacak kaynak liste.
-- `koşul` (isteğe bağlı): Elemanların listeye dahil edilmesini kontrol eden filtre.
 
 ---
 
