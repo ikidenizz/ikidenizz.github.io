@@ -1,0 +1,358 @@
+---
+layout: post
+title: "Alıştırma"
+description: "Ana Cümle Bileşenlerini Tanımlama, Dolaylı Nesneleri Altını Çizme, Tek Kelime Niteleyicileri Belirleme, Çoklu Kelime Niteleyicileri Belirleme"
+image: /images/describing.jpg
+date: 2025-02-02 05:04:34 +0300
+category: "Bilim"
+tags: [İnanç, Akletme, İman]
+lang: tr
+author: isunion99
+published: true
+---
+
+
+# **Alıştırma 1: Ana Cümle Bileşenlerini Tanımlama**
+Bu alıştırmada, verilen cümlelerdeki **fiiller**, **öznelar**, **doğru nesneler** ve **tamamlayıcılar** bulunmalıdır.
+
+#### **Örnek Cümlelerden Başlayalım:**
+1. **Playwrights and authors receive acclaim.**
+   - **Fiil:** *receive*  
+   - **Özne:** *Playwrights and authors*  
+   - **Doğru Nesne:** *acclaim*  
+   - **Tamamlayıcı:** Yok  
+
+2. **Bill and Tom appeared happy.**
+   - **Fiil:** *appeared*  
+   - **Özne:** *Bill and Tom*  
+   - **Doğru Nesne:** Yok  
+   - **Tamamlayıcı:** *happy*
+
+#### **Diğer Cümleler:**
+3. **Libraries preserve the wisdom of civilization.**
+   - **Fiil:** *preserve*  
+   - **Özne:** *Libraries*  
+   - **Doğru Nesne:** *wisdom*  
+   - **Tamamlayıcı:** Yok  
+
+4. **Stores are busiest at Christmastime.**
+   - **Fiil:** *are*  
+   - **Özne:** *Stores*  
+   - **Doğru Nesne:** Yok  
+   - **Tamamlayıcı:** *busiest*
+
+5. **Buenos Aires has the largest opera house in the world.**
+   - **Fiil:** *has*  
+   - **Özne:** *Buenos Aires*  
+   - **Doğru Nesne:** *the largest opera house*  
+   - **Tamamlayıcı:** Yok  
+
+6. **Religion is a popular course in many colleges.**
+   - **Fiil:** *is*  
+   - **Özne:** *Religion*  
+   - **Doğru Nesne:** Yok  
+   - **Tamamlayıcı:** *a popular course*
+
+7. **Eli and Samuel were Old Testament prophets.**
+   - **Fiil:** *were*  
+   - **Özne:** *Eli and Samuel*  
+   - **Doğru Nesne:** Yok  
+   - **Tamamlayıcı:** *Old Testament prophets*
+
+8. **Wars have produced death and destruction.**
+   - **Fiil:** *have produced*  
+   - **Özne:** *Wars*  
+   - **Doğru Nesne:** *death and destruction*  
+   - **Tamamlayıcı:** Yok  
+
+9. **Tamara telephoned her brothers.**
+   - **Fiil:** *telephoned*  
+   - **Özne:** *Tamara*  
+   - **Doğru Nesne:** *her brothers*  
+   - **Tamamlayıcı:** Yok  
+
+10. **The waiter served mineral water to his customers.**
+    - **Fiil:** *served*  
+    - **Özne:** *The waiter*  
+    - **Doğru Nesne:** *mineral water*  
+    - **Dolaylı Nesne:** *his customers*  
+    - **Tamamlayıcı:** Yok  
+
+11. **The dormitory was ransacked.**
+    - **Fiil:** *was ransacked*  
+    - **Özne:** *The dormitory*  
+    - **Doğru Nesne:** Yok  
+    - **Tamamlayıcı:** Yok  
+
+12. **Helen studied Italian in Switzerland.**
+    - **Fiil:** *studied*  
+    - **Özne:** *Helen*  
+    - **Doğru Nesne:** *Italian*  
+    - **Tamamlayıcı:** Yok  
+
+13. **She felt the lining of her coat.**
+    - **Fiil:** *felt*  
+    - **Özne:** *She*  
+    - **Doğru Nesne:** *the lining*  
+    - **Tamamlayıcı:** Yok  
+
+14. **He felt well again.**
+    - **Fiil:** *felt*  
+    - **Özne:** *He*  
+    - **Doğru Nesne:** Yok  
+    - **Tamamlayıcı:** *well*
+
+15. **The defendants called their lawyer.**
+    - **Fiil:** *called*  
+    - **Özne:** *The defendants*  
+    - **Doğru Nesne:** *their lawyer*  
+    - **Tamamlayıcı:** Yok  
+
+---
+
+### **Alıştırma 2: Dolaylı Nesneleri Altını Çizme**
+Bu alıştırmada, cümlenin **dolaylı nesnelerini** belirlememiz istenmektedir.
+
+#### **Örnek:**
+- **Cümle:** *The bride threw her bouquet to the bridesmaids.*  
+  - **Dolaylı Nesne:** *the bridesmaids*
+
+#### **Diğer Cümleler:**
+1. **Central American countries provide excellent facilities for vacationers.**
+   - **Dolaylı Nesne:** *vacationers*
+
+2. **The auction house sent the carpet to the museum.**
+   - **Dolaylı Nesne:** *the museum*
+
+3. **Attorneys ask their clients searching questions.**
+   - **Dolaylı Nesne:** *their clients*
+
+4. **The storekeeper sent his best customer a Christmas gift.**
+   - **Dolaylı Nesne:** *his best customer*
+
+5. **Rebecca wrote a poem for him.**
+   - **Dolaylı Nesne:** *him*
+
+6. **He gave the museum a rare vase.**
+   - **Dolaylı Nesne:** *the museum*
+
+7. **The dog handler showed the English setter to the judges.**
+   - **Dolaylı Nesne:** *the judges*
+
+8. **She left her stamp collection to Marie.**
+   - **Dolaylı Nesne:** *Marie*
+
+9. **She showed her roommates her paper.**
+   - **Dolaylı Nesne:** *her roommates*
+
+10. **He gave his Chinese vase to the British Museum.**
+    - **Dolaylı Nesne:** *the British Museum*
+
+11. **We supplied him food and drink.**
+    - **Dolaylı Nesne:** *him*
+
+12. **Librarians provide services for readers.**
+    - **Dolaylı Nesne:** *readers*
+
+13. **District attorneys may ask embarrassing questions of witnesses.**
+    - **Dolaylı Nesne:** *witnesses*
+
+14. **Cargo ships usually give reliable service to most clients.**
+    - **Dolaylı Nesne:** *most clients*
+
+15. **Children may tell their parents outrageous stories.**
+    - **Dolaylı Nesne:** *their parents*
+
+---
+
+### **Alıştırma 3: Tek Kelime Niteleyicileri Belirleme**
+Bu alıştırmada, cümlenin içindeki **tek kelime niteleyicileri (modifiers)** bulmamız gerekmektedir.
+
+#### **Örnek:**
+- **Cümle:** *Three large stores were opened simultaneously.*  
+  - **Niteleyici:** *Three*, *large*, *simultaneously*
+
+#### **Diğer Cümleler:**
+1. **An outdoor market attracts enthusiastic visitors.**
+   - **Niteleyici:** *outdoor*, *enthusiastic*
+
+2. **The patient child greeted her joyfully.**
+   - **Niteleyici:** *patient*, *joyfully*
+
+3. **The tired wife came home very late.**
+   - **Niteleyici:** *tired*, *very*, *late*
+
+4. **A tasty spaghetti dinner is always welcome.**
+   - **Niteleyici:** *tasty*, *always*
+
+5. **A regularly serviced car makes driving safer.**
+   - **Niteleyici:** *regularly*, *safer*
+
+6. **Susan opened the large package carefully.**
+   - **Niteleyici:** *large*, *carefully*
+
+7. **The neighborhood store opened early and closed late.**
+   - **Niteleyici:** *neighborhood*, *early*, *late*
+
+8. **Grandmother always folded clean sheets neatly.**
+   - **Niteleyici:** *always*, *clean*, *neatly*
+
+9. **I never believe news stories.**
+   - **Niteleyici:** *never*
+
+10. **Our best skater almost fell.**
+    - **Niteleyici:** *best*, *almost*
+
+11. **The trustees will meet tonight.**
+    - **Niteleyici:** *tonight*
+
+12. **Our weekly newspaper prints only local news.**
+    - **Niteleyici:** *weekly*, *only*, *local*
+
+13. **Nighttime television shows old movies.**
+    - **Niteleyici:** *Nighttime*, *old*
+
+14. **Peter never repaired the broken pipe.**
+    - **Niteleyici:** *never*, *broken*
+
+15. **White wine improves roast chicken.**
+    - **Niteleyici:** *White*
+
+---
+
+### **Alıştırma 4: Çoklu Kelime Niteleyicileri Belirleme**
+Bu alıştırmada, cümlenin içindeki **çoklu kelime niteleyicileri (multiple-word modifiers)** bulunması gerekmektedir.
+
+#### **Örnek:**
+- **Cümle:** *Grace clung to the arm of the boy in the football uniform.*  
+  - **Niteleyici:** *of the boy in the football uniform*
+
+#### **Diğer Cümleler:**
+1. **The dress that the champion wore on the tennis court was trimmed with green piping.**
+   - **Niteleyici:** *that the champion wore on the tennis court*
+
+2. **The man in the ski mask ran down the stairs.**
+   - **Niteleyici:** *in the ski mask*
+
+3. **He went out on cold nights without a coat.**
+   - **Niteleyici:** *on cold nights*, *without a coat*
+
+4. **The flanker of the visiting team ran around the right end.**
+   - **Niteleyici:** *of the visiting team*
+
+5. **The building in which we are living has been condemned.**
+   - **Niteleyici:** *in which we are living*
+
+6. **A car that is double parked blocks traffic in the entire street.**
+   - **Niteleyici:** *that is double parked*, *in the entire street*
+
+7. **The man carrying the brown portfolio left his papers on his desk.**
+   - **Niteleyici:** *carrying the brown portfolio*, *on his desk*
+
+8. **Garbage had fallen across the sidewalk.**
+   - **Niteleyici:** *across the sidewalk*
+
+9. **People of all ages enjoy swimming.**
+   - **Niteleyici:** *of all ages*
+
+10. **The cigar store on the corner sells newspapers from many cities.**
+    - **Niteleyici:** *on the corner*, *from many cities*
+
+11. **A line of unemployed men and women waited at the office door.**
+    - **Niteleyici:** *of unemployed men and women*, *at the office door*
+
+12. **The girl in the red dress walked down the street.**
+    - **Niteleyici:** *in the red dress*
+
+13. **The light of morning shone through the window.**
+    - **Niteleyici:** *of morning*, *through the window*
+
+14. **The rain we had yesterday left large puddles on streets all over the city.**
+    - **Niteleyici:** *we had yesterday*, *on streets all over the city*
+
+15. **The window box we planted is full of red flowers.**
+    - **Niteleyici:** *we planted*, *of red flowers*
+
+---
+
+### **Alıştırma 5: Bağımsız Yan Cümeleri Belirleme**
+Bu alıştırmada, cümlenin içindeki **bağımsız yan cümleleri** altını çizmemiz istenmektedir.
+
+#### **Örnek:**
+- **Cümle:** *We stayed on the dock long after the ship had gone.*  
+  - **Bağımsız Yan Cümle:** *We stayed on the dock.*
+
+#### **Diğer Cümleler:**
+1. **Some of us liked the program that night, and many people were enthusiastic about it.**
+   - **Bağımsız Yan Cümleler:** *Some of us liked the program that night*, *many people were enthusiastic about it*
+
+2. **Many voters misinterpreted the remarks of the candidate, so she tried to restate her position.**
+   - **Bağımsız Yan Cümleler:** *Many voters misinterpreted the remarks of the candidate*, *she tried to restate her position*
+
+3. **While we walked home, we considered the problem carefully.**
+   - **Bağımsız Yan Cümle:** *we considered the problem carefully*
+
+4. **Willie lived a long and happy life, but his time had come to die.**
+   - **Bağımsız Yan Cümleler:** *Willie lived a long and happy life*, *his time had come to die*
+
+5. **During the years they spent raising their children, they had many happy experiences.**
+   - **Bağımsız Yan Cümle:** *they had many happy experiences*
+
+6. **Cigarettes have long been known to be dangerous to health, yet many people continue to smoke.**
+   - **Bağımsız Yan Cümleler:** *Cigarettes have long been known to be dangerous to health*, *many people continue to smoke*
+
+7. **He wanted to join her in the new business, but he had little capital to invest.**
+   - **Bağımsız Yan Cümleler:** *He wanted to join her in the new business*, *he had little capital to invest*
+
+8. **Although there was enough food to go around, its quality was poor.**
+   - **Bağımsız Yan Cümle:** *its quality was poor*
+
+9. **His first remarks were greeted with derision, but the audience soon began to applaud.**
+   - **Bağımsız Yan Cümleler:** *His first remarks were greeted with derision*, *the audience soon began to applaud*
+
+10. **Well researched papers usually get higher marks than hastily prepared papers.**
+    - **Bağımsız Yan Cümle:** *Well researched papers usually get higher marks*
+
+---
+
+### **Alıştırma 6: Bağımlı Yan Cümeleri Belirleme**
+Bu alıştırmada, cümlenin içindeki **bağımlı yan cümleleri** altını çizmemiz istenmektedir.
+
+#### **Örnek:**
+- **Cümle:** *Most of the seniors will be graduated before they reach eighteen.*  
+  - **Bağımlı Yan Cümle:** *before they reach eighteen*
+
+#### **Diğer Cümleler:**
+1. **Most of them have been driving carelessly even though they passed Driver Education.**
+   - **Bağımlı Yan Cümle:** *even though they passed Driver Education*
+
+2. **Aspens and poplars grow rapidly but are not useful in building.**
+   - **Bağımlı Yan Cümle:** Yok
+
+3. **They left California after their children finished college.**
+   - **Bağımlı Yan Cümle:** *after their children finished college*
+
+4. **Sally never eats meat, even though the rest of her family does.**
+   - **Bağımlı Yan Cümle:** *even though the rest of her family does*
+
+5. **We decided that she was not a friend of ours and he was.**
+   - **Bağımlı Yan Cümle:** *that she was not a friend of ours*, *he was*
+
+6. **My wife can barely manage to get to her job at school, where she teaches remedial reading.**
+   - **Bağımlı Yan Cümle:** *where she teaches remedial reading*
+
+7. **The mayor told her constituents she would surely meet the town’s financial needs.**
+   - **Bağımlı Yan Cümle:** *she would surely meet the town’s financial needs*
+
+8. **Supersonic transport airplanes have little to recommend them, since they save the traveler little time and contribute heavily to air pollution.**
+   - **Bağımlı Yan Cümle:** *since they save the traveler little time and contribute heavily to air pollution*
+
+9. **I have reserved two excellent and high-priced seats for tonight’s performance.**
+   - **Bağımlı Yan Cümle:** Yok
+
+10. **The movie held all of us spellbound except for Rory, who yawned steadily and audibly from the time the movie began.**
+    - **Bağımlı Yan Cümle:** *who yawned steadily and audibly from the time the movie began*
+
+![describing]({{ "/images/describing.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+
+---
