@@ -104,8 +104,6 @@ matris = [[1, 2], [3, 4], [5, 6]]
 transpoze = [[satir[i] for satir in matris] for i in range(len(matris[0]))]  
 print(transpoze)  # Çıktı: [[1, 3, 5], [2, 4, 6]]  
 ```  
-**Görsel:**  
-![Matris Transpozu](https://i.imgur.com/8mRrKlD.png) *Görsel: Satırların sütunlara dönüşümü*  
 
 ---
 
