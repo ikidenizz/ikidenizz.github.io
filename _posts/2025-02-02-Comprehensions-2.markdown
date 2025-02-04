@@ -123,11 +123,14 @@ time_uretec = timeit.timeit('[i**2 for i in range(1000)]', number=1000)
 
 print(f"Klasik Döngü: {time_dongu:.4f} sn\nListe Üreteci: {time_uretec:.4f} sn")  
 ```  
+
 **Sonuç Tablosu:**  
+
 | Yöntem           | Süre (sn) |  
 |------------------|-----------|  
 | Klasik Döngü     | 0.0423    |  
 | Liste Üreteci    | 0.0231    |  
+
 
 ---
 
