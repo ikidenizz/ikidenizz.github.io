@@ -4,8 +4,8 @@ title: "İstanbul Havalimanı’nda beklenen yoğun kar yağışı"
 description: "İstanbul Havalimanı’nda beklenen yoğun kar yağışı nedeniyle 40’tan fazla uçuş iptal edildi ve binlerce yolcunun seyahat planları aksadı."
 image: /images/aircraft.jpeg
 date: 2025-02-03 05:07:34 +0300
-category: "deprem" 
-tags: "Manevi" 
+category: "İstanbul" 
+tags: "Havalimanı" 
 lang: tr
 author: isunion99
 published: true
