@@ -26,8 +26,6 @@ Liste Üreteçleri (List Comprehensions), Python'da listeleri **hızlı**, **oku
 ```python
 [yeni_eleman for eleman in kaynak if koşul]
 ```  
-**Bileşenlerin Görsel Anlatımı:**  
-![Liste Üreteçleri Bileşenleri](https://i.imgur.com/XYz7T9O.png) *Görsel: Her bir bileşenin işlevi*  
 
 ---
 
