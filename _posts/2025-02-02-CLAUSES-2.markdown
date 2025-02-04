@@ -1,0 +1,244 @@
+---
+layout: post
+title: "YAN CÜMLELER (CLAUSES) 2"
+description: "Cümle gibi, bir yan cümle (clause) de bir **özne (subject)** ve bir **yüklem (verb)** içerir. Ayrıca bir **nesne (object)**, **tamamlayıcı (complement)**, **dolaylı nesne (indirect object)** ve çeşitli **niteleyiciler (modifiers)** barındırabilir."
+image: /images/describing.jpg
+date: 2025-02-02 05:04:34 +0300
+category: "CLAUSES"
+tags: [Bağımsız, Bağımlı, cümle]
+lang: tr
+author: isunion99
+published: true
+---
+
+# **YAN CÜMLELER (CLAUSES)**
+
+## **1. Giriş**
+Cümle gibi, bir yan cümle (clause) de bir **özne (subject)** ve bir **yüklem (verb)** içerir. Ayrıca bir **nesne (object)**, **tamamlayıcı (complement)**, **dolaylı nesne (indirect object)** ve çeşitli **niteleyiciler (modifiers)** barındırabilir.
+
+Yan cümleler iki temel grupta incelenir:
+- **Bağımsız Yan Cümle (Independent Clause):** Tam bir anlam ifade eden ve tek başına bir cümle olarak kullanılabilen bir yan cümledir.
+- **Bağımlı Yan Cümle (Dependent Clause / Subordinate Clause):** Tek başına bir anlam ifade etmeyen ve anlamını bir bağımsız yan cümlenin tamamlamasına bağlı olan bir yan cümledir.
+
+Bir cümle, bir veya daha fazla bağımsız yan cümle ve buna ek olarak bir veya daha fazla bağımlı yan cümle içerebilir.
+
+---
+
+## **2. Bağımsız ve Bağımlı Yan Cümlelerin Kullanımı**
+
+### **2.1. Bağımsız Yan Cümle**
+Bağımsız yan cümle, tam bir anlam ifade eder ve tek başına bir cümle olarak kullanılabilir.
+
+**Örnek:**
+- *She removed her shoes.*  
+  (Türkçe: Ayakkabılarını çıkardı.)
+
+### **2.2. Bağımlı Yan Cümle**
+Bağımlı yan cümle, tek başına tam bir anlam ifade etmez ve anlamını bir bağımsız yan cümlenin tamamlamasına bağlıdır.
+
+**Örnek:**
+- *After she sat down.*  
+  (Türkçe: O oturduktan sonra.)
+
+Bu yan cümle, "After" bağlacı ile başlar ve tamamlanmış bir anlam sunmaz. Bu nedenle bir bağımsız yan cümesine ihtiyaç duyar.
+
+### **2.3. Birlikte Kullanım**
+**Örnek:**
+- *After she sat down, she removed her shoes.*  
+  (Türkçe: O oturduktan sonra, ayakkabılarını çıkardı.)
+
+- **Bağımlı Yan Cümle:** *After she sat down*  
+- **Bağımsız Yan Cümle:** *She removed her shoes*
+
+**Açıklama:** "After" kelimesi, bağımlı yan cümleyi bağımsız yan cümlenin zaman dilimini tanımlar.
+
+---
+
+## **3. Birden Fazla Bağımsız Yan Cümlenin Kullanımı**
+
+Birden fazla bağımsız yan cümleyi eş bağlaçlar (coordinating conjunctions) ile birleştirebiliriz.
+
+**Örnek:**
+- *We went to the movies, and they stayed home.*  
+  (Türkçe: Biz sinemaya gittik, onlar evde kaldılar.)
+
+- **Bağımsız Yan Cümle 1:** *We went to the movies*  
+- **Bağımsız Yan Cümle 2:** *They stayed home*  
+- **Eş Bağlaç:** *and*
+
+Diğer eş bağlaçlar: *but, for, so, or, nor, yet.*
+
+---
+
+## **4. Alıştırmalar**
+
+### **4.1. Bağımsız Yan Cümleleri Altını Çizme**
+Aşağıdaki cümlelerde bağımsız yan cümlelerin altını çiziniz.
+
+**Örnek:**
+- *We stayed on the dock long after the ship had gone.*  
+  **Bağımsız Yan Cümle:** *We stayed on the dock.*
+
+**Cümleler:**
+1. *Some of us liked the program that night, and many people were enthusiastic about it.*  
+   **Bağımsız Yan Cümleler:** *Some of us liked the program that night* ve *Many people were enthusiastic about it.*
+   
+2. *Many voters misinterpreted the remarks of the candidate, so she tried to restate her position.*  
+   **Bağımsız Yan Cümleler:** *Many voters misinterpreted the remarks of the candidate* ve *She tried to restate her position.*
+
+3. *While we walked home, we considered the problem carefully.*  
+   **Bağımsız Yan Cümle:** *We considered the problem carefully.*
+
+4. *Willie lived a long and happy life, but his time had come to die.*  
+   **Bağımsız Yan Cümleler:** *Willie lived a long and happy life* ve *His time had come to die.*
+
+5. *During the years they spent raising their children, they had many happy experiences.*  
+   - **Bağımlı Yan Cümle:** *During the years they spent raising their children*  
+   - **Bağımsız Yan Cümle:** *They had many happy experiences*
+
+6. *Cigarettes have long been known to be dangerous to health, yet many people continue to smoke.*  
+   - **Bağımsız Yan Cümle 1:** *Cigarettes have long been known to be dangerous to health*  
+   - **Bağımsız Yan Cümle 2:** *Many people continue to smoke*  
+   - **Bağlaç:** *yet* (zıtlık)
+
+7. *He wanted to join her in the new business, but he had little capital to invest.*  
+   - **Bağımsız Yan Cümle 1:** *He wanted to join her in the new business*  
+   - **Bağımsız Yan Cümle 2:** *He had little capital to invest*  
+   - **Bağlaç:** *but* (zıtlık)
+
+8. *Although there was enough food to go around, its quality was poor.*  
+   - **Bağımlı Yan Cümle:** *Although there was enough food to go around*  
+   - **Bağımsız Yan Cümle:** *Its quality was poor*
+
+9. *His first remarks were greeted with derision, but the audience soon began to applaud.*  
+   - **Bağımsız Yan Cümle 1:** *His first remarks were greeted with derision*  
+   - **Bağımsız Yan Cümle 2:** *The audience soon began to applaud*  
+   - **Bağlaç:** *but* (zıtlık)
+
+---
+
+### **4.2. Bağımlı Yan Cümleleri Altını Çizme**
+Aşağıdaki cümlelerde bağımlı yan cümlelerin altını çiziniz.
+
+**Örnek:**
+- *Most of the seniors will be graduated before they reach eighteen.*  
+  **Bağımlı Yan Cümle:** *before they reach eighteen.*
+
+**Cümleler:**
+1. *Most of them have been driving carelessly even though they passed Driver Education.*  
+   **Bağımlı Yan Cümle:** *even though they passed Driver Education.*
+
+2. *They left California after their children finished college.*  
+   **Bağımlı Yan Cümle:** *after their children finished college.*
+
+3. *Sally never eats meat, even though the rest of her family does.*  
+   **Bağımlı Yan Cümle:** *even though the rest of her family does.*
+
+4. *Supersonic transport airplanes have little to recommend them, since they save the traveler little time and contribute heavily to air pollution.*  
+   **Bağımlı Yan Cümle:** *since they save the traveler little time and contribute heavily to air pollution.*
+
+---
+
+## **5. Görsel Analiz ve Sözdizimi Haritası**
+
+### **5.1. Cümle Ağacı Diyagramları**
+Aşağıda, bazı örnek cümlelerin görsel olarak nasıl yapıldığı gösterilmiştir:
+
+#### **Örnek 1:**
+*Cigarettes have long been known to be dangerous to health, yet many people continue to smoke.*
+
+- **Bağımsız Yan Cümle 1:**  
+  ![Cigarettes] → [have long been known] → [to be dangerous to health]
+- **Bağımsız Yan Cümle 2:**  
+  ![Many people] → [continue to smoke]
+- **Bağlaç:** *yet* (zıtlık)
+
+#### **Örnek 2:**
+*After she sat down, she removed her shoes.*
+
+- **Bağımlı Yan Cümle:**  
+  ![After] → [she sat down]
+- **Bağımsız Yan Cümle:**  
+  ![She] → [removed her shoes]
+
+---
+
+## **6. Gelişmiş Konular**
+
+### **6.1. Bağlaçların Derinlemesine Analizi**
+Bağlaçlar, yan cümleler arasındaki ilişkii tanımlamak için kullanılır. İşte en yaygın türleri:
+
+- **Eş Bağlaçlar (Coordinating Conjunctions):** *and, but, or, so, yet* vb. İki bağımsız yan cümlesini eşit düzeyde birleştirir.
+- **Alt Bağlaçlar (Subordinating Conjunctions):** *because, although, since, after, while* vb. Bağımlı yan cümleyi oluşturur.
+
+**Örnek:**
+- *Although the weather was cold, we went for a walk.*  
+  - **Bağımlı Yan Cümle:** *Although the weather was cold*  
+  - **Bağımsız Yan Cümle:** *We went for a walk.*
+
+---
+
+### **6.2. İdiomlar ve Deyimler**
+İdiomatic ifadeler (deyimler), günlük İngilizce'de sıkça kullanılır. Bunları yan cümlelerle birlikte ele almak faydalıdır.
+
+**Örnek:**
+- *I didn’t realize how much I missed her until she came back.*  
+  - **Bağımlı Yan Cümle:** *until she came back*  
+  - **Bağımsız Yan Cümle:** *I didn’t realize how much I missed her.*
+
+---
+
+## **7. Etüt ve Grup Çalışmaları**
+
+### **7.1. Yeni Cümle Oluşturma**
+Öğrencilere, kendileri bağımsız ve bağımlı yan cümleleri kullanarak yeni cümleler oluşturmasını isteyin.
+
+**Örnek:**
+- Bağımlı yan cümle: *When the rain stopped,*  
+- Bağımsız yan cümle: *we decided to go outside.*
+
+---
+
+### **7.2. Hata Bulma Alıştırmaları**
+Hatalı yapılmış cümleler verilir, öğrencilerden bu hataları bulup düzeltmeleri istenir.
+
+**Örnek:**
+- Yanlış: *Because it was raining, so we stayed inside.*  
+- Doğru: *Because it was raining, we stayed inside.*
+
+---
+
+## **8. Güncelleme ve Geliştirme Önerileri**
+
+### **8.1. Görsel Öğeler**
+- **Sözdizimi Haritası:** Bağımsız ve bağımlı yan cümlelerin nasıl birbirine bağlı olduğunu görsel olarak açıklayan bir şema eklenebilir.
+- **Cümle Ağacı Diyagramları:** Karmaşık cümle yapılarını daha iyi anlamak için cümle ağacı diyagramları kullanılabilir.
+
+### **8.2. Ekstra Uygulama Soruları**
+- **Zorluk Düzeylerine Göre Sorular:** Başlangıç, orta ve ileri düzeyde farklı zorlukta alıştırmalar hazırlanabilir.
+- **Hata Bulma Alıştırmaları:** Yanlış yapılmış cümleler sunularak öğrencilerden bu hataları bulup düzeltmeleri istenebilir.
+
+### **8.3. Modern Dil ve Terimler**
+- **Güncel Türkçeye Çeviri:** Örnek cümlelerin Türkçe çevirileri, günlük dilde kullanılan ifadelerle güncel hale getirilebilir.
+
+### **8.4. Teknoloji Entegrasyonu**
+- **Interaktif Platformlar:** Online platformlar veya uygulamalar aracılığıyla öğrencilere yan cümleleri pratikte deneme fırsatı verilir.
+- **Video Eğitim İçerikleri:** Teorik bilgilerin yanı sıra, video formatında açıklamalar eklenebilir.
+
+---
+
+## **9. Sonuç**
+Bu metin, yan cümlelerin temel kavramlarını ve kullanımlarını kapsamlı bir şekilde açıklar. Teorik bilgiler, uygulamalı örneklerle desteklenerek daha anlaşılır hale getirilmiştir. Alıştırmalar ise öğrenilen bilgileri pekiştirmeye katkı sağlar.
+
+Bu içerik, hem yazılı hem de sözlü ifade yeteneklerini geliştirmek isteyen dil öğrenicileri için değerli bir kaynaktır. 😊
+
+---
+
+### **Ekstradan Faydalı Notlar**
+- **Kültürel İlişkilendirme:** Örnek cümlelerde kullanılan kelimeler ve ifadeler, kültürel olarak yakından tanıdık konulara göre seçilebilir.
+- **Diğer Dillerle Karşılaştırma:** İngilizce yan cümle yapısı ile Türkçe ve diğer dillerdeki karşılıklarının karşılaştırılmasıyla öğrenicilerin farkındalığı artırılabilir.
+
+Bu güncellenmiş versiyon, metni daha etkileyici, görsel ve öğrenici odaklı hale getirir. 🚀
+![transpoze]({{ "/images/describing.jpg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+
+---
