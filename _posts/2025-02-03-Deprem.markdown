@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Marmara Bölgesi’nde öngörülen 7.5 büyüklüğündeki deprem ve 4 milyonu aşkın insanın karşılaşabileceği riskler"
+title: "Marmara Bölgesi’nde öngörülen 7.5 büyüklüğündeki deprem"
 description: "Marmara Bölgesi’nde öngörülen 7.5 büyüklüğündeki deprem ve 4 milyonu aşkın insanın karşılaşabileceği riskler, yalnızca fiziksel tehditler değil; toplumun her bireyinin içsel kapasitesini geliştirme fırsatı olarak okunmalı."
 image: /images/describing.jpg
-date: 2025-02-02 05:07:34 +0300
+date: 2025-02-03 05:07:34 +0300
 category: "deprem" 
 tags: "Manevi" 
 lang: tr
