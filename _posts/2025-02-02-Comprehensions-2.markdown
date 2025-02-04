@@ -79,6 +79,7 @@ sonuc = [(x, y) for x in liste1 for y in liste2]
 **Çıktı:** `[(1, 'a'), (1, 'b'), ..., (3, 'c')]`  
 
 **Görsel Tablo:**  
+
 | `x` | `y` | Sonuç      |  
 |-----|-----|------------|  
 | 1   | a   | (1, a)     |  
