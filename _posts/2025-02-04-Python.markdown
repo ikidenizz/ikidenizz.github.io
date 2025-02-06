@@ -265,6 +265,7 @@ Hadi "Functions as first-class objects" konusunu eğlenceli bir şekilde öğren
 Hadi örneklerle görelim:
 
 1. **Fonksiyonu Değişkene Atama**:
+
 ```python
 def selam_ver(isim):
     return f"Merhaba {isim}!"
