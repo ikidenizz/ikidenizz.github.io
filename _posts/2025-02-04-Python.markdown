@@ -111,4 +111,133 @@ Her birinin özel kullanım alanları vardır:
 
 Bu yapıları anlamak Python'da programlama yaparken çok işine yarayacak! 😊
 
+Hadi Generator'ları eğlenceli bir şekilde öğrenelim! 🎮
+
+Önce şöyle düşün: Bir oyuncak fabrikası hayal et. İki çeşit fabrika var:
+
+1. **Normal Fabrika (Normal Liste)**
+- Bütün oyuncakları bir kerede üretip depoya koyar
+- Çok yer kaplar
+- Tüm oyuncakları hemen yapar
+
+2. **Sihirli Fabrika (Generator)**
+- Oyuncakları sadece istendiğinde, teker teker üretir
+- Çok az yer kaplar
+- Oyuncakları lazım oldukça yapar
+
+İşte Generator örneği:
+```python
+# Normal fabrika (Liste)
+def normal_fabrika(n):
+    oyuncaklar = []
+    for i in range(n):
+        oyuncaklar.append(f"Oyuncak {i}")
+    return oyuncaklar
+
+# Sihirli fabrika (Generator)
+def sihirli_fabrika(n):
+    for i in range(n):
+        yield f"Oyuncak {i}"
+
+# Farkı görelim
+normal = normal_fabrika(1000000)  # Hemen 1 milyon oyuncak üretir
+sihirli = sihirli_fabrika(1000000)  # Hiçbir oyuncak üretmez, sadece plan yapar
+```
+
+Pratik bir örnek yapalım - Sayı üreteci:
+```python
+def sayi_uret(baslangic, bitis):
+    print(f"{baslangic}'dan başlıyorum!")
+    while baslangic <= bitis:
+        yield baslangic
+        baslangic += 1
+
+# Kullanımı
+sayilar = sayi_uret(1, 5)
+print("Generator hazır!")
+
+for sayi in sayilar:
+    print(sayi)
+```
+
+Çıktı:
+```
+Generator hazır!
+1'dan başlıyorum!
+1
+2
+3
+4
+5
+```
+
+Eğlenceli bir örnek daha - Sonsuz şeker makinesi:
+```python
+def seker_makinesi():
+    sekerler = ["🍬", "🍭", "🍫"]
+    index = 0
+    while True:
+        yield sekerler[index]
+        index = (index + 1) % len(sekerler)
+
+# Şeker makinemizi kullanalım
+makine = seker_makinesi()
+for _ in range(6):
+    print(next(makine), end=" ")
+# Çıktı: 🍬 🍭 🍫 🍬 🍭 🍫
+```
+
+Generator'ların güzel özellikleri:
+1. **Hafıza dostu**:
+```python
+# Büyük sayıların karesini almak
+def kare_generator(n):
+    for i in range(n):
+        yield i * i
+
+# Sadece istediğimiz sayının karesini üretir
+kareler = kare_generator(1000000)
+print(next(kareler))  # 0
+print(next(kareler))  # 1
+print(next(kareler))  # 4
+```
+
+2. **Sonsuz seriler oluşturabilme**:
+```python
+def fibonacci():
+    a, b = 0, 1
+    while True:
+        yield a
+        a, b = b, a + b
+
+# Fibonacci sayılarını oluşturalım
+fib = fibonacci()
+for _ in range(6):
+    print(next(fib), end=" ")
+# Çıktı: 0 1 1 2 3 5
+```
+
+3. **Duraklatılabilir ve devam ettirilebilir**:
+```python
+def hikaye_anlatici():
+    yield "Bir varmış..."
+    yield "Bir yokmuş..."
+    yield "Evvel zaman içinde..."
+    yield "Kalbur saman içinde..."
+
+hikaye = hikaye_anlatici()
+print(next(hikaye))  # "Bir varmış..."
+print("Ara veriyoruz!")
+print(next(hikaye))  # "Bir yokmuş..."
+```
+
+Generator'ları ne zaman kullanmalıyız?
+- Çok büyük veri setleriyle çalışırken
+- Sonsuz seriler oluştururken
+- Bellek kullanımını optimize etmek istediğimizde
+- Veriyi parça parça işlememiz gerektiğinde
+
+İşte bu kadar! Generator'lar aslında sihirli bir fabrika gibi, sadece ihtiyacın olduğunda çalışır ve hafızanı çok verimli kullanmanı sağlar. 🌟
+
+
 ---
