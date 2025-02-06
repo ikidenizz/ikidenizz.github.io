@@ -729,4 +729,188 @@ Her biri için pratik projeler yaparak öğrenmeyi pekiştirmek önemli! Örneğ
 Bu konuları sırayla öğrenmek ve her birini projelerle pekiştirmek, Python'da sağlam bir temel oluşturmana yardımcı olacaktır! 🚀
 
 
+Hadi Python'da kullanışlı kütüphaneleri ve kod zamanlamasını eğlenceli bir şekilde öğrenelim! 🎮
+
+1. **Faydalı Kütüphaneler** 📚
+
+**Collections** 🗂️
+
+```python
+from collections import Counter, defaultdict, deque
+
+# Counter - Sayaç gibi çalışır
+renkler = ["kırmızı", "mavi", "kırmızı", "yeşil", "mavi", "kırmızı"]
+renk_sayaci = Counter(renkler)
+print(renk_sayaci)  # Counter({'kırmızı': 3, 'mavi': 2, 'yeşil': 1})
+
+# defaultdict - Varsayılan değerli sözlük
+okul = defaultdict(list)
+okul["4-A"].append("Ali")  # Hiç hata vermez!
+print(okul)  # defaultdict(<class 'list'>, {'4-A': ['Ali']})
+
+# deque - İki taraflı sıra
+kuyruk = deque(["Ali", "Veli", "Ayşe"])
+kuyruk.appendleft("Zeynep")  # Başa ekle
+kuyruk.append("Mehmet")      # Sona ekle
+print(kuyruk)  # deque(['Zeynep', 'Ali', 'Veli', 'Ayşe', 'Mehmet'])
+```
+
+**Random** 🎲
+
+```python
+import random
+
+# Rastgele sayı üretme
+print(random.randint(1, 6))  # Zar at!
+
+# Listeden rastgele seçim
+meyveler = ["elma", "armut", "muz", "kiraz"]
+print(random.choice(meyveler))  # Rastgele meyve seç
+
+# Listeyi karıştırma
+kartlar = ["A", "K", "Q", "J"]
+random.shuffle(kartlar)
+print(kartlar)  # Karıştırılmış liste
+```
+
+**Math** 📐
+
+```python
+import math
+
+# Matematiksel işlemler
+print(math.pi)          # Pi sayısı
+print(math.sqrt(16))    # Karekök
+print(math.ceil(3.1))   # Yukarı yuvarlama
+print(math.floor(3.9))  # Aşağı yuvarlama
+```
+
+2. **Kod Zamanlaması** ⏱️
+
+**time Modülü**
+
+```python
+import time
+
+# Basit zamanlama
+baslangic = time.time()
+for i in range(1000000):
+    pass
+bitis = time.time()
+print(f"Geçen süre: {bitis - baslangic} saniye")
+
+# Kod parçasını uyutma
+print("3 saniyelik geri sayım!")
+time.sleep(1)
+print("2...")
+time.sleep(1)
+print("1...")
+time.sleep(1)
+print("Başla!")
+```
+
+**timeit Modülü** ⚡
+
+```python
+import timeit
+
+# Kod bloğunu zamanlama
+kod = """
+liste = []
+for i in range(1000):
+    liste.append(i)
+"""
+
+sure = timeit.timeit(kod, number=1000)
+print(f"Kodun çalışma süresi: {sure} saniye")
+
+# Fonksiyon zamanlama
+def listemi_olustur():
+    return list(range(1000))
+
+def listemi_olustur2():
+    return [i for i in range(1000)]
+
+sure1 = timeit.timeit(listemi_olustur)
+sure2 = timeit.timeit(listemi_olustur2)
+print(f"1. yöntem: {sure1}")
+print(f"2. yöntem: {sure2}")
+```
+
+**Dekoratör ile Zamanlama** 🎯
+
+```python
+import time
+
+def zaman_olc(fonksiyon):
+    def wrapper(*args, **kwargs):
+        baslangic = time.time()
+        sonuc = fonksiyon(*args, **kwargs)
+        bitis = time.time()
+        print(f"{fonksiyon.__name__} fonksiyonu {bitis - baslangic} saniye sürdü")
+        return sonuc
+    return wrapper
+
+@zaman_olc
+def buyuk_liste_olustur():
+    return list(range(1000000))
+
+buyuk_liste_olustur()
+```
+
+**Pratik Örnekler** 🎮
+
+1. Yarış Oyunu:
+
+```python
+import time
+
+def yaris():
+    print("Hazır...")
+    time.sleep(1)
+    print("Piştiii...")
+    time.sleep(1)
+    print("BAŞLA!")
+    
+    baslangic = time.time()
+    input("ENTER'a bas!")
+    bitis = time.time()
+    
+    print(f"Tepki süren: {bitis - baslangic:.3f} saniye!")
+
+yaris()
+```
+
+2. Performans Karşılaştırma:
+
+```python
+import timeit
+
+# İki farklı toplama yöntemi
+def yontem1():
+    toplam = 0
+    for i in range(1000):
+        toplam += i
+    return toplam
+
+def yontem2():
+    return sum(range(1000))
+
+print("Yarış başlıyor!")
+sure1 = timeit.timeit(yontem1, number=10000)
+sure2 = timeit.timeit(yontem2, number=10000)
+
+print(f"1. Yöntem: {sure1:.5f} saniye")
+print(f"2. Yöntem: {sure2:.5f} saniye")
+print(f"Kazanan: {'1. Yöntem' if sure1 < sure2 else '2. Yöntem'} 🏆")
+```
+
+Bu kütüphaneler ve zamanlama teknikleri sayesinde:
+- Programlarının ne kadar hızlı çalıştığını ölçebilirsin
+- Farklı çözüm yollarını karşılaştırabilirsin
+- Kodunu daha verimli hale getirebilirsin
+- Eğlenceli oyunlar ve uygulamalar yapabilirsin! 🚀
+
+İşte bu kadar! Artık Python'un süper güçlü kütüphanelerini kullanabilir ve kodunun ne kadar hızlı çalıştığını ölçebilirsin! 🌟
+
 ---
