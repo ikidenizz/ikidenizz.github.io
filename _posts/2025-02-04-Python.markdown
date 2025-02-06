@@ -1,0 +1,114 @@
+---
+layout: post
+title: "Python Listeler Demetler Sözlükler oluşturmak"
+description: "Python Listeler Demetler Sözlükler oluşturmak ve kullanmak için temel adımları açıklayayım"
+image: /images/describing.jpg
+date: 2025-02-04 05:04:34 +0300
+category: "Python"
+tags: [Listeler, Demetler]
+lang: tr
+author: isunion99
+published: true
+---
+
+Tabii ki! Hadi bunları eğlenceli örneklerle anlatalım:
+
+1. **Lists (Listeler)** 📝
+```python
+# Listeler sıralı koleksiyonlardır ve köşeli parantez [] ile oluşturulur
+okul_cantasi = ["kalem", "defter", "silgi", "cetvel"]
+```
+Düşün ki okul çantanı hazırlıyorsun. İçine birçok şey koyabilir, çıkarabilir veya değiştirebilirsin:
+```python
+# Listeye yeni eşya ekleme
+okul_cantasi.append("boya kalemi")
+
+# Listeden eşya çıkarma
+okul_cantasi.remove("silgi")
+
+# Listedeki bir eşyayı değiştirme
+okul_cantasi[0] = "tükenmez kalem"
+```
+
+2. **Tuples (Demetler)** 🎁
+```python
+# Tuplelar parantez () ile oluşturulur ve değiştirilemez
+renkler = ("kırmızı", "mavi", "yeşil")
+```
+Bu bir hediye paketi gibidir. Bir kere paketlendiğinde içindekileri değiştiremezsin:
+```python
+# Bu hata verecektir
+renkler[0] = "sarı"  # TypeError: 'tuple' object does not support item assignment
+```
+
+3. **Sets (Kümeler)** 🎯
+```python
+# Kümeler süslü parantez {} ile oluşturulur ve tekrar eden elemanları almaz
+oyuncaklar = {"top", "araba", "bebek", "top"}
+print(oyuncaklar)  # {'top', 'araba', 'bebek'}
+```
+Düşün ki oyuncak kutun var. Aynı oyuncaktan iki tane koysan bile kutu sadece bir tanesini gösterir.
+
+4. **Dictionaries (Sözlükler)** 📚
+```python
+# Sözlükler anahtar-değer çiftlerinden oluşur
+hayvan_sesleri = {
+    "kedi": "miyav",
+    "köpek": "hav",
+    "kuş": "cik"
+}
+```
+Bu bir hayvan sesleri kitabı gibidir. Her hayvanın (anahtar) kendi sesi (değer) vardır:
+```python
+print(hayvan_sesleri["kedi"])  # "miyav"
+```
+
+5. **Comprehension (Anlama)** 🎨
+Bu biraz sihir gibidir! Uzun işlemleri tek satırda yapabilirsin:
+
+```python
+# List Comprehension
+# 1'den 5'e kadar olan sayıların karesini alma
+kareler = [sayi * sayi for sayi in range(1, 6)]
+print(kareler)  # [1, 4, 9, 16, 25]
+
+# Dictionary Comprehension
+# Sayıları ve karelerini sözlüğe ekleme
+sayi_kareleri = {sayi: sayi * sayi for sayi in range(1, 4)}
+print(sayi_kareleri)  # {1: 1, 2: 4, 3: 9}
+```
+
+Pratik Örnekler:
+```python
+# Liste örneği: Sınıf listesi
+sinif = ["Ali", "Ayşe", "Mehmet"]
+sinif.append("Zeynep")  # Yeni öğrenci ekleme
+
+# Tuple örneği: Koordinatlar
+nokta = (3, 4)  # X ve Y koordinatları
+
+# Set örneği: Sevdiğin meyveler
+meyveler = {"elma", "armut", "muz", "elma"}  # İki elma yazsak bile bir tane gösterir
+
+# Dictionary örneği: Öğrenci notları
+notlar = {
+    "Ali": 85,
+    "Ayşe": 90,
+    "Mehmet": 75
+}
+
+# List comprehension örneği: 1'den 10'a kadar çift sayılar
+cift_sayilar = [x for x in range(1, 11) if x % 2 == 0]
+print(cift_sayilar)  # [2, 4, 6, 8, 10]
+```
+
+Her birinin özel kullanım alanları vardır:
+- **Listeler**: Sıralı ve değiştirilebilir veriler için
+- **Tuplelar**: Değişmemesi gereken veriler için
+- **Setler**: Tekrar etmeyen benzersiz veriler için
+- **Sözlükler**: İlişkili verileri eşleştirmek için
+- **Comprehension**: Veri işlemlerini kısaca yazmak için
+
+Bu yapıları anlamak Python'da programlama yaparken çok işine yarayacak! 😊
+
+---
