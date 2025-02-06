@@ -333,3 +333,82 @@ Bulunan yol: A --> B --> D --> G
 ```
 
 Bu şekilde, DFS algoritması başarıyla `'A'` düğümünden `'G'` düğümüne giden yolu bulmuştur.
+
+
+DFS (Derinlik Öncelikli Arama) algoritması, graf teorisi ve matematiksel mantıkla yakından ilişkilidir. DFS'nin matematiksel kökenini anlamak için, algoritmanın temel fikrini oluşturan kavramları incelemek gerekir. Bu kavramlar arasında **graf teorisi**, **özyineleme (recursion)**, **yığın yapısı** ve **mantıksal çıkarım** yer alır. İşte bu algoritmanın nasıl ortaya çıktığına dair bir açıklama:
+
+---
+
+## **1. Graf Teorisi ve Matematiksel Temeller**
+DFS algoritması, graf teorisinin doğal bir sonucudur. Graf teorisi, düğümler (vertices) ve kenarlar (edges) ile temsil edilen yapıları inceleyen bir matematik dalıdır. Graf teorisindeki temel sorulardan biri şudur:
+- **"Bir düğümden başka bir düğüme nasıl ulaşılır?"**
+
+Bu soru, DFS'nin temel motivasyonunu oluşturur. Graf teorisi, 18. yüzyılda Leonhard Euler'in ünlü "Königsberg Köprüleri Problemi"ni çözerken ortaya çıkmıştır. Euler, bir graf üzerindeki yolları analiz ederek, bir düğümden başlayıp tüm kenarları ziyaret etmenin mümkün olup olmadığını araştırmıştır. Bu tür problemler, DFS gibi arama algoritmalarının geliştirilmesine ilham vermiştir.
+
+---
+
+## **2. Özyineleme (Recursion) ve Mantıksal Çıkarım**
+DFS'nin çalışması, **özyineleme** adı verilen bir programlama tekniği üzerine kuruludur. Özyineleme, bir fonksiyonun kendisini çağırarak daha küçük alt problemleri çözmeyi hedefler. DFS'de her düğüm, komşularını sırayla ziyaret eder ve bu süreç özyinelemeli olarak devam eder.
+
+Özyinelemenin matematiksel temeli, **tümevarım (induction)** yöntemine dayanır:
+- **Tümevarım İlkesi:** Eğer bir ifade $ P(n) $ için:
+  - $ P(0) $ doğruysa (temel durum),
+  - $ P(k) $ doğru olduğunda $ P(k+1) $'in de doğru olduğu gösterilebiliyorsa,
+  o zaman $ P(n) $ tüm $ n \geq 0 $ için doğrudur.
+
+DFS'de:
+- **Temel Durum:** Hedef düğüme ulaşıldığında yol döndürülür.
+- **Tümevarım Adımı:** Her düğüm, komşularını ziyaret ederek problemi daha küçük alt problemlere böler.
+
+---
+
+## **3. Yığın Yapısı (Stack)**
+DFS'nin diğer bir matematiksel temeli, **veri yapıları**dır. Özellikle, DFS'nin çalışması bir **yığın (stack)** yapısına dayanır. Yığın, "son giren ilk çıkar" (LIFO - Last In First Out) prensibiyle çalışan bir veri yapısıdır.
+
+DFS'nin yığın yapısını kullanma şekli şu adımları içerir:
+1. Başlangıç düğümünü yığına ekleyin.
+2. Yığından bir düğüm çıkarın ve ziyaret edin.
+3. Ziyaret edilen düğümün komşularını yığına ekleyin.
+4. Yığın boşalana kadar işlemi tekrarlayın.
+
+Yığın yapısının matematiksel olarak modellenmesi, **soyut cebir** ve **küme teorisi** ile ilişkilidir. Örneğin, yığın işlemlerinin özellikleri (ekleme, çıkarma, sıralama) küme işlemleriyle açıklanabilir.
+
+---
+
+## **4. DFS'nin Keşfi ve Tarihsel Gelişimi**
+DFS algoritması, bilgisayar bilimlerinin erken dönemlerinde keşfedilmiştir. İlk olarak 1950'lerde **John Hopcroft** ve **Robert Tarjan** gibi bilgisayar bilimciler tarafından formüle edilmiştir. Ancak DFS'nin fikri, daha önceki matematiksel çalışmaların bir uzantısıdır.
+
+### **DFS'nin Matematiksel İfadelerle Gösterimi**
+DFS, graf üzerinde bir **ağaç yapısı** oluşturur. Bu ağaç, grafın düğümlerini ve kenarlarını belirli bir sırayla ziyaret eder. DFS ağacının özellikleri matematiksel olarak şu şekilde ifade edilebilir:
+- **Graf:** $ G = (V, E) $, burada $ V $ düğümler kümesi ve $ E $ kenarlar kümesidir.
+- **DFS Ağacı:** $ T = (V_T, E_T) $, burada $ V_T \subseteq V $ ve $ E_T \subseteq E $.
+- **Keşif Sırası:** DFS, düğümleri derinlik öncelikli sırayla ziyaret eder. Bu, bir düğümün tüm alt düğümlerini ziyaret ettikten sonra geri dönmesini sağlar.
+
+---
+
+## **5. DFS'nin Uygulama Alanları ve Matematiksel Modelleme**
+DFS'nin matematiksel kökeni, birçok uygulama alanında kendini gösterir:
+1. **Labirent Çözme:**
+   - Bir labirent, graf olarak modellenebilir. DFS, başlangıç noktasından çıkış noktasına giden bir yol bulmak için kullanılabilir.
+2. **Topolojik Sıralama:**
+   - Yönlü asiklik graf (DAG) üzerinde DFS kullanılarak düğümler, birbirine bağımlılık ilişkisi olan bir sırayla düzenlenebilir.
+3. **Bağlı Bileşenlerin Bulunması:**
+   - Grafın bağlı bileşenlerini bulmak için DFS kullanılır. Bu, grafın düğümlerini gruplamak için matematiksel bir yöntemdir.
+4. **Çizge Boyama Problemleri:**
+   - DFS, bir grafın düğümlerini veya kenarlarını belirli bir kurala göre boyamak için kullanılabilir.
+
+---
+
+## **6. DFS'nin Matematiksel Analizi**
+DFS'nin performansı ve karmaşıklığı matematiksel olarak analiz edilebilir:
+- **Zaman Karmaşıklığı:** $ O(V + E) $, burada $ V $ düğüm sayısı ve $ E $ kenar sayısıdır.
+- **Alan Karmaşıklığı:** $ O(V) $, çünkü ziyaret edilen düğümleri takip etmek için bir küme veya liste kullanılır.
+
+DFS'nin bu karmaşıklığı, grafın boyutuna bağlı olarak doğrusal olarak artar. Bu, algoritmanın büyük grafikler üzerinde bile etkili bir şekilde çalışmasını sağlar.
+
+---
+
+## **Sonuç**
+DFS algoritmasının matematiksel kökeni, graf teorisi, özyineleme, yığın yapısı ve soyut cebir gibi disiplinlerden beslenir. Algoritma, bir graf üzerindeki düğümleri sistematik bir şekilde ziyaret etmek için tasarlanmıştır ve bu süreçte matematiksel mantık ve tümevarım ilkelerinden yararlanır. DFS'nin keşfi, graf teorisinin gelişimiyle paralel olarak ilerlemiş ve günümüzde birçok uygulama alanında vazgeçilmez bir araç haline gelmiştir.
+
+**Matematiksel olarak DFS, bir grafın düğümlerini ve kenarlarını belirli bir sırayla ziyaret eden ve bu süreçte özyinelemeli veya yığın tabanlı bir yaklaşım kullanan bir algoritmadır.**
