@@ -3,7 +3,7 @@ layout: post
 title: "Elektrik ve su faturalarının ödenmesi bazı bölgelerde büyük bir sorun"
 description: "Elektrik ve su faturalarının ödenmesi bazı bölgelerde büyük bir sorun haline geldi. Bu durum, bölgede yaşayan insanların günlük hayatını olumsuz etkilerken, hizmetlerin bir hak olarak kabul edilmesi gerektiği tartışmasını da beraberinde getiriyor"
 image: /images/describing.jpg
-date: 2025-02-03 05:07:34 +0300
+date: 2025-02-05 05:07:34 +0300
 category: "Hizmetler" 
 tags: [Elektrik, su] 
 lang: tr
