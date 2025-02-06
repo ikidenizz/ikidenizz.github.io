@@ -913,4 +913,143 @@ Bu kütüphaneler ve zamanlama teknikleri sayesinde:
 
 İşte bu kadar! Artık Python'un süper güçlü kütüphanelerini kullanabilir ve kodunun ne kadar hızlı çalıştığını ölçebilirsin! 🌟
 
+Hadi Matplotlib ile grafikler çizmeyi öğrenelim! 📊 Matplotlib, Python'da harika resimler ve grafikler çizmemizi sağlayan sihirli bir araç gibidir.
+
+
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Basit Çizgi Grafiği
+plt.figure(figsize=(10, 6))
+x = np.array([1, 2, 3, 4, 5])
+y = np.array([2, 4, 6, 8, 10])
+plt.plot(x, y, 'b-o', label='Çizgi Grafiği')
+plt.title('İlk Grafiğimiz')
+plt.xlabel('X Ekseni')
+plt.ylabel('Y Ekseni')
+plt.legend()
+plt.grid(True)
+plt.show()
+
+# Çubuk Grafiği
+plt.figure(figsize=(10, 6))
+meyveler = ['Elma', 'Armut', 'Muz', 'Çilek']
+adetler = [30, 25, 15, 35]
+plt.bar(meyveler, adetler, color=['red', 'green', 'yellow', 'pink'])
+plt.title('Meyve Sayıları')
+plt.xlabel('Meyveler')
+plt.ylabel('Adet')
+plt.show()
+
+# Pasta Grafiği
+plt.figure(figsize=(8, 8))
+aktiviteler = ['Uyku', 'Okul', 'Oyun', 'Yemek']
+saatler = [8, 6, 4, 2]
+plt.pie(saatler, labels=aktiviteler, autopct='%1.1f%%', 
+        colors=['lightblue', 'lightgreen', 'pink', 'orange'])
+plt.title('Günlük Aktiviteler')
+plt.show()
+
+# Dağılım Grafiği
+plt.figure(figsize=(10, 6))
+x = np.random.randn(100)
+y = np.random.randn(100)
+plt.scatter(x, y, c='purple', alpha=0.5)
+plt.title('Dağılım Grafiği')
+plt.xlabel('X Değerleri')
+plt.ylabel('Y Değerleri')
+plt.show()
+
+# Alt Grafikler
+plt.figure(figsize=(12, 4))
+
+# İlk alt grafik
+plt.subplot(1, 3, 1)
+plt.plot([1, 2, 3], [1, 2, 3], 'r-o')
+plt.title('Grafik 1')
+
+# İkinci alt grafik
+plt.subplot(1, 3, 2)
+plt.bar(['A', 'B', 'C'], [3, 2, 1])
+plt.title('Grafik 2')
+
+# Üçüncü alt grafik
+plt.subplot(1, 3, 3)
+plt.scatter([1, 2, 3], [3, 2, 1])
+plt.title('Grafik 3')
+
+plt.tight_layout()
+plt.show()
+
+```
+
+Şimdi her bir grafik türünü daha detaylı açıklayalım:
+
+1. **Çizgi Grafiği** 📈
+- En basit ve en çok kullanılan grafik türü
+- Noktaları çizgilerle birleştirir
+- Zaman içindeki değişimleri göstermek için harika!
+- Örnek: Bir haftalık sıcaklık değişimi
+
+2. **Çubuk Grafiği** 📊
+- Kategorileri karşılaştırmak için kullanılır
+- Her kategori için bir çubuk çizer
+- Örnek: Sınıftaki öğrencilerin en sevdikleri meyveler
+
+3. **Pasta Grafiği** 🥧
+- Bütünün parçalarını gösterir
+- Yüzdelik dilimleri göstermek için harika
+- Örnek: Bir günde yaptığın aktivitelerin dağılımı
+
+4. **Dağılım Grafiği** 🎯
+- İki değişken arasındaki ilişkiyi gösterir
+- Her nokta bir veriyi temsil eder
+- Örnek: Öğrencilerin boy ve kiloları
+
+5. **Alt Grafikler** 🎨
+- Birden fazla grafiği yan yana koyabilirsin
+- Her grafik farklı bir şey gösterebilir
+- Örnek: Aynı verinin farklı gösterimleri
+
+Grafikleri güzelleştirmek için kullanabileceğin bazı sihirli komutlar:
+```python
+plt.title('Başlık')      # Grafiğe başlık ekle
+plt.xlabel('X Ekseni')   # X eksenine isim ver
+plt.ylabel('Y Ekseni')   # Y eksenine isim ver
+plt.grid(True)           # Izgara çizgileri ekle
+plt.legend()             # Açıklama kutusu ekle
+plt.savefig('grafik.png')# Grafiği kaydet
+```
+
+Eğlenceli bir örnek yapalım - Haftalık Harçlık Takibi:
+```python
+gunler = ['Pazartesi', 'Salı', 'Çarşamba', 'Perşembe', 'Cuma']
+harclik = [10, 8, 15, 5, 12]
+
+plt.figure(figsize=(10, 6))
+plt.plot(gunler, harclik, 'g-o', linewidth=2, markersize=10)
+plt.title('Haftalık Harçlık Durumu')
+plt.xlabel('Günler')
+plt.ylabel('Harçlık (TL)')
+plt.grid(True)
+plt.show()
+```
+
+Matplotlib ile yapabileceklerin:
+- Okul ödevlerin için harika grafikler çizebilirsin
+- Bilimsel projelerin için verilerini görselleştirebilirsin
+- Kendi hikayelerini grafiklerle anlatabilirsin
+- Oyun skorlarını gösterebilirsin
+- Ve çok daha fazlası!
+
+Unutma:
+- Her grafik farklı bir hikaye anlatır
+- Renkler ve şekiller grafiğini daha anlaşılır yapar
+- Başlıklar ve etiketler grafiğini daha profesyonel gösterir
+
+İşte bu kadar! Artık verilerini renkli ve eğlenceli grafiklerle gösterebilirsin! 🎨✨
+
+
 ---
