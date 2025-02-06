@@ -1153,4 +1153,359 @@ Eğer bir grafik arayüz (GUI) kullanmak isterseniz, `display` işlevini değiş
 
 Umarım bu açıklama işine yarar! 😊 Eğer aklına başka sorular gelirse, sormaktan çekinme! 🚀
 
+---
+
+Tabii ki! "Argmax" kavramını bir çocuğa anlatır gibi basit ve eğlenceli bir şekilde açıklayacağım. Hadi başlayalım!
+
+---
+
+### 1. **Argmax Nedir?**
+"Argmax", bir grup şey arasından en iyisini veya en büyüğünü bulmamıza yardımcı olan özel bir araçtır. Tıpkı bir yarışta kimin en hızlı olduğunu bulmak gibi, Argmax da bir listedeki en büyük değeri bulur ve onun yerini söyler.
+
+---
+
+### 2. **Bir Örnek ile Başlayalım**
+Diyelim ki, bir şeker kutun var ve her şekerin büyüklüğü farklı. Şekerlerin büyüklükleri şu şekilde:
+
+- Şeker 1: 3 cm
+- Şeker 2: 7 cm
+- Şeker 3: 5 cm
+
+Şimdi, en büyük şeker hangisi? Tabii ki, **Şeker 2**! Çünkü 7 cm, diğerlerinden daha büyük.
+
+Peki, bu şeker kaçıncı sırada? **İkinci sırada!**
+
+İşte Argmax tam olarak bunu yapar: En büyük değeri bulur ve onun yerini (sırasını) söyler.
+
+---
+
+### 3. **Matematiksel Olarak Nasıl Çalışır?**
+Argmax'in yaptığı şey, bir listedeki en büyük değerin **konumunu** bulmaktır. İşte bir örnek:
+
+```python
+liste = [3, 7, 5]
+en_buyuk_index = liste.index(max(liste))
+print(en_buyuk_index)
+```
+
+Bu kod:
+1. Listedeki en büyük değeri bulur (`max(liste)`).
+2. Bu değerin kaçıncı sırada olduğunu söyler (`index`).
+
+Sonuç: **1** (çünkü Python'da sıralama 0'dan başlar, yani ikinci eleman 1. indextedir).
+
+---
+
+### 4. **Neden Argmax Kullanırız?**
+Argmax, özellikle bilgisayar biliminde ve matematikte çok kullanılır. Örneğin:
+- Bir oyun yazıyorsun ve en iyi hamleyi bulmak istiyorsun.
+- Bir yapay zeka modeli yazıyorsun ve modelin verdiği cevaplardan en güvenilir olanını seçmek istiyorsun.
+
+Argmax, bu tür durumlarda bize yardımcı olur.
+
+---
+
+### 5. **Gerçek Hayattan Bir Örnek**
+Diyelim ki, bir sınavda öğrencilerin notları şu şekilde:
+
+- Ali: 85
+- Ayşe: 92
+- Mehmet: 78
+
+En yüksek notu kim almış? **Ayşe!**
+
+Peki, Ayşe kaçıncı sırada? **İkinci sırada!**
+
+Argmax, bu durumda Ayşe'nin sırasını (2) bize söyler.
+
+---
+
+### 6. **Python'da Argmax Nasıl Kullanılır?**
+Python'da `numpy` adlı bir kütüphane, Argmax için hazır bir fonksiyon sağlar. İşte nasıl kullanılır:
+
+```python
+import numpy as np
+
+notlar = [85, 92, 78]
+en_yuksek_not_index = np.argmax(notlar)
+print(en_yuksek_not_index)
+```
+
+Bu kod:
+1. `np.argmax` fonksiyonunu kullanarak en yüksek notun indexini bulur.
+2. Sonuç: **1** (çünkü Ayşe'nin notu en yüksek ve o ikinci sırada).
+
+---
+
+### 7. **Argmax Neden Önemli?**
+Argmax, birçok alanda kullanılır:
+- **Oyunlar**: En iyi hamleyi bulmak için.
+- **Yapay Zeka**: Modelin verdiği tahminlerden en güvenilir olanını seçmek için.
+- **Veri Analizi**: Bir veri kümesindeki en büyük değeri bulmak için.
+
+Tıpkı bir yarışta kimin birinci olduğunu bulmak gibi, Argmax de bizim için en iyi seçeneği bulur.
+
+---
+
+### 8. **Özetle...**
+- **Argmax**, bir listedeki en büyük değerin yerini bulur.
+- Tıpkı bir yarışta en hızlı koşucuyu bulmak gibi çalışır.
+- Python'da `numpy.argmax` fonksiyonu ile kolayca kullanılabilir.
+- Argmax, oyunlar, yapay zeka ve veri analizi gibi alanlarda çok önemlidir.
+
+---
+
+Umarım bu açıklama işine yarar! 😊 Eğer aklına başka sorular gelirse, sormaktan çekinme! 🚀
+
+---
+
+Tabii ki! "Probability" (Olasılık) konusunu bir çocuğa anlatır gibi basit ve eğlenceli bir şekilde açıklayacağım. Hadi başlayalım!
+
+---
+
+### 1. **Olasılık Nedir?**
+Olasılık, bir şeyin olma şansını ölçer. Tıpkı bir oyun oynarken ne olacağını tahmin etmek gibi! Örneğin:
+- Bir zar attığında 6 gelme şansı nedir?
+- Yağmur yağma ihtimali yüzde kaç?
+
+Olasılık, bu tür sorulara cevap vermemizi sağlar.
+
+---
+
+### 2. **Basit Bir Örnek: Zar Atma**
+Diyelim ki, bir zar attın. Zarın üzerinde 1'den 6'ya kadar sayılar var. Her sayının gelme şansı aynıdır. Peki, 3 gelme ihtimali nedir?
+
+- Zarın 6 yüzü var.
+- Her yüzün gelme şansı eşit.
+- Yani, 3 gelme ihtimali **1/6**'dır.
+
+Bu, tıpkı bir pastayı 6 eşit parçaya bölüp bir parçayı seçmek gibidir!
+
+---
+
+### 3. **Olasılığı Nasıl Hesaplarız?**
+Olasılığı hesaplamak için şu formülü kullanırız:
+
+```
+Olasılık = İstenilen Durumların Sayısı / Tüm Olası Durumların Sayısı
+```
+
+Örneğin:
+- Bir zar atıldığında **çift sayı** gelme ihtimali nedir?
+  - Çift sayılar: 2, 4, 6 (3 tane)
+  - Tüm sayılar: 1, 2, 3, 4, 5, 6 (6 tane)
+  - Olasılık = 3 / 6 = **1/2** (yani %50)
+
+---
+
+### 4. **Gerçek Hayattan Örnekler**
+#### a) **Yağmur Yağma İhtimali**
+Hava durumu raporunda "yarın %70 ihtimalle yağmur yağacak" deniyor. Bu, yarın yağmur yağma şansının 70 olduğunu, yağmama şansının ise 30 olduğunu söylüyor.
+
+#### b) **Kutudaki Renkli Toplar**
+Bir kutuda 5 kırmızı, 3 mavi ve 2 yeşil top var. Rastgele bir top çektiğinde kırmızı top çekme ihtimali nedir?
+
+- Kırmızı toplar: 5
+- Tüm toplar: 5 + 3 + 2 = 10
+- Olasılık = 5 / 10 = **1/2** (yani %50)
+
+---
+
+### 5. **Olasılık Türleri**
+Olasılık, birkaç farklı şekilde ifade edilebilir:
+
+#### a) **Kesin Olaylar**
+Bir şeyin kesinlikle olması. Örneğin:
+- Güneşin doğması kesin bir olaydır. Olasılık = **1** (yani %100).
+
+#### b) **İmkansız Olaylar**
+Bir şeyin hiçbir zaman olmaması. Örneğin:
+- Bir zarda 7 gelmesi imkansızdır. Olasılık = **0** (yani %0).
+
+#### c) **Rastgele Olaylar**
+Bir şeyin belirli bir şansla olması. Örneğin:
+- Bir madeni para atıldığında yazı gelme ihtimali **1/2**'dir.
+
+---
+
+### 6. **Olasılık Neden Önemli?**
+Olasılık, hayatımızın birçok alanında kullanılır:
+- **Hava Durumu**: Yağmur yağma ihtimalini tahmin etmek.
+- **Oyunlar**: Kazanma şansını hesaplamak.
+- **Sağlık**: Bir hastalığın riskini değerlendirmek.
+- **Finans**: Yatırım yaparken riskleri anlamak.
+
+Tıpkı bir macera filmi izlerken ne olacağını tahmin etmeye çalışmak gibi, olasılık da bizim için geleceği anlamamıza yardımcı olur.
+
+---
+
+### 7. **Python ile Olasılık Hesaplama**
+Python'da olasılık hesaplamak çok kolaydır. İşte bir örnek:
+
+```python
+# Bir zar atıldığında 3 gelme ihtimali
+toplam_durum = 6  # Zarın 6 yüzü var
+istenilen_durum = 1  # Sadece 1 tane 3 var
+
+olasilik = istenilen_durum / toplam_durum
+print(f"3 gelme ihtimali: {olasilik:.2f} (%{olasilik * 100:.0f})")
+```
+
+Bu kod:
+1. Zarın 6 yüzü olduğunu ve sadece 1 tane 3 olduğunu bilir.
+2. Olasılığı hesaplar ve sonucu ekrana yazdırır.
+
+Sonuç: **0.17 (yani %17)**
+
+---
+
+### 8. **Özetle...**
+- **Olasılık**, bir şeyin olma şansını ölçer.
+- Zar atma, madeni para atma gibi oyunlarla kolayca anlaşılabilir.
+- Formül: İstenilen Durumların Sayısı / Tüm Olası Durumların Sayısı.
+- Gerçek hayatta hava durumu, sağlık, finans gibi alanlarda kullanılır.
+- Python ile olasılık hesaplamak çok kolaydır.
+
+---
+
+Umarım bu açıklama işine yarar! 😊 Eğer aklına başka sorular gelirse, sormaktan çekinme! 🚀
+
+---
+
+Tabii ki! Bu konuyu bir çocuğa anlatır gibi basit ve eğlenceli bir şekilde açıklayacağım. Hadi başlayalım!
+
+---
+
+### 1. **Olasılık Nedir?**
+Daha önce bahsettiğimiz gibi, olasılık bir şeyin olma şansını ölçer. Örneğin:
+- Bir madeni para atıldığında yazı gelme ihtimali **%50**'dir.
+- Ya da bir zar atıldığında 6 gelme ihtimali **1/6**'dır.
+
+Şimdi, bilgisayarlarla nasıl olasılık hesapları yapabileceğimize bakacağız.
+
+---
+
+### 2. **flip(p) Fonksiyonu: Yazı-Tura Gibi Düşün!**
+`flip(p)` fonksiyonu, bir şeyin olma şansını belirlemek için kullanılır. İşte nasıl çalışır:
+
+- `p`, bir şeyin olma ihtimalidir. Örneğin, `p = 0.7` demek, bu şeyin %70 ihtimalle olacağı anlamına gelir.
+- `flip(p)` fonksiyonu, rastgele bir sayı üretir ve bu sayıyı `p` ile karşılaştırır:
+  - Eğer üretilen sayı `p`'den küçükse, sonuç **True** (doğru) olur.
+  - Eğer üretilen sayı `p`'den büyükse, sonuç **False** (yanlış) olur.
+
+#### Örnek:
+```python
+import random
+
+def flip(prob):
+    return random.random() < prob
+
+# %70 ihtimalle True döner
+sonuc = flip(0.7)
+print(sonuc)
+```
+
+Bu kod:
+1. Rastgele bir sayı üretir (örneğin, 0.45).
+2. Eğer bu sayı `0.7`'den küçükse, sonuç **True** olur.
+3. Eğer bu sayı `0.7`'den büyükse, sonuç **False** olur.
+
+Tıpkı bir madeni para atmak gibi! Ama bu sefer paranın bir tarafının daha ağır olduğunu düşünebilirsin (örneğin, %70 yazı, %30 tura).
+
+---
+
+### 3. **select_from_dist Fonksiyonu: Şanslı Çekiliş!**
+Şimdi daha ilginç bir şey yapalım! Diyelim ki, bir kutuda farklı renkte toplar var ve her rengin seçilme şansı farklı. İşte bunun için `select_from_dist` fonksiyonu kullanılır.
+
+#### Nasıl Çalışır?
+`select_from_dist` fonksiyonu, bir sözlük alır. Bu sözlükte:
+- Her bir öğe (örneğin, top renkleri) ve onun seçilme olasılığı bulunur.
+- Fonksiyon, bu olasılıklara göre rastgele bir öğe seçer.
+
+#### Örnek:
+```python
+import random
+
+def select_from_dist(item_prob_dist):
+    ranreal = random.random()  # 0 ile 1 arasında rastgele bir sayı
+    for (it, prob) in item_prob_dist.items():
+        if ranreal < prob:
+            return it
+        else:
+            ranreal -= prob
+    raise RuntimeError(f"{item_prob_dist} is not a probability distribution")
+
+# Örnek kullanım
+toplar = {"kırmızı": 0.5, "mavi": 0.3, "yeşil": 0.2}
+secilen_top = select_from_dist(toplar)
+print(secilen_top)
+```
+
+Bu kod:
+1. Rastgele bir sayı üretir (örneğin, 0.4).
+2. Bu sayıyı, her bir topun olasılığıyla karşılaştırır:
+   - Eğer sayı `0.5`'ten küçükse, **kırmızı** seçilir.
+   - Eğer sayı `0.5` ile `0.8` arasındaysa, **mavi** seçilir.
+   - Eğer sayı `0.8` ile `1.0` arasındaysa, **yeşil** seçilir.
+
+Tıpkı bir çekiliş yapmak gibi! Her rengin seçilme şansı, onun olasılığına bağlıdır.
+
+---
+
+### 4. **Gerçek Hayattan Örnekler**
+#### a) **Hediye Çekilişi**
+Diyelim ki, bir hediye çekilişi yapıyorsun ve her arkadaşının kazanma şansı farklı:
+- Ali: %50
+- Ayşe: %30
+- Mehmet: %20
+
+`select_from_dist` fonksiyonu, bu şanslara göre kimin kazanacağını seçer.
+
+#### b) **Oyunlar**
+Bir oyunda farklı ödül kazanma şansları olsun:
+- Altın: %10
+- Gümüş: %30
+- Bronz: %60
+
+Bu durumda da `select_from_dist` fonksiyonu, hangi ödülü kazandığını söyleyebilir.
+
+---
+
+### 5. **Neden Bu Fonksiyonlar Önemli?**
+Bu fonksiyonlar, bilgisayarın rastgele seçimler yapmasını sağlar. Özellikle şu alanlarda çok kullanılır:
+- **Simülasyonlar**: Örneğin, bir şehirdeki trafik akışını simüle etmek.
+- **Oyunlar**: Kazanma şanslarını hesaplamak.
+- **Yapay Zeka**: Modelin farklı seçenekler arasından seçim yapmasını sağlamak.
+
+---
+
+### 6. **Özetle...**
+- `flip(p)` fonksiyonu, bir şeyin belirli bir ihtimalle olup olmayacağını kontrol eder.
+- `select_from_dist` fonksiyonu, farklı şanslara sahip öğeler arasından rastgele birini seçer.
+- Bu fonksiyonlar, gerçek hayatta çekilişler, oyunlar ve simülasyonlar gibi birçok alanda kullanılır.
+
+---
+
+Umarım bu açıklama işine yarar! 😊 Eğer aklına başka sorular gelirse, sormaktan çekinme! 🚀
+
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
