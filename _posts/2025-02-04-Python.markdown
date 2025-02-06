@@ -254,5 +254,154 @@ Generator'ları ne zaman kullanmalıyız?
 
 İşte bu kadar! Generator'lar aslında sihirli bir fabrika gibi, sadece ihtiyacın olduğunda çalışır ve hafızanı çok verimli kullanmanı sağlar. 🌟
 
+Hadi "Functions as first-class objects" konusunu eğlenceli bir şekilde öğrenelim! 🎪
 
+İlk olarak şöyle düşün: Python'da fonksiyonlar sihirli oyuncaklar gibidir. Onları:
+1. Başka bir oyuncağa verebilirsin (değişkene atama)
+2. Başka bir oyuncak kutusuna koyabilirsin (liste, sözlük vb.)
+3. Başka bir oyuncak fabrikasına gönderebilirsin (fonksiyona parametre olarak)
+4. Yeni bir oyuncak fabrikasından geri alabilirsin (fonksiyondan dönüş değeri olarak)
+
+Hadi örneklerle görelim:
+
+1. **Fonksiyonu Değişkene Atama**:
+```python
+def selam_ver(isim):
+    return f"Merhaba {isim}!"
+
+# Fonksiyonu bir değişkene atayabiliriz
+selamlayici = selam_ver
+print(selamlayici("Ali"))  # Çıktı: "Merhaba Ali!"
+```
+
+2. **Fonksiyonları Liste/Sözlük İçinde Tutma**:
+
+```python
+def toplama(a, b): return a + b
+def cikarma(a, b): return a - b
+def carpma(a, b): return a * b
+
+# Fonksiyonları listeye koyalım
+matematik_kutusu = [toplama, cikarma, carpma]
+
+# Listedeki fonksiyonları kullanma
+for islem in matematik_kutusu:
+    print(islem(10, 5))  # Çıktı: 15, 5, 50
+```
+
+3. **Fonksiyonu Parametre Olarak Gönderme**:
+
+```python
+def sayi_uret(islem):
+    return islem(5, 3)
+
+def topla(x, y):
+    return x + y
+
+def carp(x, y):
+    return x * y
+
+print(sayi_uret(topla))  # Çıktı: 8
+print(sayi_uret(carp))   # Çıktı: 15
+```
+
+4. **Fonksiyondan Fonksiyon Döndürme**:
+
+```python
+def matematik_fabrikasi(islem):
+    def toplama(x, y):
+        return x + y
+    
+    def carpma(x, y):
+        return x * y
+    
+    if islem == "topla":
+        return toplama
+    else:
+        return carpma
+
+# Fonksiyon üretelim
+hesapla = matematik_fabrikasi("topla")
+print(hesapla(4, 3))  # Çıktı: 7
+```
+
+5. **Dekoratörler (Süsleyiciler)**:
+
+```python
+def sihirli_sus(fonksiyon):
+    def wrapper():
+        print("✨ Sihir başlıyor ✨")
+        fonksiyon()
+        print("✨ Sihir bitti ✨")
+    return wrapper
+
+@sihirli_sus
+def selam_ver():
+    print("Merhaba!")
+
+selam_ver()
+# Çıktı:
+# ✨ Sihir başlıyor ✨
+# Merhaba!
+# ✨ Sihir bitti ✨
+```
+
+6. **Lambda Fonksiyonları (Küçük Sihirli Formüller)**:
+
+```python
+# Normal fonksiyon
+def kare_al(x):
+    return x * x
+
+# Aynı işi yapan lambda fonksiyonu
+kare = lambda x: x * x
+
+print(kare(5))  # Çıktı: 25
+```
+
+7. **Pratik Bir Örnek - Oyun Puanları**:
+
+```python
+def puan_hesapla(seviye):
+    def kolay_mod(skor):
+        return skor * 1
+    
+    def orta_mod(skor):
+        return skor * 2
+    
+    def zor_mod(skor):
+        return skor * 3
+    
+    if seviye == "kolay":
+        return kolay_mod
+    elif seviye == "orta":
+        return orta_mod
+    else:
+        return zor_mod
+
+# Oyun modunu seçelim
+oyun_modu = puan_hesapla("zor")
+print(oyun_modu(100))  # Çıktı: 300
+```
+
+8. **Fonksiyonları Filtre Olarak Kullanma**:
+
+```python
+sayilar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Çift sayıları bulma
+def cift_mi(sayi):
+    return sayi % 2 == 0
+
+cift_sayilar = list(filter(cift_mi, sayilar))
+print(cift_sayilar)  # Çıktı: [2, 4, 6, 8, 10]
+```
+
+Bu özellikler sayesinde Python'da:
+- Daha esnek kod yazabilirsin
+- Kodunu daha düzenli hale getirebilirsin
+- Aynı kodu tekrar tekrar yazmaktan kurtulabilirsin
+- Karmaşık problemleri daha basit parçalara bölebilirsin
+
+İşte bu kadar! Python'da fonksiyonlar birer süper kahraman gibi - istediğin yere gönderebilir, istediğin şekilde kullanabilir ve hatta yeni süper kahramanlar yaratabilirsin! 🦸‍♂️✨
 ---
