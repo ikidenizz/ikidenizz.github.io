@@ -404,4 +404,130 @@ Bu özellikler sayesinde Python'da:
 - Karmaşık problemleri daha basit parçalara bölebilirsin
 
 İşte bu kadar! Python'da fonksiyonlar birer süper kahraman gibi - istediğin yere gönderebilir, istediğin şekilde kullanabilir ve hatta yeni süper kahramanlar yaratabilirsin! 🦸‍♂️✨
+
+F-strings'i, sihirli bir not defteri gibi düşünelim! 📝 Hadi öğrenelim:
+
+```python
+# Eski yöntem (sıkıcı):
+isim = "Ali"
+yas = 10
+print("Merhaba, benim adım " + isim + " ve " + str(yas) + " yaşındayım.")
+
+# f-string (eğlenceli!):
+print(f"Merhaba, benim adım {isim} ve {yas} yaşındayım!")
+```
+
+F-strings ile yapabileceklerimiz:
+
+1. **Basit Değişkenleri Kullanma** 🎈
+
+```python
+kedi = "Pamuk"
+yas = 3
+print(f"Benim kedimin adı {kedi} ve {yas} yaşında!")
+```
+
+2. **Hesaplama Yapma** ✨
+
+```python
+fiyat = 10
+adet = 3
+print(f"Toplam ödemeniz gereken: {fiyat * adet} TL")
+```
+
+3. **Sayıları Biçimlendirme** 🔢
+
+```python
+pi = 3.14159
+print(f"Pi sayısı: {pi:.2f}")  # İki basamak göster
+para = 1234567
+print(f"Param: {para:,} TL")   # Binlik ayraç kullan
+```
+
+4. **Listeleri Kullanma** 📋
+
+```python
+meyveler = ["elma", "armut", "muz"]
+print(f"En sevdiğim meyve: {meyveler[0]}")
+```
+
+5. **İfadeleri Kullanma** 🎯
+
+```python
+puan = 85
+print(f"Sınav sonucun: {puan} - {'Geçtin!' if puan >= 70 else 'Kaldın!'}")
+```
+
+6. **Sözlükleri Kullanma** 📚
+
+```python
+ogrenci = {
+    "ad": "Ayşe",
+    "sinif": "4-A"
+}
+print(f"{ogrenci['ad']} {ogrenci['sinif']} sınıfında!")
+```
+
+7. **Eğlenceli Örnekler** 🎨
+
+```python
+# Karne notu hesaplama
+matematik = 90
+turkce = 85
+fen = 95
+
+print(f"""
+🌟 KARNEM 🌟
+-----------------
+Matematik: {matematik}
+Türkçe: {turkce}
+Fen: {fen}
+-----------------
+Ortalama: {(matematik + turkce + fen) / 3:.1f}
+""")
+```
+
+8. **Emoji ve Özel Karakterler** 🎪
+```python
+mutlu = True
+print(f"Bugün nasılım: {'😊' if mutlu else '😢'}")
+```
+
+9. **Alıştırmalar** 🎮
+
+```python
+# Oyuncak mağazası
+oyuncak = "Araba"
+fiyat = 50
+stok = 3
+
+print(f"""
+🎁 OYUNCAK MAĞAZASI 🎁
+----------------------
+Oyuncak: {oyuncak}
+Fiyat: {fiyat} TL
+Stok: {stok} adet
+Toplam Değer: {fiyat * stok} TL
+""")
+```
+
+10. **Küçük Püf Noktaları** 💡
+
+```python
+# Süslü parantez yazdırmak için iki tane kullan
+print(f"Süslü parantez böyle yazılır: {{ve böyle}}")
+
+# Uzun sayıları daha okunaklı yapma
+buyuk_sayi = 1_000_000
+print(f"Bir milyon = {buyuk_sayi:,}")
+```
+
+F-strings'in güzel yanları:
+- Kolay okunur 👀
+- Yazması eğlencelidir 🎨
+- Hata yapma olasılığı azdır ✅
+- Kodunuz daha düzenli görünür 📝
+
+Ve işte bu kadar! F-strings ile metin yazmak, sihirli bir not defterine yazmak gibi - istediğin her şeyi süslü parantezler içine koyup kullanabilirsin! 🌈✨
+
 ---
