@@ -1053,3 +1053,104 @@ Unutma:
 
 
 ---
+
+Tabii ki! Bu konuyu bir çocuğa anlatır gibi basit ve eğlenceli bir şekilde açıklayacağım. Hadi başlayalım!
+
+---
+
+### 1. **Utilities Nedir?**
+"Utilities", bilgisayar programlarının çalışmasını kolaylaştıran özel araçlardır. Tıpkı oyuncak kutusundaki aletlerin, oyun oynamayı daha eğlenceli hale getirmesi gibi, Utilities de programların daha iyi çalışmasını sağlar.
+
+---
+
+### 2. **Display Nedir?**
+"Display", bilgisayarın bize ne yaptığını göstermesidir. Örneğin, bir program çalışırken neler olduğunu görmek isteyebiliriz. İşte bu "Display" işleviyle sağlanır. Python'da bu işlevi kullanarak, programın her adımında neler olduğunu ekrana yazdırabiliriz.
+
+---
+
+### 3. **self.display Nedir?**
+`self.display`, programın içindeki bir adımda ne olduğunu yazdırmak için kullanılan özel bir komuttur. Örneğin:
+- Program bir sayı hesaplıyorsa, bu sayıyı ekrana yazdırabiliriz.
+- Program bir döngüde çalışıyorsa, her adımda ne olduğunu görebiliriz.
+
+Bu, tıpkı bir masal kitabındaki karakterlerin düşündüklerini okumak gibidir. Her şey açıkça görülür!
+
+---
+
+### 4. **Level (Seviye) Nedir?**
+Programın ne kadar detaylı bilgi vereceğini kontrol etmek için "level" (seviye) kullanılır. Seviye, bilginin ne kadar derin olduğunu belirler. Örneğin:
+
+- **Seviye 0**: Hiçbir şey gösterme. Sessiz kal!
+- **Seviye 1**: Sadece önemli şeyler göster. Örneğin, bir problem çözüldüğünde sonucu göster.
+- **Seviye 2**: Biraz daha fazla bilgi göster. Örneğin, bir döngüde değişen değerleri göster.
+- **Seviye 3**: Daha fazla detay göster. Örneğin, her adımı adım adım izle.
+- **Seviye 4 ve üzeri**: Çok fazla detay göster. Programın her küçük adımını görürsün.
+
+Bu seviyeler, tıpkı bir teleskopun büyütme derecesi gibidir. Ne kadar büyütürsen, o kadar detay görürsün!
+
+---
+
+### 5. **max_display_level Nedir?**
+`max_display_level`, programın en fazla ne kadar detay göstereceğini belirler. Örneğin:
+- Eğer `max_display_level = 1` ise, sadece önemli şeyler gösterilir.
+- Eğer `max_display_level = 3` ise, daha fazla detay gösterilir.
+
+Bu değeri değiştirebilirsin. Örneğin:
+```python
+Classname.max_display_level = 3
+```
+Bu kod, sınıfın maksimum gösterim seviyesini 3 yapar. Artık daha fazla detay görürsün!
+
+---
+
+### 6. **display.py Nedir?**
+`display.py`, bu işlevleri sağlayan özel bir dosyadır. İçinde `Displayable` adlı bir sınıf bulunur. Bu sınıf, programların "display" işlevini kullanmasını sağlar. Yani, programın ne yaptığını görmemizi kolaylaştırır.
+
+---
+
+### 7. **Örnek: Nasıl Çalışır?**
+Şimdi, bir örnek yapalım. Diyelim ki, bir program yazdık ve her adımda ne olduğunu görmek istiyoruz. İşte böyle yaparız:
+
+```python
+class Displayable(object):
+    max_display_level = 1  # Varsayılan seviye
+
+    def display(self, level, *args, **nargs):
+        if level <= self.max_display_level:
+            print(*args, **nargs)
+
+# Örnek kullanım
+class MyProgram(Displayable):
+    def run(self):
+        self.display(1, "Bu önemli bir mesaj!")
+        self.display(2, "Bu biraz daha fazla detay.")
+        self.display(3, "Bu çok fazla detay!")
+
+program = MyProgram()
+program.max_display_level = 2  # Seviyeyi 2'ye ayarla
+program.run()
+```
+
+Bu programda:
+- Seviye 1 ve 2 mesajları gösterilir.
+- Seviye 3 mesajı gösterilmez, çünkü `max_display_level` 2 olarak ayarlandı.
+
+---
+
+### 8. **Grafik Arayüz (GUI) ile Çalışmak**
+Eğer bir grafik arayüz (GUI) kullanmak isterseniz, `display` işlevini değiştirebilirsiniz. Örneğin, bir pencerede bilgileri göstermek için özel bir GUI oluşturabilirsiniz. Bu, tıpkı bir çizgi filmdeki karakterlerin konuşmalarını baloncuklarda göstermek gibidir!
+
+---
+
+### 9. **Özetle...**
+- **Utilities**, programların çalışmasını kolaylaştıran araçlardır.
+- **Display**, programın ne yaptığını gösterir.
+- **Seviye (Level)**, ne kadar detay istediğimizi belirler.
+- **max_display_level**, programın en fazla ne kadar detay göstereceğini kontrol eder.
+- **display.py**, bu işlevleri sağlayan özel bir dosyadır.
+
+---
+
+Umarım bu açıklama işine yarar! 😊 Eğer aklına başka sorular gelirse, sormaktan çekinme! 🚀
+
+
