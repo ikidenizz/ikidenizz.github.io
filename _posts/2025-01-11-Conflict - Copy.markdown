@@ -187,3 +187,149 @@ Diyelim ki, `'A'` düğümünden başlayıp `'G'` düğümüne gitmek istiyoruz:
 - `'G'` hedef düğüm olduğundan, arama başarılı olur ve bulunan yol (`['A', 'B', 'D', 'G']`) döndürülür.
 
 Bu örnek, DFS algoritmasının basit mantığını ve Python ile nasıl uygulanabileceğini göstermektedir. DFS, özellikle ağaç yapıları ve labirent benzeri problemler için etkili bir arama yöntemidir.
+
+Bu kod, **Derinlik Öncelikli Arama (DFS - Depth First Search)** algoritmasını kullanarak bir graf üzerinde belirli bir başlangıç düğümünden hedef düğüme giden yolu bulmayı amaçlar. Şimdi kodu adım adım açıklayalım:
+
+---
+
+### **1. Grafiği Tanımlama**
+```python
+graph = {
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F'],
+    'D': ['G'],
+    'E': ['G'],
+    'F': [],
+    'G': []
+}
+```
+- `graph`, bir sözlük (dictionary) olarak tanımlanmış ve her düğüm, kendisine bağlı komşu düğümlerin listesiyle temsil ediliyor.
+  - Örneğin, `'A'` düğümü `'B'` ve `'C'` düğümlerine bağlıdır.
+  - `'F'` ve `'G'` düğümleri ise hiçbir komşusu olmadığı için boş listelerle temsil edilmiştir.
+
+---
+
+### **2. DFS Fonksiyonunun Tanımı**
+```python
+def dfs(graph, start, goal, path=None, visited=None):
+```
+- Bu fonksiyon, DFS algoritmasını uygulamak için tasarlanmıştır.
+- Parametreler:
+  - `graph`: Grafın tamamını içeren sözlük.
+  - `start`: Aramanın başlayacağı düğüm.
+  - `goal`: Ulaşılmak istenen hedef düğüm.
+  - `path`: Şu ana kadar izlenen yol (varsayılan olarak `None`, daha sonra `[start]` ile başlar).
+  - `visited`: Ziyaret edilen düğümlerin kümesi (varsayılan olarak `None`, daha sonra boş bir küme ile başlar).
+
+---
+
+### **3. Başlangıç Değerlerini Ayarlama**
+```python
+if path is None:
+    path = [start]
+if visited is None:
+    visited = set()
+```
+- Eğer `path` veya `visited` parametreleri verilmemişse, varsayılan değerler atanır:
+  - `path`: Başlangıçta yalnızca `start` düğümünü içerir.
+  - `visited`: Boş bir küme olarak başlatılır.
+
+---
+
+### **4. Düğümü Ziyaret Etme**
+```python
+visited.add(start)
+```
+- `start` düğümü ziyaret edildiği için `visited` kümesine eklenir.
+
+---
+
+### **5. Hedefe Ulaşıldığını Kontrol Etme**
+```python
+if start == goal:
+    return path
+```
+- Eğer `start` düğümü, aranan `goal` düğümüne eşitse, şu ana kadar izlenen yol (`path`) döndürülür.
+- Bu, DFS'nin temel çıkış koşuludur.
+
+---
+
+### **6. Komşu Düğümleri Keşfetme**
+```python
+for neighbor in graph.get(start, []):
+    if neighbor not in visited:
+        new_path = dfs(graph, neighbor, goal, path + [neighbor], visited)
+        if new_path is not None:
+            return new_path
+```
+- `graph.get(start, [])`: `start` düğümünün komşularını alır. Eğer `start` düğümü grafiğin içinde yoksa, boş bir liste döner.
+- Her bir komşu (`neighbor`) için:
+  - Eğer komşu daha önce ziyaret edilmediyse (`if neighbor not in visited`), o komşuya gitmek için tekrar `dfs` fonksiyonu çağrılır.
+  - Yeni bir yol (`new_path`) oluşturmak için şu ana kadar izlenen yol (`path`) üzerine `neighbor` eklenir.
+  - Eğer `new_path` değeri `None` değilse (yani hedefe ulaşıldıysa), bu yol hemen döndürülür.
+
+---
+
+### **7. Hedefe Giden Yol Bulunamadıysa**
+```python
+return None
+```
+- Eğer hiçbir komşuda hedef düğüm bulunamazsa, fonksiyon `None` döndürür. Bu, hedefe giden bir yol olmadığını gösterir.
+
+---
+
+### **8. DFS Fonksiyonunu Çalıştırma**
+```python
+start_node = 'A'
+goal_node = 'G'
+result_path = dfs(graph, start_node, goal_node)
+```
+- `start_node` olarak `'A'` seçilmiştir.
+- `goal_node` olarak `'G'` seçilmiştir.
+- `dfs` fonksiyonu çağrılır ve sonuç `result_path` değişkenine atanır.
+
+---
+
+### **9. Sonucu Yazdırma**
+```python
+if result_path:
+    print("Bulunan yol:", " --> ".join(result_path))
+else:
+    print("Hedefe giden bir yol bulunamadı.")
+```
+- Eğer `result_path` değeri `None` değilse, bulunan yol ekrana yazdırılır.
+  - `" --> ".join(result_path)` ile yol, ok işaretleriyle birleştirilerek okunabilir bir formatta gösterilir.
+- Eğer `result_path` değeri `None` ise, hedefe giden bir yol bulunamadığı bildirilir.
+
+---
+
+### **Örnek Çalışma**
+Verilen graf ve başlangıç/hedef düğümleri için DFS'nin nasıl çalıştığını adım adım görelim:
+
+1. Başlangıç: `start = 'A'`, `goal = 'G'`, `path = ['A']`, `visited = {'A'}`
+   - `'A'` düğümünün komşuları: `'B'` ve `'C'`
+
+2. İlk komşu: `'B'`
+   - `start = 'B'`, `path = ['A', 'B']`, `visited = {'A', 'B'}`
+   - `'B'` düğümünün komşuları: `'D'` ve `'E'`
+
+3. İlk komşu: `'D'`
+   - `start = 'D'`, `path = ['A', 'B', 'D']`, `visited = {'A', 'B', 'D'}`
+   - `'D'` düğümünün komşusu: `'G'`
+
+4. Hedef düğüm: `'G'`
+   - `start = 'G'`, `path = ['A', 'B', 'D', 'G']`
+   - Hedef bulundu, yol döndürülür.
+
+**Sonuç:**  
+`"Bulunan yol: A --> B --> D --> G"`
+
+---
+
+### **Çıktı**
+```plaintext
+Bulunan yol: A --> B --> D --> G
+```
+
+Bu şekilde, DFS algoritması başarıyla `'A'` düğümünden `'G'` düğümüne giden yolu bulmuştur.
