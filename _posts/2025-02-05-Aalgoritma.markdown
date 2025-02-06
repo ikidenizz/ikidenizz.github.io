@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Derinlik Öncelikli Arama (DFS)"
-description: "Derinlik öncelikli arama (DFS), tıpkı bir labirentte kaybolmuş gibi, en derine kadar giden bir yol bulmaya çalışmak gibidir. Mesela, büyük bir ağaç düşün: dallarının en ucuna kadar gitmeye çalışırsın."
+title: "A* Arama Algoritması"
+description: "A*, bir başlangıç noktasından hedefe en kısa yolu bulmak için kullanılan akıllı bir algoritmadır."
 image: /images/describing.jpg
 date: 2025-02-05 05:04:34 +0300
 category: "Arama"
