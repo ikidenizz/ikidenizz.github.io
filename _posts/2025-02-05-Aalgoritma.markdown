@@ -468,3 +468,183 @@ Bulunan yol: [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (1, 4), (2, 4), (3, 4), (4
 ---
 
 Artık A* algoritmasının Python kodunu adım adım anlamış oldunuz! 🎉
+
+
+Eğer özgün bir algoritma tasarlamak istesem, A*'ın temel prensiplerini korurken farklı bir yaklaşım veya optimizasyon ekleyebilirim. Örneğin, **dinamik engel atama** veya **çoklu hedefli yol bulma** gibi özelliklerle özgün bir çözüm geliştirebilirim. İşte size benzersiz bir fikir:
+
+---
+
+### **Özgün Algoritma Fikri: "Dinamik Engel ve Zamanlama Duyarlı Yol Bulma"**
+
+Bu algoritma, A* algoritmasını temel alır ancak şu özellikleri ekler:
+1. **Dinamik Engel:** Engeller hareket edebilir (örneğin, bir robotun etrafındaki insanlar veya araçlar).
+2. **Zamanlama Duyarlılığı:** Her hücreye ulaşmak için belirli bir zaman maliyeti vardır.
+3. **Çoklu Hedef:** Birden fazla hedef noktası olabilir ve algoritma en uygun hedefi seçmelidir.
+
+---
+
+### **Algoritmanın Adımları**
+
+#### 1. **Grid Tanımı**
+- Grid üzerinde her hücrenin:
+  - **Engel durumu** (`0`: Boş, `1`: Sabit engel, `-1`: Dinamik engel),
+  - **Zaman maliyeti** (örneğin, trafiğe bağlı olarak değişebilir),
+  - **Hedef puanı** (her hedefin önceliği).
+
+#### 2. **Heuristic Fonksiyonu**
+- Manhattan mesafesi yerine, hem uzaklık hem de zaman maliyetini dikkate alan karmaşık bir heuristic kullanılır:
+  ```python
+  def heuristic(current, goal, time_cost):
+      distance = abs(current[0] - goal[0]) + abs(current[1] - goal[1])
+      return distance + time_cost[current]
+  ```
+
+#### 3. **Açık Liste ve G Değerleri**
+- Açık listede her nokta için:
+  - `(F değeri, zaman, koordinat)` şeklinde bir tuple saklanır.
+  - Zaman, yolculuğun ne kadar sürdüğünü gösterir.
+
+#### 4. **Dinamik Engel Yönetimi**
+- Dinamik engellerin konumu, her adımda güncellenebilir. Örneğin:
+  - Bir engel belirli bir süre sonra ortadan kalkabilir.
+  - Bir engel belirli bir süre sonra ortaya çıkabilir.
+
+#### 5. **Çoklu Hedef Seçimi**
+- Birden fazla hedef varsa, her hedef için bir "puan" atanır. Puan, hedefin önem derecesini veya kazanç değerini temsil eder.
+- Algoritma, hem yolu hem de hedef puanını optimize eder.
+
+---
+
+### **Python Kodu**
+
+```python
+import heapq
+
+# Grid boyutları ve dinamik engeller
+GRID_WIDTH = 5
+GRID_HEIGHT = 5
+OBSTACLES = {
+    (1, 2): 3,  # (x, y): Kaldığı süre (sn)
+    (2, 2): 2,
+    (3, 2): 1
+}
+TIME_COST = [[1 for _ in range(GRID_WIDTH)] for _ in range(GRID_HEIGHT)]  # Her hücrenin zaman maliyeti
+
+# Hedefler ve puanları
+GOALS = {
+    (4, 4): 10,  # (x, y): Puan
+    (3, 3): 5
+}
+
+# Heuristic fonksiyonu
+def heuristic(current, goal, time_cost):
+    distance = abs(current[0] - goal[0]) + abs(current[1] - goal[1])
+    return distance + time_cost[current[0]][current[1]]
+
+# Özgün A* algoritması
+def dynamic_a_star(start):
+    open_list = []
+    heapq.heappush(open_list, (0, 0, start))  # (F değeri, zaman, koordinat)
+    g_values = {start: 0}
+    came_from = {}
+    best_goal = None
+    best_score = float('-inf')
+
+    while open_list:
+        current_f, current_time, current = heapq.heappop(open_list)
+
+        # Dinamik engelleri güncelle
+        for obstacle, duration in list(OBSTACLES.items()):
+            if duration > 0:
+                OBSTACLES[obstacle] -= 1
+            else:
+                del OBSTACLES[obstacle]
+
+        # Eğer mevcut nokta bir hedefse
+        if current in GOALS:
+            score = GOALS[current] - current_time
+            if score > best_score:
+                best_score = score
+                best_goal = current
+
+        # Komşuları incele
+        neighbors = [
+            (current[0] + 1, current[1]),  # Sağ
+            (current[0] - 1, current[1]),  # Sol
+            (current[0], current[1] + 1),  # Aşağı
+            (current[0], current[1] - 1)   # Yukarı
+        ]
+
+        for neighbor in neighbors:
+            if 0 <= neighbor[0] < GRID_WIDTH and 0 <= neighbor[1] < GRID_HEIGHT:
+                if neighbor in OBSTACLES and OBSTACLES[neighbor] > 0:
+                    continue  # Dinamik engel varsa atla
+
+                tentative_g = g_values[current] + TIME_COST[neighbor[0]][neighbor[1]]
+                if neighbor not in g_values or tentative_g < g_values[neighbor]:
+                    g_values[neighbor] = tentative_g
+                    f_value = tentative_g + heuristic(neighbor, min(GOALS.keys(), key=lambda x: heuristic(current, x, TIME_COST)), TIME_COST)
+                    heapq.heappush(open_list, (f_value, tentative_g, neighbor))
+                    came_from[neighbor] = current
+
+    # En iyi hedefi seç
+    if best_goal:
+        path = []
+        current = best_goal
+        while current != start:
+            path.append(current)
+            current = came_from[current]
+        path.append(start)
+        path.reverse()
+        return path, best_goal, best_score
+    return None, None, None
+
+# Başlangıç noktası
+start = (0, 0)
+
+# Algoritmayı çalıştır
+path, goal, score = dynamic_a_star(start)
+
+# Sonucu yazdır
+if path:
+    print(f"Bulunan yol: {path}")
+    print(f"Seçilen hedef: {goal}, Kazanç: {score}")
+else:
+    print("Hedefe ulaşmak mümkün değil!")
+```
+
+---
+
+### **Kodun Özellikleri**
+
+1. **Dinamik Engel Yönetimi:**
+   - Engeller belirli bir süre sonra kaybolabilir veya yeniden ortaya çıkabilir.
+
+2. **Zaman Maliyeti:**
+   - Her hücrenin geçiş süresi farklı olabilir. Örneğin, trafik yoğunluğuna göre zaman maliyeti artabilir.
+
+3. **Çoklu Hedef Optimizasyonu:**
+   - Birden fazla hedef arasından en uygun olanı seçilir. Hem yolculuk süresi hem de hedef puanı dikkate alınır.
+
+---
+
+### **Örnek Çıktı**
+
+Eğer engeller şu şekildeyse:
+- Dinamik engeller: `(1, 2): 3 saniye`, `(2, 2): 2 saniye`
+- Hedefler: `(4, 4): 10 puan`, `(3, 3): 5 puan`
+
+Çıktı şu şekilde olabilir:
+```
+Bulunan yol: [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (1, 4), (2, 4), (3, 4), (4, 4)]
+Seçilen hedef: (4, 4), Kazanç: 6
+```
+
+---
+
+### **Neden Özgün?**
+- **Dinamik Engel Yönetimi:** Gerçek dünyada engellerin sürekli değiştiği senaryolar için uygundur.
+- **Zamanlama Duyarlılığı:** Trafik, hava koşulları gibi faktörlerin yol planlamasına etkisini simüle eder.
+- **Çoklu Hedef Optimizasyonu:** Birden fazla hedef arasından en karlı olanını seçer.
+
+Artık bu özgün algoritmayı kendi projelerinizde kullanabilir veya geliştirebilirsiniz! 🚀

@@ -1,0 +1,84 @@
+---
+layout: post
+title: "Python virtual environment (sanal ortam) oluşturmak"
+description: "Python virtual environment (sanal ortam) oluşturmak ve kullanmak için temel adımları açıklayayım"
+image: /images/describing.jpg
+date: 2025-02-04 05:04:34 +0300
+category: "Python"
+tags: [virtual, environment]
+lang: tr
+author: isunion99
+published: true
+---
+
+Python virtual environment (sanal ortam) oluşturmak ve kullanmak için temel adımları açıklayayım:
+
+1. Yeni bir virtual environment oluşturma:
+```bash
+python -m venv myenv
+```
+(Burada "myenv" yerine istediğiniz ismi verebilirsiniz)
+
+2. Virtual environment'ı aktif etme:
+
+Windows için:
+```bash
+myenv\Scripts\activate
+```
+
+Linux/Mac için:
+```bash
+source myenv/bin/activate
+```
+
+3. Virtual environment'ı deaktif etme:
+```bash
+deactivate
+```
+
+4. Aktif environment'a paket yükleme:
+```bash
+pip install paket_adi
+```
+
+Örnek bir iş akışı:
+```bash
+# Virtual environment oluştur
+python -m venv myproject_env
+
+# Aktif et
+source myproject_env/bin/activate  # Linux/Mac için
+# veya
+myproject_env\Scripts\activate     # Windows için
+
+# Paketleri yükle
+pip install matplotlib
+pip install numpy
+pip install pandas
+
+# İşiniz bittiğinde deaktif edin
+deactivate
+```
+
+Virtual environment kullanmanın avantajları:
+- Her proje için izole bir Python ortamı
+- Farklı projelerde farklı paket versiyonları kullanabilme
+- Sistem Python kurulumunuzu etkilemeden paket yönetimi
+- Projenizin bağımlılıklarını daha iyi yönetebilme
+
+Yüklü paketlerin listesini almak için:
+```bash
+pip list
+```
+
+Requirements dosyası oluşturmak için:
+```bash
+pip freeze > requirements.txt
+```
+
+Başka bir ortamda requirements dosyasından paketleri yüklemek için:
+```bash
+pip install -r requirements.txt
+```
+
+---
