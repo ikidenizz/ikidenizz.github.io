@@ -531,4 +531,202 @@ F-strings'in güzel yanları:
 
 Ve işte bu kadar! F-strings ile metin yazmak, sihirli bir not defterine yazmak gibi - istediğin her şeyi süslü parantezler içine koyup kullanabilirsin! 🌈✨
 
+
+Python öğrenmek için temel ve ileri düzey konuları şöyle sıralayabilirim:
+
+1. **Temel Konular** 🌱
+
+```python
+# Değişkenler ve Veri Tipleri
+isim = "Ali"  # str
+yas = 25      # int
+boy = 1.78    # float
+aktif = True  # bool
+
+# Operatörler
+x = 5 + 3  # Aritmetik
+y = x > 3  # Karşılaştırma
+z = True and False  # Mantıksal
+```
+
+2. **Veri Yapıları** 📚
+
+```python
+liste = [1, 2, 3]
+demet = (1, 2, 3)
+sozluk = {"a": 1, "b": 2}
+kume = {1, 2, 3}
+```
+
+3. **Döngüler ve Koşullar** 🔄
+
+- if, elif, else
+- for döngüleri
+- while döngüleri
+- break, continue, pass
+
+4. **Hata Yönetimi** ⚠️
+
+```python
+try:
+    sayi = int("abc")
+except ValueError:
+    print("Hata oluştu!")
+finally:
+    print("İşlem tamamlandı")
+```
+
+5. **Dosya İşlemleri** 📁
+
+```python
+# Dosya okuma-yazma
+with open("dosya.txt", "r") as f:
+    icerik = f.read()
+```
+
+6. **Modüller ve Paketler** 📦
+
+- import kullanımı
+- pip ile paket yönetimi
+- kendi modüllerimizi oluşturma
+
+7. **OOP (Nesne Yönelimli Programlama)** 🎯
+
+```python
+class Araba:
+    def __init__(self, marka):
+        self.marka = marka
+```
+
+8. **Dekoratörler** 🎨
+
+```python
+@decorator
+def fonksiyon():
+    pass
+```
+
+9. **Context Managers** 🔑
+
+```python
+with something() as s:
+    s.do_something()
+```
+
+10. **Async Programming** ⚡
+
+```python
+async def main():
+    await fonksiyon()
+```
+
+11. **Regular Expressions** 🔍
+
+```python
+import re
+pattern = r"\d+"
+```
+
+12. **Database İşlemleri** 💾
+
+- SQLite
+- PostgreSQL
+- MongoDB
+
+13. **Web Geliştirme** 🌐
+
+- Flask
+- Django
+- FastAPI
+
+14. **Testing** 🧪
+
+```python
+import unittest
+class TestClass(unittest.TestCase):
+    def test_something(self):
+        pass
+```
+
+15. **Data Science Araçları** 📊
+
+- NumPy
+- Pandas
+- Matplotlib
+
+16. **Lambda Functions** λ
+```python
+square = lambda x: x**2
+```
+
+17. **İteratörler ve Jeneratörler** 🔄
+
+```python
+def generator():
+    yield 1
+    yield 2
+```
+
+18. **Threading ve Multiprocessing** 🧵
+
+```python
+import threading
+import multiprocessing
+```
+
+19. **Python Design Patterns** 🏗️
+- Singleton
+- Factory
+- Observer
+
+20. **Debugging Teknikleri** 🐛
+
+```python
+import pdb
+pdb.set_trace()
+```
+
+21. **Virtual Environments** 🌍
+
+```bash
+python -m venv myenv
+source myenv/bin/activate
+```
+
+22. **Type Hints** ✍️
+
+```python
+def greet(name: str) -> str:
+    return f"Hello {name}"
+```
+
+23. **Memory Management** 💡
+
+- Garbage collection
+- Memory profiling
+
+24. **Security Best Practices** 🔒
+
+- Input validation
+- Secure coding practices
+
+25. **Performance Optimization** ⚡
+
+- Profiling
+- Code optimization techniques
+
+Her biri için pratik projeler yaparak öğrenmeyi pekiştirmek önemli! Örneğin:
+
+- To-do list uygulaması
+- Basit bir blog
+- API servisi
+- Veri analizi projesi
+- Oyun (Örn: Taş-Kağıt-Makas)
+- Dosya organizasyon scripti
+- Web scraping uygulaması
+- Chat uygulaması
+
+Bu konuları sırayla öğrenmek ve her birini projelerle pekiştirmek, Python'da sağlam bir temel oluşturmana yardımcı olacaktır! 🚀
+
+
 ---
