@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bir teröristin öldürülmesi, 100 masumun hayatını haklı çıkarır mı?"
-description: "Bir Yahudi terörist öldürüldüğünde, 100 Müslüman teröristin öldürülmesi gerektiği algısı, dünyadaki nüfus oranlarına (20 milyon Yahudi'ye karşı 2 milyar Müslüman) dayandırılarak meşrulaştırılmaya çalışılıyor."
+description: "Bir terörist öldürüldüğünde, 100 teröristin öldürülmesi gerektiği algısı, dünyadaki nüfus oranlarına (20 milyon Yahudi'ye karşı 2 milyar Müslüman) dayandırılarak meşrulaştırılmaya çalışılıyor."
 image: /images/describing.jpg
 date: 2025-01-31 05:04:34 +0300
 category: "Adalet" 
@@ -14,6 +14,6 @@ published: true
 **Nüfus Oranlarına Dayalı Misilleme: Adalet mi, Adaletsizlik mi?**
 
 
-Bir Yahudi terörist öldürüldüğünde, 100 Müslüman teröristin öldürülmesi gerektiği algısı, dünyadaki nüfus oranlarına **(20 milyon Yahudi'ye karşı 2 milyar Müslüman)** dayandırılarak meşrulaştırılmaya çalışılıyor. Ancak, bu tür bir matematiksel oranlama hem adaletsiz hem de ahlaki açıdan kabul edilemez. Öncelikle, her bireyin suçlu olduğu kanıtlanmadan masum sayılması gerektiği (masumiyet karinesi) evrensel bir hukuk ilkesidir. Terörizmle mücadelede bile, hukuki süreçlerin ve adil yargılamaların şart olduğu unutulmamalıdır. Öldürülen kişilerin terörist olduğu kanıtlanmadan, mahkemelerde yargılanmadan veya kesin deliller olmadan öldürülmesi, özellikle kadın ve çocukların hedef alınması, insan haklarına ve uluslararası hukuka aykırıdır. Örneğin, Cenevre Sözleşmeleri, sivillerin korunmasını açıkça belirtir. Ayrıca, bu tür bir misilleme mantığı, şiddeti meşrulaştırmak ve çatışmaları derinleştirmekten başka bir işe yaramaz. Gerçek adalet, ancak evrensel değerlere bağlı kalarak ve her bir bireyin yaşam hakkını eşit derecede koruyarak sağlanabilir.
+Bir terörist öldürüldüğünde, 100 teröristin öldürülmesi gerektiği algısı, dünyadaki nüfus oranlarına **(20 milyon Yahudi'ye karşı 2 milyar Müslüman)** dayandırılarak meşrulaştırılmaya çalışılıyor. Ancak, bu tür bir matematiksel oranlama hem adaletsiz hem de ahlaki açıdan kabul edilemez. Öncelikle, her bireyin suçlu olduğu kanıtlanmadan masum sayılması gerektiği (masumiyet karinesi) evrensel bir hukuk ilkesidir. Terörizmle mücadelede bile, hukuki süreçlerin ve adil yargılamaların şart olduğu unutulmamalıdır. Öldürülen kişilerin terörist olduğu kanıtlanmadan, mahkemelerde yargılanmadan veya kesin deliller olmadan öldürülmesi, özellikle kadın ve çocukların hedef alınması, insan haklarına ve uluslararası hukuka aykırıdır. Örneğin, Cenevre Sözleşmeleri, sivillerin korunmasını açıkça belirtir. Ayrıca, bu tür bir misilleme mantığı, şiddeti meşrulaştırmak ve çatışmaları derinleştirmekten başka bir işe yaramaz. Gerçek adalet, ancak evrensel değerlere bağlı kalarak ve her bir bireyin yaşam hakkını eşit derecede koruyarak sağlanabilir.
 
 ---
