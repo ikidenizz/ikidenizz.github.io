@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Hücreler, yüzeylerde hareket etmek için özel bağlantılara ihtiyaç duyar. Bu bağlantılar, hücrenin içindeki motorları dışarıdaki yüzeylere bağlar ve bu şekilde hücreler hareket edebilir."
+image: /images/2121.jpeg
+date: 2025-02-07 05:07:34 +0300
+category: "Hücreler" 
+tags: [bakteri, AlphaFold] 
+lang: tr
+author: isunion99
+published: true
+---
+
+# **Hücre Hareketinin Sırrı: Myxococcus xanthus Bakterisi ve Agl-Glt Sisteminin AlphaFold ile İncelenmesi**
+  
+Hücreler, yüzeylerde hareket etmek için özel bağlantılara ihtiyaç duyar. Bu bağlantılar, hücrenin içindeki motorları dışarıdaki yüzeylere bağlar ve bu şekilde hücreler hareket edebilir. Myxococcus xanthus adlı bir bakteri de bu tür bağlantıları kullanarak yüzeylerde hareket eder ve avlanır. Bu bakteriler, Agl-Glt adı verilen ve 17 proteinden oluşan bir sistemi kullanır. Bu sistemin nasıl çalıştığı tam olarak bilinmediği için, bu çalışmada AlphaFold adlı bir program kullanılarak proteinlerin nasıl bir araya geldiği ve etkileştiği tahmin edilmeye çalışılmıştır. Bu program sayesinde, hücrelerin hareketini sağlayan bu bağlantıların tüm kompleks boyunca nasıl etkileştiği ve çalıştığı daha iyi anlaşılmıştır. Bu araştırma, hücrelerin nasıl hareket ettiğini ve bu hareketi sağlayan bağlantıların nasıl çalıştığını anlamamıza yardımcı olmaktadır.
+
+![iran]({{ "/images/2121.jpeg" | relative_url }}){:width="650px" height="auto" class="responsive-image centered-image"}
+
+
+---
