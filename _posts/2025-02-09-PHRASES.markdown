@@ -3,7 +3,7 @@ layout: post
 title: "PHRASES (ÖBEKLER)"
 description: "Bir öbek, bir özne ve fiil içermeyen iki veya daha fazla kelimeden oluşan bir grup kelimedir. Öbekler, birçok farklı formda ve işlevde karşımıza çıkabilir."
 image: /images/descriptions.jpeg
-date: 2025-02-07 05:07:34 +0300
+date: 2025-02-09 05:07:34 +0300
 category: "İngilizce" 
 tags: [PHRASES, ÖBEKLER] 
 lang: tr

@@ -1,0 +1,121 @@
+---
+layout: post
+title: "INDIRECT OBJECT (DOLAYLI TÜMLEÇ)"
+description: "Bir dolaylı tümleç, bir fiilin eyleminin kime veya neye yönelik gerçekleştirildiğini gösteren kelime veya kelime grubudur."
+image: /images/descriptions.jpeg
+date: 2025-02-09 05:07:34 +0300
+category: "İngilizce" 
+tags: [INDIRECT, DOLAYLI] 
+lang: tr
+author: isunion99
+published: true
+---
+
+
+# **INDIRECT OBJECT (DOLAYLI TÜMLEÇ)**  
+Bir dolaylı tümleç, bir fiilin eyleminin kime veya neye yönelik gerçekleştirildiğini gösteren kelime veya kelime grubudur. Dolaylı tümleçler, iki farklı şekilde karşınıza çıkabilir:
+
+1. **Dolaylı tümleç, doğrudan tümleçten sonra gelirse**, genellikle **to**, **for** veya **of** gibi edatlarla birlikte kullanılır.  
+2. **Dolaylı tümleç, fiil ile doğrudan tümleç arasında yer alırsa**, bu durumda **to**, **for** veya **of** gibi edatlar kullanılmaz.
+
+Dolaylı tümleçler, genellikle **ask (sormak)**, **tell (söylemek)**, **send (göndermek)**, **give (vermek)** ve **show (göstermek)** gibi fiillerle birlikte kullanılır.
+
+---
+
+### **Örnek Cümleler:**  
+1. **He gave the job to me.**  
+   - **Doğrudan tümleç (direct object):** job  
+   - **Dolaylı tümleç (indirect object):** me  
+   - **Açıklama:** Dolaylı tümleç, doğrudan tümleçten sonra geldiği için **to** edatıyla birlikte kullanılmıştır.
+
+2. **He gave me the job.**  
+   - **Doğrudan tümleç (direct object):** job  
+   - **Dolaylı tümleç (indirect object):** me  
+   - **Açıklama:** Dolaylı tümleç, fiil ile doğrudan tümleç arasında yer aldığı için **to** edatı kullanılmamıştır.
+
+3. **The professor asked her a question.**  
+   - **Doğrudan tümleç (direct object):** question  
+   - **Dolaylı tümleç (indirect object):** her  
+   - **Açıklama:** Dolaylı tümleç, fiil ile doğrudan tümleç arasında yer aldığı için **of** edatı kullanılmamıştır.
+
+4. **The professor asked a question of her.**  
+   - **Doğrudan tümleç (direct object):** question  
+   - **Dolaylı tümleç (indirect object):** her  
+   - **Açıklama:** Dolaylı tümleç, doğrudan tümleçten sonra geldiği için **of** edatıyla birlikte kullanılmıştır.
+
+5. **Television commentators give audiences the news.**  
+   - **Doğrudan tümleç (direct object):** news  
+   - **Dolaylı tümleç (indirect object):** audiences  
+   - **Açıklama:** Dolaylı tümleç, fiil ile doğrudan tümleç arasında yer aldığı için **to** edatı kullanılmamıştır.
+
+6. **Television commentators give the news to audiences.**  
+   - **Doğrudan tümleç (direct object):** news  
+   - **Dolaylı tümleç (indirect object):** audiences  
+   - **Açıklama:** Dolaylı tümleç, doğrudan tümleçten sonra geldiği için **to** edatıyla birlikte kullanılmıştır.
+
+7. **Many florists send their best customers orchids on New Year’s Eve.**  
+   - **Doğrudan tümleç (direct object):** orchids  
+   - **Dolaylı tümleç (indirect object):** customers  
+   - **Açıklama:** Dolaylı tümleç, fiil ile doğrudan tümleç arasında yer aldığı için **to** edatı kullanılmamıştır.
+
+8. **Many florists send orchids to their best customers on New Year’s Eve.**  
+   - **Doğrudan tümleç (direct object):** orchids  
+   - **Dolaylı tümleç (indirect object):** customers  
+   - **Açıklama:** Dolaylı tümleç, doğrudan tümleçten sonra geldiği için **to** edatıyla birlikte kullanılmıştır.
+
+---
+
+### **ALIŞTIRMA**  
+Aşağıdaki cümlelerde dolaylı tümleçleri örneklerdeki gibi **altını çizerek** belirtin:
+
+1. **Central American countries provide excellent facilities for vacationers.**  
+   - **Dolaylı tümleç:** vacationers  
+
+2. **The auction house sent the carpet to the museum.**  
+   - **Dolaylı tümleç:** the museum  
+
+3. **Attorneys ask their clients searching questions.**  
+   - **Dolaylı tümleç:** their clients  
+
+4. **The storekeeper sent his best customer a Christmas gift.**  
+   - **Dolaylı tümleç:** his best customer  
+
+5. **Rebecca wrote a poem for him.**  
+   - **Dolaylı tümleç:** him  
+
+6. **He gave the museum a rare vase.**  
+   - **Dolaylı tümleç:** the museum  
+
+7. **The dog handler showed the English setter to the judges.**  
+   - **Dolaylı tümleç:** the judges  
+
+8. **She left her stamp collection to Marie.**  
+   - **Dolaylı tümleç:** Marie  
+
+9. **She showed her roommates her paper.**  
+   - **Dolaylı tümleç:** her roommates  
+
+10. **He gave his Chinese vase to the British Museum.**  
+    - **Dolaylı tümleç:** the British Museum  
+
+11. **We supplied him food and drink.**  
+    - **Dolaylı tümleç:** him  
+
+12. **Librarians provide services for readers.**  
+    - **Dolaylı tümleç:** readers  
+
+13. **District attorneys may ask embarrassing questions of witnesses.**  
+    - **Dolaylı tümleç:** witnesses  
+
+14. **Cargo ships usually give reliable service to most clients.**  
+    - **Dolaylı tümleç:** most clients  
+
+15. **Children may tell their parents outrageous stories.**  
+    - **Dolaylı tümleç:** their parents  
+
+---
+
+**SONUÇ:**  
+Dolaylı tümleçler, bir eylemin kime veya neye yönelik yapıldığını gösterir. Bu tümleçler, cümlede iki farklı şekilde yer alabilir: ya fiil ile doğrudan tümleç arasında (edatsız) ya da doğrudan tümleçten sonra (edatlı). Dolaylı tümleçleri doğru bir şekilde tanımak, cümle yapısını anlamayı kolaylaştırır ve dilbilgisi becerilerini geliştirir.
+
+---
