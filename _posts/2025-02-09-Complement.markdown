@@ -22,7 +22,7 @@ published: true
 
 --- 
 
-2. Örnek Cümleler ve Açıklamaları  
+2. **Örnek Cümleler ve Açıklamaları**  
 
 a) "He seems well."  
 – Burada “seems” fiili eylem ifade etmek yerine varlık, durum bildirme işlevindedir.  
@@ -43,7 +43,7 @@ Not:
 
 --- 
 
-3. Cümlenin Ana Öğelerini Nasıl Belirleriz?  
+3. **Cümlenin Ana Öğelerini Nasıl Belirleriz?**  
 
 Aşağıdaki adımlar, bir cümlenin temel öğelerini bulmak için kullanılabilir:  
 
@@ -65,12 +65,13 @@ Aşağıdaki adımlar, bir cümlenin temel öğelerini bulmak için kullanılabi
 
 --- 
 
-4. Alıştırma Açıklaması  
+4. **Alıştırma Açıklaması**  
 
 Verilen alıştırmada, cümlelerde yer alan özne, fiil, doğrudan nesne ve (varsa) tamlayıcı gibi temel öğeleri belirlemeniz istenmektedir. Metinde ayrıca bazı cümlelerde henüz tartışılmamış diğer öğeler bulunabilir; bu konular ilerleyen bölümlerde açıklanacaktır.
 
 --- 
-5. Örnek Cümleler  
+
+5. **Örnek Cümleler**  
 
 Metin, aşağıdaki örnek cümlelerle konunun pekiştirilmesine yardımcı olmaktadır:  
 
@@ -83,7 +84,8 @@ Metin, aşağıdaki örnek cümlelerle konunun pekiştirilmesine yardımcı olma
 Ardından, sıralanan 25 cümle (örneğin, “Playwrights and authors receive acclaim.”, “Libraries preserve the wisdom of civilization.”, …, “Although Polish, Conrad wrote in English.”) üzerinden konu pratiği yapılması istenmektedir. Bu cümleler, okuyucunun belirtilen teknik bilgileri kullanarak cümlenin temel ögelerini (subject, verb, direct object ve complement) tespit etmesini amaçlamaktadır.
 
 --- 
-Özetle:  
+
+**Özetle:**  
 – Tamlayıcı (complement), bağlayıcı fiillerin (copulative veya linking verbs) anlamını tamamlayan ögedir.  
 – Bu öge, cümlenin nesne konumunda yer alsa da, fiilin anlamını pekiştirmek için gereklidir.  
 – Cümlenin temel öğelerini ayırt etmek için önce fiili, sonra özneyi, ardından (eğer varsa) doğrudan nesneyi ve tamamlayıcıyı belirlemelisiniz.  
@@ -96,12 +98,14 @@ Bu açıklamalı metin, bağlayıcı fiillerin ve onların tamamlayıcılarını
 Aşağıda, her cümlenin temel ögelerini (özne, fiil, doğrudan nesne ve (varsa) tamamlayıcı) belirten açıklamalı çözümleri bulabilirsiniz. Bazı cümlelerde kopulatif (bağlayıcı) fiiller kullanıldığı için nesne yerine tamamlayıcı (complement) yer alabilir. İşte 25 alıştırmanın çözümü:
 
 --- 
-Önemli Notlar:  
+
+**Önemli Notlar:**  
 • Bir cümlenin temel ögelerini belirlerken önce “Ne oluyor?” sorusuyla fiili, “Kim veya ne?” sorusuyla özneyi, “Eylemi kim veya ne alıyor?” sorusuyla eylemin nesnesini (ya da kopulatif fiil kullanılıyorsa, fiili tamamlayan ögeyi) bulmalısınız.  
 • Kopulatif (linking) fiiller; “appear,” “seem,” “be”, “feel” (durum bildiren anlamdaki) gibi eylemler için kullanılmaktadır. Bu fiiller, doğrudan nesne almaz; bunun yerine, öznenin durumunu belirten tamamlayıcıya (complement) ihtiyaç duyar.
 
 --- 
-Örnek Çözümler:
+
+**Örnek Çözümler:**
 
 Önce kısa örnekler (metnin içindeki örnekler):
 
@@ -117,14 +121,16 @@ B. Bill and Tom appeared happy.
  (Not: “happy” doğrudan nesne değil, öznenin durumunu belirten bir tamamlayıcıdır.)
 
 --- 
-Alıştırma 1.  
+
+**Alıştırma 1.**  
 "Playwrights and authors receive acclaim."  
  • Özne: Playwrights and authors  
  • Fiil: receive  
  • Doğrudan Nesne: acclaim
 
 --- 
-Alıştırma 2.  
+
+**Alıştırma 2.**  
 "Libraries preserve the wisdom of civilization."  
  • Özne: Libraries  
  • Fiil: preserve  
@@ -132,7 +138,8 @@ Alıştırma 2.
   (Not: “the wisdom of civilization” bir isim tamlamasıdır, doğrudan nesne rolündedir.)
 
 --- 
-Alıştırma 3.  
+
+**Alıştırma 3.**  
 "Stores are busiest at Christmastime."  
  • Özne: Stores  
  • Fiil: are (kopulatif)  
@@ -140,7 +147,8 @@ Alıştırma 3.
  • Zarf Tümleci: at Christmastime (zaman veya yer belirten ek öge)
 
 --- 
-Alıştırma 4.  
+
+**Alıştırma 4.**
 "Buenos Aires has the largest opera house in the world."  
  • Özne: Buenos Aires  
  • Fiil: has  
@@ -148,21 +156,24 @@ Alıştırma 4.
   (Not: “the largest opera house in the world” isim tamlaması olarak nesne görevindedir.)
 
 --- 
-Alıştırma 5.  
+
+**Alıştırma 5.**  
 "Religion is a popular course in many colleges."  
  • Özne: Religion  
  • Fiil: is (kopulatif)  
  • Tamlayıcı (Complement): a popular course in many colleges
 
 --- 
-Alıştırma 6.  
+
+**Alıştırma 6.**  
 "Eli and Samuel were Old Testament prophets."  
  • Özne: Eli and Samuel  
  • Fiil: were (kopulatif)  
  • Tamlayıcı (Complement): Old Testament prophets
 
 --- 
-Alıştırma 7.  
+
+**Alıştırma 7.**  
 "Wars have produced death and destruction."  
  • Özne: Wars  
  • Fiil: have produced  
@@ -171,7 +182,7 @@ Alıştırma 7.
 
 --- 
 
-Alıştırma 8.  
+**Alıştırma 8.**  
 "Tamara telephoned her brothers."  
  • Özne: Tamara  
  • Fiil: telephoned  
@@ -179,7 +190,7 @@ Alıştırma 8.
 
 ---
 
-Alıştırma 9.  
+**Alıştırma 9.**  
 "The waiter served mineral water to his customers."  
  • Özne: The waiter  
  • Fiil: served  
@@ -189,7 +200,7 @@ Alıştırma 9.
 
 --- 
 
-Alıştırma 10.  
+**Alıştırma 10.**  
 "The dormitory was ransacked."  
  • Özne: The dormitory  
  • Fiil: was ransacked  
@@ -197,7 +208,7 @@ Alıştırma 10.
 
 --- 
 
-Alıştırma 11.  
+**Alıştırma 11.**  
 "Burglars were ransacking the dormitory."  
  • Özne: Burglars  
  • Fiil: were ransacking  
@@ -205,7 +216,7 @@ Alıştırma 11.
 
 --- 
 
-Alıştırma 12.  
+**Alıştırma 12.**  
 "Helen studied Italian in Switzerland."  
  • Özne: Helen  
  • Fiil: studied  
@@ -215,7 +226,7 @@ Alıştırma 12.
 
 --- 
 
-Alıştırma 13.  
+**Alıştırma 13.**  
 "She felt the lining of her coat."  
  • Özne: She  
  • Fiil: felt  
@@ -224,7 +235,7 @@ Alıştırma 13.
 
 --- 
 
-Alıştırma 14.  
+**Alıştırma 14.**  
 "He felt well again."  
  • Özne: He  
  • Fiil: felt (kopulatif anlamda – duygu, hal bildiriyor)  
@@ -233,7 +244,7 @@ Alıştırma 14.
 
 --- 
 
-Alıştırma 15.  
+**Alıştırma 15.**  
 "The defendants called their lawyer."  
  • Özne: The defendants  
  • Fiil: called  
@@ -241,7 +252,7 @@ Alıştırma 15.
 
 --- 
 
-Alıştırma 16.  
+**Alıştırma 16.**  
 "An orderly mind ensures success in business."  
  • Özne: An orderly mind  
  • Fiil: ensures  
@@ -250,7 +261,7 @@ Alıştırma 16.
 
 --- 
 
-Alıştırma 17.  
+**Alıştırma 17.**  
 "Microchips have revolutionized the communications industry."  
  • Özne: Microchips  
  • Fiil: have revolutionized  
@@ -258,7 +269,7 @@ Alıştırma 17.
 
 --- 
 
-Alıştırma 18.  
+**Alıştırma 18.**  
 "A bibliography is a list of books and articles."  
  • Özne: A bibliography  
  • Fiil: is (kopulatif)  
@@ -266,7 +277,7 @@ Alıştırma 18.
 
 --- 
 
-Alıştırma 19.  
+**Alıştırma 19.**  
 "Even teenagers carry cellular telephones today."  
  • Özne: Even teenagers  
  • Fiil: carry  
@@ -275,7 +286,7 @@ Alıştırma 19.
 
 --- 
 
-Alıştırma 20.  
+**Alıştırma 20.**  
 "Few professionals in England now wear bowler hats."  
  • Özne: Few professionals in England  
  • Fiil: wear  
@@ -285,7 +296,7 @@ Alıştırma 20.
 
 --- 
 
-Alıştırma 21.  
+**Alıştırma 21.**  
 "The shirt and tie suited him well."  
  • Özne: The shirt and tie  
  • Fiil: suited  
@@ -295,7 +306,7 @@ Alıştırma 21.
 
 --- 
 
-Alıştırma 22.  
+**Alıştırma 22.**  
 "Outstanding matadors are highly respected in Spain."  
  • Özne: Outstanding matadors  
  • Fiil: are (kopulatif)  
@@ -305,7 +316,7 @@ Alıştırma 22.
 
 --- 
 
-Alıştırma 23.  
+**Alıştırma 23.**  
 "Many homes now are air conditioned."  
  • Özne: Many homes  
  • Fiil: are (kopulatif)  
@@ -315,7 +326,7 @@ Alıştırma 23.
 
 --- 
 
-Alıştırma 24.  
+**Alıştırma 24.**  
 "Air conditioning cleans and cools buildings."  
  • Özne: Air conditioning  
  • Fiil: cleans and cools (iki eylem; her ikisi de aynı özneyi paylaşır)  
@@ -324,7 +335,7 @@ Alıştırma 24.
 
 --- 
 
-Alıştırma 25.  
+**Alıştırma 25.**  
 "Although Polish, Conrad wrote in English."  
 Bu cümlede, ana cümleye ek olarak bir ara cümle (“Although Polish”) bulunmaktadır.  
  • Ara Cümle: Although Polish  
@@ -337,7 +348,7 @@ Bu cümlede, ana cümleye ek olarak bir ara cümle (“Although Polish”) bulun
 
 --- 
 
-Özet  
+**Özet**  
 Her cümlede, öncelikle özne ve fiil belirlenir; ardından fiilin gerektirdiği şekilde doğrudan nesne veya tamamlayıcı bulunur.  
 – Kopulatif fiiller, özne ile bir tamamlayıcıyı birbirine bağlarken, diğer fiiller eylemin doðrudan nesnesini alır.  
 – Ek ögeler (zarflar, zarf tümleçleri, dolaylı nesneler vb.) cümlenin anlamını zenginleştirmek için kullanılır.
