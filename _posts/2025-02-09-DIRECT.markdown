@@ -1,0 +1,84 @@
+---
+layout: post
+title: "DIRECT OBJECT (DOĞRUDAN TÜMLEÇ)"
+description: "Bir doğrudan tümleç, bir fiilin gösterdiği eylemi doğrudan alan kelime veya kelime grubudur."
+image: /images/descriptions.jpeg
+date: 2025-02-09 05:07:34 +0300
+category: "İngilizce" 
+tags: [DIRECT, DOĞRUDAN] 
+lang: tr
+author: isunion99
+published: true
+---
+
+
+# **DIRECT OBJECT (DOĞRUDAN TÜMLEÇ)**  
+Bir doğrudan tümleç, bir fiilin gösterdiği eylemi doğrudan alan kelime veya kelime grubudur. Başka bir deyişle, doğrudan tümleç, fiilin neyi veya kimi etkilediğini gösterir. Doğrudan tümleç, genellikle fiilden sonra gelir ve cümlenin temel unsurlarından biridir.
+
+---
+
+### **Örnek Cümleler ve Açıklamalar:**  
+1. **Automobiles are destroying cities.**  
+   - **Fiil (Verb):** are destroying  
+   - **Doğrudan tümleç (Direct Object):** cities  
+   - **Açıklama:** "Are destroying" fiilinin eylemi, "cities" (şehirler) üzerinde gerçekleşmektedir. Bu nedenle, "cities" doğrudan tümleçtir.  
+
+2. **The gardener fertilized the lawn and the trees.**  
+   - **Fiil (Verb):** fertilized  
+   - **Doğrudan tümleç (Direct Object):** the lawn and the trees  
+   - **Açıklama:** "Fertilized" fiilinin eylemi, "the lawn" (çim) ve "the trees" (ağaçlar) üzerinde gerçekleşmektedir. Bu nedenle, "the lawn and the trees" doğrudan tümleçtir.  
+
+3. **The bank was robbed.**  
+   - **Fiil (Verb):** was robbed  
+   - **Doğrudan tümleç (Direct Object):** Yok  
+   - **Açıklama:** Bu cümlede fiilin eylemini alan bir doğrudan tümleç yoktur. Cümlenin öznesi "the bank" ve fiili "was robbed" dur. Bu tür cümlelerde eylemi gerçekleştiren kişi veya nesne belirtilmemiştir.  
+
+---
+
+### **Doğrudan Tümleç Nasıl Bulunur?**  
+Bir cümlede doğrudan tümleci bulmak için şu soruları sorabilirsiniz:  
+- **Fiil ne yapıyor?**  
+- **Fiilin eylemi kime veya neye yönelik?**  
+
+Örneğin:  
+- **She bought a book.**  
+  - Fiil: bought  
+  - Soru: **Ne satın aldı?** → "a book"  
+  - Doğrudan tümleç: **a book**  
+
+- **They built a house.**  
+  - Fiil: built  
+  - Soru: **Ne inşa ettiler?** → "a house"  
+  - Doğrudan tümleç: **a house**  
+
+---
+
+### **Doğrudan Tümleç ile İlgili Önemli Noktalar:**  
+1. Doğrudan tümleç, fiilin eylemini doğrudan alır.  
+2. Doğrudan tümleç, cümlede her zaman bulunmak zorunda değildir. Bazı cümlelerde doğrudan tümleç olmayabilir.  
+3. Doğrudan tümleç, bir isim, zamir veya isim öbeği olabilir.  
+
+---
+
+### **Örnek Cümleler:**  
+1. **She read the book.**  
+   - **Doğrudan tümleç:** the book  
+
+2. **He kicked the ball.**  
+   - **Doğrudan tümleç:** the ball  
+
+3. **They planted flowers in the garden.**  
+   - **Doğrudan tümleç:** flowers  
+
+4. **The teacher explained the lesson.**  
+   - **Doğrudan tümleç:** the lesson  
+
+5. **We watched a movie last night.**  
+   - **Doğrudan tümleç:** a movie  
+
+---
+
+**SONUÇ:**  
+Doğrudan tümleç, bir cümlenin temel unsurlarından biridir ve fiilin eylemini doğrudan alan kelime veya kelime grubudur. Doğrudan tümleci doğru bir şekilde tanımak, cümle yapısını anlamayı kolaylaştırır ve dilbilgisi becerilerini geliştirir.
+
+---
