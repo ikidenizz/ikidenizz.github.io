@@ -1,0 +1,182 @@
+---
+layout: post
+title: "PHRASES (ÖBEKLER)"
+description: "Bir öbek, bir özne ve fiil içermeyen iki veya daha fazla kelimeden oluşan bir grup kelimedir. Öbekler, birçok farklı formda ve işlevde karşımıza çıkabilir."
+image: /images/descriptions.jpeg
+date: 2025-02-07 05:07:34 +0300
+category: "İngilizce" 
+tags: [PHRASES, ÖBEKLER] 
+lang: tr
+author: isunion99
+published: true
+---
+
+
+# **PHRASES (ÖBEKLER)**  
+Bir öbek, bir özne ve fiil içermeyen iki veya daha fazla kelimeden oluşan bir grup kelimedir. Öbekler, birçok farklı formda ve işlevde karşımıza çıkabilir. Bu kitabın başka bölümlerinde bu formlar ve işlevler detaylı olarak ele alınmıştır. Burada öbekleri tanımayı ve onların cümledeki işlevlerini (niteleyici, özne, tamamlayıcı veya nesne olarak) belirlemeyi öğrenmek faydalı olacaktır.
+
+Aşağıdaki cümleleri inceleyelim:
+
+1. **They hid behind the building.**  
+   ("Behind the building" öbeği, "hid" fiilini niteler. Öbeğin içindeki tek bir kelime, öbeğin tamamının taşıdığı anlamı tek başına ifade edemez. Ayrıca, bu öbekte bir özne veya fiil bulunmaz.)
+
+2. **The horse in front will win.**  
+   ("In front" öbeği, "horse" kelimesini niteler.)
+
+3. **Eating apples has been called a sure way to avoid doctors’ bills.**  
+   ("Eating apples" öbeği, cümlenin öznesi olarak işlev görür. "Eating" gibi kelimeler genellikle özne, nesne veya niteleyici olarak kullanılır. Bu tür kelimeler, fiilimsiler (verbals) olarak sınıflandırılır. Bu cümlede "Eating" bir isim-fiil (gerund) olarak kullanılmıştır.)
+
+4. **Her hobby was flying airplanes.**  
+   ("Flying airplanes" öbeği, "was" fiilinin tamamlayıcısı olarak işlev görür. "Flying" burada yine bir isim-fiil (gerund) olarak kullanılmıştır.)
+
+5. **Eileen wanted to finish her work early.**  
+   ("To finish her work early" öbeği, "wanted" fiilinin nesnesidir. "To finish" burada bir mastar (infinitive) olarak kullanılmıştır.)
+
+---
+
+**ALIŞTIRMA**  
+Aşağıdaki cümlelerde öbekleri örneklerdeki gibi altını çizin:
+
+1. **The children were taken to the store.**  
+2. **Winning the peace is more important now than winning the war.**  
+3. **She decided to spear an octopus for dinner.**  
+
+---
+
+**CÜMLELERDE ÖBEKLERİ BULMA**  
+Aşağıdaki cümlelerde öbekleri altını çizin:
+
+1. We swam across the winding river.  
+2. After her divorce, all mention of her name ceased.  
+3. They saw themselves pinned to the wall.  
+4. The glider soared skyward, soon to be released by the towing airplane.  
+5. They baited the trap in hope of snaring something for dinner.  
+6. A simple country doctor was all she ever wanted to be.  
+7. Books were his best friends; time his greatest enemy.  
+8. A cup of tea in late afternoon enabled them to survive until evening.  
+9. In the library the boy found peace and quiet.  
+10. The captain ordered us to pick up our gear and retreat to the nearest town as quickly as possible.
+
+---
+
+**AÇIKLAMA:**  
+Bu güncellenmiş metin, öbeklerin tanımını ve işlevlerini daha net bir şekilde açıklamaktadır. Ayrıca, örnek cümleler ve alıştırmalar, öğrencilerin öbekleri tanıma ve anlama becerilerini geliştirmelerine yardımcı olacak şekilde düzenlenmiştir. Öbeklerin cümledeki rollerini vurgulamak için daha açıklayıcı ifadeler eklenmiştir.
+
+---
+
+Elbette! Aşağıda, **ALIŞTIRMA CÜMLELERDE ÖBEKLERİ BULMA** bölümündeki cümleleri tek tek açıklayarak öbekleri belirteceğim. Öbekler, cümlede belirli bir işlevi olan ve tek bir anlam taşıyan kelime gruplarıdır. Bu öbekler, cümlede **niteleyici (modifier)**, **özne (subject)**, **nesne (object)** veya **tamamlayıcı (complement)** olarak görev yapabilir.
+
+---
+
+Aşağıda, cümlelerdeki öbekleri örneklerdeki gibi **altını çizerek** belirttim. Öbekler, cümlede belirli bir işlevi olan ve tek bir anlam taşıyan kelime gruplarıdır. Bu öbekler, **edat öbeği (prepositional phrase)**, **isim-fiil öbeği (gerund phrase)**, **mastar öbeği (infinitive phrase)** gibi farklı türlerde olabilir.
+
+---
+
+### 1. **The children were taken to the store.**  
+- **Öbek:** "to the store"  
+- **Açıklama:** Bu öbek, "were taken" fiilini niteler ve çocukların nereye götürüldüğünü belirtir. "To" edatı, "the store" isim öbeğiyle birleşerek bir **edat öbeği (prepositional phrase)** oluşturur.  
+- **Altı çizili hali:**  
+  The children were taken **to the store**.
+
+---
+
+### 2. **Winning the peace is more important now than winning the war.**  
+- **Öbek:** "Winning the peace" ve "winning the war"  
+- **Açıklama:** Bu öbekler, cümlenin öznesi ve karşılaştırma ifadesidir. "Winning" kelimesi, bir **isim-fiil (gerund)** olarak kullanılmıştır ve "the peace" ile "the war" isim öbekleriyle birleşerek **isim-fiil öbekleri (gerund phrases)** oluşturur.  
+- **Altı çizili hali:**  
+  **Winning the peace** is more important now than **winning the war**.
+
+---
+
+### 3. **She decided to spear an octopus for dinner.**  
+- **Öbek:** "to spear an octopus for dinner"  
+- **Açıklama:** Bu öbek, "decided" fiilinin nesnesidir. "To spear" mastarı, "an octopus" ve "for dinner" öbekleriyle birleşerek bir **mastar öbeği (infinitive phrase)** oluşturur.  
+- **Altı çizili hali:**  
+  She decided **to spear an octopus for dinner**.
+
+---
+
+**SONUÇ:**  
+Bu cümlelerde öbekler, cümlenin anlamını tamamlayan ve belirli bir işlevi olan kelime gruplarıdır. Öbekleri doğru bir şekilde tanımak, cümle yapısını anlamayı kolaylaştırır ve dilbilgisi becerilerini geliştirir.
+
+
+---
+
+
+### 1. **We swam across the winding river.**  
+- **Öbek:** "across the winding river"  
+- **Açıklama:** Bu öbek, "swam" fiilini niteler ve yüzmeyle ilgili yönü belirtir. "Across" edatı, "the winding river" isim öbeğiyle birleşerek bir edat öbeği (prepositional phrase) oluşturur.  
+- **İşlev:** Niteleyici (modifier).
+
+---
+
+### 2. **After her divorce, all mention of her name ceased.**  
+- **Öbek:** "After her divorce"  
+- **Açıklama:** Bu öbek, cümlenin zamanını belirtir ve "ceased" fiilini niteler. "After" edatı, "her divorce" isim öbeğiyle birleşerek bir edat öbeği oluşturur.  
+- **İşlev:** Niteleyici (modifier).
+
+---
+
+### 3. **They saw themselves pinned to the wall.**  
+- **Öbek:** "pinned to the wall"  
+- **Açıklama:** Bu öbek, "themselves" nesnesini niteler ve durumunu açıklar. "Pinned" kelimesi, "to the wall" edat öbeğiyle birleşerek bir sıfat öbeği (adjective phrase) oluşturur.  
+- **İşlev:** Niteleyici (modifier).
+
+---
+
+### 4. **The glider soared skyward, soon to be released by the towing airplane.**  
+- **Öbek:** "soon to be released by the towing airplane"  
+- **Açıklama:** Bu öbek, "glider"ın gelecekteki durumunu açıklar. "To be released" mastar öbeği (infinitive phrase), "by the towing airplane" edat öbeğiyle birleşerek bir tamlama oluşturur.  
+- **İşlev:** Niteleyici (modifier).
+
+---
+
+### 5. **They baited the trap in hope of snaring something for dinner.**  
+- **Öbek:** "in hope of snaring something for dinner"  
+- **Açıklama:** Bu öbek, "baited" fiilinin amacını açıklar. "In hope of" edat öbeği, "snaring something for dinner" isim-fiil öbeği (gerund phrase) ile birleşir.  
+- **İşlev:** Niteleyici (modifier).
+
+---
+
+### 6. **A simple country doctor was all she ever wanted to be.**  
+- **Öbek:** "all she ever wanted to be"  
+- **Açıklama:** Bu öbek, "was" fiilinin tamamlayıcısıdır. "All" kelimesi, "she ever wanted to be" cümleciğiyle birleşerek bir isim öbeği (noun phrase) oluşturur.  
+- **İşlev:** Tamamlayıcı (complement).
+
+---
+
+### 7. **Books were his best friends; time his greatest enemy.**  
+- **Öbek:** "his best friends" ve "his greatest enemy"  
+- **Açıklama:** Bu öbekler, sırasıyla "books" ve "time" kelimelerini niteler. "His best friends" ve "his greatest enemy" isim öbekleri, cümlenin tamamlayıcılarıdır.  
+- **İşlev:** Tamamlayıcı (complement).
+
+---
+
+### 8. **A cup of tea in late afternoon enabled them to survive until evening.**  
+- **Öbek:** "in late afternoon" ve "to survive until evening"  
+- **Açıklama:**  
+  - "In late afternoon" öbeği, "cup of tea"yi niteler ve zamanı belirtir.  
+  - "To survive until evening" öbeği, "enabled" fiilinin amacını açıklar ve bir mastar öbeği (infinitive phrase) olarak kullanılır.  
+- **İşlev:** Niteleyici (modifier) ve nesne (object).
+
+---
+
+### 9. **In the library the boy found peace and quiet.**  
+- **Öbek:** "In the library"  
+- **Açıklama:** Bu öbek, cümlenin yerini belirtir ve "found" fiilini niteler. "In" edatı, "the library" isim öbeğiyle birleşerek bir edat öbeği oluşturur.  
+- **İşlev:** Niteleyici (modifier).
+
+---
+
+### 10. **The captain ordered us to pick up our gear and retreat to the nearest town as quickly as possible.**  
+- **Öbek:** "to pick up our gear" ve "to retreat to the nearest town as quickly as possible"  
+- **Açıklama:** Bu öbekler, "ordered" fiilinin nesnesidir. Her iki öbek de mastar öbeği (infinitive phrase) olarak kullanılmıştır.  
+- **İşlev:** Nesne (object).
+
+---
+
+**SONUÇ:**  
+Bu cümlelerde öbekler, cümlenin anlamını zenginleştiren ve belirli bir işlevi olan kelime gruplarıdır. Öbekleri doğru bir şekilde tanımak, cümle yapısını anlamayı kolaylaştırır ve dilbilgisi becerilerini geliştirir.
+
+
+---
