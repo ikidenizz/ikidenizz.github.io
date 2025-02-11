@@ -3,7 +3,7 @@ layout: post
 title: "İsrail’in Filistin’i etnik temizlemesi ve işgal etmesi"
 description: "Filistinliler, Lübnan’a kendi istekleriyle değil, 1948 Nakba’sı ve 1967 Savaşı sırasında İsrail’in Filistin’i etnik temizlemesi ve işgal etmesi sonucu zorla sürüldüler"
 image: /images/descriptions.jpeg
-date: 2025-02-05 05:07:34 +0300
+date: 2025-02-10 05:07:34 +0300
 category: "İsrail" 
 tags: [Filistin, Lübnan] 
 lang: tr
