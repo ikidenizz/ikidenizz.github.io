@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Türk Devletleri Teşkilatı (TDT), 10. Zirvesi Kazakistan'ın başkenti Astana'da gerçekleşti"
+title: "Türk Devletleri Teşkilatı 10. Zirvesi"
 description: "Türk Devletleri Teşkilatı (TDT), 3 Kasım 2023 tarihinde Kazakistan'ın başkenti Astana'da gerçekleştirilen 10. Zirvesi ile bir dönüm noktası yaşandı."
 image: /images/descriptions.jpeg
 date: 2025-02-10 05:07:34 +0300
