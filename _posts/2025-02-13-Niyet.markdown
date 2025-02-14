@@ -2,7 +2,7 @@
 layout: post
 title: "Niyetin Gücü"
 description: "Niyet, hayatımızı ibadete dönüştüren bir güçtür. Ölü ve hareketsiz olan durumları canlandırır, canlı ve hayatlı ibadetlere çevirir."
-image: /images/descriptions.jpeg
+image: /images/describing.jpg
 date: 2025-02-13 05:07:34 +0300
 category: "Niyet" 
 tags: [İhlas, Allah] 

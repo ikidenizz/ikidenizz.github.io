@@ -2,7 +2,7 @@
 layout: post
 title: "Dayanıklılık sadece bir erdem değil"
 description: "Dayanıklılık sadece bir erdem değil, aynı zamanda mevcut koşullara uyum sağlamak için kullanılan bir ideoloji de olabilir."
-image: /images/descriptions.jpeg
+image: /images/describing.jpg
 date: 2025-02-12 05:07:34 +0300
 category: "ideoloji" 
 tags: [Dayanıklılık, erdem] 

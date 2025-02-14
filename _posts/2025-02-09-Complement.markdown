@@ -2,7 +2,7 @@
 layout: post
 title: "Complement (Tamlayıcı)"
 description: "Tamlayıcı terimi, duygu, görünüş, varlık ya da benzer durumları ifade eden fiillerin anlamını tamamlayan kelime ya da kelime gruplarını ifade eder."
-image: /images/descriptions.jpeg
+image: /images/describing.jpg
 date: 2025-02-09 05:07:34 +0300
 category: "İngilizce" 
 tags: [Complement, Tamlayıcı] 

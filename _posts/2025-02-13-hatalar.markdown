@@ -2,7 +2,7 @@
 layout: post
 title: "Şeytanın Etkisi ve İman Sahibi Olmak"
 description: "İnsanlar şeytanın etkisi altında kaldıklarında, gerçekleri görmekten kaçınmaya başlarlar."
-image: /images/descriptions.jpeg
+image: /images/describing.jpg
 date: 2025-02-13 05:07:34 +0300
 category: "İman" 
 tags: [Vicdan, Allah] 
