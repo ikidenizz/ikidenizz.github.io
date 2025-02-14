@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Niyetin Gücü"
+description: "Niyet, hayatımızı ibadete dönüştüren bir güçtür. Ölü ve hareketsiz olan durumları canlandırır, canlı ve hayatlı ibadetlere çevirir."
+image: /images/descriptions.jpeg
+date: 2025-02-12 05:07:34 +0300
+category: "Niyet" 
+tags: [İhlas, Allah] 
+lang: tr
+author: isunion99
+published: true
+---
+
+# **Niyetin Gücü**
+  
+Niyet, hayatımızı ibadete dönüştüren bir güçtür. Ölü ve hareketsiz olan durumları canlandırır, canlı ve hayatlı ibadetlere çevirir. Niyet, seyyiatı hasenata, hasenatı seyyiata dönüştürebilir. İhlasla beslenen niyet, insanı daimî bir şâkir yapar, şükür sevabını kazandırır. İmanla bakıldığında, dünya ve âhiretteki lezzet ve nimetlerde bir devir hareketi görülür. Niyetin gücü, insanları Allah'a bağlar, O'nun nimetlerini takdir etmelerini sağlar. Bu sayede, insan Allah'ın razı olacağı bir yaşam sürer.
+---
